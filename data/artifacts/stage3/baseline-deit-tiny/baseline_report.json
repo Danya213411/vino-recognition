@@ -1,0 +1,122 @@
+{
+  "index": "data/artifacts/stage3/deit-tiny/index.npz",
+  "results": {
+    "full": {
+      "mean_reciprocal_rank": 0.32417283950617287,
+      "mean_top1_margin": 0.010769717104641007,
+      "profiles": [
+        {
+          "sample_count": 290,
+          "top1_accuracy": 0.2482758620689655,
+          "top5_recall": 0.4827586206896552,
+          "value": "background"
+        },
+        {
+          "sample_count": 290,
+          "top1_accuracy": 0.23103448275862068,
+          "top5_recall": 0.46551724137931033,
+          "value": "perspective"
+        },
+        {
+          "sample_count": 289,
+          "top1_accuracy": 0.16262975778546712,
+          "top5_recall": 0.34256055363321797,
+          "value": "blur"
+        },
+        {
+          "sample_count": 289,
+          "top1_accuracy": 0.1695501730103806,
+          "top5_recall": 0.314878892733564,
+          "value": "combined"
+        },
+        {
+          "sample_count": 289,
+          "top1_accuracy": 0.35986159169550175,
+          "top5_recall": 0.5986159169550173,
+          "value": "compression"
+        },
+        {
+          "sample_count": 289,
+          "top1_accuracy": 0.33217993079584773,
+          "top5_recall": 0.5951557093425606,
+          "value": "crop"
+        },
+        {
+          "sample_count": 289,
+          "top1_accuracy": 0.2041522491349481,
+          "top5_recall": 0.4013840830449827,
+          "value": "glare"
+        }
+      ],
+      "top1_accuracy": 0.24395061728395062,
+      "top5_recall": 0.45728395061728394
+    },
+    "multiview": {
+      "mean_reciprocal_rank": 0.41732510288065844,
+      "mean_top1_margin": 0.011067273557921987,
+      "profiles": [
+        {
+          "sample_count": 290,
+          "top1_accuracy": 0.3137931034482759,
+          "top5_recall": 0.5793103448275863,
+          "value": "background"
+        },
+        {
+          "sample_count": 290,
+          "top1_accuracy": 0.3413793103448276,
+          "top5_recall": 0.593103448275862,
+          "value": "perspective"
+        },
+        {
+          "sample_count": 289,
+          "top1_accuracy": 0.2179930795847751,
+          "top5_recall": 0.44982698961937717,
+          "value": "blur"
+        },
+        {
+          "sample_count": 289,
+          "top1_accuracy": 0.21107266435986158,
+          "top5_recall": 0.4290657439446367,
+          "value": "combined"
+        },
+        {
+          "sample_count": 289,
+          "top1_accuracy": 0.370242214532872,
+          "top5_recall": 0.6920415224913494,
+          "value": "compression"
+        },
+        {
+          "sample_count": 289,
+          "top1_accuracy": 0.4913494809688581,
+          "top5_recall": 0.7958477508650519,
+          "value": "crop"
+        },
+        {
+          "sample_count": 289,
+          "top1_accuracy": 0.28027681660899656,
+          "top5_recall": 0.5224913494809689,
+          "value": "glare"
+        }
+      ],
+      "top1_accuracy": 0.3180246913580247,
+      "top5_recall": 0.5802469135802469
+    }
+  },
+  "runtime": {
+    "device": "cuda",
+    "embedding_size": 192,
+    "gpu_name": "NVIDIA GeForce RTX 4060",
+    "image_size": 224,
+    "model": "facebook/deit-tiny-patch16-224",
+    "model_revision": "b3428f18dcc7b543470d07f14b4a4157815d1880",
+    "peak_vram_bytes": 88794112
+  },
+  "sample_count": 2025,
+  "schema_version": 1,
+  "timing_ms": {
+    "end_to_end": 23353.511599940248,
+    "full_embedding": 12827.776800026186,
+    "label_embedding": 10433.963599964045,
+    "mean_per_image": 11.532598320958147
+  }
+}

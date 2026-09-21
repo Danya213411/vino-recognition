@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "sample_count": 2025,
+  "device": "NVIDIA GeForce RTX 4060",
+  "selection_rule": "highest top1, then top5, with single-image latency below 10000 ms",
+  "selected": {
+    "model": "facebook/dinov2-small",
+    "variant": "cls_multiscale",
+    "patch_weight": 0.0,
+    "top1_accuracy": 0.7135802469135802,
+    "top5_recall": 0.9239506172839507,
+    "mean_reciprocal_rank": 0.8010452674897118,
+    "single_image_latency_ms": {
+      "runs": 10,
+      "mean": 88.1243700045161,
+      "median": 88.56704999925569,
+      "p95": 92.2386999707669,
+      "max": 92.29629999026656
+    }
+  },
+  "models": {
+    "facebook/dinov2-small": {
+      "best_variant": "cls_multiscale",
+      "top1_accuracy": 0.7135802469135802,
+      "top5_recall": 0.9239506172839507,
+      "batch_mean_latency_ms": 73.96198306175202
+    },
+    "facebook/dinov2-base": {
+      "best_variant": "cls_patch_20",
+      "top1_accuracy": 0.6859259259259259,
+      "top5_recall": 0.9017283950617284,
+      "batch_mean_latency_ms": 120.95924765429241,
+      "single_image_latency_ms": 143.27160001266748
+    },
+    "facebook/dinov2-large": {
+      "best_variant": "cls_patch_20",
+      "top1_accuracy": 0.4997530864197531,
+      "top5_recall": 0.7328395061728395,
+      "batch_mean_latency_ms": 291.2441340246939,
+      "single_image_latency_ms": 336.61170001141727
+    }
+  }
+}

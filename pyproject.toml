@@ -1,0 +1,65 @@
+[project]
+name = "vino"
+version = "0.1.0"
+description = "Wine label recognition service for the Svoe Vino catalog"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.117",
+    "httpx>=0.28",
+    "numpy>=2.2",
+    "opencv-python-headless>=4.11",
+    "onnxruntime>=1.22",
+    "pillow>=11.0",
+    "psutil>=7.0",
+    "python-multipart>=0.0.20",
+    "rapidocr>=3.9",
+    "socksio>=1.0",
+    "torch>=2.7",
+    "transformers>=4.56",
+    "uvicorn[standard]>=0.35",
+]
+
+[dependency-groups]
+dev = ["pytest>=8.4"]
+
+[project.scripts]
+vino-audit = "stage1.audit:main"
+vino-evaluate = "stage1.evaluation:main"
+vino-generate-synthetic = "stage2.generator:main"
+vino-build-index = "stage3.index:main"
+vino-baseline = "stage3.baseline:main"
+vino-recognize = "stage3.recognize:main"
+vino-build-stage4-index = "stage4.index:main"
+vino-stage4 = "stage4.baseline:main"
+vino-recognize-hybrid = "stage4.recognize:main"
+vino-collect-unknown = "stage5.unknown_dataset:main"
+vino-calibrate-confidence = "stage5.calibrate:main"
+vino-recognize-confident = "stage5.recognize:main"
+vino-api = "vino_api.app:main"
+vino-api-benchmark = "vino_api.benchmark:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/stage1", "src/stage2", "src/stage3", "src/stage4", "src/stage5", "app/backend/vino_api"]
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "src",
+    "docs",
+    "README.md",
+    "ROADMAP.md",
+    "pyproject.toml",
+    "uv.lock",
+]
+
+[[tool.uv.index]]
+name = "pytorch-cu130"
+url = "https://download.pytorch.org/whl/cu130"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu130" }

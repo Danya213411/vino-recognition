@@ -1,0 +1,25 @@
+{
+  "embedding_ms": {
+    "full": 58115.02290004864,
+    "label": 56198.95830005407,
+    "total": 114313.98120010272
+  },
+  "index": "data/artifacts/stage3/dinov2-small/index.npz",
+  "item_count": 2025,
+  "manifest": "data/artifacts/stage1/catalog_manifest.jsonl",
+  "patch_grid": 7,
+  "patch_tokens_per_reference": 49,
+  "runtime": {
+    "device": "cuda",
+    "embedding_size": 384,
+    "gpu_name": "NVIDIA GeForce RTX 4060",
+    "image_size": 518,
+    "model": "facebook/dinov2-small",
+    "model_revision": "ed25f3a31f01632728cabb09d1542f84ab7b0056",
+    "patch_size": 14,
+    "peak_vram_bytes": 485865984
+  },
+  "schema_version": 1,
+  "source_root": "data/parser",
+  "view_count": 2
+}

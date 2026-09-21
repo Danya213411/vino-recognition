@@ -1,0 +1,1065 @@
+{
+  "breakdowns": {
+    "augmentation_profile": [
+      {
+        "sample_count": 290,
+        "top1_accuracy": 0.803448275862069,
+        "top5_recall": 0.993103448275862,
+        "value": "background"
+      },
+      {
+        "sample_count": 290,
+        "top1_accuracy": 0.8275862068965517,
+        "top5_recall": 0.9896551724137931,
+        "value": "perspective"
+      },
+      {
+        "sample_count": 289,
+        "top1_accuracy": 0.6401384083044983,
+        "top5_recall": 0.8754325259515571,
+        "value": "blur"
+      },
+      {
+        "sample_count": 289,
+        "top1_accuracy": 0.3806228373702422,
+        "top5_recall": 0.6470588235294118,
+        "value": "combined"
+      },
+      {
+        "sample_count": 289,
+        "top1_accuracy": 0.7301038062283737,
+        "top5_recall": 0.9757785467128027,
+        "value": "compression"
+      },
+      {
+        "sample_count": 289,
+        "top1_accuracy": 0.8339100346020761,
+        "top5_recall": 0.9930795847750865,
+        "value": "crop"
+      },
+      {
+        "sample_count": 289,
+        "top1_accuracy": 0.7785467128027682,
+        "top5_recall": 0.9930795847750865,
+        "value": "glare"
+      }
+    ],
+    "category": [
+      {
+        "sample_count": 676,
+        "top1_accuracy": 0.6730769230769231,
+        "top5_recall": 0.908284023668639,
+        "value": "Красное сухое"
+      },
+      {
+        "sample_count": 592,
+        "top1_accuracy": 0.7094594594594594,
+        "top5_recall": 0.9138513513513513,
+        "value": "Белое сухое"
+      },
+      {
+        "sample_count": 147,
+        "top1_accuracy": 0.8571428571428571,
+        "top5_recall": 0.9727891156462585,
+        "value": "Розовое сухое"
+      },
+      {
+        "sample_count": 137,
+        "top1_accuracy": 0.7372262773722628,
+        "top5_recall": 0.948905109489051,
+        "value": "Белое брют"
+      },
+      {
+        "sample_count": 79,
+        "top1_accuracy": 0.7215189873417721,
+        "top5_recall": 0.9367088607594937,
+        "value": "Белое экстра брют"
+      },
+      {
+        "sample_count": 65,
+        "top1_accuracy": 0.6461538461538462,
+        "top5_recall": 0.9230769230769231,
+        "value": "Белое полусладкое"
+      },
+      {
+        "sample_count": 58,
+        "top1_accuracy": 0.7241379310344828,
+        "top5_recall": 0.9655172413793104,
+        "value": "Розовое брют"
+      },
+      {
+        "sample_count": 49,
+        "top1_accuracy": 0.7142857142857143,
+        "top5_recall": 0.9183673469387755,
+        "value": "Белое полусухое"
+      },
+      {
+        "sample_count": 41,
+        "top1_accuracy": 0.7560975609756098,
+        "top5_recall": 0.926829268292683,
+        "value": "Белое сладкое"
+      },
+      {
+        "sample_count": 39,
+        "top1_accuracy": 0.7435897435897436,
+        "top5_recall": 0.8717948717948718,
+        "value": "Красное полусладкое"
+      },
+      {
+        "sample_count": 27,
+        "top1_accuracy": 0.7407407407407407,
+        "top5_recall": 0.9259259259259259,
+        "value": "Красное сладкое"
+      },
+      {
+        "sample_count": 27,
+        "top1_accuracy": 0.8518518518518519,
+        "top5_recall": 1.0,
+        "value": "Розовое экстра брют"
+      },
+      {
+        "sample_count": 26,
+        "top1_accuracy": 0.8076923076923077,
+        "top5_recall": 0.9615384615384616,
+        "value": "Розовое полусухое"
+      },
+      {
+        "sample_count": 19,
+        "top1_accuracy": 0.8421052631578947,
+        "top5_recall": 0.9473684210526315,
+        "value": "Розовое полусладкое"
+      },
+      {
+        "sample_count": 17,
+        "top1_accuracy": 0.7058823529411765,
+        "top5_recall": 0.9411764705882353,
+        "value": "Оранжевое сухое"
+      },
+      {
+        "sample_count": 13,
+        "top1_accuracy": 0.5384615384615384,
+        "top5_recall": 1.0,
+        "value": "Красное полусухое"
+      },
+      {
+        "sample_count": 8,
+        "top1_accuracy": 0.625,
+        "top5_recall": 1.0,
+        "value": "Розовое сладкое"
+      },
+      {
+        "sample_count": 4,
+        "top1_accuracy": 0.5,
+        "top5_recall": 0.75,
+        "value": "Красное брют"
+      },
+      {
+        "sample_count": 1,
+        "top1_accuracy": 1.0,
+        "top5_recall": 1.0,
+        "value": "Красное экстра брют"
+      }
+    ],
+    "manufacturer": [
+      {
+        "sample_count": 101,
+        "top1_accuracy": 0.6039603960396039,
+        "top5_recall": 0.9306930693069307,
+        "value": "Фанагория"
+      },
+      {
+        "sample_count": 97,
+        "top1_accuracy": 0.8041237113402062,
+        "top5_recall": 0.9381443298969072,
+        "value": "Кубань-Вино"
+      },
+      {
+        "sample_count": 92,
+        "top1_accuracy": 0.532608695652174,
+        "top5_recall": 0.9021739130434783,
+        "value": "Мысхако"
+      },
+      {
+        "sample_count": 62,
+        "top1_accuracy": 0.7258064516129032,
+        "top5_recall": 0.967741935483871,
+        "value": "Дербент Вино"
+      },
+      {
+        "sample_count": 53,
+        "top1_accuracy": 0.6226415094339622,
+        "top5_recall": 0.8867924528301887,
+        "value": "ESSE"
+      },
+      {
+        "sample_count": 51,
+        "top1_accuracy": 0.7647058823529411,
+        "top5_recall": 0.9607843137254902,
+        "value": "Абрау-Дюрсо"
+      },
+      {
+        "sample_count": 50,
+        "top1_accuracy": 0.82,
+        "top5_recall": 0.94,
+        "value": "Шато Пино"
+      },
+      {
+        "sample_count": 46,
+        "top1_accuracy": 0.6739130434782609,
+        "top5_recall": 0.8913043478260869,
+        "value": "Валерий Захарьин"
+      },
+      {
+        "sample_count": 44,
+        "top1_accuracy": 0.5227272727272727,
+        "top5_recall": 0.8863636363636364,
+        "value": "Новый Свет. Дом шампанских вин"
+      },
+      {
+        "sample_count": 43,
+        "top1_accuracy": 0.7674418604651163,
+        "top5_recall": 0.9302325581395349,
+        "value": "Ведерниковъ"
+      },
+      {
+        "sample_count": 43,
+        "top1_accuracy": 0.6744186046511628,
+        "top5_recall": 0.9302325581395349,
+        "value": "Массандра"
+      },
+      {
+        "sample_count": 39,
+        "top1_accuracy": 0.717948717948718,
+        "top5_recall": 0.9230769230769231,
+        "value": "Alma Valley"
+      },
+      {
+        "sample_count": 39,
+        "top1_accuracy": 0.9230769230769231,
+        "top5_recall": 0.9487179487179487,
+        "value": "Бельбек"
+      },
+      {
+        "sample_count": 37,
+        "top1_accuracy": 0.6216216216216216,
+        "top5_recall": 1.0,
+        "value": "Собер Баш"
+      },
+      {
+        "sample_count": 33,
+        "top1_accuracy": 0.5151515151515151,
+        "top5_recall": 0.7272727272727273,
+        "value": "Союз-Вино"
+      },
+      {
+        "sample_count": 32,
+        "top1_accuracy": 0.75,
+        "top5_recall": 0.9375,
+        "value": "AGORA WINERY"
+      },
+      {
+        "sample_count": 31,
+        "top1_accuracy": 0.7419354838709677,
+        "top5_recall": 0.8709677419354839,
+        "value": "Golubitskoe Estate"
+      },
+      {
+        "sample_count": 31,
+        "top1_accuracy": 0.9354838709677419,
+        "top5_recall": 1.0,
+        "value": "WINEMAFIA"
+      },
+      {
+        "sample_count": 30,
+        "top1_accuracy": 0.5666666666666667,
+        "top5_recall": 0.8666666666666667,
+        "value": "АРАТТИ"
+      },
+      {
+        "sample_count": 28,
+        "top1_accuracy": 0.7142857142857143,
+        "top5_recall": 0.9642857142857143,
+        "value": "Olymp Winery"
+      },
+      {
+        "sample_count": 28,
+        "top1_accuracy": 0.8214285714285714,
+        "top5_recall": 0.9642857142857143,
+        "value": "Золотая Балка"
+      },
+      {
+        "sample_count": 27,
+        "top1_accuracy": 0.7777777777777778,
+        "top5_recall": 0.8888888888888888,
+        "value": "AYA Organic Wine & Vineyards"
+      },
+      {
+        "sample_count": 26,
+        "top1_accuracy": 0.8461538461538461,
+        "top5_recall": 1.0,
+        "value": "ЗМВ Коктебель"
+      },
+      {
+        "sample_count": 26,
+        "top1_accuracy": 0.7307692307692307,
+        "top5_recall": 0.9615384615384616,
+        "value": "Усадьба Мезыбь"
+      },
+      {
+        "sample_count": 25,
+        "top1_accuracy": 0.64,
+        "top5_recall": 0.96,
+        "value": "Château Le Grand Vostock"
+      },
+      {
+        "sample_count": 23,
+        "top1_accuracy": 0.6086956521739131,
+        "top5_recall": 0.9130434782608695,
+        "value": "Раевское"
+      },
+      {
+        "sample_count": 23,
+        "top1_accuracy": 0.8695652173913043,
+        "top5_recall": 1.0,
+        "value": "Усадьба Перовских"
+      },
+      {
+        "sample_count": 22,
+        "top1_accuracy": 0.5909090909090909,
+        "top5_recall": 0.9090909090909091,
+        "value": "Belmas Winery"
+      },
+      {
+        "sample_count": 21,
+        "top1_accuracy": 0.8095238095238095,
+        "top5_recall": 0.9523809523809523,
+        "value": "Denisov Winery"
+      },
+      {
+        "sample_count": 21,
+        "top1_accuracy": 0.8571428571428571,
+        "top5_recall": 0.9523809523809523,
+        "value": "Имение Сикоры"
+      },
+      {
+        "sample_count": 20,
+        "top1_accuracy": 0.8,
+        "top5_recall": 0.9,
+        "value": "Domaine Lipko"
+      },
+      {
+        "sample_count": 20,
+        "top1_accuracy": 0.45,
+        "top5_recall": 0.95,
+        "value": "Винодельня Бюрнье"
+      },
+      {
+        "sample_count": 20,
+        "top1_accuracy": 0.7,
+        "top5_recall": 0.85,
+        "value": "Галицкий и Галицкий"
+      },
+      {
+        "sample_count": 20,
+        "top1_accuracy": 0.7,
+        "top5_recall": 0.85,
+        "value": "Скалистый берег"
+      },
+      {
+        "sample_count": 19,
+        "top1_accuracy": 0.6842105263157895,
+        "top5_recall": 0.8947368421052632,
+        "value": "Винодельня Батрак"
+      },
+      {
+        "sample_count": 19,
+        "top1_accuracy": 0.6842105263157895,
+        "top5_recall": 1.0,
+        "value": "Золотое Поле"
+      },
+      {
+        "sample_count": 18,
+        "top1_accuracy": 0.2222222222222222,
+        "top5_recall": 0.8333333333333334,
+        "value": "Агролайн"
+      },
+      {
+        "sample_count": 17,
+        "top1_accuracy": 0.6470588235294118,
+        "top5_recall": 0.9411764705882353,
+        "value": "Реликта"
+      },
+      {
+        "sample_count": 17,
+        "top1_accuracy": 0.8823529411764706,
+        "top5_recall": 1.0,
+        "value": "Усадьба Дивноморское"
+      },
+      {
+        "sample_count": 16,
+        "top1_accuracy": 0.8125,
+        "top5_recall": 0.9375,
+        "value": "LETO"
+      },
+      {
+        "sample_count": 16,
+        "top1_accuracy": 0.8125,
+        "top5_recall": 0.9375,
+        "value": "Loco Cimbali"
+      },
+      {
+        "sample_count": 16,
+        "top1_accuracy": 0.8125,
+        "top5_recall": 0.875,
+        "value": "Виноградники Гай-Кодзора"
+      },
+      {
+        "sample_count": 16,
+        "top1_accuracy": 0.5625,
+        "top5_recall": 1.0,
+        "value": "Шато АЛВИСА"
+      },
+      {
+        "sample_count": 15,
+        "top1_accuracy": 0.5333333333333333,
+        "top5_recall": 0.9333333333333333,
+        "value": "Chateau Andre"
+      },
+      {
+        "sample_count": 15,
+        "top1_accuracy": 0.6666666666666666,
+        "top5_recall": 1.0,
+        "value": "KATHARON"
+      },
+      {
+        "sample_count": 15,
+        "top1_accuracy": 0.6,
+        "top5_recall": 0.9333333333333333,
+        "value": "Vibes"
+      },
+      {
+        "sample_count": 15,
+        "top1_accuracy": 0.8,
+        "top5_recall": 0.8666666666666667,
+        "value": "Винодельня Узунов"
+      },
+      {
+        "sample_count": 15,
+        "top1_accuracy": 0.8666666666666667,
+        "top5_recall": 1.0,
+        "value": "Инкерманский ЗМВ"
+      },
+      {
+        "sample_count": 13,
+        "top1_accuracy": 0.7692307692307693,
+        "top5_recall": 0.9230769230769231,
+        "value": "Винодельня Жаков"
+      },
+      {
+        "sample_count": 13,
+        "top1_accuracy": 0.6923076923076923,
+        "top5_recall": 0.7692307692307693,
+        "value": "Солнечная долина"
+      },
+      {
+        "sample_count": 12,
+        "top1_accuracy": 0.8333333333333334,
+        "top5_recall": 0.9166666666666666,
+        "value": "Chateau de Talu"
+      },
+      {
+        "sample_count": 12,
+        "top1_accuracy": 0.6666666666666666,
+        "top5_recall": 1.0,
+        "value": "Gunko Winery"
+      },
+      {
+        "sample_count": 12,
+        "top1_accuracy": 0.9166666666666666,
+        "top5_recall": 1.0,
+        "value": "STN Winery"
+      },
+      {
+        "sample_count": 12,
+        "top1_accuracy": 0.5833333333333334,
+        "top5_recall": 1.0,
+        "value": "Винодельня Марченко"
+      },
+      {
+        "sample_count": 11,
+        "top1_accuracy": 0.9090909090909091,
+        "top5_recall": 1.0,
+        "value": "Domaine de la Vivandiere"
+      },
+      {
+        "sample_count": 11,
+        "top1_accuracy": 0.9090909090909091,
+        "top5_recall": 1.0,
+        "value": "Oleg Repin"
+      },
+      {
+        "sample_count": 11,
+        "top1_accuracy": 0.36363636363636365,
+        "top5_recall": 0.7272727272727273,
+        "value": "Вилла София"
+      },
+      {
+        "sample_count": 11,
+        "top1_accuracy": 0.9090909090909091,
+        "top5_recall": 0.9090909090909091,
+        "value": "Криница"
+      },
+      {
+        "sample_count": 10,
+        "top1_accuracy": 1.0,
+        "top5_recall": 1.0,
+        "value": "Andryus Yutsis"
+      },
+      {
+        "sample_count": 10,
+        "top1_accuracy": 0.9,
+        "top5_recall": 1.0,
+        "value": "Bogovich Wine & Vineyard"
+      },
+      {
+        "sample_count": 10,
+        "top1_accuracy": 0.7,
+        "top5_recall": 0.9,
+        "value": "MILLSTREAM"
+      },
+      {
+        "sample_count": 10,
+        "top1_accuracy": 0.7,
+        "top5_recall": 1.0,
+        "value": "Mantra Estate"
+      },
+      {
+        "sample_count": 10,
+        "top1_accuracy": 0.8,
+        "top5_recall": 0.9,
+        "value": "ВайнКрафт"
+      },
+      {
+        "sample_count": 10,
+        "top1_accuracy": 0.7,
+        "top5_recall": 1.0,
+        "value": "ЛОРИО -  семейная винодельня Логуновых"
+      },
+      {
+        "sample_count": 9,
+        "top1_accuracy": 0.7777777777777778,
+        "top5_recall": 0.8888888888888888,
+        "value": "Ferrum Winery"
+      },
+      {
+        "sample_count": 9,
+        "top1_accuracy": 0.7777777777777778,
+        "top5_recall": 1.0,
+        "value": "Le K2"
+      },
+      {
+        "sample_count": 9,
+        "top1_accuracy": 0.7777777777777778,
+        "top5_recall": 1.0,
+        "value": "Литавщук. Litavshchuk vineyards & winery"
+      },
+      {
+        "sample_count": 9,
+        "top1_accuracy": 0.5555555555555556,
+        "top5_recall": 0.8888888888888888,
+        "value": "Табия"
+      },
+      {
+        "sample_count": 8,
+        "top1_accuracy": 0.875,
+        "top5_recall": 0.875,
+        "value": "Bakla Vines"
+      },
+      {
+        "sample_count": 8,
+        "top1_accuracy": 0.875,
+        "top5_recall": 1.0,
+        "value": "Винодельня Покровская"
+      },
+      {
+        "sample_count": 8,
+        "top1_accuracy": 0.625,
+        "top5_recall": 0.875,
+        "value": "Два Петра"
+      },
+      {
+        "sample_count": 8,
+        "top1_accuracy": 0.25,
+        "top5_recall": 0.75,
+        "value": "Два Сердца"
+      },
+      {
+        "sample_count": 8,
+        "top1_accuracy": 0.875,
+        "top5_recall": 0.875,
+        "value": "Цимлянские вина"
+      },
+      {
+        "sample_count": 8,
+        "top1_accuracy": 0.75,
+        "top5_recall": 0.75,
+        "value": "Шато Ай-Даниль"
+      },
+      {
+        "sample_count": 7,
+        "top1_accuracy": 0.7142857142857143,
+        "top5_recall": 0.7142857142857143,
+        "value": "Cloudy Winery"
+      },
+      {
+        "sample_count": 7,
+        "top1_accuracy": 0.5714285714285714,
+        "top5_recall": 1.0,
+        "value": "LeGato"
+      },
+      {
+        "sample_count": 7,
+        "top1_accuracy": 0.7142857142857143,
+        "top5_recall": 0.8571428571428571,
+        "value": "Rem Akchurin"
+      },
+      {
+        "sample_count": 7,
+        "top1_accuracy": 0.7142857142857143,
+        "top5_recall": 1.0,
+        "value": "Коммуналка"
+      },
+      {
+        "sample_count": 6,
+        "top1_accuracy": 1.0,
+        "top5_recall": 1.0,
+        "value": "Dubinin Winery"
+      },
+      {
+        "sample_count": 6,
+        "top1_accuracy": 0.8333333333333334,
+        "top5_recall": 1.0,
+        "value": "Nesterov Winery"
+      },
+      {
+        "sample_count": 6,
+        "top1_accuracy": 0.6666666666666666,
+        "top5_recall": 0.8333333333333334,
+        "value": "Вилла Уркуста"
+      },
+      {
+        "sample_count": 6,
+        "top1_accuracy": 0.8333333333333334,
+        "top5_recall": 1.0,
+        "value": "Вина Арпачина"
+      },
+      {
+        "sample_count": 6,
+        "top1_accuracy": 0.8333333333333334,
+        "top5_recall": 0.8333333333333334,
+        "value": "Винодельня Бердяева"
+      },
+      {
+        "sample_count": 6,
+        "top1_accuracy": 1.0,
+        "top5_recall": 1.0,
+        "value": "Винодельня Братьев Мельниковых"
+      },
+      {
+        "sample_count": 6,
+        "top1_accuracy": 0.8333333333333334,
+        "top5_recall": 0.8333333333333334,
+        "value": "Долина Лефкадия"
+      },
+      {
+        "sample_count": 6,
+        "top1_accuracy": 0.5,
+        "top5_recall": 0.5,
+        "value": "Донское винодельческое хозяйство \"Эльбузд\""
+      },
+      {
+        "sample_count": 6,
+        "top1_accuracy": 1.0,
+        "top5_recall": 1.0,
+        "value": "Усадьба Родное Гнездо"
+      },
+      {
+        "sample_count": 5,
+        "top1_accuracy": 0.8,
+        "top5_recall": 1.0,
+        "value": "Cellar Master"
+      },
+      {
+        "sample_count": 5,
+        "top1_accuracy": 0.8,
+        "top5_recall": 1.0,
+        "value": "GAVRAS"
+      },
+      {
+        "sample_count": 5,
+        "top1_accuracy": 0.2,
+        "top5_recall": 1.0,
+        "value": "Ivan & Ksenia Kruz"
+      },
+      {
+        "sample_count": 5,
+        "top1_accuracy": 0.8,
+        "top5_recall": 0.8,
+        "value": "JD winery"
+      },
+      {
+        "sample_count": 5,
+        "top1_accuracy": 0.6,
+        "top5_recall": 1.0,
+        "value": "Mancopia"
+      },
+      {
+        "sample_count": 5,
+        "top1_accuracy": 0.4,
+        "top5_recall": 0.8,
+        "value": "Oxana Istratova Wine"
+      },
+      {
+        "sample_count": 5,
+        "top1_accuracy": 0.6,
+        "top5_recall": 0.6,
+        "value": "Uppa Winery"
+      },
+      {
+        "sample_count": 5,
+        "top1_accuracy": 1.0,
+        "top5_recall": 1.0,
+        "value": "Винодельня Константина Дзитоева"
+      },
+      {
+        "sample_count": 5,
+        "top1_accuracy": 0.8,
+        "top5_recall": 0.8,
+        "value": "Винодельня Марко"
+      },
+      {
+        "sample_count": 5,
+        "top1_accuracy": 0.8,
+        "top5_recall": 0.8,
+        "value": "Дача Сердюка"
+      },
+      {
+        "sample_count": 4,
+        "top1_accuracy": 1.0,
+        "top5_recall": 1.0,
+        "value": "Chateau Cachalot"
+      },
+      {
+        "sample_count": 4,
+        "top1_accuracy": 1.0,
+        "top5_recall": 1.0,
+        "value": "Tempelhof Winery"
+      },
+      {
+        "sample_count": 4,
+        "top1_accuracy": 1.0,
+        "top5_recall": 1.0,
+        "value": "Uva Vallis"
+      },
+      {
+        "sample_count": 4,
+        "top1_accuracy": 0.75,
+        "top5_recall": 1.0,
+        "value": "Villa di Alma"
+      },
+      {
+        "sample_count": 4,
+        "top1_accuracy": 1.0,
+        "top5_recall": 1.0,
+        "value": "WINEPARK"
+      },
+      {
+        "sample_count": 4,
+        "top1_accuracy": 0.25,
+        "top5_recall": 0.75,
+        "value": "Благолюбов"
+      },
+      {
+        "sample_count": 4,
+        "top1_accuracy": 0.5,
+        "top5_recall": 0.75,
+        "value": "В2Р"
+      },
+      {
+        "sample_count": 4,
+        "top1_accuracy": 1.0,
+        "top5_recall": 1.0,
+        "value": "Винодельня 78"
+      },
+      {
+        "sample_count": 4,
+        "top1_accuracy": 1.0,
+        "top5_recall": 1.0,
+        "value": "Николаев и сыновья"
+      },
+      {
+        "sample_count": 4,
+        "top1_accuracy": 1.0,
+        "top5_recall": 1.0,
+        "value": "Усадьба Маркотх"
+      },
+      {
+        "sample_count": 4,
+        "top1_accuracy": 0.25,
+        "top5_recall": 0.5,
+        "value": "Усадьба Меркотан"
+      },
+      {
+        "sample_count": 3,
+        "top1_accuracy": 0.3333333333333333,
+        "top5_recall": 1.0,
+        "value": "Cock t'est belle"
+      },
+      {
+        "sample_count": 3,
+        "top1_accuracy": 1.0,
+        "top5_recall": 1.0,
+        "value": "Mons Albus"
+      },
+      {
+        "sample_count": 3,
+        "top1_accuracy": 0.6666666666666666,
+        "top5_recall": 1.0,
+        "value": "One Barrel (Уан Баррел)"
+      },
+      {
+        "sample_count": 3,
+        "top1_accuracy": 0.6666666666666666,
+        "top5_recall": 0.6666666666666666,
+        "value": "VinaBani"
+      },
+      {
+        "sample_count": 3,
+        "top1_accuracy": 1.0,
+        "top5_recall": 1.0,
+        "value": "Винодельня Бегильдеева"
+      },
+      {
+        "sample_count": 3,
+        "top1_accuracy": 0.6666666666666666,
+        "top5_recall": 0.6666666666666666,
+        "value": "Винодельня Молчанова"
+      },
+      {
+        "sample_count": 3,
+        "top1_accuracy": 0.6666666666666666,
+        "top5_recall": 0.6666666666666666,
+        "value": "Левокумское"
+      },
+      {
+        "sample_count": 2,
+        "top1_accuracy": 1.0,
+        "top5_recall": 1.0,
+        "value": "Chateau Semiray"
+      },
+      {
+        "sample_count": 2,
+        "top1_accuracy": 1.0,
+        "top5_recall": 1.0,
+        "value": "Kalos Limen"
+      },
+      {
+        "sample_count": 2,
+        "top1_accuracy": 1.0,
+        "top5_recall": 1.0,
+        "value": "Radio Wine"
+      },
+      {
+        "sample_count": 2,
+        "top1_accuracy": 0.5,
+        "top5_recall": 1.0,
+        "value": "Wein und Wasser"
+      },
+      {
+        "sample_count": 2,
+        "top1_accuracy": 0.5,
+        "top5_recall": 0.5,
+        "value": "Yaiyla Winery"
+      },
+      {
+        "sample_count": 2,
+        "top1_accuracy": 1.0,
+        "top5_recall": 1.0,
+        "value": "А. Гордиенко & М. Николаев"
+      },
+      {
+        "sample_count": 2,
+        "top1_accuracy": 1.0,
+        "top5_recall": 1.0,
+        "value": "Ароматное"
+      },
+      {
+        "sample_count": 2,
+        "top1_accuracy": 1.0,
+        "top5_recall": 1.0,
+        "value": "Артвин"
+      },
+      {
+        "sample_count": 2,
+        "top1_accuracy": 1.0,
+        "top5_recall": 1.0,
+        "value": "Виктор Сташко"
+      },
+      {
+        "sample_count": 2,
+        "top1_accuracy": 1.0,
+        "top5_recall": 1.0,
+        "value": "Винодельня Орлова"
+      },
+      {
+        "sample_count": 2,
+        "top1_accuracy": 0.5,
+        "top5_recall": 1.0,
+        "value": "Гусевъ"
+      },
+      {
+        "sample_count": 2,
+        "top1_accuracy": 0.5,
+        "top5_recall": 1.0,
+        "value": "Поместье Голубицкое"
+      },
+      {
+        "sample_count": 2,
+        "top1_accuracy": 1.0,
+        "top5_recall": 1.0,
+        "value": "Семейная винодельня Михаила Колесникова"
+      },
+      {
+        "sample_count": 1,
+        "top1_accuracy": 1.0,
+        "top5_recall": 1.0,
+        "value": "Vino & Nebo"
+      },
+      {
+        "sample_count": 1,
+        "top1_accuracy": 1.0,
+        "top5_recall": 1.0,
+        "value": "Винный кооператив Интуиция"
+      },
+      {
+        "sample_count": 1,
+        "top1_accuracy": 1.0,
+        "top5_recall": 1.0,
+        "value": "Винный форт Адагум"
+      },
+      {
+        "sample_count": 1,
+        "top1_accuracy": 1.0,
+        "top5_recall": 1.0,
+        "value": "Зимовец"
+      },
+      {
+        "sample_count": 1,
+        "top1_accuracy": 1.0,
+        "top5_recall": 1.0,
+        "value": "Сатера"
+      },
+      {
+        "sample_count": 1,
+        "top1_accuracy": 1.0,
+        "top5_recall": 1.0,
+        "value": "Сенетх"
+      },
+      {
+        "sample_count": 1,
+        "top1_accuracy": 1.0,
+        "top5_recall": 1.0,
+        "value": "Усадьба Александровская"
+      }
+    ],
+    "region": [
+      {
+        "sample_count": 1014,
+        "top1_accuracy": 0.6982248520710059,
+        "top5_recall": 0.9250493096646942,
+        "value": "Кубань"
+      },
+      {
+        "sample_count": 745,
+        "top1_accuracy": 0.7436241610738255,
+        "top5_recall": 0.9288590604026845,
+        "value": "Крым"
+      },
+      {
+        "sample_count": 96,
+        "top1_accuracy": 0.6041666666666666,
+        "top5_recall": 0.9479166666666666,
+        "value": "Дагестан"
+      },
+      {
+        "sample_count": 78,
+        "top1_accuracy": 0.7307692307692307,
+        "top5_recall": 0.8589743589743589,
+        "value": "Долина Дона"
+      },
+      {
+        "sample_count": 43,
+        "top1_accuracy": 0.7674418604651163,
+        "top5_recall": 0.8837209302325582,
+        "value": "Ставрополье"
+      },
+      {
+        "sample_count": 22,
+        "top1_accuracy": 0.5909090909090909,
+        "top5_recall": 0.8636363636363636,
+        "value": "Нижняя Волга"
+      },
+      {
+        "sample_count": 21,
+        "top1_accuracy": 0.8095238095238095,
+        "top5_recall": 0.9523809523809523,
+        "value": "Самара"
+      },
+      {
+        "sample_count": 5,
+        "top1_accuracy": 1.0,
+        "top5_recall": 1.0,
+        "value": "Северная Осетия — Алания"
+      },
+      {
+        "sample_count": 1,
+        "top1_accuracy": 0.0,
+        "top5_recall": 1.0,
+        "value": "Дальневосточная зона"
+      }
+    ]
+  },
+  "confidence": {
+    "margin_sample_count": 2025,
+    "mean_top1_margin": 0.2377654097367216,
+    "median_top1_margin": 0.14981788396835327,
+    "p05_top1_margin": 0.003823995590209961
+  },
+  "inputs": {
+    "manifest_path": "data/artifacts/stage1/catalog_manifest.jsonl",
+    "predictions_path": "data/artifacts/stage4/baseline/predictions_embedding.jsonl"
+  },
+  "invalid_prediction_slugs": {},
+  "latency_ms": {
+    "max": 781.1619921467255,
+    "mean": 781.1619921467255,
+    "median": 781.1619921467255,
+    "p50": 781.1619921467255,
+    "p95": 781.1619921467255,
+    "p99": 781.1619921467255,
+    "sample_count": 2025
+  },
+  "schema_version": 1,
+  "summary": {
+    "error_count": 580,
+    "expected_slug_missing_from_predictions": 154,
+    "invalid_prediction_slug_count": 0,
+    "mean_reciprocal_rank": 0.8010452674897118,
+    "sample_count": 2025,
+    "top1_accuracy": 0.7135802469135802,
+    "top1_correct": 1445,
+    "top5_correct": 1871,
+    "top5_recall": 0.9239506172839507,
+    "unique_invalid_prediction_slug_count": 0
+  }
+}

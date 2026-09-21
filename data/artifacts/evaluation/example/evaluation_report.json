@@ -1,0 +1,68 @@
+{
+  "breakdowns": {
+    "augmentation_profile": [],
+    "category": [
+      {
+        "sample_count": 2,
+        "top1_accuracy": 0.5,
+        "top5_recall": 1.0,
+        "value": "Красное сухое"
+      }
+    ],
+    "manufacturer": [
+      {
+        "sample_count": 2,
+        "top1_accuracy": 0.5,
+        "top5_recall": 1.0,
+        "value": "Vibes"
+      }
+    ],
+    "region": [
+      {
+        "sample_count": 1,
+        "top1_accuracy": 0.0,
+        "top5_recall": 1.0,
+        "value": "Дальневосточная зона"
+      },
+      {
+        "sample_count": 1,
+        "top1_accuracy": 1.0,
+        "top5_recall": 1.0,
+        "value": "Крым"
+      }
+    ]
+  },
+  "confidence": {
+    "margin_sample_count": 2,
+    "mean_top1_margin": 0.020000000000000018,
+    "median_top1_margin": 0.020000000000000018,
+    "p05_top1_margin": 0.020000000000000018
+  },
+  "inputs": {
+    "manifest_path": "data/artifacts/stage1/catalog_manifest.jsonl",
+    "predictions_path": "data/examples/predictions.example.jsonl"
+  },
+  "invalid_prediction_slugs": {},
+  "latency_ms": {
+    "max": 180.1,
+    "mean": 176.25,
+    "median": 176.25,
+    "p50": 172.4,
+    "p95": 180.1,
+    "p99": 180.1,
+    "sample_count": 2
+  },
+  "schema_version": 1,
+  "summary": {
+    "error_count": 1,
+    "expected_slug_missing_from_predictions": 0,
+    "invalid_prediction_slug_count": 0,
+    "mean_reciprocal_rank": 0.75,
+    "sample_count": 2,
+    "top1_accuracy": 0.5,
+    "top1_correct": 1,
+    "top5_correct": 2,
+    "top5_recall": 1.0,
+    "unique_invalid_prediction_slug_count": 0
+  }
+}

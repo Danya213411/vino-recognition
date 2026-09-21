@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "device": "NVIDIA GeForce RTX 4060",
+  "cpu": "Intel Core i5-9600KF",
+  "sample_count": 20,
+  "selection": "evenly spaced synthetic validation samples",
+  "warmed": true,
+  "top1_accuracy": 0.8,
+  "timing_ms": {
+    "mean": 463.6022850056179,
+    "p50": 461.1466999631375,
+    "p95": 611.0229550511577,
+    "max": 739.2131999367848
+  }
+}

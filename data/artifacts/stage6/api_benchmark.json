@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "base_url": "http://127.0.0.1:8000",
+  "count": 20,
+  "sla_ms": 10000.0,
+  "timing_ms": {
+    "mean": 768.9082050230354,
+    "p50": 724.6846000198275,
+    "p95": 1075.8513000328094,
+    "max": 1086.949700023979
+  },
+  "within_sla": 20,
+  "records": [
+    {
+      "index": 0,
+      "image": "data/synthetic/stage2/images/0000-priboj-marchenko-beloe-polusuhoe-029903399e-v00.jpg",
+      "slug": "priboj-marchenko-beloe-polusuhoe",
+      "wall_ms": 1075.8513000328094
+    },
+    {
+      "index": 1,
+      "image": "data/synthetic/stage2/images/0001-priboj-marchenko-rozovoe-polusuhoe-bc68214fe5-v00.jpg",
+      "slug": "priboj-marchenko-rozovoe-polusuhoe",
+      "wall_ms": 675.5792000330985
+    },
+    {
+      "index": 2,
+      "image": "data/synthetic/stage2/images/0002-priboj-marchenko-krasnoe-polusuhoe-c41b29cc7e-v00.jpg",
+      "slug": "priboj-marchenko-krasnoe-polusuhoe",
+      "wall_ms": 801.7190000973642
+    },
+    {
+      "index": 3,
+      "image": "data/synthetic/stage2/images/0003-gevyurcztraminer-oranzh-05df5c7bb3-v00.jpg",
+      "slug": "gevyurcztraminer-oranzh",
+      "wall_ms": 922.5957000162452
+    },
+    {
+      "index": 4,
+      "image": "data/synthetic/stage2/images/0004-znoj-denisov-vajneri-e9da95bb94-v00.jpg",
+      "slug": "znoj-denisov-vajneri",
+      "wall_ms": 724.6846000198275
+    },
+    {
+      "index": 5,
+      "image": "data/synthetic/stage2/images/0005-fioletovyj-rannij-petnat-781c6c8391-v00.jpg",
+      "slug": "muskat-ottonel-gusev",
+      "wall_ms": 644.8051000479609
+    },
+    {
+      "index": 6,
+      "image": "data/synthetic/stage2/images/0006-muskat-ottonel-gusev-761579876c-v00.jpg",
+      "slug": "muskat-ottonel-gusev",
+      "wall_ms": 707.2969999862835
+    },
+    {
+      "index": 7,
+      "image": "data/synthetic/stage2/images/0007-zakat-denisov-vajneri-c50e7da156-v00.jpg",
+      "slug": "zakat-denisov-vajneri",
+      "wall_ms": 684.706800035201
+    },
+    {
+      "index": 8,
+      "image": "data/synthetic/stage2/images/0008-mont-blanc-blanc-de-blancs-0db2387b81-v00.jpg",
+      "slug": "mont-blanc-blanc-de-blancs",
+      "wall_ms": 843.8034999417141
+    },
+    {
+      "index": 9,
+      "image": "data/synthetic/stage2/images/0009-mont-blanc-cuvee-9e53f8afdb-v00.jpg",
+      "slug": "mont-blanc-cuvee",
+      "wall_ms": 1086.949700023979
+    },
+    {
+      "index": 10,
+      "image": "data/synthetic/stage2/images/0010-cantiani-cabernet-sauvignon-651fa30551-v00.jpg",
+      "slug": "cantiani-saperavi-merlot",
+      "wall_ms": 496.2668999796733
+    },
+    {
+      "index": 11,
+      "image": "data/synthetic/stage2/images/0011-cantiani-cabernet-sauvignon-reserve-2024-5391067ee0-v00.jpg",
+      "slug": "cantiani-cabernet-sauvignon-reserve-2024",
+      "wall_ms": 1045.686100027524
+    },
+    {
+      "index": 12,
+      "image": "data/synthetic/stage2/images/0012-cantiani-saperavi-merlot-673dffdc6a-v00.jpg",
+      "slug": "cantiani-cabernet-sauvignon-merlot",
+      "wall_ms": 500.0490000238642
+    },
+    {
+      "index": 13,
+      "image": "data/synthetic/stage2/images/0013-cantiani-riesling-1-ffea0a462c-v00.jpg",
+      "slug": "cantiani-brut",
+      "wall_ms": 550.0620000530034
+    },
+    {
+      "index": 14,
+      "image": "data/synthetic/stage2/images/0014-cantiani-brut-f8e3ae88e1-v00.jpg",
+      "slug": "cantiani-brut",
+      "wall_ms": 558.5187000688165
+    },
+    {
+      "index": 15,
+      "image": "data/synthetic/stage2/images/0015-cantiani-rkatsiteli-1-fc3228026d-v00.jpg",
+      "slug": "cantiani-rkatsiteli-1",
+      "wall_ms": 783.4786999737844
+    },
+    {
+      "index": 16,
+      "image": "data/synthetic/stage2/images/0016-cantiani-merlot-57ee243ec0-v00.jpg",
+      "slug": "cantiani-saperavi-merlot",
+      "wall_ms": 1051.221700035967
+    },
+    {
+      "index": 17,
+      "image": "data/synthetic/stage2/images/0017-cantiani-riesling-rkatsiteli-38324fdbe9-v00.jpg",
+      "slug": "cantiani-riesling",
+      "wall_ms": 604.7148000216112
+    },
+    {
+      "index": 18,
+      "image": "data/synthetic/stage2/images/0018-cantiani-aligote-riesling-6ced5b66bf-v00.jpg",
+      "slug": "cantiani-aligote-riesling",
+      "wall_ms": 1036.4204000215977
+    },
+    {
+      "index": 19,
+      "image": "data/synthetic/stage2/images/0019-cantiani-rkatsiteli-fa24fa36c4-v00.jpg",
+      "slug": "cantiani-riesling-rkatsiteli",
+      "wall_ms": 583.7539000203833
+    }
+  ]
+}

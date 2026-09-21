@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "device": "NVIDIA GeForce RTX 4060",
+  "cpu": "Intel Core i5-9600KF",
+  "sample_count": 20,
+  "known_count": 10,
+  "unknown_count": 10,
+  "warmed": true,
+  "known_match_count": 6,
+  "known_correct_match_count": 6,
+  "unknown_match_count": 0,
+  "decisions": {
+    "match": 6,
+    "alternatives": 3,
+    "not_found": 11
+  },
+  "timing_ms": {
+    "mean": 562.2753250121605,
+    "p50": 538.3924500201829,
+    "p95": 762.2540549491532,
+    "max": 774.4550000643358
+  }
+}

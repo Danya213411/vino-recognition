@@ -1,0 +1,2 @@
+{"expected_slug":"cabernet-franc-pinot-noir-2021","latency_ms":172.4,"predictions":[{"score":0.91,"slug":"cabernet-franc-pinot-noir-2021"},{"score":0.89,"slug":"cabernet-franc-pinot-noir-2022"}],"sample_id":"example-correct"}
+{"expected_slug":"cabernet-franc-pinot-noir-2022","latency_ms":180.1,"predictions":[{"score":0.90,"slug":"cabernet-franc-pinot-noir-2021"},{"score":0.88,"slug":"cabernet-franc-pinot-noir-2022"}],"sample_id":"example-near-duplicate-error"}

@@ -1,0 +1,42 @@
+{
+  "config": {
+    "default_jpeg_quality": 88,
+    "image_size": 512,
+    "limit": null,
+    "manifest_path": "data/artifacts/stage1/catalog_manifest.jsonl",
+    "output_dir": "data/synthetic/stage2",
+    "profiles": [
+      "background",
+      "perspective",
+      "glare",
+      "blur",
+      "crop",
+      "compression",
+      "combined"
+    ],
+    "seed": 20260920,
+    "source_root": "data/parser",
+    "variants_per_wine": 1
+  },
+  "foreground_masks": {
+    "inferred_border": 103,
+    "source_alpha": 1922
+  },
+  "profiles": {
+    "background": 290,
+    "blur": 289,
+    "combined": 289,
+    "compression": 289,
+    "crop": 289,
+    "glare": 289,
+    "perspective": 290
+  },
+  "schema_version": 1,
+  "summary": {
+    "sample_count": 2025,
+    "source_slug_count": 2025,
+    "split": "validation",
+    "total_bytes": 36108660,
+    "train_validation_source_overlap": 0
+  }
+}

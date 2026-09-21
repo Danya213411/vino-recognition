@@ -1,0 +1,13 @@
+{"code": "incomplete_source_coverage", "message": "Collected 2025 of 2041 source items", "severity": "warning"}
+{"code": "missing_manufacturer_slug", "message": "manufacturer_slug is empty", "severity": "warning", "slug": "golubitskoe-estate-chardonnay"}
+{"code": "missing_manufacturer_slug", "message": "manufacturer_slug is empty", "severity": "warning", "slug": "golubitskoe-rose"}
+{"code": "missing_manufacturer_slug", "message": "manufacturer_slug is empty", "severity": "warning", "slug": "mancopia-kaberne-sovinon"}
+{"code": "missing_manufacturer_slug", "message": "manufacturer_slug is empty", "severity": "warning", "slug": "mancopia-meritazh"}
+{"code": "missing_manufacturer_slug", "message": "manufacturer_slug is empty", "severity": "warning", "slug": "mancopia-risling"}
+{"code": "missing_manufacturer_slug", "message": "manufacturer_slug is empty", "severity": "warning", "slug": "mancopia-saperavi"}
+{"code": "missing_manufacturer_slug", "message": "manufacturer_slug is empty", "severity": "warning", "slug": "mancopia-sira"}
+{"code": "missing_manufacturer_slug", "message": "manufacturer_slug is empty", "severity": "warning", "slug": "wein-und-wasser-vayn-taym-sira-krym-krasnoe-suhoe-13"}
+{"code": "missing_manufacturer_slug", "message": "manufacturer_slug is empty", "severity": "warning", "slug": "wein-und-wasser-vayn-taym-sovinon-blan-krym-beloe-suhoe-12"}
+{"code": "suspicious_alcohol", "message": "Suspicious alcohol value: 135", "severity": "warning", "slug": "esse-rkatsiteli-oranzh-beloe-suhoe-12"}
+{"code": "suspicious_alcohol", "message": "Suspicious alcohol value: 108", "severity": "warning", "slug": "fioletovyj-rannij-petnat"}
+{"code": "suspicious_alcohol", "message": "Suspicious alcohol value: 108", "severity": "warning", "slug": "muskat-ottonel-gusev"}

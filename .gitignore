@@ -1,0 +1,31 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.coverage
+.pytest_cache/
+app/frontend/.next/
+app/frontend/out/
+app/frontend/node_modules/
+app/frontend/node_modules.partial-install/
+data/app/stage6/
+
+# Local configuration and runtime logs
+.env
+.env.*
+!.env.example
+*.log
+
+# Rebuilt by the stage 3/4 indexing commands; individual files exceed GitHub's limit.
+data/artifacts/stage3/*/index.npz
+data/artifacts/stage4/index/sift_index.npz
+
+# Reproducible generated image datasets
+data/synthetic/stage2/images/
+data/unknown/rejected-wikimedia-stage5/
+
+# Virtual environments
+.venv

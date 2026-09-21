@@ -1,0 +1,22 @@
+{
+  "embedding_ms": {
+    "full": 20512.384000001475,
+    "label": 20007.35450000502,
+    "total": 40519.7385000065
+  },
+  "index": "data/artifacts/stage3/deit-tiny/index.npz",
+  "item_count": 2025,
+  "manifest": "data/artifacts/stage1/catalog_manifest.jsonl",
+  "runtime": {
+    "device": "cuda",
+    "embedding_size": 192,
+    "gpu_name": "NVIDIA GeForce RTX 4060",
+    "image_size": 224,
+    "model": "facebook/deit-tiny-patch16-224",
+    "model_revision": "b3428f18dcc7b543470d07f14b4a4157815d1880",
+    "peak_vram_bytes": 89142272
+  },
+  "schema_version": 1,
+  "source_root": "data/parser",
+  "view_count": 2
+}

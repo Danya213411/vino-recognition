@@ -1,0 +1,16 @@
+{
+  "calibration_sample_count": 42,
+  "calibration_source_count": 21,
+  "definition": "Russian wines present in the live catalog but absent from the local 2025-slug snapshot",
+  "failures": [],
+  "heldout_sample_count": 50,
+  "heldout_source_count": 25,
+  "known_snapshot_count": 2025,
+  "live_catalog_count": 2069,
+  "manifest": "data/unknown/stage5/unknown_manifest.jsonl",
+  "sample_count": 92,
+  "schema_version": 1,
+  "source": "https://vino-svoe.ru/wines",
+  "unknown_source_count": 46,
+  "variants_per_wine": 2
+}

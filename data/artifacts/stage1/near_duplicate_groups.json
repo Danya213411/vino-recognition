@@ -1,0 +1,1454 @@
+[
+  {
+    "count": 9,
+    "group_id": "near-0001",
+    "items": [
+      {
+        "image_local": "images/kokur-suhoe.webp",
+        "slug": "kokur-suhoe",
+        "title": "Кокур сухое"
+      },
+      {
+        "image_local": "images/madera-krymskaya.webp",
+        "slug": "madera-krymskaya",
+        "title": "Мадера Крымская"
+      },
+      {
+        "image_local": "images/massandra-massandra-heres-oreadna-aligote-beloe-suhoe-16.webp",
+        "slug": "massandra-massandra-heres-oreadna-aligote-beloe-suhoe-16",
+        "title": "Массандра Херес Ореадна"
+      },
+      {
+        "image_local": "images/massandra-pino-gri-beloe-sladkoe-16.webp",
+        "slug": "massandra-pino-gri-beloe-sladkoe-16",
+        "title": "Пино Гри"
+      },
+      {
+        "image_local": "images/massandra-portveyn-belyy-alushta-belye-sorta-vinograda-beloe-sladkoe-17.webp",
+        "slug": "massandra-portveyn-belyy-alushta-belye-sorta-vinograda-beloe-sladkoe-17",
+        "title": "Портвейн белый Алушта"
+      },
+      {
+        "image_local": "images/massandra-portveyn-belyy-krymskiy-kokur-beloe-sladkoe-18.webp",
+        "slug": "massandra-portveyn-belyy-krymskiy-kokur-beloe-sladkoe-18",
+        "title": "Портвейн белый крымский"
+      },
+      {
+        "image_local": "images/massandra-portveyn-krasnyy-alushta-krasnye-sorta-vinograda-krasnoe-sladkoe-17.webp",
+        "slug": "massandra-portveyn-krasnyy-alushta-krasnye-sorta-vinograda-krasnoe-sladkoe-17",
+        "title": "Портвейн красный Алушта"
+      },
+      {
+        "image_local": "images/massandra-rozovoe-suhoe.webp",
+        "slug": "massandra-rozovoe-suhoe",
+        "title": "Массандра розовое сухое"
+      },
+      {
+        "image_local": "images/portvejn-surozh.webp",
+        "slug": "portvejn-surozh",
+        "title": "Портвейн Сурож"
+      }
+    ],
+    "manufacturer": "Массандра",
+    "max_distance": 8,
+    "min_distance": 2
+  },
+  {
+    "count": 5,
+    "group_id": "near-0002",
+    "items": [
+      {
+        "image_local": "images/fanagoriya-cru-lermont-cabernet-sauvignon-kaberne-sovinon-krasnoe-suhoe-13.webp",
+        "slug": "fanagoriya-cru-lermont-cabernet-sauvignon-kaberne-sovinon-krasnoe-suhoe-13",
+        "title": "Cru Lermont Cabernet Sauvignon"
+      },
+      {
+        "image_local": "images/fanagoriya-cru-lermont-chardonnay-shardone-beloe-suhoe-14.webp",
+        "slug": "fanagoriya-cru-lermont-chardonnay-shardone-beloe-suhoe-14",
+        "title": "Cru Lermont Chardonnay"
+      },
+      {
+        "image_local": "images/fanagoriya-cru-lermont-merlo-merlo-krasnoe-suhoe-14.webp",
+        "slug": "fanagoriya-cru-lermont-merlo-merlo-krasnoe-suhoe-14",
+        "title": "Cru Lermont Merlo"
+      },
+      {
+        "image_local": "images/fanagoriya-cru-lermont-petit-verdot-pti-verdo-krasnoe-suhoe-13.webp",
+        "slug": "fanagoriya-cru-lermont-petit-verdot-pti-verdo-krasnoe-suhoe-13",
+        "title": "Cru Lermont Petit Verdot"
+      },
+      {
+        "image_local": "images/fanagoriya-cru-lermont-rubinovyy-magaracha-krasnoe-suhoe-13.webp",
+        "slug": "fanagoriya-cru-lermont-rubinovyy-magaracha-krasnoe-suhoe-13",
+        "title": "Cru Lermont Рубиновый Магарача"
+      }
+    ],
+    "manufacturer": "Фанагория",
+    "max_distance": 7,
+    "min_distance": 6
+  },
+  {
+    "count": 5,
+    "group_id": "near-0003",
+    "items": [
+      {
+        "image_local": "images/vinodelnya-myshako-kaberne-fran-krasnoe-suhoe-142.webp",
+        "slug": "vinodelnya-myshako-kaberne-fran-krasnoe-suhoe-142",
+        "title": "Каберне Фран"
+      },
+      {
+        "image_local": "images/vinodelnya-myshako-marselan-krasnoe-suhoe-143.webp",
+        "slug": "vinodelnya-myshako-marselan-krasnoe-suhoe-143",
+        "title": "Марселан"
+      },
+      {
+        "image_local": "images/vinodelnya-myshako-pino-gridzhio-beloe-polusuhoe-123.webp",
+        "slug": "vinodelnya-myshako-pino-gridzhio-beloe-polusuhoe-123",
+        "title": "Пино Гриджио"
+      },
+      {
+        "image_local": "images/vinodelnya-myshako-shardone-beloe-suhoe-123.webp",
+        "slug": "vinodelnya-myshako-shardone-beloe-suhoe-123",
+        "title": "Шардоне"
+      },
+      {
+        "image_local": "images/vinodelnya-myshako-tempranilo-rozovoe-suhoe-134.webp",
+        "slug": "vinodelnya-myshako-tempranilo-rozovoe-suhoe-134",
+        "title": "Темпранильо"
+      }
+    ],
+    "manufacturer": "Мысхако",
+    "max_distance": 8,
+    "min_distance": 7
+  },
+  {
+    "count": 5,
+    "group_id": "near-0004",
+    "items": [
+      {
+        "image_local": "images/vinodelnya-myshako-kaberne-sovinon-black-out-krasnoe-polusuhoe-16.webp",
+        "slug": "vinodelnya-myshako-kaberne-sovinon-black-out-krasnoe-polusuhoe-16",
+        "title": "Каберне Совиньон. Black Out"
+      },
+      {
+        "image_local": "images/vinodelnya-myshako-merlo-black-out-krasnoe-sladkoe-14.webp",
+        "slug": "vinodelnya-myshako-merlo-black-out-krasnoe-sladkoe-14",
+        "title": "Мерло. Black Out"
+      },
+      {
+        "image_local": "images/vinodelnya-myshako-risling-blanc-out-beloe-suhoe-145.webp",
+        "slug": "vinodelnya-myshako-risling-blanc-out-beloe-suhoe-145",
+        "title": "Рислинг. Blanc Out"
+      },
+      {
+        "image_local": "images/vinodelnya-myshako-shiraz-black-out-krasnoe-suhoe-152.webp",
+        "slug": "vinodelnya-myshako-shiraz-black-out-krasnoe-suhoe-152",
+        "title": "Шираз. Black Out"
+      },
+      {
+        "image_local": "images/vinodelnya-myshako-sovinon-blan-blanc-out-beloe-suhoe-138.webp",
+        "slug": "vinodelnya-myshako-sovinon-blan-blanc-out-beloe-suhoe-138",
+        "title": "Совиньон Блан. Blanc Out"
+      }
+    ],
+    "manufacturer": "Мысхако",
+    "max_distance": 7,
+    "min_distance": 4
+  },
+  {
+    "count": 5,
+    "group_id": "near-0005",
+    "items": [
+      {
+        "image_local": "images/vinodelnya-myshako-marselan-mode-appassimento-krasnoe-suhoe-146.webp",
+        "slug": "vinodelnya-myshako-marselan-mode-appassimento-krasnoe-suhoe-146",
+        "title": "Марселан Mode Appassimento"
+      },
+      {
+        "image_local": "images/vinodelnya-myshako-marselan-mode-krasnoe-suhoe-145.webp",
+        "slug": "vinodelnya-myshako-marselan-mode-krasnoe-suhoe-145",
+        "title": "Марселан Mode"
+      },
+      {
+        "image_local": "images/vinodelnya-myshako-risling-mode-kabinett-beloe-polusuhoe-126.webp",
+        "slug": "vinodelnya-myshako-risling-mode-kabinett-beloe-polusuhoe-126",
+        "title": "Рислинг Mode Kabinett"
+      },
+      {
+        "image_local": "images/vinodelnya-myshako-sovinon-blan-mode-cold-style-beloe-suhoe-122.webp",
+        "slug": "vinodelnya-myshako-sovinon-blan-mode-cold-style-beloe-suhoe-122",
+        "title": "Совиньон Блан Mode Cold Style"
+      },
+      {
+        "image_local": "images/vinodelnya-myshako-zinfandel-mode-krasnoe-suhoe-148.webp",
+        "slug": "vinodelnya-myshako-zinfandel-mode-krasnoe-suhoe-148",
+        "title": "Зинфандель Mode"
+      }
+    ],
+    "manufacturer": "Мысхако",
+    "max_distance": 8,
+    "min_distance": 3
+  },
+  {
+    "count": 4,
+    "group_id": "near-0006",
+    "items": [
+      {
+        "image_local": "images/derbent-vino-di-kaspiko-kaberne-sovinon-krasnoe-suhoe-135.webp",
+        "slug": "derbent-vino-di-kaspiko-kaberne-sovinon-krasnoe-suhoe-135",
+        "title": "Ди Каспико Каберне Совиньон"
+      },
+      {
+        "image_local": "images/derbent-vino-di-kaspiko-merlo-krasnoe-polusladkoe-11.webp",
+        "slug": "derbent-vino-di-kaspiko-merlo-krasnoe-polusladkoe-11",
+        "title": "Ди Каспико"
+      },
+      {
+        "image_local": "images/derbent-vino-di-kaspiko-merlo-krasnoe-suhoe-13.webp",
+        "slug": "derbent-vino-di-kaspiko-merlo-krasnoe-suhoe-13",
+        "title": "Ди Каспико Мерло"
+      },
+      {
+        "image_local": "images/derbent-vino-di-kaspiko-saperavi-krasnoe-suhoe-13.webp",
+        "slug": "derbent-vino-di-kaspiko-saperavi-krasnoe-suhoe-13",
+        "title": "Ди Каспико Саперави"
+      }
+    ],
+    "manufacturer": "Дербент Вино",
+    "max_distance": 1,
+    "min_distance": 0
+  },
+  {
+    "count": 4,
+    "group_id": "near-0007",
+    "items": [
+      {
+        "image_local": "images/fanagoriya-primum-alveus-brut-2014-shardone-igristoe-bryut-beloe-12.webp",
+        "slug": "fanagoriya-primum-alveus-brut-2014-shardone-igristoe-bryut-beloe-12",
+        "title": "Primum Alveus Brut 2014"
+      },
+      {
+        "image_local": "images/fanagoriya-primum-alveus-brut-2016-shardone-igristoe-bryut-beloe-12.webp",
+        "slug": "fanagoriya-primum-alveus-brut-2016-shardone-igristoe-bryut-beloe-12",
+        "title": "Primum Alveus Brut 2016"
+      },
+      {
+        "image_local": "images/fanagoriya-primum-alveus-extra-brut-2014-pino-nuar-beloe-bryut-12.webp",
+        "slug": "fanagoriya-primum-alveus-extra-brut-2014-pino-nuar-beloe-bryut-12",
+        "title": "Primum Alveus Extra Brut 2014"
+      },
+      {
+        "image_local": "images/fanagoriya-primum-alveus-extra-brut-2016-shardone-beloe-bryut-12.webp",
+        "slug": "fanagoriya-primum-alveus-extra-brut-2016-shardone-beloe-bryut-12",
+        "title": "Primum Alveus Extra Brut 2016"
+      }
+    ],
+    "manufacturer": "Фанагория",
+    "max_distance": 7,
+    "min_distance": 6
+  },
+  {
+    "count": 4,
+    "group_id": "near-0008",
+    "items": [
+      {
+        "image_local": "images/vinodelnya-raevskoe-parfyum-de-terruar-blansh-vione-beloe-suhoe-12.webp",
+        "slug": "vinodelnya-raevskoe-parfyum-de-terruar-blansh-vione-beloe-suhoe-12",
+        "title": "Парфюм Де Терруар. Бланш"
+      },
+      {
+        "image_local": "images/vinodelnya-raevskoe-parfyum-de-terruar-muskat-muskat-zheltyy-beloe-suhoe-123.webp",
+        "slug": "vinodelnya-raevskoe-parfyum-de-terruar-muskat-muskat-zheltyy-beloe-suhoe-123",
+        "title": "Парфюм Де Терруар. Мускат"
+      },
+      {
+        "image_local": "images/vinodelnya-raevskoe-parfyum-de-terruar-risling-beloe-suhoe-12.webp",
+        "slug": "vinodelnya-raevskoe-parfyum-de-terruar-risling-beloe-suhoe-12",
+        "title": "Парфюм Де Терруар. Рислинг"
+      },
+      {
+        "image_local": "images/vinodelnya-raevskoe-parfyum-de-terruar-sovinon-blan-beloe-suhoe-121.webp",
+        "slug": "vinodelnya-raevskoe-parfyum-de-terruar-sovinon-blan-beloe-suhoe-121",
+        "title": "Парфюм Де Терруар. Совиньон Блан"
+      }
+    ],
+    "manufacturer": "Раевское",
+    "max_distance": 7,
+    "min_distance": 3
+  },
+  {
+    "count": 3,
+    "group_id": "near-0009",
+    "items": [
+      {
+        "image_local": "images/bryut-rozovoe-zolotaya-balka.webp",
+        "slug": "bryut-rozovoe-zolotaya-balka",
+        "title": "Брют Розовое Золотая Балка"
+      },
+      {
+        "image_local": "images/polusladkoe-beloe-zolotaya-balka.webp",
+        "slug": "polusladkoe-beloe-zolotaya-balka",
+        "title": "Полусладкое Белое Золотая Балка"
+      },
+      {
+        "image_local": "images/polusuhoe-beloe-zolotaya-balka.webp",
+        "slug": "polusuhoe-beloe-zolotaya-balka",
+        "title": "Полусухое Белое Золотая Балка"
+      }
+    ],
+    "manufacturer": "Золотая Балка",
+    "max_distance": 6,
+    "min_distance": 4
+  },
+  {
+    "count": 3,
+    "group_id": "near-0010",
+    "items": [
+      {
+        "image_local": "images/chteau-le-grand-vostock-aligote-aligote-beloe-suhoe-125.webp",
+        "slug": "chteau-le-grand-vostock-aligote-aligote-beloe-suhoe-125",
+        "title": "Aligote"
+      },
+      {
+        "image_local": "images/chteau-le-grand-vostock-chardonnay-shardone-beloe-suhoe-14.webp",
+        "slug": "chteau-le-grand-vostock-chardonnay-shardone-beloe-suhoe-14",
+        "title": "Chardonnay"
+      },
+      {
+        "image_local": "images/chteau-le-grand-vostock-sauvignon-blanc-sovinon-blan-beloe-suhoe-14.webp",
+        "slug": "chteau-le-grand-vostock-sauvignon-blanc-sovinon-blan-beloe-suhoe-14",
+        "title": "Sauvignon Blanc"
+      }
+    ],
+    "manufacturer": "Château Le Grand Vostock",
+    "max_distance": 7,
+    "min_distance": 5
+  },
+  {
+    "count": 3,
+    "group_id": "near-0011",
+    "items": [
+      {
+        "image_local": "images/derbent-vino-di-kaspiko-risling-beloe-suhoe-12.webp",
+        "slug": "derbent-vino-di-kaspiko-risling-beloe-suhoe-12",
+        "title": "Ди Каспико Рислинг"
+      },
+      {
+        "image_local": "images/derbent-vino-di-kaspiko-rkatsiteli-beloe-suhoe-12.webp",
+        "slug": "derbent-vino-di-kaspiko-rkatsiteli-beloe-suhoe-12",
+        "title": "Ди Каспико Ркацители"
+      },
+      {
+        "image_local": "images/derbent-vino-di-kaspiko-shardone-beloe-suhoe-125.webp",
+        "slug": "derbent-vino-di-kaspiko-shardone-beloe-suhoe-125",
+        "title": "Ди Каспико Шардоне"
+      }
+    ],
+    "manufacturer": "Дербент Вино",
+    "max_distance": 5,
+    "min_distance": 2
+  },
+  {
+    "count": 3,
+    "group_id": "near-0012",
+    "items": [
+      {
+        "image_local": "images/fanagoriya-100-ottenkov-krasnogo-kaberne-kaberne-sovinon-krasnoe-suhoe-135.webp",
+        "slug": "fanagoriya-100-ottenkov-krasnogo-kaberne-kaberne-sovinon-krasnoe-suhoe-135",
+        "title": "100 оттенков красного. Каберне"
+      },
+      {
+        "image_local": "images/fanagoriya-100-ottenkov-krasnogo-saperavi-krasnoe-suhoe-14.webp",
+        "slug": "fanagoriya-100-ottenkov-krasnogo-saperavi-krasnoe-suhoe-14",
+        "title": "100 оттенков красного. Саперави"
+      },
+      {
+        "image_local": "images/fanagoriya-100-ottenkov-shardone-beloe-suhoe-14.webp",
+        "slug": "fanagoriya-100-ottenkov-shardone-beloe-suhoe-14",
+        "title": "100 оттенков. Шардоне"
+      }
+    ],
+    "manufacturer": "Фанагория",
+    "max_distance": 7,
+    "min_distance": 4
+  },
+  {
+    "count": 3,
+    "group_id": "near-0013",
+    "items": [
+      {
+        "image_local": "images/vinodelnya-myshako-chernoe-iz-chernogo-appassimento-kaberne-sovinon-krasnoe-suhoe-15.webp",
+        "slug": "vinodelnya-myshako-chernoe-iz-chernogo-appassimento-kaberne-sovinon-krasnoe-suhoe-15",
+        "title": "Черное из Черного. Аппассименто"
+      },
+      {
+        "image_local": "images/vinodelnya-myshako-chernoe-iz-krasnogo-appassimento-kaberne-sovinon-krasnoe-polusuhoe-15.webp",
+        "slug": "vinodelnya-myshako-chernoe-iz-krasnogo-appassimento-kaberne-sovinon-krasnoe-polusuhoe-15",
+        "title": "Черное из Красного. Аппассименто"
+      },
+      {
+        "image_local": "images/vinodelnya-myshako-chernyy-udar-marselan-krasnoe-suhoe-162.webp",
+        "slug": "vinodelnya-myshako-chernyy-udar-marselan-krasnoe-suhoe-162",
+        "title": "Черный Удар"
+      }
+    ],
+    "manufacturer": "Мысхако",
+    "max_distance": 8,
+    "min_distance": 6
+  },
+  {
+    "count": 3,
+    "group_id": "near-0014",
+    "items": [
+      {
+        "image_local": "images/vinodelnya-myshako-flute-blaufrankish-rozovoe-bryut-126.webp",
+        "slug": "vinodelnya-myshako-flute-blaufrankish-rozovoe-bryut-126",
+        "title": "Flute Блауфранкиш"
+      },
+      {
+        "image_local": "images/vinodelnya-myshako-flute-gevyurtstraminer-sovinon-blan-beloe-bryut-122.webp",
+        "slug": "vinodelnya-myshako-flute-gevyurtstraminer-sovinon-blan-beloe-bryut-122",
+        "title": "Flute Гевюрцтраминер Совиньон Блан"
+      },
+      {
+        "image_local": "images/vinodelnya-myshako-flute-vione-aligote-beloe-bryut-12.webp",
+        "slug": "vinodelnya-myshako-flute-vione-aligote-beloe-bryut-12",
+        "title": "Flute Вионье Алиготе"
+      }
+    ],
+    "manufacturer": "Мысхако",
+    "max_distance": 8,
+    "min_distance": 2
+  },
+  {
+    "count": 3,
+    "group_id": "near-0015",
+    "items": [
+      {
+        "image_local": "images/vinodelnya-myshako-quintessence-blaufrankish-rozovoe-bryut-115.webp",
+        "slug": "vinodelnya-myshako-quintessence-blaufrankish-rozovoe-bryut-115",
+        "title": "Quintessence. Блауфранкиш"
+      },
+      {
+        "image_local": "images/vinodelnya-myshako-quintessence-new-generation-brut-white-shardone-beloe-bryut-11.webp",
+        "slug": "vinodelnya-myshako-quintessence-new-generation-brut-white-shardone-beloe-bryut-11",
+        "title": "Quintessence New Generation. Brut White"
+      },
+      {
+        "image_local": "images/vinodelnya-myshako-quintessence-sovinon-blan-bryut-beloe-115.webp",
+        "slug": "vinodelnya-myshako-quintessence-sovinon-blan-bryut-beloe-115",
+        "title": "Quintessence. Совиньон Блан брют"
+      }
+    ],
+    "manufacturer": "Мысхако",
+    "max_distance": 7,
+    "min_distance": 5
+  },
+  {
+    "count": 2,
+    "group_id": "near-0016",
+    "items": [
+      {
+        "image_local": "images/abrau-dyurso-abrau-durso-brut-rose-reserve-pino-nuar-beloe-bryut-12.webp",
+        "slug": "abrau-dyurso-abrau-durso-brut-rose-reserve-pino-nuar-beloe-bryut-12",
+        "title": "Abrau-Durso Brut Rose Reserve"
+      },
+      {
+        "image_local": "images/abrau-dyurso-abrau-durso-reserve-brut-shardone-beloe-bryut-115.webp",
+        "slug": "abrau-dyurso-abrau-durso-reserve-brut-shardone-beloe-bryut-115",
+        "title": "Abrau-Durso Reserve Brut"
+      }
+    ],
+    "manufacturer": "Абрау-Дюрсо",
+    "max_distance": 2,
+    "min_distance": 2
+  },
+  {
+    "count": 2,
+    "group_id": "near-0017",
+    "items": [
+      {
+        "image_local": "images/abrau-dyurso-russkoe-igristoe-polusladkoe-shardone-beloe-12.webp",
+        "slug": "abrau-dyurso-russkoe-igristoe-polusladkoe-shardone-beloe-12",
+        "title": "Русское Игристое полусладкое"
+      },
+      {
+        "image_local": "images/abrau-dyurso-russkoe-igristoe-polusuhoe-shardone-beloe-12.webp",
+        "slug": "abrau-dyurso-russkoe-igristoe-polusuhoe-shardone-beloe-12",
+        "title": "Русское Игристое полусухое"
+      }
+    ],
+    "manufacturer": "Абрау-Дюрсо",
+    "max_distance": 3,
+    "min_distance": 3
+  },
+  {
+    "count": 2,
+    "group_id": "near-0018",
+    "items": [
+      {
+        "image_local": "images/agora-rosa-viva-beloe-polusladkoe.webp",
+        "slug": "agora-rosa-viva-beloe-polusladkoe",
+        "title": "Agora Rosa Viva Белое Полусладкое"
+      },
+      {
+        "image_local": "images/agora-rosa-viva-rozovoe-polusladkoe.webp",
+        "slug": "agora-rosa-viva-rozovoe-polusladkoe",
+        "title": "Agora Rosa Viva Розовое Полусладкое"
+      }
+    ],
+    "manufacturer": "AGORA WINERY",
+    "max_distance": 8,
+    "min_distance": 8
+  },
+  {
+    "count": 2,
+    "group_id": "near-0019",
+    "items": [
+      {
+        "image_local": "images/b-yu-rne-malbek-krasnoe-suhoe.webp",
+        "slug": "b-yu-rne-malbek-krasnoe-suhoe",
+        "title": "БЮРНЬЕ.МАЛЬБЕК красное сухое"
+      },
+      {
+        "image_local": "images/b-yu-rne-sira-krasnoe-suhoe-classic.webp",
+        "slug": "b-yu-rne-sira-krasnoe-suhoe-classic",
+        "title": "БЮРНЬЕ.СИРА красное сухое Classic"
+      }
+    ],
+    "manufacturer": "Винодельня Бюрнье",
+    "max_distance": 8,
+    "min_distance": 8
+  },
+  {
+    "count": 2,
+    "group_id": "near-0020",
+    "items": [
+      {
+        "image_local": "images/belbek-belbek-pino-nuar-krasnoe-suhoe-13.webp",
+        "slug": "belbek-belbek-pino-nuar-krasnoe-suhoe-13",
+        "title": "Бельбек Пино Нуар"
+      },
+      {
+        "image_local": "images/belbek-pino-nuar-krasnoe-suhoe-133.webp",
+        "slug": "belbek-pino-nuar-krasnoe-suhoe-133",
+        "title": "Пино Нуар"
+      }
+    ],
+    "manufacturer": "Бельбек",
+    "max_distance": 8,
+    "min_distance": 8
+  },
+  {
+    "count": 2,
+    "group_id": "near-0021",
+    "items": [
+      {
+        "image_local": "images/belbek-belbek-sira-krasnoe-suhoe-132.webp",
+        "slug": "belbek-belbek-sira-krasnoe-suhoe-132",
+        "title": "Бельбек Сира"
+      },
+      {
+        "image_local": "images/belbek-sira-rezerv-krasnoe-suhoe-132.webp",
+        "slug": "belbek-sira-rezerv-krasnoe-suhoe-132",
+        "title": "Сира Резерв"
+      }
+    ],
+    "manufacturer": "Бельбек",
+    "max_distance": 5,
+    "min_distance": 5
+  },
+  {
+    "count": 2,
+    "group_id": "near-0022",
+    "items": [
+      {
+        "image_local": "images/chteau-le-grand-vostock-cabernet-sauvignon-kaberne-sovinon-krasnoe-suhoe-14.webp",
+        "slug": "chteau-le-grand-vostock-cabernet-sauvignon-kaberne-sovinon-krasnoe-suhoe-14",
+        "title": "Cabernet Sauvignon"
+      },
+      {
+        "image_local": "images/chteau-le-grand-vostock-merlot-merlo-krasnoe-suhoe-14.webp",
+        "slug": "chteau-le-grand-vostock-merlot-merlo-krasnoe-suhoe-14",
+        "title": "Merlot"
+      }
+    ],
+    "manufacturer": "Château Le Grand Vostock",
+    "max_distance": 4,
+    "min_distance": 4
+  },
+  {
+    "count": 2,
+    "group_id": "near-0023",
+    "items": [
+      {
+        "image_local": "images/derbent-vino-desono-risling-ekstra-bryut-beloe-105-125.webp",
+        "slug": "derbent-vino-desono-risling-ekstra-bryut-beloe-105-125",
+        "title": "Дэсоно Рислинг экстра брют"
+      },
+      {
+        "image_local": "images/derbent-vino-desono-sovinon-ekstra-bryut-sovinon-blan-beloe-105-125.webp",
+        "slug": "derbent-vino-desono-sovinon-ekstra-bryut-sovinon-blan-beloe-105-125",
+        "title": "Дэсоно Совиньон экстра брют"
+      }
+    ],
+    "manufacturer": "Дербент Вино",
+    "max_distance": 6,
+    "min_distance": 6
+  },
+  {
+    "count": 2,
+    "group_id": "near-0024",
+    "items": [
+      {
+        "image_local": "images/domaine-lipko-white-blend-lipko-muskat-belyy-beloe-polusuhoe-115.webp",
+        "slug": "domaine-lipko-white-blend-lipko-muskat-belyy-beloe-polusuhoe-115",
+        "title": "White Blend Lipko"
+      },
+      {
+        "image_local": "images/domaine-lipko-white-blend-muskat-beloe-polusuhoe-12.webp",
+        "slug": "domaine-lipko-white-blend-muskat-beloe-polusuhoe-12",
+        "title": "White Blend"
+      }
+    ],
+    "manufacturer": "Domaine Lipko",
+    "max_distance": 3,
+    "min_distance": 3
+  },
+  {
+    "count": 2,
+    "group_id": "near-0025",
+    "items": [
+      {
+        "image_local": "images/fanagoriya-101-ottenok-krasnogo-kaberne-kaberne-sovinon-krasnoe-suhoe-14.webp",
+        "slug": "fanagoriya-101-ottenok-krasnogo-kaberne-kaberne-sovinon-krasnoe-suhoe-14",
+        "title": "101 оттенок красного. Каберне"
+      },
+      {
+        "image_local": "images/fanagoriya-101-ottenok-krasnogo-saperavi-krasnoe-suhoe-14.webp",
+        "slug": "fanagoriya-101-ottenok-krasnogo-saperavi-krasnoe-suhoe-14",
+        "title": "101 оттенок красного. Саперави"
+      }
+    ],
+    "manufacturer": "Фанагория",
+    "max_distance": 7,
+    "min_distance": 7
+  },
+  {
+    "count": 2,
+    "group_id": "near-0026",
+    "items": [
+      {
+        "image_local": "images/fanagoriya-5-elements-bryut-beloe-pino-gri-igristoe-bryut-beloe-125.webp",
+        "slug": "fanagoriya-5-elements-bryut-beloe-pino-gri-igristoe-bryut-beloe-125",
+        "title": "5 elements Брют белое"
+      },
+      {
+        "image_local": "images/fanagoriya-5-elements-bryut-rozovoe-saperavi-igristoe-bryut-rozovoe-125.webp",
+        "slug": "fanagoriya-5-elements-bryut-rozovoe-saperavi-igristoe-bryut-rozovoe-125",
+        "title": "5 elements Брют розовое"
+      }
+    ],
+    "manufacturer": "Фанагория",
+    "max_distance": 6,
+    "min_distance": 6
+  },
+  {
+    "count": 2,
+    "group_id": "near-0027",
+    "items": [
+      {
+        "image_local": "images/fanagoriya-beloe-polusladkoe.webp",
+        "slug": "fanagoriya-beloe-polusladkoe",
+        "title": "Фанагория белое полусладкое"
+      },
+      {
+        "image_local": "images/rozovoe-polusladkoe.webp",
+        "slug": "rozovoe-polusladkoe",
+        "title": "Розовое полусладкое"
+      }
+    ],
+    "manufacturer": "Фанагория",
+    "max_distance": 7,
+    "min_distance": 7
+  },
+  {
+    "count": 2,
+    "group_id": "near-0028",
+    "items": [
+      {
+        "image_local": "images/fanagoriya-brule-cabernet-franc-polusuhoe-rozovoe-kaberne-fran-12.webp",
+        "slug": "fanagoriya-brule-cabernet-franc-polusuhoe-rozovoe-kaberne-fran-12",
+        "title": "Brule Cabernet Franc Полусухое Розовое"
+      },
+      {
+        "image_local": "images/fanagoriya-brule-muscat-ottonel-polusladkoe-muskat-ottonel-beloe-115.webp",
+        "slug": "fanagoriya-brule-muscat-ottonel-polusladkoe-muskat-ottonel-beloe-115",
+        "title": "Brule Muscat Ottonel Полусладкое"
+      }
+    ],
+    "manufacturer": "Фанагория",
+    "max_distance": 3,
+    "min_distance": 3
+  },
+  {
+    "count": 2,
+    "group_id": "near-0029",
+    "items": [
+      {
+        "image_local": "images/fanagoriya-brule-frizzante-brut-rozovoe-merlo-igristoe-bryut-rozovoe-115.webp",
+        "slug": "fanagoriya-brule-frizzante-brut-rozovoe-merlo-igristoe-bryut-rozovoe-115",
+        "title": "Brule Frizzante Brut Розовое"
+      },
+      {
+        "image_local": "images/fanagoriya-brule-frizzante-polusladkoe-beloe-pino-nuar-11.webp",
+        "slug": "fanagoriya-brule-frizzante-polusladkoe-beloe-pino-nuar-11",
+        "title": "Brule Frizzante Полусладкое Белое"
+      }
+    ],
+    "manufacturer": "Фанагория",
+    "max_distance": 7,
+    "min_distance": 7
+  },
+  {
+    "count": 2,
+    "group_id": "near-0030",
+    "items": [
+      {
+        "image_local": "images/fanagoriya-brule-muscat-ottonel-brut-muskat-ottonel-beloe-polusladkoe-12.webp",
+        "slug": "fanagoriya-brule-muscat-ottonel-brut-muskat-ottonel-beloe-polusladkoe-12",
+        "title": "Brule Muscat Ottonel Brut"
+      },
+      {
+        "image_local": "images/fanagoriya-brule-sauvignon-blanc-brut-sovinon-blan-beloe-bryut-12.webp",
+        "slug": "fanagoriya-brule-sauvignon-blanc-brut-sovinon-blan-beloe-bryut-12",
+        "title": "Brule Sauvignon Blanc Brut"
+      }
+    ],
+    "manufacturer": "Фанагория",
+    "max_distance": 7,
+    "min_distance": 7
+  },
+  {
+    "count": 2,
+    "group_id": "near-0031",
+    "items": [
+      {
+        "image_local": "images/fanagoriya-dekanter-chardonnay-2020-shardone-beloe-suhoe-135.webp",
+        "slug": "fanagoriya-dekanter-chardonnay-2020-shardone-beloe-suhoe-135",
+        "title": "Декантер Chardonnay 2020"
+      },
+      {
+        "image_local": "images/fanagoriya-dekanter-saperavi-2017-krasnoe-suhoe-135.webp",
+        "slug": "fanagoriya-dekanter-saperavi-2017-krasnoe-suhoe-135",
+        "title": "Декантер. Саперави 2017"
+      }
+    ],
+    "manufacturer": "Фанагория",
+    "max_distance": 8,
+    "min_distance": 8
+  },
+  {
+    "count": 2,
+    "group_id": "near-0032",
+    "items": [
+      {
+        "image_local": "images/fanagoriya-primum-alveus-brut-2017-shardone-igristoe-bryut-beloe-12.webp",
+        "slug": "fanagoriya-primum-alveus-brut-2017-shardone-igristoe-bryut-beloe-12",
+        "title": "Primum Alveus Brut 2017"
+      },
+      {
+        "image_local": "images/fanagoriya-primum-alveus-brut-2021-shardone-beloe-bryut-11-13.webp",
+        "slug": "fanagoriya-primum-alveus-brut-2021-shardone-beloe-bryut-11-13",
+        "title": "Primum Alveus. Brut 2021"
+      }
+    ],
+    "manufacturer": "Фанагория",
+    "max_distance": 8,
+    "min_distance": 8
+  },
+  {
+    "count": 2,
+    "group_id": "near-0033",
+    "items": [
+      {
+        "image_local": "images/fiori-di-mare-krasnoe-polusuhoe.webp",
+        "slug": "fiori-di-mare-krasnoe-polusuhoe",
+        "title": "Fiori di Mare красное полусухое"
+      },
+      {
+        "image_local": "images/igristoe-zhemchuzhnoe-vino-polusladkoe-beloe-di-kaspiko-fiori-di-mare-di-caspico-fiori-di-mare.webp",
+        "slug": "igristoe-zhemchuzhnoe-vino-polusladkoe-beloe-di-kaspiko-fiori-di-mare-di-caspico-fiori-di-mare",
+        "title": "Игристое жемчужное вино полусладкое белое \"Ди Каспико Фиори ди Маре\" (Di Caspico Fiori di Mare)"
+      }
+    ],
+    "manufacturer": "Дербент Вино",
+    "max_distance": 6,
+    "min_distance": 6
+  },
+  {
+    "count": 2,
+    "group_id": "near-0034",
+    "items": [
+      {
+        "image_local": "images/gunko-winery-risling-rezerv-beloe-suhoe-135.webp",
+        "slug": "gunko-winery-risling-rezerv-beloe-suhoe-135",
+        "title": "Рислинг резерв"
+      },
+      {
+        "image_local": "images/gunko-winery-sovinon-blan-gunko-winery-beloe-suhoe-135.webp",
+        "slug": "gunko-winery-sovinon-blan-gunko-winery-beloe-suhoe-135",
+        "title": "Совиньон Блан Gunko Winery"
+      }
+    ],
+    "manufacturer": "Gunko Winery",
+    "max_distance": 4,
+    "min_distance": 4
+  },
+  {
+    "count": 2,
+    "group_id": "near-0035",
+    "items": [
+      {
+        "image_local": "images/ivan-ksenia-kruz-argonne-pinot-noir-pino-nuar-rozovoe-suhoe-122.webp",
+        "slug": "ivan-ksenia-kruz-argonne-pinot-noir-pino-nuar-rozovoe-suhoe-122",
+        "title": "Argonne Pinot Noir"
+      },
+      {
+        "image_local": "images/ivan-ksenia-kruz-argonne-riesling-risling-beloe-suhoe-119.webp",
+        "slug": "ivan-ksenia-kruz-argonne-riesling-risling-beloe-suhoe-119",
+        "title": "Argonne Riesling"
+      }
+    ],
+    "manufacturer": "Ivan & Ksenia Kruz",
+    "max_distance": 7,
+    "min_distance": 7
+  },
+  {
+    "count": 2,
+    "group_id": "near-0036",
+    "items": [
+      {
+        "image_local": "images/katharon-brut.webp",
+        "slug": "katharon-brut",
+        "title": "Katharon Brut"
+      },
+      {
+        "image_local": "images/katharon-semi-sweet.webp",
+        "slug": "katharon-semi-sweet",
+        "title": "Katharon Semi-Sweet"
+      }
+    ],
+    "manufacturer": "KATHARON",
+    "max_distance": 5,
+    "min_distance": 5
+  },
+  {
+    "count": 2,
+    "group_id": "near-0037",
+    "items": [
+      {
+        "image_local": "images/katharon-katharon-kaberne-fran.webp",
+        "slug": "katharon-katharon-kaberne-fran",
+        "title": "Katharon: Каберне Фран"
+      },
+      {
+        "image_local": "images/katharon-katharon-merlo.webp",
+        "slug": "katharon-katharon-merlo",
+        "title": "Katharon: Мерло"
+      }
+    ],
+    "manufacturer": "KATHARON",
+    "max_distance": 6,
+    "min_distance": 6
+  },
+  {
+    "count": 2,
+    "group_id": "near-0038",
+    "items": [
+      {
+        "image_local": "images/katharon-katharon-shardone.webp",
+        "slug": "katharon-katharon-shardone",
+        "title": "Katharon: Шардоне"
+      },
+      {
+        "image_local": "images/katharon-katharon-sovinon-blan.webp",
+        "slug": "katharon-katharon-sovinon-blan",
+        "title": "Katharon: Совиньон Блан"
+      }
+    ],
+    "manufacturer": "KATHARON",
+    "max_distance": 1,
+    "min_distance": 1
+  },
+  {
+    "count": 2,
+    "group_id": "near-0039",
+    "items": [
+      {
+        "image_local": "images/katharon-mezenka-merlo.webp",
+        "slug": "katharon-mezenka-merlo",
+        "title": "Мезенка: Мерло"
+      },
+      {
+        "image_local": "images/katharon-mezenka-sira.webp",
+        "slug": "katharon-mezenka-sira",
+        "title": "Мезенка: Сира"
+      }
+    ],
+    "manufacturer": "KATHARON",
+    "max_distance": 8,
+    "min_distance": 8
+  },
+  {
+    "count": 2,
+    "group_id": "near-0040",
+    "items": [
+      {
+        "image_local": "images/katharon-mezenka-risling-polusuhoe.webp",
+        "slug": "katharon-mezenka-risling-polusuhoe",
+        "title": "Мезенка: Рислинг полусухое"
+      },
+      {
+        "image_local": "images/katharon-mezenka-risling-suhoe.webp",
+        "slug": "katharon-mezenka-risling-suhoe",
+        "title": "Мезенка: Рислинг сухое"
+      }
+    ],
+    "manufacturer": "KATHARON",
+    "max_distance": 6,
+    "min_distance": 6
+  },
+  {
+    "count": 2,
+    "group_id": "near-0041",
+    "items": [
+      {
+        "image_local": "images/kuban-vino-shato-tamane-rezerv-myuller-turgau-limited-edishn-2021-beloe-suhoe-12.webp",
+        "slug": "kuban-vino-shato-tamane-rezerv-myuller-turgau-limited-edishn-2021-beloe-suhoe-12",
+        "title": "Шато Тамань Резерв Мюллер-Тургау Лимитед Эдишн 2021"
+      },
+      {
+        "image_local": "images/kuban-vino-shato-tamane-rezerv-myuller-turgau-limited-edishn-beloe-suhoe-13.webp",
+        "slug": "kuban-vino-shato-tamane-rezerv-myuller-turgau-limited-edishn-beloe-suhoe-13",
+        "title": "Шато Тамань Резерв Мюллер-Тургау Лимитед Эдишн"
+      }
+    ],
+    "manufacturer": "Кубань-Вино",
+    "max_distance": 5,
+    "min_distance": 5
+  },
+  {
+    "count": 2,
+    "group_id": "near-0042",
+    "items": [
+      {
+        "image_local": "images/lorio-shardone.webp",
+        "slug": "lorio-shardone",
+        "title": "ЛОРИО. Шардоне"
+      },
+      {
+        "image_local": "images/lorio-sovinon-blan-2024.webp",
+        "slug": "lorio-sovinon-blan-2024",
+        "title": "ЛОРИО. Совиньон Блан 2024"
+      }
+    ],
+    "manufacturer": "ЛОРИО -  семейная винодельня Логуновых",
+    "max_distance": 8,
+    "min_distance": 8
+  },
+  {
+    "count": 2,
+    "group_id": "near-0043",
+    "items": [
+      {
+        "image_local": "images/mantra-estate-chardonnay-shardone-beloe-suhoe-135.webp",
+        "slug": "mantra-estate-chardonnay-shardone-beloe-suhoe-135",
+        "title": "Шардоне"
+      },
+      {
+        "image_local": "images/mantra-estate-sauvignon-blanc-sovinon-blan-beloe-suhoe-133.webp",
+        "slug": "mantra-estate-sauvignon-blanc-sovinon-blan-beloe-suhoe-133",
+        "title": "Совиньон Блан"
+      }
+    ],
+    "manufacturer": "Mantra Estate",
+    "max_distance": 8,
+    "min_distance": 8
+  },
+  {
+    "count": 2,
+    "group_id": "near-0044",
+    "items": [
+      {
+        "image_local": "images/massandra-muskat.webp",
+        "slug": "massandra-muskat",
+        "title": "Массандра Мускат"
+      },
+      {
+        "image_local": "images/massandra-muskatel-chernyy-krasnye-sorta-vinograda-krasnoe-sladkoe-16.webp",
+        "slug": "massandra-muskatel-chernyy-krasnye-sorta-vinograda-krasnoe-sladkoe-16",
+        "title": "Мускатель черный"
+      }
+    ],
+    "manufacturer": "Массандра",
+    "max_distance": 7,
+    "min_distance": 7
+  },
+  {
+    "count": 2,
+    "group_id": "near-0045",
+    "items": [
+      {
+        "image_local": "images/millstream-cellar-select-blend-avtohtonov.webp",
+        "slug": "millstream-cellar-select-blend-avtohtonov",
+        "title": "MILLSTREAM Cellar Select Бленд Автохтонов"
+      },
+      {
+        "image_local": "images/millstream-cellar-select-krasnostop-zolotovskij.webp",
+        "slug": "millstream-cellar-select-krasnostop-zolotovskij",
+        "title": "MILLSTREAM Cellar Select Красностоп Золотовский"
+      }
+    ],
+    "manufacturer": "MILLSTREAM",
+    "max_distance": 3,
+    "min_distance": 3
+  },
+  {
+    "count": 2,
+    "group_id": "near-0046",
+    "items": [
+      {
+        "image_local": "images/novyj-svet-aligote.webp",
+        "slug": "novyj-svet-aligote",
+        "title": "Новый Свет. Алиготе"
+      },
+      {
+        "image_local": "images/novyy-svet-dom-shampanskih-vin-rossiyskoe-shampanskoe-vyderzhannoe-ekstra-bryut-beloe-novyy-svet-kokur-11.webp",
+        "slug": "novyy-svet-dom-shampanskih-vin-rossiyskoe-shampanskoe-vyderzhannoe-ekstra-bryut-beloe-novyy-svet-kokur-11",
+        "title": "Российское шампанское выдержанное экстра брют белое «Новый Свет. Кокур»"
+      }
+    ],
+    "manufacturer": "Новый Свет. Дом шампанских вин",
+    "max_distance": 7,
+    "min_distance": 7
+  },
+  {
+    "count": 2,
+    "group_id": "near-0047",
+    "items": [
+      {
+        "image_local": "images/novyj-svet-kaberne.webp",
+        "slug": "novyj-svet-kaberne",
+        "title": "Новый Свет. Каберне"
+      },
+      {
+        "image_local": "images/novyy-svet-dom-shampanskih-vin-rossiyskoe-shampanskoe-vyderzhannoe-bryut-rozovoe-novyy-svet-kaberne-kaberne-sovinon-11.webp",
+        "slug": "novyy-svet-dom-shampanskih-vin-rossiyskoe-shampanskoe-vyderzhannoe-bryut-rozovoe-novyy-svet-kaberne-kaberne-sovinon-11",
+        "title": "Российское шампанское выдержанное брют розовое «Новый Свет. Каберне»"
+      }
+    ],
+    "manufacturer": "Новый Свет. Дом шампанских вин",
+    "max_distance": 8,
+    "min_distance": 8
+  },
+  {
+    "count": 2,
+    "group_id": "near-0048",
+    "items": [
+      {
+        "image_local": "images/novyj-svet-kaberne-sovinon-polusladkoe.webp",
+        "slug": "novyj-svet-kaberne-sovinon-polusladkoe",
+        "title": "Новый Свет. Каберне Совиньон полусладкое"
+      },
+      {
+        "image_local": "images/novyy-svet-dom-shampanskih-vin-igristoe-vino-vyderzhannoe-polusladkoe-krasnoe-novyy-svet-kaberne-sovinon-12.webp",
+        "slug": "novyy-svet-dom-shampanskih-vin-igristoe-vino-vyderzhannoe-polusladkoe-krasnoe-novyy-svet-kaberne-sovinon-12",
+        "title": "Игристое вино выдержанное полусладкое красное «Новый Свет. Каберне Совиньон»"
+      }
+    ],
+    "manufacturer": "Новый Свет. Дом шампанских вин",
+    "max_distance": 8,
+    "min_distance": 8
+  },
+  {
+    "count": 2,
+    "group_id": "near-0049",
+    "items": [
+      {
+        "image_local": "images/novyj-svet-shardone-kyuve-de-prestizh-1.webp",
+        "slug": "novyj-svet-shardone-kyuve-de-prestizh-1",
+        "title": "Новый Свет. Шардоне Кюве Де Престиж"
+      },
+      {
+        "image_local": "images/novyy-svet-dom-shampanskih-vin-rossiyskoe-shampanskoe-kollektsionnoe-ekstra-bryut-beloe-novyy-svet-kyuve-de-prestizh-shardone-125.webp",
+        "slug": "novyy-svet-dom-shampanskih-vin-rossiyskoe-shampanskoe-kollektsionnoe-ekstra-bryut-beloe-novyy-svet-kyuve-de-prestizh-shardone-125",
+        "title": "Российское шампанское коллекционное экстра брют белое «Новый Свет. Кюве Де Престиж Шардоне»"
+      }
+    ],
+    "manufacturer": "Новый Свет. Дом шампанских вин",
+    "max_distance": 5,
+    "min_distance": 5
+  },
+  {
+    "count": 2,
+    "group_id": "near-0050",
+    "items": [
+      {
+        "image_local": "images/novyy-svet-dom-shampanskih-vin-rossiyskoe-shampanskoe-kollektsionnoe-polusuhoe-beloe-novyy-svet-risling-125.webp",
+        "slug": "novyy-svet-dom-shampanskih-vin-rossiyskoe-shampanskoe-kollektsionnoe-polusuhoe-beloe-novyy-svet-risling-125",
+        "title": "Российское шампанское коллекционное полусухое белое «Новый Свет»"
+      },
+      {
+        "image_local": "images/novyy-svet-dom-shampanskih-vin-rossiyskoe-shampanskoe-kollektsionnoe-polusuhoe-beloe-novyy-svet-shardone-13.webp",
+        "slug": "novyy-svet-dom-shampanskih-vin-rossiyskoe-shampanskoe-kollektsionnoe-polusuhoe-beloe-novyy-svet-shardone-13",
+        "title": "Российское шампанское коллекционное полусухое белое «Новый Свет»"
+      }
+    ],
+    "manufacturer": "Новый Свет. Дом шампанских вин",
+    "max_distance": 6,
+    "min_distance": 6
+  },
+  {
+    "count": 2,
+    "group_id": "near-0051",
+    "items": [
+      {
+        "image_local": "images/olymp-winery-adagum-estate-chardonnay-shardone-beloe-suhoe-11.webp",
+        "slug": "olymp-winery-adagum-estate-chardonnay-shardone-beloe-suhoe-11",
+        "title": "Adagum Estate Chardonnay"
+      },
+      {
+        "image_local": "images/olymp-winery-adagum-estate-sauvignon-blanc-sovinon-blan-beloe-suhoe-11.webp",
+        "slug": "olymp-winery-adagum-estate-sauvignon-blanc-sovinon-blan-beloe-suhoe-11",
+        "title": "Adagum Estate Sauvignon Blanc"
+      }
+    ],
+    "manufacturer": "Olymp Winery",
+    "max_distance": 8,
+    "min_distance": 8
+  },
+  {
+    "count": 2,
+    "group_id": "near-0052",
+    "items": [
+      {
+        "image_local": "images/olymp-winery-adagum-valley-riesling-risling-reynskiy-beloe-suhoe-11.webp",
+        "slug": "olymp-winery-adagum-valley-riesling-risling-reynskiy-beloe-suhoe-11",
+        "title": "Adagum Valley Riesling"
+      },
+      {
+        "image_local": "images/olymp-winery-adagum-valley-rkatsiteli-rkatsiteli-beloe-suhoe-10.webp",
+        "slug": "olymp-winery-adagum-valley-rkatsiteli-rkatsiteli-beloe-suhoe-10",
+        "title": "Adagum Valley Rkatsiteli"
+      }
+    ],
+    "manufacturer": "Olymp Winery",
+    "max_distance": 5,
+    "min_distance": 5
+  },
+  {
+    "count": 2,
+    "group_id": "near-0053",
+    "items": [
+      {
+        "image_local": "images/shato-pino-grand-reserve-cabernet-franc-kaberne-fran-krasnoe-suhoe-135.webp",
+        "slug": "shato-pino-grand-reserve-cabernet-franc-kaberne-fran-krasnoe-suhoe-135",
+        "title": "Grand Reserve Cabernet Franc"
+      },
+      {
+        "image_local": "images/shato-pino-grand-reserve-pinot-noir-pino-nuar-krasnoe-suhoe-135.webp",
+        "slug": "shato-pino-grand-reserve-pinot-noir-pino-nuar-krasnoe-suhoe-135",
+        "title": "Grand Reserve Pinot Noir"
+      }
+    ],
+    "manufacturer": "Шато Пино",
+    "max_distance": 7,
+    "min_distance": 7
+  },
+  {
+    "count": 2,
+    "group_id": "near-0054",
+    "items": [
+      {
+        "image_local": "images/usadba-mezyb-mezyb-kaberne-sovinon-krasnoe-suhoe-145.webp",
+        "slug": "usadba-mezyb-mezyb-kaberne-sovinon-krasnoe-suhoe-145",
+        "title": "Мезыбь Каберне Совиньон"
+      },
+      {
+        "image_local": "images/usadba-mezyb-mezyb-merlo-krasnoe-suhoe-145.webp",
+        "slug": "usadba-mezyb-mezyb-merlo-krasnoe-suhoe-145",
+        "title": "Мезыбь Мерло"
+      }
+    ],
+    "manufacturer": "Усадьба Мезыбь",
+    "max_distance": 5,
+    "min_distance": 5
+  },
+  {
+    "count": 2,
+    "group_id": "near-0055",
+    "items": [
+      {
+        "image_local": "images/valeriy-zaharin-avtorskoe-vino-ot-valeriya-zaharina-bastardo-bastardo-magarachskiy-krasnoe-suhoe-12.webp",
+        "slug": "valeriy-zaharin-avtorskoe-vino-ot-valeriya-zaharina-bastardo-bastardo-magarachskiy-krasnoe-suhoe-12",
+        "title": "Авторское вино от Валерия Захарьина. Бастардо"
+      },
+      {
+        "image_local": "images/valeriy-zaharin-bastardo-kefesiya-avtohtonnoe-vino-kryma-bastardo-magarachskiy-krasnoe-suhoe-115.webp",
+        "slug": "valeriy-zaharin-bastardo-kefesiya-avtohtonnoe-vino-kryma-bastardo-magarachskiy-krasnoe-suhoe-115",
+        "title": "Бастардо - Кефесия. Автохтонное вино Крыма"
+      }
+    ],
+    "manufacturer": "Валерий Захарьин",
+    "max_distance": 8,
+    "min_distance": 8
+  },
+  {
+    "count": 2,
+    "group_id": "near-0056",
+    "items": [
+      {
+        "image_local": "images/vinodelnya-myshako-gevyurtstraminer-kyuve-bryut-beloe-123.webp",
+        "slug": "vinodelnya-myshako-gevyurtstraminer-kyuve-bryut-beloe-123",
+        "title": "Гевюрцтраминер Кюве брют"
+      },
+      {
+        "image_local": "images/vinodelnya-myshako-risling-kyuve-bryut-beloe-126.webp",
+        "slug": "vinodelnya-myshako-risling-kyuve-bryut-beloe-126",
+        "title": "Рислинг Кюве брют"
+      }
+    ],
+    "manufacturer": "Мысхако",
+    "max_distance": 7,
+    "min_distance": 7
+  },
+  {
+    "count": 2,
+    "group_id": "near-0057",
+    "items": [
+      {
+        "image_local": "images/vinodelnya-myshako-gevyurtstraminer-mode-petnat-beloe-bryut-118.webp",
+        "slug": "vinodelnya-myshako-gevyurtstraminer-mode-petnat-beloe-bryut-118",
+        "title": "Гевюрцтраминер Mode Петнат"
+      },
+      {
+        "image_local": "images/vinodelnya-myshako-sovinon-blan-mode-petnat-beloe-bryut-12.webp",
+        "slug": "vinodelnya-myshako-sovinon-blan-mode-petnat-beloe-bryut-12",
+        "title": "Совиньон Блан Mode Петнат"
+      }
+    ],
+    "manufacturer": "Мысхако",
+    "max_distance": 5,
+    "min_distance": 5
+  },
+  {
+    "count": 2,
+    "group_id": "near-0058",
+    "items": [
+      {
+        "image_local": "images/vinodelnya-myshako-pino-nuar-karmener-reserve-krasnoe-suhoe-138.webp",
+        "slug": "vinodelnya-myshako-pino-nuar-karmener-reserve-krasnoe-suhoe-138",
+        "title": "Пино Нуар - Карменер Reserve"
+      },
+      {
+        "image_local": "images/vinodelnya-myshako-primitivo-blaufrankish-reserve-krasnoe-suhoe-142.webp",
+        "slug": "vinodelnya-myshako-primitivo-blaufrankish-reserve-krasnoe-suhoe-142",
+        "title": "Примитиво - Блауфранкиш Reserve"
+      }
+    ],
+    "manufacturer": "Мысхако",
+    "max_distance": 3,
+    "min_distance": 3
+  },
+  {
+    "count": 2,
+    "group_id": "near-0059",
+    "items": [
+      {
+        "image_local": "images/vinodelnya-myshako-quintessence-brut-muskat-muskat-belyy-beloe-bryut-12.webp",
+        "slug": "vinodelnya-myshako-quintessence-brut-muskat-muskat-belyy-beloe-bryut-12",
+        "title": "Quintessence Brut. Мускат"
+      },
+      {
+        "image_local": "images/vinodelnya-myshako-quintessence-brut-vione-beloe-bryut-115.webp",
+        "slug": "vinodelnya-myshako-quintessence-brut-vione-beloe-bryut-115",
+        "title": "Quintessence Brut. Вионье"
+      }
+    ],
+    "manufacturer": "Мысхако",
+    "max_distance": 8,
+    "min_distance": 8
+  },
+  {
+    "count": 2,
+    "group_id": "near-0060",
+    "items": [
+      {
+        "image_local": "images/vinodelnya-myshako-quintessence-karmener-krasnoe-suhoe-146.webp",
+        "slug": "vinodelnya-myshako-quintessence-karmener-krasnoe-suhoe-146",
+        "title": "Quintessence. Карменер"
+      },
+      {
+        "image_local": "images/vinodelnya-myshako-quintessence-zinfandel-krasnoe-suhoe-155.webp",
+        "slug": "vinodelnya-myshako-quintessence-zinfandel-krasnoe-suhoe-155",
+        "title": "Quintessence. Зинфандель"
+      }
+    ],
+    "manufacturer": "Мысхако",
+    "max_distance": 4,
+    "min_distance": 4
+  },
+  {
+    "count": 2,
+    "group_id": "near-0061",
+    "items": [
+      {
+        "image_local": "images/vinodelnya-myshako-quintessence-new-generation-semi-dry-rose-pino-nuar-rozovoe-polusuhoe-11.webp",
+        "slug": "vinodelnya-myshako-quintessence-new-generation-semi-dry-rose-pino-nuar-rozovoe-polusuhoe-11",
+        "title": "Quintessence New Generation. Semi-Dry Rose"
+      },
+      {
+        "image_local": "images/vinodelnya-myshako-quintessence-new-generation-zinfandel-rozovoe-polusuhoe-115.webp",
+        "slug": "vinodelnya-myshako-quintessence-new-generation-zinfandel-rozovoe-polusuhoe-115",
+        "title": "Quintessence New Generation. Зинфандель"
+      }
+    ],
+    "manufacturer": "Мысхако",
+    "max_distance": 8,
+    "min_distance": 8
+  },
+  {
+    "count": 2,
+    "group_id": "near-0062",
+    "items": [
+      {
+        "image_local": "images/vinodelnya-raevskoe-parfyum-de-terruar-roze-tempranilo-rozovoe-suhoe-116.webp",
+        "slug": "vinodelnya-raevskoe-parfyum-de-terruar-roze-tempranilo-rozovoe-suhoe-116",
+        "title": "Парфюм де Терруар. Розе"
+      },
+      {
+        "image_local": "images/vinodelnya-raevskoe-parfyum-de-terruar-ruzh-tempranilo-krasnoe-suhoe-13.webp",
+        "slug": "vinodelnya-raevskoe-parfyum-de-terruar-ruzh-tempranilo-krasnoe-suhoe-13",
+        "title": "Парфюм де Терруар. Руж"
+      }
+    ],
+    "manufacturer": "Раевское",
+    "max_distance": 6,
+    "min_distance": 6
+  },
+  {
+    "count": 2,
+    "group_id": "near-0063",
+    "items": [
+      {
+        "image_local": "images/vinodelnya-vedernikov-fantom-3070-krasnostop-zolotovskiy-krasnoe-suhoe-145.webp",
+        "slug": "vinodelnya-vedernikov-fantom-3070-krasnostop-zolotovskiy-krasnoe-suhoe-145",
+        "title": "Фантом 30/70"
+      },
+      {
+        "image_local": "images/vinodelnya-vedernikov-fantom-5050-krasnostop-zolotovskiy-krasnoe-suhoe-145.webp",
+        "slug": "vinodelnya-vedernikov-fantom-5050-krasnostop-zolotovskiy-krasnoe-suhoe-145",
+        "title": "Фантом 50/50"
+      }
+    ],
+    "manufacturer": "Ведерниковъ",
+    "max_distance": 3,
+    "min_distance": 3
+  },
+  {
+    "count": 2,
+    "group_id": "near-0064",
+    "items": [
+      {
+        "image_local": "images/vinodelnya-vedernikov-tsimlyanskiy-chernyy-blanc-de-noirs-beloe-bryut-117.webp",
+        "slug": "vinodelnya-vedernikov-tsimlyanskiy-chernyy-blanc-de-noirs-beloe-bryut-117",
+        "title": "Цимлянский Черный Blanc de Noirs"
+      },
+      {
+        "image_local": "images/vinodelnya-vedernikov-vedernikov-tsimlyanskiy-chyornyy-bryut-tsimlyanskiy-chernyy-beloe-12.webp",
+        "slug": "vinodelnya-vedernikov-vedernikov-tsimlyanskiy-chyornyy-bryut-tsimlyanskiy-chernyy-beloe-12",
+        "title": "Ведерниковъ Цимлянский Чёрный Брют"
+      }
+    ],
+    "manufacturer": "Ведерниковъ",
+    "max_distance": 5,
+    "min_distance": 5
+  },
+  {
+    "count": 2,
+    "group_id": "near-0065",
+    "items": [
+      {
+        "image_local": "images/zhemchuzhnaya-9-aligote-czitron.webp",
+        "slug": "zhemchuzhnaya-9-aligote-czitron",
+        "title": "Жемчужная 9 Алиготе, Цитрон"
+      },
+      {
+        "image_local": "images/zhemchuzhnaya-9-czitron-shardone.webp",
+        "slug": "zhemchuzhnaya-9-czitron-shardone",
+        "title": "Жемчужная 9 Цитрон, Шардоне"
+      }
+    ],
+    "manufacturer": "АРАТТИ",
+    "max_distance": 3,
+    "min_distance": 3
+  },
+  {
+    "count": 2,
+    "group_id": "near-0066",
+    "items": [
+      {
+        "image_local": "images/zmv-koktebel-portveyn-beloe-kreplyonoe-aligote-sladkoe-17.webp",
+        "slug": "zmv-koktebel-portveyn-beloe-kreplyonoe-aligote-sladkoe-17",
+        "title": "Портвейн - белое креплёное"
+      },
+      {
+        "image_local": "images/zmv-koktebel-portveyn-krasnoe-kreplyonoe-kaberne-sovinon-sladkoe-17.webp",
+        "slug": "zmv-koktebel-portveyn-krasnoe-kreplyonoe-kaberne-sovinon-sladkoe-17",
+        "title": "Портвейн - красное креплёное"
+      }
+    ],
+    "manufacturer": "ЗМВ Коктебель",
+    "max_distance": 2,
+    "min_distance": 2
+  },
+  {
+    "count": 2,
+    "group_id": "near-0067",
+    "items": [
+      {
+        "image_local": "images/zolotoe-pole-kaffa-kaberne-fran-krasnoe-suhoe-14.webp",
+        "slug": "zolotoe-pole-kaffa-kaberne-fran-krasnoe-suhoe-14",
+        "title": "KAFFA \"Каберне Фран\""
+      },
+      {
+        "image_local": "images/zolotoe-pole-kaffa-saperavi-krasnoe-suhoe-14.webp",
+        "slug": "zolotoe-pole-kaffa-saperavi-krasnoe-suhoe-14",
+        "title": "KAFFA \"Саперави\""
+      }
+    ],
+    "manufacturer": "Золотое Поле",
+    "max_distance": 8,
+    "min_distance": 8
+  },
+  {
+    "count": 2,
+    "group_id": "near-0068",
+    "items": [
+      {
+        "image_local": "images/zolotoe-pole-kaffa-kaberne-sovinon-krasnoe-suhoe-125.webp",
+        "slug": "zolotoe-pole-kaffa-kaberne-sovinon-krasnoe-suhoe-125",
+        "title": "KAFFA \"Каберне Совиньон\""
+      },
+      {
+        "image_local": "images/zolotoe-pole-kaffa-malbek-krasnoe-suhoe-125.webp",
+        "slug": "zolotoe-pole-kaffa-malbek-krasnoe-suhoe-125",
+        "title": "KAFFA \"Мальбек\""
+      }
+    ],
+    "manufacturer": "Золотое Поле",
+    "max_distance": 2,
+    "min_distance": 2
+  }
+]

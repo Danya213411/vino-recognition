@@ -1,0 +1,672 @@
+[
+  {
+    "count": 2,
+    "differing_fields": [
+      "title"
+    ],
+    "items": [
+      {
+        "alcohol": 12,
+        "category": "Красное сухое",
+        "image_local": "images/sand-zh-oveze-rezerv.webp",
+        "manufacturer": "Cellar Master",
+        "region": "Крым",
+        "slug": "sand-zh-oveze-rezerv",
+        "title": "Санджовезе резерв"
+      },
+      {
+        "alcohol": 12,
+        "category": "Красное сухое",
+        "image_local": "images/rebo-rezerv.webp",
+        "manufacturer": "Cellar Master",
+        "region": "Крым",
+        "slug": "rebo-rezerv",
+        "title": "Ребо резерв"
+      }
+    ],
+    "sha256": "021a3f70ce32852648f5a1099590ca4cf566da2161d6e5f28a67036717135066"
+  },
+  {
+    "count": 2,
+    "differing_fields": [
+      "title",
+      "alcohol"
+    ],
+    "items": [
+      {
+        "alcohol": 13,
+        "category": "Оранжевое сухое",
+        "image_local": "images/oxana-istratova-wine-vione-2024-oranzhevoe-suhoe-13.webp",
+        "manufacturer": "Oxana Istratova Wine",
+        "region": "Крым",
+        "slug": "oxana-istratova-wine-vione-2024-oranzhevoe-suhoe-13",
+        "title": "Вионье 2024"
+      },
+      {
+        "alcohol": 11,
+        "category": "Оранжевое сухое",
+        "image_local": "images/oxana-istratova-wine-vione-2023-oranzhevoe-suhoe-119.webp",
+        "manufacturer": "Oxana Istratova Wine",
+        "region": "Крым",
+        "slug": "oxana-istratova-wine-vione-2023-oranzhevoe-suhoe-119",
+        "title": "Вионье 2023"
+      }
+    ],
+    "sha256": "0fa4a35b1c99667bed610f819df25222f5cdfcbd688c92b121e0d0ea33b7d189"
+  },
+  {
+    "count": 2,
+    "differing_fields": [
+      "title",
+      "category",
+      "alcohol"
+    ],
+    "items": [
+      {
+        "alcohol": 12,
+        "category": "Белое сухое",
+        "image_local": "images/abrau-dyurso-az-abrau-bayanshira-beloe-suhoe-12.webp",
+        "manufacturer": "Абрау-Дюрсо",
+        "region": "Кубань",
+        "slug": "abrau-dyurso-az-abrau-bayanshira-beloe-suhoe-12",
+        "title": "Az Abrau Баяншира"
+      },
+      {
+        "alcohol": 14,
+        "category": "Красное сухое",
+        "image_local": "images/abrau-dyurso-az-abrau-madrasa-krasnoe-suhoe-14.webp",
+        "manufacturer": "Абрау-Дюрсо",
+        "region": "Кубань",
+        "slug": "abrau-dyurso-az-abrau-madrasa-krasnoe-suhoe-14",
+        "title": "Az Abrau Мадраса"
+      }
+    ],
+    "sha256": "26ba7025419eb3d7b06a980277e0ce3acaa5a9460342f5a78d35b02f65134de1"
+  },
+  {
+    "count": 2,
+    "differing_fields": [
+      "title",
+      "category",
+      "alcohol"
+    ],
+    "items": [
+      {
+        "alcohol": 12,
+        "category": "Белое сухое",
+        "image_local": "images/belmas-winery-vi-vione-beloe-suhoe-122.webp",
+        "manufacturer": "Belmas Winery",
+        "region": "Крым",
+        "slug": "belmas-winery-vi-vione-beloe-suhoe-122",
+        "title": "Vi"
+      },
+      {
+        "alcohol": 13,
+        "category": "Красное сухое",
+        "image_local": "images/belmas-winery-pn-pino-nuar-krasnoe-suhoe-135.webp",
+        "manufacturer": "Belmas Winery",
+        "region": "Крым",
+        "slug": "belmas-winery-pn-pino-nuar-krasnoe-suhoe-135",
+        "title": "Pn"
+      }
+    ],
+    "sha256": "290111aa0b6ae641bff06266fc71777cfeca440cdedffbf0cea8a36696b506b8"
+  },
+  {
+    "count": 2,
+    "differing_fields": [
+      "title"
+    ],
+    "items": [
+      {
+        "alcohol": 12,
+        "category": "Белое сухое",
+        "image_local": "images/aligote-barrel-2024.webp",
+        "manufacturer": "Коммуналка",
+        "region": "Крым",
+        "slug": "aligote-barrel-2024",
+        "title": "Алиготе Баррель, 2024"
+      },
+      {
+        "alcohol": 12,
+        "category": "Белое сухое",
+        "image_local": "images/aligote-barrel-2025.webp",
+        "manufacturer": "Коммуналка",
+        "region": "Крым",
+        "slug": "aligote-barrel-2025",
+        "title": "Алиготе Баррель, 2025"
+      }
+    ],
+    "sha256": "30b4a8a3a04f67bea75d7a2870c646d5b014b4f958970803fe44e839e28c7773"
+  },
+  {
+    "count": 2,
+    "differing_fields": [
+      "title",
+      "manufacturer",
+      "region",
+      "alcohol"
+    ],
+    "items": [
+      {
+        "alcohol": 12,
+        "category": "Красное сухое",
+        "image_local": "images/shato-ay-danil-grenash-krasnoe-suhoe-12.webp",
+        "manufacturer": "Шато Ай-Даниль",
+        "region": "Крым",
+        "slug": "shato-ay-danil-grenash-krasnoe-suhoe-12",
+        "title": "Гренаш"
+      },
+      {
+        "alcohol": 14,
+        "category": "Красное сухое",
+        "image_local": "images/chateau-le-grand-vostock-krasnostop-rezerv-krasnoe-suhoe-145.webp",
+        "manufacturer": "Château Le Grand Vostock",
+        "region": "Кубань",
+        "slug": "chateau-le-grand-vostock-krasnostop-rezerv-krasnoe-suhoe-145",
+        "title": "Красностоп Резерв"
+      }
+    ],
+    "sha256": "3cd72a600f04934585f09cd77eab1db9e1075e6c1f4e1a113ed1a4553a04841e"
+  },
+  {
+    "count": 2,
+    "differing_fields": [
+      "title",
+      "alcohol"
+    ],
+    "items": [
+      {
+        "alcohol": 11,
+        "category": "Белое сухое",
+        "image_local": "images/agrolayn-mountain-eagle-semillon-semilon-beloe-suhoe-11.webp",
+        "manufacturer": "Агролайн",
+        "region": "Дагестан",
+        "slug": "agrolayn-mountain-eagle-semillon-semilon-beloe-suhoe-11",
+        "title": "Mountain Eagle Semillon"
+      },
+      {
+        "alcohol": 12,
+        "category": "Белое сухое",
+        "image_local": "images/agrolayn-mountain-eagle-traminer-traminer-beloe-suhoe-12.webp",
+        "manufacturer": "Агролайн",
+        "region": "Дагестан",
+        "slug": "agrolayn-mountain-eagle-traminer-traminer-beloe-suhoe-12",
+        "title": "Mountain Eagle Traminer"
+      }
+    ],
+    "sha256": "45d4fe7f9d090e611a87f23e44eaa43970581e8e4867903a051a4aa0d44d060e"
+  },
+  {
+    "count": 2,
+    "differing_fields": [
+      "title"
+    ],
+    "items": [
+      {
+        "alcohol": 12,
+        "category": "Розовое сухое",
+        "image_local": "images/kuban-vino-aristov-kaberne-sovinon-roze-rozovoe-suhoe-12.webp",
+        "manufacturer": "Кубань-Вино",
+        "region": "Кубань",
+        "slug": "kuban-vino-aristov-kaberne-sovinon-roze-rozovoe-suhoe-12",
+        "title": "Аристов Каберне Совиньон Розе"
+      },
+      {
+        "alcohol": 12,
+        "category": "Розовое сухое",
+        "image_local": "images/kuban-vino-aristov-kaberne-sovinon-roze-2020-rozovoe-suhoe-12.webp",
+        "manufacturer": "Кубань-Вино",
+        "region": "Кубань",
+        "slug": "kuban-vino-aristov-kaberne-sovinon-roze-2020-rozovoe-suhoe-12",
+        "title": "Аристов Каберне Совиньон Розе 2020"
+      }
+    ],
+    "sha256": "53e0de54110e2c9ec5c5d5503d63839ac3d2876b4d39b08301aab0d1138dbc23"
+  },
+  {
+    "count": 2,
+    "differing_fields": [
+      "title"
+    ],
+    "items": [
+      {
+        "alcohol": 11,
+        "category": "Белое экстра брют",
+        "image_local": "images/esse-muskat-muskat-belyy-beloe-ekstra-bryut-115.webp",
+        "manufacturer": "ESSE",
+        "region": "Крым",
+        "slug": "esse-muskat-muskat-belyy-beloe-ekstra-bryut-115",
+        "title": "Muskat"
+      },
+      {
+        "alcohol": 11,
+        "category": "Белое экстра брют",
+        "image_local": "images/esse-demi-sec-muscat-nectar-muskat-belyy-beloe-ekstra-bryut-115.webp",
+        "manufacturer": "ESSE",
+        "region": "Крым",
+        "slug": "esse-demi-sec-muscat-nectar-muskat-belyy-beloe-ekstra-bryut-115",
+        "title": "Demi-Sec Muscat Nectar"
+      }
+    ],
+    "sha256": "59cd4327db0abcff75efff3a41c438f09d5493fa7a99d99b386f37cbc570881c"
+  },
+  {
+    "count": 2,
+    "differing_fields": [
+      "title",
+      "alcohol"
+    ],
+    "items": [
+      {
+        "alcohol": 12,
+        "category": "Оранжевое сухое",
+        "image_local": "images/oxana-istratova-wine-rkatsiteli-2024-oranzhevoe-suhoe-12.webp",
+        "manufacturer": "Oxana Istratova Wine",
+        "region": "Крым",
+        "slug": "oxana-istratova-wine-rkatsiteli-2024-oranzhevoe-suhoe-12",
+        "title": "Ркацители 2024"
+      },
+      {
+        "alcohol": 11,
+        "category": "Оранжевое сухое",
+        "image_local": "images/oxana-istratova-wine-rkatsiteli-2023-oranzhevoe-suhoe-113.webp",
+        "manufacturer": "Oxana Istratova Wine",
+        "region": "Крым",
+        "slug": "oxana-istratova-wine-rkatsiteli-2023-oranzhevoe-suhoe-113",
+        "title": "Ркацители 2023"
+      }
+    ],
+    "sha256": "6ea195de1aa48f7dc6f0b709c51f6e8516643471a282b551079711919ae4a374"
+  },
+  {
+    "count": 2,
+    "differing_fields": [
+      "title",
+      "alcohol"
+    ],
+    "items": [
+      {
+        "alcohol": 12,
+        "category": "Красное сухое",
+        "image_local": "images/agrolayn-heritage-dg-skin-contact-rkatsiteli-rkatsiteli-krasnoe-suhoe-12.webp",
+        "manufacturer": "Агролайн",
+        "region": "Дагестан",
+        "slug": "agrolayn-heritage-dg-skin-contact-rkatsiteli-rkatsiteli-krasnoe-suhoe-12",
+        "title": "Heritage DG Skin contact Rkatsiteli"
+      },
+      {
+        "alcohol": 13,
+        "category": "Красное сухое",
+        "image_local": "images/agrolayn-heritage-dg-skin-contact-red-saperavi-krasnoe-suhoe-13.webp",
+        "manufacturer": "Агролайн",
+        "region": "Дагестан",
+        "slug": "agrolayn-heritage-dg-skin-contact-red-saperavi-krasnoe-suhoe-13",
+        "title": "Heritage Dg Skin Contact Red"
+      }
+    ],
+    "sha256": "7307f638ef792cd7aa4426426a28bb36c28bfd9b45e8e44a7c6919a087f2e78e"
+  },
+  {
+    "count": 2,
+    "differing_fields": [
+      "title"
+    ],
+    "items": [
+      {
+        "alcohol": 12,
+        "category": "Белое сухое",
+        "image_local": "images/aligote-avtorskoe.webp",
+        "manufacturer": "Массандра",
+        "region": "Крым",
+        "slug": "aligote-avtorskoe",
+        "title": "Алиготе Авторское"
+      },
+      {
+        "alcohol": 12,
+        "category": "Белое сухое",
+        "image_local": "images/aligote-avtorskoe-vino.webp",
+        "manufacturer": "Массандра",
+        "region": "Крым",
+        "slug": "aligote-avtorskoe-vino",
+        "title": "Алиготе. Авторское вино"
+      }
+    ],
+    "sha256": "7eb16da3bcb1d5140f56a1ce8c492cbacaa5ea87851ea2c046b448e0b085201e"
+  },
+  {
+    "count": 2,
+    "differing_fields": [
+      "title",
+      "alcohol"
+    ],
+    "items": [
+      {
+        "alcohol": 12,
+        "category": "Белое сухое",
+        "image_local": "images/sober-bash-puhlyakovskiy-beloe-suhoe-12.webp",
+        "manufacturer": "Собер Баш",
+        "region": "Кубань",
+        "slug": "sober-bash-puhlyakovskiy-beloe-suhoe-12",
+        "title": "Пухляковский"
+      },
+      {
+        "alcohol": 11,
+        "category": "Белое сухое",
+        "image_local": "images/sober-bash-risling-risling-reynskiy-beloe-suhoe-11.webp",
+        "manufacturer": "Собер Баш",
+        "region": "Кубань",
+        "slug": "sober-bash-risling-risling-reynskiy-beloe-suhoe-11",
+        "title": "Рислинг"
+      }
+    ],
+    "sha256": "92cf4dc1569e48acd21fe58c33b91e765e409b18ecf752a24c857da7abbf19ee"
+  },
+  {
+    "count": 2,
+    "differing_fields": [
+      "title",
+      "category"
+    ],
+    "items": [
+      {
+        "alcohol": 10,
+        "category": "Белое брют",
+        "image_local": "images/novyj-svet-vyderzhannoe-bryut.webp",
+        "manufacturer": "Новый Свет. Дом шампанских вин",
+        "region": "Крым",
+        "slug": "novyj-svet-vyderzhannoe-bryut",
+        "title": "Новый Свет выдержанное брют"
+      },
+      {
+        "alcohol": 10,
+        "category": "Белое полусладкое",
+        "image_local": "images/novyj-svet-polusladkoe.webp",
+        "manufacturer": "Новый Свет. Дом шампанских вин",
+        "region": "Крым",
+        "slug": "novyj-svet-polusladkoe",
+        "title": "Новый Свет полусладкое"
+      }
+    ],
+    "sha256": "977a27888f1357f44e4983c8386c20a13e26d240e7e9fc0f7c466eb0401ecc54"
+  },
+  {
+    "count": 2,
+    "differing_fields": [
+      "title"
+    ],
+    "items": [
+      {
+        "alcohol": 12,
+        "category": "Белое сухое",
+        "image_local": "images/legato-legato-sovinon-blan-mtsvane-beloe-suhoe-125.webp",
+        "manufacturer": "LeGato",
+        "region": "Кубань",
+        "slug": "legato-legato-sovinon-blan-mtsvane-beloe-suhoe-125",
+        "title": "Легато Совиньон Блан Мцване"
+      },
+      {
+        "alcohol": 12,
+        "category": "Белое сухое",
+        "image_local": "images/legato-legato-sovinon-blan-beloe-suhoe-125.webp",
+        "manufacturer": "LeGato",
+        "region": "Кубань",
+        "slug": "legato-legato-sovinon-blan-beloe-suhoe-125",
+        "title": "Легато Совиньон Блан"
+      }
+    ],
+    "sha256": "9c8d6f96e03d8b5e2d183e676b7a0739f5fafccc68a81a1c247ad5ea9413bcb5"
+  },
+  {
+    "count": 2,
+    "differing_fields": [
+      "title",
+      "category",
+      "alcohol"
+    ],
+    "items": [
+      {
+        "alcohol": 12,
+        "category": "Белое сухое",
+        "image_local": "images/agora-yachting-sauvignon.webp",
+        "manufacturer": "AGORA WINERY",
+        "region": "Крым",
+        "slug": "agora-yachting-sauvignon",
+        "title": "Agora Yachting Sauvignon"
+      },
+      {
+        "alcohol": 13,
+        "category": "Красное сухое",
+        "image_local": "images/agora-yachting-cabernet-sauvignon.webp",
+        "manufacturer": "AGORA WINERY",
+        "region": "Крым",
+        "slug": "agora-yachting-cabernet-sauvignon",
+        "title": "Agora Yachting Cabernet Sauvignon"
+      }
+    ],
+    "sha256": "a5d51d454206ec4d0f98e137f06284da26f9b5a738ca3de2eb4297e98150e16e"
+  },
+  {
+    "count": 2,
+    "differing_fields": [
+      "title",
+      "alcohol"
+    ],
+    "items": [
+      {
+        "alcohol": 15,
+        "category": "Белое сухое",
+        "image_local": "images/sober-bash-hihvi-beloe-suhoe-15.webp",
+        "manufacturer": "Собер Баш",
+        "region": "Кубань",
+        "slug": "sober-bash-hihvi-beloe-suhoe-15",
+        "title": "Хихви"
+      },
+      {
+        "alcohol": 14,
+        "category": "Белое сухое",
+        "image_local": "images/sober-bash-hihvi-amfora-beloe-suhoe-14.webp",
+        "manufacturer": "Собер Баш",
+        "region": "Кубань",
+        "slug": "sober-bash-hihvi-amfora-beloe-suhoe-14",
+        "title": "Хихви Амфора"
+      }
+    ],
+    "sha256": "b9a4046c2d79b89a340d3153d05e70bb40895b98f39c5b936f08fef4b02c6ed6"
+  },
+  {
+    "count": 2,
+    "differing_fields": [
+      "alcohol"
+    ],
+    "items": [
+      {
+        "alcohol": 13,
+        "category": "Красное сухое",
+        "image_local": "images/villa-urkusta-kaberne-sovinon-klassik-krasnoe-suhoe-139.webp",
+        "manufacturer": "Вилла Уркуста",
+        "region": "Крым",
+        "slug": "villa-urkusta-kaberne-sovinon-klassik-krasnoe-suhoe-139",
+        "title": "Каберне совиньон Классик"
+      },
+      {
+        "alcohol": 12,
+        "category": "Красное сухое",
+        "image_local": "images/villa-urkusta-kaberne-sovinon-klassik-krasnoe-suhoe-12.webp",
+        "manufacturer": "Вилла Уркуста",
+        "region": "Крым",
+        "slug": "villa-urkusta-kaberne-sovinon-klassik-krasnoe-suhoe-12",
+        "title": "Каберне совиньон Классик"
+      }
+    ],
+    "sha256": "c1c037517b1613f2d4485ae7ce0fe0591856d0d743ebe8aee04e5b421916d20b"
+  },
+  {
+    "count": 2,
+    "differing_fields": [
+      "title",
+      "region",
+      "alcohol"
+    ],
+    "items": [
+      {
+        "alcohol": 11,
+        "category": "Красное сухое",
+        "image_local": "images/cabernet-franc-pinot-noir-2021.webp",
+        "manufacturer": "Vibes",
+        "region": "Крым",
+        "slug": "cabernet-franc-pinot-noir-2021",
+        "title": "Cabernet Franc-Pinot Noir 2021"
+      },
+      {
+        "alcohol": 12,
+        "category": "Красное сухое",
+        "image_local": "images/cabernet-franc-pinot-noir-2022.webp",
+        "manufacturer": "Vibes",
+        "region": "Дальневосточная зона",
+        "slug": "cabernet-franc-pinot-noir-2022",
+        "title": "Cabernet Franc-Pinot Noir 2022"
+      }
+    ],
+    "sha256": "c720e2216ca149ebdcc3519564f22ff62977ff169d8ad0c8b9cf3fbce5474859"
+  },
+  {
+    "count": 2,
+    "differing_fields": [
+      "title"
+    ],
+    "items": [
+      {
+        "alcohol": 13,
+        "category": "Белое сухое",
+        "image_local": "images/vinodelnya-byurne-vione-beloe-suhoe-135.webp",
+        "manufacturer": "Винодельня Бюрнье",
+        "region": "Кубань",
+        "slug": "vinodelnya-byurne-vione-beloe-suhoe-135",
+        "title": "БЮРНЬЕ.ВИОНЬЕ сухое белое"
+      },
+      {
+        "alcohol": 13,
+        "category": "Белое сухое",
+        "image_local": "images/vinodelnya-byurne-byurne-pino-blan-beloe-suhoe-14.webp",
+        "manufacturer": "Винодельня Бюрнье",
+        "region": "Кубань",
+        "slug": "vinodelnya-byurne-byurne-pino-blan-beloe-suhoe-14",
+        "title": "БЮРНЬЕ.ПИНО БЛАН сухое белое"
+      }
+    ],
+    "sha256": "c805eb04a02610f7f3e4a92715c7efb6c527e1f14bb495c118156f8ad09dd68f"
+  },
+  {
+    "count": 2,
+    "differing_fields": [
+      "category",
+      "alcohol"
+    ],
+    "items": [
+      {
+        "alcohol": 13,
+        "category": "Белое сухое",
+        "image_local": "images/derbent-vino-endemy-shardone-beloe-suhoe-13.webp",
+        "manufacturer": "Дербент Вино",
+        "region": "Дагестан",
+        "slug": "derbent-vino-endemy-shardone-beloe-suhoe-13",
+        "title": "Эндемы Шардоне"
+      },
+      {
+        "alcohol": 10,
+        "category": "Белое брют",
+        "image_local": "images/derbent-vino-endemy-shardone-beloe-bryut-105-125.webp",
+        "manufacturer": "Дербент Вино",
+        "region": "Дагестан",
+        "slug": "derbent-vino-endemy-shardone-beloe-bryut-105-125",
+        "title": "Эндемы Шардоне"
+      }
+    ],
+    "sha256": "d14274de20fa8127e0926191325e2db2357329de71f41980edfdf684423f03a0"
+  },
+  {
+    "count": 2,
+    "differing_fields": [
+      "title",
+      "category"
+    ],
+    "items": [
+      {
+        "alcohol": 12,
+        "category": "Красное сухое",
+        "image_local": "images/belmas-winery-syrah-katya-sira-krasnoe-suhoe-125.webp",
+        "manufacturer": "Belmas Winery",
+        "region": "Крым",
+        "slug": "belmas-winery-syrah-katya-sira-krasnoe-suhoe-125",
+        "title": "Syrah Katya"
+      },
+      {
+        "alcohol": 12,
+        "category": "Белое сухое",
+        "image_local": "images/belmas-winery-riesling-katya-risling-beloe-suhoe-12.webp",
+        "manufacturer": "Belmas Winery",
+        "region": "Крым",
+        "slug": "belmas-winery-riesling-katya-risling-beloe-suhoe-12",
+        "title": "Riesling Katya"
+      }
+    ],
+    "sha256": "d1e4deabadcb75ff035cc6c26eaf7577061a33cc00492c1f91585045fc158a9a"
+  },
+  {
+    "count": 2,
+    "differing_fields": [
+      "title"
+    ],
+    "items": [
+      {
+        "alcohol": 13,
+        "category": "Красное сухое",
+        "image_local": "images/derbent-vino-endemy-merlo-krasnoe-suhoe-13.webp",
+        "manufacturer": "Дербент Вино",
+        "region": "Дагестан",
+        "slug": "derbent-vino-endemy-merlo-krasnoe-suhoe-13",
+        "title": "Эндемы Мерло"
+      },
+      {
+        "alcohol": 13,
+        "category": "Красное сухое",
+        "image_local": "images/derbent-vino-endemy-saperavi-krasnoe-suhoe-13.webp",
+        "manufacturer": "Дербент Вино",
+        "region": "Дагестан",
+        "slug": "derbent-vino-endemy-saperavi-krasnoe-suhoe-13",
+        "title": "Эндемы Саперави"
+      }
+    ],
+    "sha256": "e2cc3d741987372e228bf6d84070a7429d290a1deb3f145d9b486d13e2c190c1"
+  },
+  {
+    "count": 2,
+    "differing_fields": [
+      "title",
+      "category",
+      "alcohol"
+    ],
+    "items": [
+      {
+        "alcohol": 13,
+        "category": "Красное сухое",
+        "image_local": "images/skalistyy-bereg-veter-v-travah-kaberne-fran-krasnoe-suhoe-13.webp",
+        "manufacturer": "Скалистый берег",
+        "region": "Кубань",
+        "slug": "skalistyy-bereg-veter-v-travah-kaberne-fran-krasnoe-suhoe-13",
+        "title": "Ветер в травах"
+      },
+      {
+        "alcohol": 10,
+        "category": "Белое сухое",
+        "image_local": "images/skalistyy-bereg-shyopot-tsvetov-risling-beloe-suhoe-109.webp",
+        "manufacturer": "Скалистый берег",
+        "region": "Кубань",
+        "slug": "skalistyy-bereg-shyopot-tsvetov-risling-beloe-suhoe-109",
+        "title": "Шёпот цветов"
+      }
+    ],
+    "sha256": "eacfadf0b82cdc6a249e4391d66ead52de13e94973d9227b354a100efb164d01"
+  }
+]

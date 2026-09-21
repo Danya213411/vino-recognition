@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "base_url": "http://127.0.0.1:8000",
+  "count": 10,
+  "sla_ms": 10000.0,
+  "timing_ms": {
+    "mean": 1616.7829800280742,
+    "p50": 1499.8005999950692,
+    "p95": 2387.2210000408813,
+    "max": 2387.2210000408813
+  },
+  "within_sla": 10,
+  "records": [
+    {
+      "index": 0,
+      "image": "data/synthetic/stage2/images/0000-priboj-marchenko-beloe-polusuhoe-029903399e-v00.jpg",
+      "slug": "priboj-marchenko-beloe-polusuhoe",
+      "wall_ms": 2258.179900003597
+    },
+    {
+      "index": 1,
+      "image": "data/synthetic/stage2/images/0001-priboj-marchenko-rozovoe-polusuhoe-bc68214fe5-v00.jpg",
+      "slug": "priboj-marchenko-rozovoe-polusuhoe",
+      "wall_ms": 1499.8005999950692
+    },
+    {
+      "index": 2,
+      "image": "data/synthetic/stage2/images/0002-priboj-marchenko-krasnoe-polusuhoe-c41b29cc7e-v00.jpg",
+      "slug": "priboj-marchenko-krasnoe-polusuhoe",
+      "wall_ms": 1991.8732000514865
+    },
+    {
+      "index": 3,
+      "image": "data/synthetic/stage2/images/0003-gevyurcztraminer-oranzh-05df5c7bb3-v00.jpg",
+      "slug": "gevyurcztraminer-oranzh",
+      "wall_ms": 1033.4850000217557
+    },
+    {
+      "index": 4,
+      "image": "data/synthetic/stage2/images/0004-znoj-denisov-vajneri-e9da95bb94-v00.jpg",
+      "slug": "znoj-denisov-vajneri",
+      "wall_ms": 1550.4768000682816
+    },
+    {
+      "index": 5,
+      "image": "data/synthetic/stage2/images/0005-fioletovyj-rannij-petnat-781c6c8391-v00.jpg",
+      "slug": "muskat-ottonel-gusev",
+      "wall_ms": 1366.658000042662
+    },
+    {
+      "index": 6,
+      "image": "data/synthetic/stage2/images/0006-muskat-ottonel-gusev-761579876c-v00.jpg",
+      "slug": "fioletovyj-rannij-petnat",
+      "wall_ms": 974.9456000281498
+    },
+    {
+      "index": 7,
+      "image": "data/synthetic/stage2/images/0007-zakat-denisov-vajneri-c50e7da156-v00.jpg",
+      "slug": "zakat-denisov-vajneri",
+      "wall_ms": 1400.2614000346512
+    },
+    {
+      "index": 8,
+      "image": "data/synthetic/stage2/images/0008-mont-blanc-blanc-de-blancs-0db2387b81-v00.jpg",
+      "slug": "mont-blanc-blanc-de-blancs",
+      "wall_ms": 2387.2210000408813
+    },
+    {
+      "index": 9,
+      "image": "data/synthetic/stage2/images/0009-mont-blanc-cuvee-9e53f8afdb-v00.jpg",
+      "slug": "mont-blanc-cuvee",
+      "wall_ms": 1704.928299994208
+    }
+  ]
+}

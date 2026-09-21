@@ -1,0 +1,22 @@
+{
+  "files": {
+    "reference_text": "data/artifacts/stage4/index/reference_text.jsonl",
+    "sift_index": "data/artifacts/stage4/index/sift_index.npz"
+  },
+  "item_count": 2025,
+  "ocr": {
+    "build_ms": 858486.7853999604,
+    "engine": "RapidOCR PP-OCRv6 tiny detector + PP-OCRv5 Cyrillic recognizer",
+    "line_count": 8291,
+    "mean_image_ms": 1268.9338239497379,
+    "nonempty_item_count": 2001,
+    "workers": 3
+  },
+  "schema_version": 1,
+  "sift": {
+    "build_ms": 92852.68000001088,
+    "descriptor_count": 911198,
+    "descriptor_dtype": "float16",
+    "empty_item_count": 0
+  }
+}
