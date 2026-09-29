@@ -7,6 +7,7 @@ from datetime import UTC, datetime
 from ipaddress import ip_address
 from pathlib import Path
 from typing import Annotated, Any
+from urllib.parse import quote
 
 import uvicorn
 from fastapi import Depends, FastAPI, File, Form, Header, HTTPException, Query, Request, UploadFile, status
@@ -24,6 +25,13 @@ from vino_api.storage import StoredImage, UploadStorage
 
 
 SESSION_PATTERN = re.compile(r"^[A-Za-z0-9._:-]{8,128}$")
+REVIEW_IMAGE_SUFFIXES = {".jpg", ".jpeg", ".png", ".webp"}
+REVIEW_IMAGE_MEDIA_TYPES = {
+    ".jpg": "image/jpeg",
+    ".jpeg": "image/jpeg",
+    ".png": "image/png",
+    ".webp": "image/webp",
+}
 bearer_scheme = HTTPBearer(auto_error=False)
 
 
@@ -95,6 +103,18 @@ def create_app(
                 "Для удалённого доступа задайте VINO_ADMIN_TOKEN",
             )
 
+    def local_access(request: Request) -> None:
+        host = request.client.host if request.client else ""
+        try:
+            local = ip_address(host).is_loopback
+        except ValueError:
+            local = host in {"localhost", "testclient"}
+        if not local:
+            raise HTTPException(
+                status.HTTP_403_FORBIDDEN,
+                "Пакетная тестовая выборка доступна только локально",
+            )
+
     async def analyze_upload(
         request: Request,
         upload: UploadFile,
@@ -126,6 +146,7 @@ def create_app(
             "predictions": result["predictions"],
             "evidence": result["evidence"],
             "ocr_lines": result["ocr_lines"],
+            "manufacturer_match": result.get("manufacturer_match"),
             "crop_consistency": result["crop_consistency"],
             "timing_ms": result["timing_ms"],
             "memory": result["memory"],
@@ -208,6 +229,92 @@ def create_app(
         except FileNotFoundError as error:
             raise HTTPException(status.HTTP_404_NOT_FOUND, "Изображение не найдено") from error
         return FileResponse(path, headers={"Cache-Control": "public, max-age=86400"})
+
+    @application.get(
+        "/api/v1/review-set",
+        tags=["calibration"],
+        dependencies=[Depends(local_access)],
+    )
+    async def review_set() -> dict[str, Any]:
+        root = resolved.review_set_dir.resolve()
+        if not root.is_dir():
+            return {"total": 0, "items": []}
+        files = sorted(
+            (
+                path
+                for path in root.rglob("*")
+                if path.is_file() and path.suffix.casefold() in REVIEW_IMAGE_SUFFIXES
+            ),
+            key=lambda path: path.relative_to(root).as_posix().casefold(),
+        )
+        return {
+            "total": len(files),
+            "items": [
+                {
+                    "name": path.relative_to(root).as_posix(),
+                    "size": path.stat().st_size,
+                    "image_url": f"/api/v1/review-set/image?name={quote(path.relative_to(root).as_posix(), safe='')}",
+                }
+                for path in files
+            ],
+        }
+
+    @application.get(
+        "/api/v1/review-set/image",
+        tags=["calibration"],
+        dependencies=[Depends(local_access)],
+    )
+    async def review_set_image(
+        name: Annotated[str, Query(min_length=1, max_length=500)],
+    ) -> FileResponse:
+        root = resolved.review_set_dir.resolve()
+        path = (root / name).resolve()
+        if (
+            root not in path.parents
+            or path.suffix.casefold() not in REVIEW_IMAGE_SUFFIXES
+            or not path.is_file()
+        ):
+            raise HTTPException(status.HTTP_404_NOT_FOUND, "Кадр не найден")
+        return FileResponse(
+            path,
+            media_type=REVIEW_IMAGE_MEDIA_TYPES[path.suffix.casefold()],
+            headers={"Cache-Control": "private, max-age=3600"},
+        )
+
+    @application.get(
+        "/api/v1/review-matrix",
+        tags=["calibration"],
+        dependencies=[Depends(local_access)],
+    )
+    async def review_matrix(
+        database_instance: Annotated[EventDatabase, Depends(db)],
+    ) -> dict[str, Any]:
+        root = resolved.review_set_dir.resolve()
+        if not root.is_dir():
+            return {"total": 0, "items": []}
+        names = sorted(
+            (
+                path.relative_to(root).as_posix()
+                for path in root.rglob("*")
+                if path.is_file() and path.suffix.casefold() in REVIEW_IMAGE_SUFFIXES
+            ),
+            key=str.casefold,
+        )
+        records = await run_in_threadpool(database_instance.latest_review_records, names)
+        records_by_name = {record["original_name"]: record for record in records}
+        items = []
+        for name in names:
+            record = records_by_name.get(name)
+            if not record or record.get("feedback", {}).get("verdict") == "correct":
+                continue
+            items.append(
+                {
+                    "name": name,
+                    "input_image_url": f"/api/v1/review-set/image?name={quote(name, safe='')}",
+                    "recognition": record,
+                }
+            )
+        return {"total": len(items), "items": items}
 
     def owned_record(
         recognition_id: str,

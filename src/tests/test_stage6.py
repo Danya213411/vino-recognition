@@ -126,6 +126,14 @@ def test_stage6_full_flow(tmp_path: Path) -> None:
         assert manifest.json()["recognition"]["feedback"]["correct_slug"] == "other-wine"
         assert "attachment" in manifest.headers["content-disposition"]
 
+        changed_feedback = client.post(
+            f"/api/v1/recognitions/{analysis['id']}/feedback",
+            headers=session_headers,
+            json={"verdict": "not_in_store"},
+        )
+        assert changed_feedback.status_code == 200
+        assert changed_feedback.json()["verdict"] == "not_in_store"
+
         flat = client.post(
             "/api/v1/recognize",
             headers=session_headers,
@@ -138,9 +146,10 @@ def test_stage6_full_flow(tmp_path: Path) -> None:
         stats = client.get("/api/v1/admin/stats", headers=admin_headers)
         assert stats.status_code == 200
         assert stats.json()["recognitions"]["total"] == 2
+        assert stats.json()["feedback"]["not_in_store"] == 1
         rows = client.get("/api/v1/admin/recognitions", headers=admin_headers).json()
         assert rows["total"] == 2
-        assert rows["items"][1]["feedback"]["verdict"] == "incorrect"
+        assert rows["items"][1]["feedback"]["verdict"] == "not_in_store"
 
 
 def test_stage6_rejects_invalid_image(tmp_path: Path) -> None:
@@ -155,6 +164,98 @@ def test_stage6_rejects_invalid_image(tmp_path: Path) -> None:
             files={"file": ("fake.jpg", b"not-an-image", "image/jpeg")},
         )
     assert response.status_code == 415
+
+
+def test_stage6_lists_local_review_set_safely(tmp_path: Path) -> None:
+    reference = tmp_path / "reference.jpg"
+    reference.write_bytes(image_bytes())
+    review_dir = tmp_path / "given"
+    review_dir.mkdir()
+    (review_dir / "001 bottle.webp").write_bytes(image_bytes())
+    nested = review_dir / "top1_correct"
+    nested.mkdir()
+    (nested / "002 bottle.webp").write_bytes(image_bytes())
+    (review_dir / "ignore.txt").write_text("not an image", encoding="utf-8")
+    settings = Settings(
+        app_data_dir=tmp_path / "state",
+        web_dir=tmp_path / "missing-web",
+        review_set_dir=review_dir,
+    )
+    app = create_app(settings=settings, engine=FakeEngine(reference))
+
+    with TestClient(app) as client:
+        listing = client.get("/api/v1/review-set")
+        assert listing.status_code == 200
+        assert listing.json()["total"] == 2
+        assert listing.json()["items"][0]["name"] == "001 bottle.webp"
+        assert listing.json()["items"][1]["name"] == "top1_correct/002 bottle.webp"
+
+        image = client.get(
+            "/api/v1/review-set/image", params={"name": "001 bottle.webp"}
+        )
+        assert image.status_code == 200
+        assert image.headers["content-type"] == "image/webp"
+        assert image.content == image_bytes()
+
+        nested_image = client.get(
+            "/api/v1/review-set/image", params={"name": "top1_correct/002 bottle.webp"}
+        )
+        assert nested_image.status_code == 200
+
+        traversal = client.get(
+            "/api/v1/review-set/image", params={"name": "../reference.jpg"}
+        )
+        assert traversal.status_code == 404
+
+
+def test_stage6_review_matrix_returns_latest_non_top1_result(tmp_path: Path) -> None:
+    reference = tmp_path / "reference.jpg"
+    reference.write_bytes(image_bytes())
+    review_dir = tmp_path / "given"
+    review_dir.mkdir()
+    (review_dir / "bottle.jpg").write_bytes(image_bytes())
+    settings = Settings(
+        app_data_dir=tmp_path / "state",
+        web_dir=tmp_path / "missing-web",
+        review_set_dir=review_dir,
+    )
+    app = create_app(settings=settings, engine=FakeEngine(reference))
+    headers = {"X-Session-ID": "matrix-session"}
+
+    with TestClient(app) as client:
+        first = client.post(
+            "/api/v1/analyze",
+            headers=headers,
+            data={"mode": "calib"},
+            files={"file": ("bottle.jpg", image_bytes(), "image/jpeg")},
+        ).json()
+        client.post(
+            f"/api/v1/recognitions/{first['id']}/feedback",
+            headers=headers,
+            json={"verdict": "correct"},
+        )
+        second = client.post(
+            "/api/v1/analyze",
+            headers=headers,
+            data={"mode": "calib"},
+            files={"file": ("bottle.jpg", image_bytes(), "image/jpeg")},
+        ).json()
+        client.post(
+            f"/api/v1/recognitions/{second['id']}/feedback",
+            headers=headers,
+            json={"verdict": "incorrect", "correct_slug": "other-wine"},
+        )
+
+        matrix = client.get("/api/v1/review-matrix")
+        assert matrix.status_code == 200
+        payload = matrix.json()
+        assert payload["total"] == 1
+        assert payload["items"][0]["name"] == "bottle.jpg"
+        assert payload["items"][0]["recognition"]["id"] == second["id"]
+        assert payload["items"][0]["recognition"]["feedback"]["verdict"] == "incorrect"
+        assert payload["items"][0]["input_image_url"].startswith(
+            "/api/v1/review-set/image"
+        )
 
 
 def test_stage6_admin_detail_pagination_and_deletion(tmp_path: Path) -> None:

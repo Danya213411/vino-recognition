@@ -60,6 +60,7 @@ def recognize_confident_paths(
         candidate_count,
         batch_size,
         ocr_candidate_count,
+        catalog_by_slug,
     )
     results = []
     for raw in raw_results:
@@ -91,6 +92,7 @@ def recognize_confident_paths(
                 "evidence": evidence,
                 "predictions": raw["predictions"],
                 "ocr_lines": raw["ocr_lines"],
+                "manufacturer_match": raw.get("manufacturer_match"),
                 "crop_consistency": raw["crop_consistency"],
                 "timing_ms": raw["timing_ms"],
             }

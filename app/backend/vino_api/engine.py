@@ -64,9 +64,19 @@ class RecognitionEngine:
                 "confidence": "calibrated logistic model, 16 evidence features",
             },
             "candidate_retrieval": {
-                "strategy": "union",
+                "strategy": "visual+ocr union with fuzzy manufacturer gate",
                 "visual_top_k": self.settings.candidate_count,
                 "global_ocr_top_k": self.settings.ocr_candidate_count,
+                "manufacturer_source": "https://vino-svoe.ru/wines filters / local catalog intersection",
+                "manufacturer_match": {
+                    "normalization": (
+                        "Cyrillic/Latin transliteration + normalized edit distance + "
+                        "compound aliases + canonical groups + safe prefixes + OCR homoglyphs"
+                    ),
+                    "hard_threshold": 0.86,
+                    "strong_fuzzy_threshold": 0.82,
+                    "minimum_margin": 0.08,
+                },
             },
             "multimodal_verification": {
                 "ocr_score_min": 0.92,

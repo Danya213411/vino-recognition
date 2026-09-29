@@ -1,11 +1,11 @@
 {
   "embedding_ms": {
-    "full": 58115.02290004864,
-    "label": 56198.95830005407,
-    "total": 114313.98120010272
+    "full": 70335.45329992194,
+    "label": 69543.57479989994,
+    "total": 139879.02809982188
   },
   "index": "data/artifacts/stage3/dinov2-small/index.npz",
-  "item_count": 2025,
+  "item_count": 2035,
   "manifest": "data/artifacts/stage1/catalog_manifest.jsonl",
   "patch_grid": 7,
   "patch_tokens_per_reference": 49,

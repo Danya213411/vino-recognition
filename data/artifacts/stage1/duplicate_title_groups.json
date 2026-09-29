@@ -821,7 +821,7 @@
     "value": "Жемчужная 9 Цитрон, Шардоне"
   },
   {
-    "count": 21,
+    "count": 22,
     "items": [
       {
         "slug": "kaberne-sovinon-2",
@@ -905,6 +905,10 @@
       },
       {
         "slug": "vinodelnya-myshako-kaberne-sovinon-krasnoe-suhoe-138",
+        "title": "Каберне Совиньон"
+      },
+      {
+        "slug": "kaberne-sovinon-3",
         "title": "Каберне Совиньон"
       }
     ],
@@ -1209,7 +1213,7 @@
     "value": "Марселан"
   },
   {
-    "count": 19,
+    "count": 20,
     "items": [
       {
         "slug": "merlo-1",
@@ -1286,6 +1290,10 @@
       {
         "slug": "loco-cimbali-merlo-krasnoe-suhoe-138",
         "title": "Мерло"
+      },
+      {
+        "slug": "merlo-2",
+        "title": "Мерло"
       }
     ],
     "observed_values": [
@@ -1336,7 +1344,7 @@
     "value": "Молодое. Шато Тамань"
   },
   {
-    "count": 6,
+    "count": 7,
     "items": [
       {
         "slug": "perovskih_muskat",
@@ -1360,6 +1368,10 @@
       },
       {
         "slug": "stn-winery-muskat-beloe-suhoe-115",
+        "title": "Мускат"
+      },
+      {
+        "slug": "muskat",
         "title": "Мускат"
       }
     ],
@@ -1765,7 +1777,7 @@
     "value": "Ренессанс Шардоне"
   },
   {
-    "count": 37,
+    "count": 38,
     "items": [
       {
         "slug": "risling-1",
@@ -1914,6 +1926,10 @@
       {
         "slug": "vinodelnya-myshako-risling-beloe-suhoe-123",
         "title": "Рислинг"
+      },
+      {
+        "slug": "risling-2",
+        "title": "Рислинг "
       }
     ],
     "observed_values": [
@@ -2183,7 +2199,7 @@
     "value": "Санджовезе"
   },
   {
-    "count": 10,
+    "count": 11,
     "items": [
       {
         "slug": "twopeters_saperavi",
@@ -2223,6 +2239,10 @@
       },
       {
         "slug": "nesterov-winery-saperavi-krasnoe-suhoe-135",
+        "title": "Саперави"
+      },
+      {
+        "slug": "saperavi",
         "title": "Саперави"
       }
     ],
@@ -2299,7 +2319,7 @@
     "value": "Сира"
   },
   {
-    "count": 20,
+    "count": 22,
     "items": [
       {
         "slug": "sovinon-blan-krasnaya-gorka",
@@ -2379,6 +2399,14 @@
       },
       {
         "slug": "vinodelnya-myshako-sovinon-blan-beloe-suhoe-122",
+        "title": "Совиньон Блан"
+      },
+      {
+        "slug": "sovinon-blan",
+        "title": "Совиньон Блан"
+      },
+      {
+        "slug": "sovinon-blan-2",
         "title": "Совиньон Блан"
       }
     ],

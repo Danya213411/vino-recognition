@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "source": "field_weight_tuning.json",
+  "weights": {
+    "embedding_sift_ocr": {
+      "embedding_weight": 0.45,
+      "ocr_weight": 0.5,
+      "sift_weight": 0.05
+    }
+  }
+}

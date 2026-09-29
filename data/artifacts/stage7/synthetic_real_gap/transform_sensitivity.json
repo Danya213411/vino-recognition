@@ -1,0 +1,3205 @@
+{
+  "schema_version": 1,
+  "description": "Controlled DINOv2-small CLS multiscale sensitivity on real labeled photos",
+  "sample_count": 52,
+  "normalization": "input long side resized to 512 before controlled transform",
+  "variants": {
+    "original": "resize only",
+    "gaussian_sigma_1_7": "Gaussian sigma=1.7 (median stage2 blur)",
+    "motion_9px": "horizontal motion kernel=9 (median stage2 blur)",
+    "compression_median": "downscale=0.526, upscale, JPEG q=44 (median compression)",
+    "blur_plus_compression": "motion=9, downscale=0.618, JPEG q=55 (controlled combined subset)"
+  },
+  "results": {
+    "original": {
+      "sample_count": 52,
+      "top1_correct": 14,
+      "top1_accuracy": 0.2692307692307692,
+      "top5_correct": 20,
+      "top5_recall": 0.38461538461538464,
+      "mean_reciprocal_rank": 0.303525641025641,
+      "embedding_ms": 3667.844800045714,
+      "wall_ms": 20870.837000082247,
+      "predictions": [
+        {
+          "name": "48.98_02-09-2026_18-34-15.webp",
+          "expected_slug": "denisov_rubin_klaret_krasnaya_strelka",
+          "rank": null,
+          "top5": [
+            "aratti-risling-suhoe",
+            "aratti-sovinon-blan-beloe-polusuhoe",
+            "aratti-risling-beloe-polusuhoe",
+            "aratti-muskat-belyj-polusuhoe",
+            "aratti-vremena-goda-saperavi-vyderzhannyj-zima"
+          ]
+        },
+        {
+          "name": "70.45_04-09-2026_13-35-37.webp",
+          "expected_slug": "fanagoriya-formula-q-kaberne-sovinon-krasnoe-suhoe-135",
+          "rank": 4,
+          "top5": [
+            "aratti-kaberne-sovinon-2020-krasnoe-suhoe",
+            "fanagoriya-saqra-saperavi-krasnoe-suhoe-135",
+            "cellar-master-sandzhoveze-krasnoe-suhoe-125",
+            "fanagoriya-formula-q-kaberne-sovinon-krasnoe-suhoe-135",
+            "uva-vallis-sovinon-blan"
+          ]
+        },
+        {
+          "name": "84.73_07-09-2026_11-07-51.webp",
+          "expected_slug": "zhemchuzhnaya-9-aligote-czitron",
+          "rank": 1,
+          "top5": [
+            "zhemchuzhnaya-9-aligote-czitron",
+            "zhemchuzhnaya-9-czitron-shardone",
+            "zhemchuzhnaya-9-czitron-shardone-1",
+            "zhemchuzhnaya-9-sovinon-blan-aligote",
+            "zhemchuzhnaya-9-risling-sovinon-blan"
+          ]
+        },
+        {
+          "name": "87.09_22-08-2026_20-57-16.webp",
+          "expected_slug": "pobeda",
+          "rank": null,
+          "top5": [
+            "vinodelnya-begildeeva-kaberne-sovinon-merlo-krasnoe-suhoe-14",
+            "vinodelnya-pokrovskaya-pokrovskoe-krasnoe-kaberne-sovinon-suhoe-14",
+            "vinodelnya-begildeeva-merlo-krasnoe-suhoe-14",
+            "aratti-kaberne-sovinon-2020-krasnoe-suhoe",
+            "vinodelnya-pokrovskaya-pokrovskoe-sladkoe-krasnoe-kaberne-sovinon-13"
+          ]
+        },
+        {
+          "name": "87.54_03-09-2026_13-27-53.webp",
+          "expected_slug": "relikta-relikta-sira-kaberne-fran-krasnoe-suhoe-13",
+          "rank": null,
+          "top5": [
+            "artvin-odesskiy-chernyy-rezerv-krasnoe-suhoe-13",
+            "dva-serdtsa-kaberne-fran-krasnoe-suhoe-14",
+            "relikta-relikta-shardone-beloe-suhoe-12",
+            "vinodelnya-batrak-perfekt-klassik-saperavi-krasnoe-suhoe-135",
+            "relikta-relikta-muskat-beloe-polusuhoe-12"
+          ]
+        },
+        {
+          "name": "87.81_09-09-2026_17-16-36.webp",
+          "expected_slug": "aya-organic-wine-vineyards-purity-in-chenin-blanc-shenen-blan-beloe-suhoe-11",
+          "rank": null,
+          "top5": [
+            "aratti-kaberne-po-belomu-1",
+            "vinodelnya-78-muskat-otbornyy-muskat-yantarnyy-beloe-suhoe-125",
+            "aratti-kaberne-po-belomu",
+            "aratti-risling-suhoe",
+            "vinodelnya-78-aligote-otbornoe-beloe-suhoe-12"
+          ]
+        },
+        {
+          "name": "88.38_20-08-2026_18-32-58.webp",
+          "expected_slug": "czitronnyj-magaracha-sovinon-blan",
+          "rank": 4,
+          "top5": [
+            "zhemchuzhnaya-9-aligote-czitron",
+            "zhemchuzhnaya-9-czitron-shardone-1",
+            "zhemchuzhnaya-9-czitron-shardone",
+            "czitronnyj-magaracha-sovinon-blan",
+            "zhemchuzhnaya-9-risling-sovinon-blan"
+          ]
+        },
+        {
+          "name": "89.65_19-08-2026_19-48-39.webp",
+          "expected_slug": "rozovoe-zoloto",
+          "rank": null,
+          "top5": [
+            "leto-muskat-oranzh-2024-suhoe-vino",
+            "leto-risling-2024-polusuhoe-vino",
+            "leto-shardone-2023-suhoe-beloe",
+            "leto-risling-2024",
+            "leto-kaberne-fran-2024-polusladkoe-krasnoe"
+          ]
+        },
+        {
+          "name": "91.07_20-08-2026_18-37-46.webp",
+          "expected_slug": "aratti-kaberne-sovinon-2021-krasnoe-suhoe",
+          "rank": 4,
+          "top5": [
+            "aratti-sovinon-blan-beloe-polusuhoe",
+            "aratti-risling-suhoe",
+            "aratti-risling-beloe-polusuhoe",
+            "aratti-kaberne-sovinon-2021-krasnoe-suhoe",
+            "vinodelnya-78-aligote-otbornoe-beloe-suhoe-12"
+          ]
+        },
+        {
+          "name": "92.21_19-08-2026_18-57-31.webp",
+          "expected_slug": "belaya-lvicza",
+          "rank": 1,
+          "top5": [
+            "belaya-lvicza",
+            "chernaya-lvicza-polusladkoe-krasnoe",
+            "rozovaya-pantera",
+            "nosorog-gold",
+            "nosorog-night"
+          ]
+        },
+        {
+          "name": "92.6_07-09-2026_11-04-40.webp",
+          "expected_slug": "aratti-kaberne-sovinon-2020-krasnoe-suhoe",
+          "rank": 1,
+          "top5": [
+            "aratti-kaberne-sovinon-2020-krasnoe-suhoe",
+            "artvin-odesskiy-chernyy-rezerv-krasnoe-suhoe-13",
+            "solnechnaya-dolina-privat-kaberne-sovinon-krasnoe-sladkoe-155",
+            "imenie-sikory-merlo-semeynyy-rezerv-krasnoe-suhoe-14",
+            "massandra-portveyn-belyy-gurzuf-kokur-belyy-beloe-sladkoe-135"
+          ]
+        },
+        {
+          "name": "92.96_19-08-2026_21-07-12.webp",
+          "expected_slug": "aratti-kaberne-sovinon-2020-krasnoe-suhoe",
+          "rank": 1,
+          "top5": [
+            "aratti-kaberne-sovinon-2020-krasnoe-suhoe",
+            "massandra-kagor-gurzuf-saperavi-krasnoe-sladkoe-16",
+            "vinodelnya-batrak-perfekt-klassik-saperavi-krasnoe-suhoe-135",
+            "vinodelnya-batrak-kaberne-kortis-krasnoe-suhoe-12",
+            "artvin-odesskiy-chernyy-rezerv-krasnoe-suhoe-13"
+          ]
+        },
+        {
+          "name": "93.31_05-09-2026_13-39-37.webp",
+          "expected_slug": "golubitskoe-estate-noble-selection-red-blend-kaberne-sovinon-krasnoe-suhoe-136",
+          "rank": null,
+          "top5": [
+            "vinodelnya-batrak-perfekt-klassik-kaberne-sovinon-krasnoe-suhoe-135",
+            "vinodelnya-batrak-perfekt-klassik-saperavi-krasnoe-suhoe-135",
+            "leto-kollekcziya-leta-2020-suhoe-beloe",
+            "vinodelnya-batrak-perfekt-klassik-merlo-krasnoe-suhoe-135",
+            "vinodelnya-batrak-prikumskoe-vitale-kraft-kaberne-sovinon-krasnoe-suhoe-135"
+          ]
+        },
+        {
+          "name": "93.43_05-09-2026_13-34-45.webp",
+          "expected_slug": "denisov_pet_nat_rubin",
+          "rank": 1,
+          "top5": [
+            "denisov_pet_nat_rubin",
+            "stn-winery-muskat-beloe-suhoe-115",
+            "stn-winery-saignee-sira-rozovoe-suhoe-125",
+            "stn-winery-traminer-traminer-beloe-suhoe-13",
+            "belbek-meritazh-kaberne-sovinon-krasnoe-suhoe-136"
+          ]
+        },
+        {
+          "name": "93.68_19-08-2026_20-44-28.webp",
+          "expected_slug": "zakat-denisov-vajneri",
+          "rank": null,
+          "top5": [
+            "aratti-kaberne-po-belomu-1",
+            "aratti-kaberne-po-belomu",
+            "vinodelnya-78-muskat-otbornyy-muskat-yantarnyy-beloe-suhoe-125",
+            "imenie-sikory-kaberne-fran-roze-rozovoe-suhoe-13",
+            "aratti-risling-suhoe"
+          ]
+        },
+        {
+          "name": "93.84_02-09-2026_17-13-04.webp",
+          "expected_slug": "zakat-denisov-vajneri",
+          "rank": null,
+          "top5": [
+            "aratti-kaberne-po-belomu-1",
+            "aratti-kaberne-po-belomu",
+            "ferrum-winery-pinot-noir-pino-nuar-rozovoe-suhoe-13",
+            "aratti-risling-suhoe",
+            "andryus-yutsis-shenen-blan-beloe-suhoe-12"
+          ]
+        },
+        {
+          "name": "94.02_24-08-2026_17-46-57.webp",
+          "expected_slug": "rubin-golodrigi",
+          "rank": null,
+          "top5": [
+            "aratti-kaberne-sovinon-2020-krasnoe-suhoe",
+            "vinodelnya-begildeeva-kaberne-sovinon-merlo-krasnoe-suhoe-14",
+            "vinodelnya-batrak-perfekt-klassik-saperavi-krasnoe-suhoe-135",
+            "vinodelnya-batrak-perfekt-klassik-kaberne-sovinon-krasnoe-suhoe-135",
+            "leto-muskat-oranzh-2024-suhoe-vino"
+          ]
+        },
+        {
+          "name": "94.55_02-09-2026_16-53-08.webp",
+          "expected_slug": "denisov_pazori_risling",
+          "rank": null,
+          "top5": [
+            "vinodelnya-zhakov-rkatsiteli-eskeyp-krasnoe-suhoe-119",
+            "a-gordienko-m-nikolaev-pino-nuar-krasnoe-suhoe-135",
+            "vinodelnya-78-saperavi-krasnoe-suhoe-135",
+            "vinodelnya-78-muskat-otbornyy-muskat-yantarnyy-beloe-suhoe-125",
+            "a-gordienko-m-nikolaev-sira-nuvo-krasnoe-suhoe-115"
+          ]
+        },
+        {
+          "name": "94.7_25-08-2026_15-52-07.webp",
+          "expected_slug": "czitronnyj-magaracha-sovinon-blan",
+          "rank": 5,
+          "top5": [
+            "zhemchuzhnaya-9-czitron-shardone-1",
+            "zhemchuzhnaya-9-aligote-czitron",
+            "zhemchuzhnaya-9-czitron-shardone",
+            "zhemchuzhnaya-9-risling-sovinon-blan",
+            "czitronnyj-magaracha-sovinon-blan"
+          ]
+        },
+        {
+          "name": "94.97_02-09-2026_19-01-48.webp",
+          "expected_slug": "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-2",
+          "rank": null,
+          "top5": [
+            "zhemchuzhnaya-9-pino-gri-pino-nuar",
+            "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-1",
+            "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj",
+            "zhemchuzhnaya-9-muskat-rozovyj-pino-gri",
+            "zhemchuzhnaya-9-kaberne-sovinon-pino-nuar"
+          ]
+        },
+        {
+          "name": "95.03_04-09-2026_11-39-35.webp",
+          "expected_slug": "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11",
+          "rank": null,
+          "top5": [
+            "solnechnaya-dolina-muskatnoe-festivalnoe-muskat-belyy-rozovoe-sladkoe-16",
+            "vinodelnya-batrak-perfekt-klassik-muskat-belyy-beloe-suhoe-125",
+            "zmv-koktebel-rkatsiteli-desertnoe-beloe-sladkoe-16",
+            "zmv-koktebel-traminer-desertnoe-beloe-sladkoe-16",
+            "zmv-koktebel-shardone-beloe-suhoe-12"
+          ]
+        },
+        {
+          "name": "95.24_19-08-2026_20-00-22.webp",
+          "expected_slug": "zhemchuzhnaya-9-czitron-shardone-1",
+          "rank": 1,
+          "top5": [
+            "zhemchuzhnaya-9-czitron-shardone-1",
+            "zhemchuzhnaya-9-aligote-czitron",
+            "zhemchuzhnaya-9-czitron-shardone",
+            "zhemchuzhnaya-9-risling-sovinon-blan",
+            "zhemchuzhnaya-9-sovinon-blan-aligote"
+          ]
+        },
+        {
+          "name": "95.2_05-09-2026_13-54-13.webp",
+          "expected_slug": "aratti-kaberne-po-belomu-1",
+          "rank": 1,
+          "top5": [
+            "aratti-kaberne-po-belomu-1",
+            "aratti-kaberne-po-belomu",
+            "aratti-sovinon-blan-beloe-polusuhoe",
+            "aratti-risling-suhoe",
+            "aratti-muskat-belyj-suhoe"
+          ]
+        },
+        {
+          "name": "95.36_28-08-2026_17-09-04.webp",
+          "expected_slug": "winemaker-selection",
+          "rank": null,
+          "top5": [
+            "aratti-risling-suhoe",
+            "aratti-risling-beloe-polusuhoe",
+            "aratti-muskat-belyj-polusuhoe",
+            "aratti-sovinon-blan-beloe-polusuhoe",
+            "aratti-shardone-beloe-suhoe"
+          ]
+        },
+        {
+          "name": "95.49_05-09-2026_15-34-51.webp",
+          "expected_slug": "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-1",
+          "rank": 3,
+          "top5": [
+            "zhemchuzhnaya-9-pino-gri-pino-nuar",
+            "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj",
+            "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-1",
+            "zhemchuzhnaya-9-muskat-rozovyj-kaberne-sovinon",
+            "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-2"
+          ]
+        },
+        {
+          "name": "95.63_24-08-2026_17-47-43.webp",
+          "expected_slug": "rubin-golodrigi",
+          "rank": null,
+          "top5": [
+            "aratti-kaberne-sovinon-2020-krasnoe-suhoe",
+            "vinodelnya-batrak-perfekt-klassik-saperavi-krasnoe-suhoe-135",
+            "vinodelnya-batrak-perfekt-klassik-kaberne-sovinon-krasnoe-suhoe-135",
+            "vinodelnya-batrak-perfekt-klassik-merlo-krasnoe-suhoe-135",
+            "dva-serdtsa-kaberne-fran-krasnoe-suhoe-14"
+          ]
+        },
+        {
+          "name": "95.75_02-09-2026_14-47-49.webp",
+          "expected_slug": "uva-vallis-risling",
+          "rank": null,
+          "top5": [
+            "dva-serdtsa-muskat-muskat-belyy-beloe-polusuhoe-12",
+            "uva-vallis-shardone",
+            "dva-serdtsa-kokur-beloe-suhoe-125",
+            "gunko-winery-risling-beloe-suhoe-135",
+            "dva-serdtsa-muskat-suhoy-muskat-belyy-beloe-suhoe-12"
+          ]
+        },
+        {
+          "name": "95.76_23-08-2026_18-19-43.webp",
+          "expected_slug": "denisov_barynya_kurmyshi",
+          "rank": null,
+          "top5": [
+            "aratti-kaberne-po-belomu-1",
+            "vinodelnya-zhakov-kokurkod-beloe-suhoe-118",
+            "aratti-risling-suhoe",
+            "vinodelnya-78-muskat-otbornyy-muskat-yantarnyy-beloe-suhoe-125",
+            "aratti-kaberne-po-belomu"
+          ]
+        },
+        {
+          "name": "95.88_02-09-2026_14-41-59.webp",
+          "expected_slug": "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11",
+          "rank": null,
+          "top5": [
+            "vinodelnya-batrak-perfekt-klassik-muskat-belyy-beloe-suhoe-125",
+            "zmv-koktebel-muskat-yantarnyy-desertnyy-beloe-sladkoe-16",
+            "vinodelnya-batrak-monte-di-cammello-nuvola-bianca-risling-beloe-suhoe-12",
+            "zmv-koktebel-shardone-beloe-suhoe-12",
+            "koktebel-casa-belyj-kupazh"
+          ]
+        },
+        {
+          "name": "95.8_19-08-2026_19-33-23.webp",
+          "expected_slug": "roze-2",
+          "rank": 1,
+          "top5": [
+            "roze-2",
+            "leto-muskat-oranzh-2024-suhoe-vino",
+            "rozovoe-zoloto",
+            "leto-risling-2024",
+            "dva-serdtsa-kokur-beloe-suhoe-125"
+          ]
+        },
+        {
+          "name": "96.05_28-08-2026_09-14-57.webp",
+          "expected_slug": "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+          "rank": 1,
+          "top5": [
+            "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+            "uva-vallis-sovinon-blan",
+            "artvin-odesskiy-chernyy-rezerv-krasnoe-suhoe-13",
+            "usadba-divnomorskoe-marselan-marselan-krasnoe-suhoe-149",
+            "cellar-master-sandzhoveze-krasnoe-suhoe-125"
+          ]
+        },
+        {
+          "name": "96.07_28-08-2026_16-10-06.webp",
+          "expected_slug": "golubitskoe-estate-kaberne-sovinon-krasnoe-suhoe-137",
+          "rank": null,
+          "top5": [
+            "vinodelnya-batrak-perfekt-klassik-saperavi-krasnoe-suhoe-135",
+            "vinodelnya-batrak-perfekt-klassik-merlo-krasnoe-suhoe-135",
+            "leto-kaberne-fran-2024-polusladkoe-krasnoe",
+            "vinodelnya-batrak-perfekt-klassik-kaberne-sovinon-krasnoe-suhoe-135",
+            "leto-shardone-2023-suhoe-beloe"
+          ]
+        },
+        {
+          "name": "96.08_22-08-2026_15-12-27.webp",
+          "expected_slug": "zhemchuzhnaya-9-czitron-shardone-1",
+          "rank": 1,
+          "top5": [
+            "zhemchuzhnaya-9-czitron-shardone-1",
+            "zhemchuzhnaya-9-czitron-shardone",
+            "zhemchuzhnaya-9-aligote-czitron",
+            "czitronnyj-magaracha-sovinon-blan",
+            "zhemchuzhnaya-9-risling-sovinon-blan"
+          ]
+        },
+        {
+          "name": "96.08_28-08-2026_16-29-50.webp",
+          "expected_slug": "golubitskoe-estate-merlo-krasnoe-suhoe-135",
+          "rank": null,
+          "top5": [
+            "sary-pandas-vyderzhannoe",
+            "rkacziteli-beloe-suhoe",
+            "portvejn-krymskij",
+            "vinodelnya-vedernikov-krasnostop-zolotovskiy-rezerv-krasnoe-suhoe-15",
+            "aratti-kaberne-sovinon-2020-krasnoe-suhoe"
+          ]
+        },
+        {
+          "name": "96.13_19-08-2026_19-33-10.webp",
+          "expected_slug": "roze-2",
+          "rank": 1,
+          "top5": [
+            "roze-2",
+            "leto-muskat-oranzh-2024-suhoe-vino",
+            "vinodelnya-batrak-perfekt-klassik-muskat-belyy-beloe-suhoe-125",
+            "leto-kaberne-fran-2024-polusladkoe-krasnoe",
+            "rozovoe-zoloto"
+          ]
+        },
+        {
+          "name": "96.15_22-08-2026_20-56-09.webp",
+          "expected_slug": "roze-2",
+          "rank": null,
+          "top5": [
+            "leto-muskat-oranzh-2024-suhoe-vino",
+            "leto-risling-2024",
+            "leto-risling-2024-polusuhoe-vino",
+            "vinodelnya-batrak-perfekt-klassik-muskat-belyy-beloe-suhoe-125",
+            "zmv-koktebel-muskat-desertnyy-rozovoe-sladkoe-16"
+          ]
+        },
+        {
+          "name": "96.27_20-08-2026_16-26-30.webp",
+          "expected_slug": "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-1",
+          "rank": 1,
+          "top5": [
+            "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-1",
+            "zhemchuzhnaya-9-pino-gri-pino-nuar",
+            "zhemchuzhnaya-9-muskat-rozovyj-kaberne-sovinon",
+            "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj",
+            "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-2"
+          ]
+        },
+        {
+          "name": "96.2_28-08-2026_09-13-27.webp",
+          "expected_slug": "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+          "rank": null,
+          "top5": [
+            "vinodelnya-batrak-perfekt-klassik-saperavi-krasnoe-suhoe-135",
+            "vinodelnya-vedernikov-vedernikov-krasnostop-zolotovskiy-magnum-krasnoe-suhoe-145",
+            "vinodelnya-batrak-perfekt-klassik-merlo-krasnoe-suhoe-135",
+            "vinodelnya-batrak-perfekt-klassik-kaberne-sovinon-krasnoe-suhoe-135",
+            "leto-kaberne-fran-2024-polusladkoe-krasnoe"
+          ]
+        },
+        {
+          "name": "96.31_09-09-2026_19-29-01.webp",
+          "expected_slug": "aratti-kaberne-po-belomu",
+          "rank": null,
+          "top5": [
+            "aratti-risling-suhoe",
+            "aratti-kaberne-po-belomu-1",
+            "aratti-sovinon-blan-beloe-polusuhoe",
+            "aratti-risling-beloe-polusuhoe",
+            "aratti-muskat-belyj-polusuhoe"
+          ]
+        },
+        {
+          "name": "96.31_21-08-2026_17-24-55.webp",
+          "expected_slug": "bukovinka",
+          "rank": null,
+          "top5": [
+            "leto-kaberne-fran-2024-polusladkoe-krasnoe",
+            "leto-shardone-2023-suhoe-beloe",
+            "leto-muskat-oranzh-2024-suhoe-vino",
+            "vinodelnya-batrak-perfekt-klassik-merlo-krasnoe-suhoe-135",
+            "leto-kollekcziya-leta-2020-suhoe-beloe-1"
+          ]
+        },
+        {
+          "name": "96.3_28-08-2026_09-12-56.webp",
+          "expected_slug": "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+          "rank": null,
+          "top5": [
+            "vinodelnya-vedernikov-vedernikov-krasnostop-zolotovskiy-magnum-krasnoe-suhoe-145",
+            "artvin-odesskiy-chernyy-rezerv-krasnoe-suhoe-13",
+            "usadba-divnomorskoe-west-hill-blend-kaberne-sovinon-krasnoe-suhoe-145",
+            "vinodelnya-vedernikov-krasnostop-zolotovskiy-rezerv-krasnoe-suhoe-15",
+            "leto-shardone-2023-suhoe-beloe"
+          ]
+        },
+        {
+          "name": "96.45_19-08-2026_19-35-28.webp",
+          "expected_slug": "czitronnyj-magaracha",
+          "rank": null,
+          "top5": [
+            "vinodelnya-batrak-perfekt-klassik-merlo-krasnoe-suhoe-135",
+            "vinodelnya-batrak-perfekt-klassik-saperavi-krasnoe-suhoe-135",
+            "vinodelnya-pokrovskaya-ryzhest-rkatsiteli-beloe-suhoe-11",
+            "vinodelnya-batrak-perfekt-klassik-kaberne-sovinon-krasnoe-suhoe-135",
+            "vinodelnya-batrak-prikumskoe-vitale-kraft-kaberne-sovinon-krasnoe-suhoe-135"
+          ]
+        },
+        {
+          "name": "96.54_04-09-2026_19-30-52.webp",
+          "expected_slug": "denisov-winery-risling-beloe-suhoe-115",
+          "rank": null,
+          "top5": [
+            "vinodelnya-78-aligote-otbornoe-beloe-suhoe-12",
+            "aratti-sovinon-blan-beloe-polusuhoe",
+            "aratti-risling-suhoe",
+            "vinodelnya-78-muskat-otbornyy-muskat-yantarnyy-beloe-suhoe-125",
+            "aratti-risling-beloe-polusuhoe"
+          ]
+        },
+        {
+          "name": "96.58_05-09-2026_16-05-04.webp",
+          "expected_slug": "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11",
+          "rank": null,
+          "top5": [
+            "vinodelnya-batrak-perfekt-klassik-muskat-belyy-beloe-suhoe-125",
+            "zmv-koktebel-shardone-beloe-suhoe-12",
+            "zmv-koktebel-muskat-yantarnyy-desertnyy-beloe-sladkoe-16",
+            "zmv-koktebel-rkatsiteli-desertnoe-beloe-sladkoe-16",
+            "zmv-koktebel-traminer-desertnoe-beloe-sladkoe-16"
+          ]
+        },
+        {
+          "name": "96.61_28-08-2026_09-16-27.webp",
+          "expected_slug": "balaklava-muskat",
+          "rank": 1,
+          "top5": [
+            "balaklava-muskat",
+            "shardone-balaklava",
+            "balaklava-pino-nuar",
+            "balaklava-bryut-rezerv",
+            "abrau-dyurso-udelnoe-vedomstvo-imperatorskoe-beloe-polusladkoe"
+          ]
+        },
+        {
+          "name": "96.62_07-09-2026_18-12-27.webp",
+          "expected_slug": "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11",
+          "rank": null,
+          "top5": [
+            "vinodelnya-batrak-perfekt-klassik-muskat-belyy-beloe-suhoe-125",
+            "zmv-koktebel-muskat-yantarnyy-desertnyy-beloe-sladkoe-16",
+            "zmv-koktebel-shardone-beloe-suhoe-12",
+            "solnechnaya-dolina-muskatnoe-festivalnoe-muskat-belyy-rozovoe-sladkoe-16",
+            "zmv-koktebel-bastardo-krasnoe-suhoe-14"
+          ]
+        },
+        {
+          "name": "96.66_22-08-2026_20-44-40.webp",
+          "expected_slug": "perovskih_polusuhoe_krasnoe",
+          "rank": 1,
+          "top5": [
+            "perovskih_polusuhoe_krasnoe",
+            "leto-muskat-oranzh-2024-suhoe-vino",
+            "vinodelnya-molchanova-krasnostop-zolotovskiy-krasnoe-suhoe-135",
+            "leto-kaberne-fran-2024-polusladkoe-krasnoe",
+            "perovskih_polusladkoe_beloe"
+          ]
+        },
+        {
+          "name": "96.74_28-08-2026_13-52-26.webp",
+          "expected_slug": "usadba-mezyb-shishka-kupazh-5-kaberne-sovinon-rozovoe-suhoe-133",
+          "rank": 2,
+          "top5": [
+            "usadba-mezyb-shishka-pino-nuar-rozovoe-suhoe-115",
+            "usadba-mezyb-shishka-kupazh-5-kaberne-sovinon-rozovoe-suhoe-133",
+            "usadba-mezyb-shishka-oranzh-shardone-beloe-suhoe-127",
+            "usadba-mezyb-shishka-sovinon-blan-beloe-suhoe-12",
+            "usadba-mezyb-shishka-shenen-blan-sovinon-blan-beloe-suhoe-126"
+          ]
+        },
+        {
+          "name": "96.79_28-08-2026_22-05-22.webp",
+          "expected_slug": "vinodelnya-vedernikov-vedernikov-dolina-dona-beloe-suhoe-aligote-12",
+          "rank": null,
+          "top5": [
+            "dva-serdtsa-kaberne-fran-krasnoe-suhoe-14",
+            "vinodelnya-batrak-perfekt-klassik-kaberne-sovinon-krasnoe-suhoe-135",
+            "vinodelnya-vedernikov-vedernikov-dolina-dona-krasnoe-suhoe-kaberne-sovinon-125",
+            "vinodelnya-batrak-contadina-merlo-krasnoe-suhoe-14",
+            "gunko-winery-krasnye-gliny-kaberne-fran-krasnoe-suhoe-14"
+          ]
+        },
+        {
+          "name": "96.7_28-08-2026_13-50-21.webp",
+          "expected_slug": "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+          "rank": null,
+          "top5": [
+            "vinodelnya-vedernikov-vedernikov-krasnostop-zolotovskiy-magnum-krasnoe-suhoe-145",
+            "usadba-divnomorskoe-marselan-marselan-krasnoe-suhoe-149",
+            "usadba-divnomorskoe-west-hill-blend-kaberne-sovinon-krasnoe-suhoe-145",
+            "vinodelnya-batrak-perfekt-klassik-saperavi-krasnoe-suhoe-135",
+            "artvin-odesskiy-chernyy-rezerv-krasnoe-suhoe-13"
+          ]
+        },
+        {
+          "name": "96.96_05-09-2026_19-02-01.webp",
+          "expected_slug": "denisov_rubin_klaret_krasnaya_strelka",
+          "rank": null,
+          "top5": [
+            "vinodelnya-78-aligote-otbornoe-beloe-suhoe-12",
+            "vinodelnya-zhakov-rkatsiteli-eskeyp-krasnoe-suhoe-119",
+            "vinodelnya-78-muskat-otbornyy-muskat-yantarnyy-beloe-suhoe-125",
+            "aratti-risling-suhoe",
+            "vinodelnya-78-muskat-polusladkoe-muskat-ottonel-beloe-115"
+          ]
+        },
+        {
+          "name": "96.98_19-08-2026_19-05-06.webp",
+          "expected_slug": "czitronnyj-magaracha",
+          "rank": null,
+          "top5": [
+            "vinodelnya-batrak-perfekt-klassik-merlo-krasnoe-suhoe-135",
+            "vinodelnya-batrak-perfekt-klassik-kaberne-sovinon-krasnoe-suhoe-135",
+            "vinodelnya-batrak-perfekt-klassik-saperavi-krasnoe-suhoe-135",
+            "vinodelnya-pokrovskaya-ryzhest-rkatsiteli-beloe-suhoe-11",
+            "leto-kollekcziya-leta-2020-suhoe-beloe"
+          ]
+        }
+      ]
+    },
+    "gaussian_sigma_1_7": {
+      "sample_count": 52,
+      "top1_correct": 13,
+      "top1_accuracy": 0.25,
+      "top5_correct": 24,
+      "top5_recall": 0.46153846153846156,
+      "mean_reciprocal_rank": 0.33012820512820507,
+      "embedding_ms": 3698.2933999970555,
+      "wall_ms": 21402.119899983518,
+      "predictions": [
+        {
+          "name": "48.98_02-09-2026_18-34-15.webp",
+          "expected_slug": "denisov_rubin_klaret_krasnaya_strelka",
+          "rank": null,
+          "top5": [
+            "aratti-risling-suhoe",
+            "aratti-sovinon-blan-beloe-polusuhoe",
+            "aratti-risling-beloe-polusuhoe",
+            "aratti-muskat-belyj-polusuhoe",
+            "aratti-vremena-goda-saperavi-vyderzhannyj-zima"
+          ]
+        },
+        {
+          "name": "70.45_04-09-2026_13-35-37.webp",
+          "expected_slug": "fanagoriya-formula-q-kaberne-sovinon-krasnoe-suhoe-135",
+          "rank": 3,
+          "top5": [
+            "aratti-kaberne-sovinon-2020-krasnoe-suhoe",
+            "fanagoriya-saqra-saperavi-krasnoe-suhoe-135",
+            "fanagoriya-formula-q-kaberne-sovinon-krasnoe-suhoe-135",
+            "sober-bash-rkatsiteli-beloe-suhoe-14",
+            "cellar-master-sandzhoveze-krasnoe-suhoe-125"
+          ]
+        },
+        {
+          "name": "84.73_07-09-2026_11-07-51.webp",
+          "expected_slug": "zhemchuzhnaya-9-aligote-czitron",
+          "rank": 1,
+          "top5": [
+            "zhemchuzhnaya-9-aligote-czitron",
+            "zhemchuzhnaya-9-czitron-shardone",
+            "zhemchuzhnaya-9-czitron-shardone-1",
+            "zhemchuzhnaya-9-risling-sovinon-blan",
+            "zhemchuzhnaya-9-sovinon-blan-aligote"
+          ]
+        },
+        {
+          "name": "87.09_22-08-2026_20-57-16.webp",
+          "expected_slug": "pobeda",
+          "rank": null,
+          "top5": [
+            "vinodelnya-begildeeva-kaberne-sovinon-merlo-krasnoe-suhoe-14",
+            "vinodelnya-begildeeva-merlo-krasnoe-suhoe-14",
+            "aratti-kaberne-sovinon-2020-krasnoe-suhoe",
+            "vinodelnya-pokrovskaya-pokrovskoe-krasnoe-kaberne-sovinon-suhoe-14",
+            "leto-kollekcziya-leta-2020-suhoe-beloe"
+          ]
+        },
+        {
+          "name": "87.54_03-09-2026_13-27-53.webp",
+          "expected_slug": "relikta-relikta-sira-kaberne-fran-krasnoe-suhoe-13",
+          "rank": null,
+          "top5": [
+            "dva-serdtsa-kaberne-fran-krasnoe-suhoe-14",
+            "artvin-odesskiy-chernyy-rezerv-krasnoe-suhoe-13",
+            "usadba-rodnoe-gnezdo-4-elements-kaberne-sovinon-krasnoe-suhoe-15",
+            "vinodelnya-batrak-perfekt-klassik-saperavi-krasnoe-suhoe-135",
+            "relikta-relikta-shardone-beloe-suhoe-12"
+          ]
+        },
+        {
+          "name": "87.81_09-09-2026_17-16-36.webp",
+          "expected_slug": "aya-organic-wine-vineyards-purity-in-chenin-blanc-shenen-blan-beloe-suhoe-11",
+          "rank": null,
+          "top5": [
+            "aratti-kaberne-po-belomu-1",
+            "vinodelnya-78-muskat-otbornyy-muskat-yantarnyy-beloe-suhoe-125",
+            "aratti-kaberne-po-belomu",
+            "aratti-risling-suhoe",
+            "vinodelnya-78-aligote-otbornoe-beloe-suhoe-12"
+          ]
+        },
+        {
+          "name": "88.38_20-08-2026_18-32-58.webp",
+          "expected_slug": "czitronnyj-magaracha-sovinon-blan",
+          "rank": 4,
+          "top5": [
+            "zhemchuzhnaya-9-czitron-shardone",
+            "zhemchuzhnaya-9-aligote-czitron",
+            "zhemchuzhnaya-9-czitron-shardone-1",
+            "czitronnyj-magaracha-sovinon-blan",
+            "zhemchuzhnaya-9-risling-sovinon-blan"
+          ]
+        },
+        {
+          "name": "89.65_19-08-2026_19-48-39.webp",
+          "expected_slug": "rozovoe-zoloto",
+          "rank": null,
+          "top5": [
+            "roze-2",
+            "leto-risling-2024",
+            "leto-muskat-oranzh-2024-suhoe-vino",
+            "leto-risling-2024-polusuhoe-vino",
+            "leto-kaberne-fran-2024-polusladkoe-krasnoe"
+          ]
+        },
+        {
+          "name": "91.07_20-08-2026_18-37-46.webp",
+          "expected_slug": "aratti-kaberne-sovinon-2021-krasnoe-suhoe",
+          "rank": 4,
+          "top5": [
+            "aratti-sovinon-blan-beloe-polusuhoe",
+            "aratti-risling-suhoe",
+            "aratti-risling-beloe-polusuhoe",
+            "aratti-kaberne-sovinon-2021-krasnoe-suhoe",
+            "aratti-muskat-belyj-polusuhoe"
+          ]
+        },
+        {
+          "name": "92.21_19-08-2026_18-57-31.webp",
+          "expected_slug": "belaya-lvicza",
+          "rank": 1,
+          "top5": [
+            "belaya-lvicza",
+            "chernaya-lvicza-polusladkoe-krasnoe",
+            "rozovaya-pantera",
+            "nosorog-gold",
+            "skalistyy-bereg-skalistyy-bereg-kaberne-fran-krasnoe-suhoe-15"
+          ]
+        },
+        {
+          "name": "92.6_07-09-2026_11-04-40.webp",
+          "expected_slug": "aratti-kaberne-sovinon-2020-krasnoe-suhoe",
+          "rank": 1,
+          "top5": [
+            "aratti-kaberne-sovinon-2020-krasnoe-suhoe",
+            "imenie-sikory-merlo-semeynyy-rezerv-krasnoe-suhoe-14",
+            "imenie-sikory-kaberne-sovinon-semeynyy-rezerv-krasnoe-suhoe-14",
+            "imenie-sikory-krasnostop-zolotovskiy-na-terrasah-krasnoe-suhoe-14",
+            "imenie-sikory-semeynoe-nasledie-kaberne-sovinon-krasnoe-suhoe-14"
+          ]
+        },
+        {
+          "name": "92.96_19-08-2026_21-07-12.webp",
+          "expected_slug": "aratti-kaberne-sovinon-2020-krasnoe-suhoe",
+          "rank": 1,
+          "top5": [
+            "aratti-kaberne-sovinon-2020-krasnoe-suhoe",
+            "vinodelnya-batrak-kaberne-kortis-krasnoe-suhoe-12",
+            "massandra-kagor-gurzuf-saperavi-krasnoe-sladkoe-16",
+            "vinodelnya-batrak-perfekt-klassik-saperavi-krasnoe-suhoe-135",
+            "vinodelnya-batrak-perfekt-klassik-kaberne-sovinon-krasnoe-suhoe-135"
+          ]
+        },
+        {
+          "name": "93.31_05-09-2026_13-39-37.webp",
+          "expected_slug": "golubitskoe-estate-noble-selection-red-blend-kaberne-sovinon-krasnoe-suhoe-136",
+          "rank": null,
+          "top5": [
+            "vinodelnya-batrak-perfekt-klassik-saperavi-krasnoe-suhoe-135",
+            "vinodelnya-batrak-perfekt-klassik-kaberne-sovinon-krasnoe-suhoe-135",
+            "vinodelnya-batrak-perfekt-klassik-merlo-krasnoe-suhoe-135",
+            "golubitskoe-estate-kaberne-sovinon-noble-selection-krasnoe-suhoe-133",
+            "leto-kollekcziya-leta-2020-suhoe-beloe"
+          ]
+        },
+        {
+          "name": "93.43_05-09-2026_13-34-45.webp",
+          "expected_slug": "denisov_pet_nat_rubin",
+          "rank": 1,
+          "top5": [
+            "denisov_pet_nat_rubin",
+            "stn-winery-muskat-beloe-suhoe-115",
+            "stn-winery-traminer-traminer-beloe-suhoe-13",
+            "stn-winery-saignee-sira-rozovoe-suhoe-125",
+            "belbek-meritazh-kaberne-sovinon-krasnoe-suhoe-136"
+          ]
+        },
+        {
+          "name": "93.68_19-08-2026_20-44-28.webp",
+          "expected_slug": "zakat-denisov-vajneri",
+          "rank": null,
+          "top5": [
+            "aratti-kaberne-po-belomu-1",
+            "aratti-kaberne-po-belomu",
+            "vinodelnya-78-muskat-otbornyy-muskat-yantarnyy-beloe-suhoe-125",
+            "imenie-sikory-kaberne-fran-roze-rozovoe-suhoe-13",
+            "shato-ay-danil-kapriz-muskat-belyy-beloe-suhoe-135"
+          ]
+        },
+        {
+          "name": "93.84_02-09-2026_17-13-04.webp",
+          "expected_slug": "zakat-denisov-vajneri",
+          "rank": null,
+          "top5": [
+            "aratti-kaberne-po-belomu-1",
+            "aratti-kaberne-po-belomu",
+            "belmas-winery-malbec-katya-malbek-rozovoe-suhoe-129",
+            "ferrum-winery-pinot-noir-pino-nuar-rozovoe-suhoe-13",
+            "aratti-risling-suhoe"
+          ]
+        },
+        {
+          "name": "94.02_24-08-2026_17-46-57.webp",
+          "expected_slug": "rubin-golodrigi",
+          "rank": null,
+          "top5": [
+            "aratti-kaberne-sovinon-2020-krasnoe-suhoe",
+            "vinodelnya-begildeeva-kaberne-sovinon-merlo-krasnoe-suhoe-14",
+            "vinodelnya-begildeeva-merlo-krasnoe-suhoe-14",
+            "domaine-lipko-kaberne-sovinon-merlo-pomeste-trenzina-krasnoe-suhoe-15",
+            "leto-kaberne-fran-2024-polusladkoe-krasnoe"
+          ]
+        },
+        {
+          "name": "94.55_02-09-2026_16-53-08.webp",
+          "expected_slug": "denisov_pazori_risling",
+          "rank": null,
+          "top5": [
+            "vinodelnya-zhakov-rkatsiteli-eskeyp-krasnoe-suhoe-119",
+            "belbek-belbek-sandzhoveze-krasnoe-suhoe-138",
+            "vinodelnya-78-muskat-otbornyy-muskat-yantarnyy-beloe-suhoe-125",
+            "vinodelnya-78-muskat-polusladkoe-muskat-ottonel-beloe-115",
+            "vinodelnya-78-saperavi-krasnoe-suhoe-135"
+          ]
+        },
+        {
+          "name": "94.7_25-08-2026_15-52-07.webp",
+          "expected_slug": "czitronnyj-magaracha-sovinon-blan",
+          "rank": 4,
+          "top5": [
+            "zhemchuzhnaya-9-czitron-shardone-1",
+            "zhemchuzhnaya-9-czitron-shardone",
+            "zhemchuzhnaya-9-aligote-czitron",
+            "czitronnyj-magaracha-sovinon-blan",
+            "zhemchuzhnaya-9-sovinon-blan-aligote"
+          ]
+        },
+        {
+          "name": "94.97_02-09-2026_19-01-48.webp",
+          "expected_slug": "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-2",
+          "rank": null,
+          "top5": [
+            "zhemchuzhnaya-9-pino-gri-pino-nuar",
+            "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-1",
+            "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj",
+            "zhemchuzhnaya-9-muskat-rozovyj-pino-gri",
+            "zhemchuzhnaya-9-kaberne-sovinon-pino-nuar"
+          ]
+        },
+        {
+          "name": "95.03_04-09-2026_11-39-35.webp",
+          "expected_slug": "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11",
+          "rank": null,
+          "top5": [
+            "vinodelnya-batrak-perfekt-klassik-muskat-belyy-beloe-suhoe-125",
+            "solnechnaya-dolina-muskatnoe-festivalnoe-muskat-belyy-rozovoe-sladkoe-16",
+            "usadba-divnomorskoe-solist-marselan-rozovoe-suhoe-115",
+            "zmv-koktebel-rkatsiteli-desertnoe-beloe-sladkoe-16",
+            "zmv-koktebel-traminer-desertnoe-beloe-sladkoe-16"
+          ]
+        },
+        {
+          "name": "95.24_19-08-2026_20-00-22.webp",
+          "expected_slug": "zhemchuzhnaya-9-czitron-shardone-1",
+          "rank": 1,
+          "top5": [
+            "zhemchuzhnaya-9-czitron-shardone-1",
+            "zhemchuzhnaya-9-czitron-shardone",
+            "zhemchuzhnaya-9-aligote-czitron",
+            "zhemchuzhnaya-9-sovinon-blan-aligote",
+            "zhemchuzhnaya-9-risling-sovinon-blan"
+          ]
+        },
+        {
+          "name": "95.2_05-09-2026_13-54-13.webp",
+          "expected_slug": "aratti-kaberne-po-belomu-1",
+          "rank": 1,
+          "top5": [
+            "aratti-kaberne-po-belomu-1",
+            "aratti-kaberne-po-belomu",
+            "aratti-sovinon-blan-beloe-polusuhoe",
+            "aratti-risling-suhoe",
+            "aratti-muskat-belyj-suhoe"
+          ]
+        },
+        {
+          "name": "95.36_28-08-2026_17-09-04.webp",
+          "expected_slug": "winemaker-selection",
+          "rank": null,
+          "top5": [
+            "aratti-risling-suhoe",
+            "aratti-risling-beloe-polusuhoe",
+            "aratti-muskat-belyj-polusuhoe",
+            "aratti-vremena-goda-saperavi-vyderzhannyj-zima",
+            "aratti-kaberne-sovinon-2021-krasnoe-suhoe"
+          ]
+        },
+        {
+          "name": "95.49_05-09-2026_15-34-51.webp",
+          "expected_slug": "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-1",
+          "rank": 1,
+          "top5": [
+            "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-1",
+            "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj",
+            "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-2",
+            "zhemchuzhnaya-9-kaberne-sovinon-pino-nuar",
+            "zhemchuzhnaya-9-pino-gri-pino-nuar"
+          ]
+        },
+        {
+          "name": "95.63_24-08-2026_17-47-43.webp",
+          "expected_slug": "rubin-golodrigi",
+          "rank": 1,
+          "top5": [
+            "rubin-golodrigi",
+            "aratti-kaberne-sovinon-2020-krasnoe-suhoe",
+            "vinodelnya-begildeeva-kaberne-sovinon-merlo-krasnoe-suhoe-14",
+            "kaberne-sovinon-2",
+            "vinodelnya-batrak-perfekt-klassik-kaberne-sovinon-krasnoe-suhoe-135"
+          ]
+        },
+        {
+          "name": "95.75_02-09-2026_14-47-49.webp",
+          "expected_slug": "uva-vallis-risling",
+          "rank": null,
+          "top5": [
+            "dva-serdtsa-muskat-muskat-belyy-beloe-polusuhoe-12",
+            "uva-vallis-shardone",
+            "gunko-winery-krasnye-gliny-kaberne-fran-krasnoe-suhoe-14",
+            "gunko-winery-risling-beloe-suhoe-135",
+            "dva-serdtsa-muskat-suhoy-muskat-belyy-beloe-suhoe-12"
+          ]
+        },
+        {
+          "name": "95.76_23-08-2026_18-19-43.webp",
+          "expected_slug": "denisov_barynya_kurmyshi",
+          "rank": null,
+          "top5": [
+            "aratti-kaberne-po-belomu-1",
+            "aratti-kaberne-po-belomu",
+            "vinodelnya-zhakov-kokurkod-beloe-suhoe-118",
+            "vinodelnya-78-muskat-otbornyy-muskat-yantarnyy-beloe-suhoe-125",
+            "zmv-koktebel-roze-merlo-rozovoe-suhoe-12"
+          ]
+        },
+        {
+          "name": "95.88_02-09-2026_14-41-59.webp",
+          "expected_slug": "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11",
+          "rank": null,
+          "top5": [
+            "vinodelnya-batrak-perfekt-klassik-muskat-belyy-beloe-suhoe-125",
+            "vinodelnya-batrak-monte-di-cammello-nuvola-bianca-risling-beloe-suhoe-12",
+            "zmv-koktebel-muskat-yantarnyy-desertnyy-beloe-sladkoe-16",
+            "koktebel-casa-belyj-kupazh",
+            "zmv-koktebel-shardone-beloe-suhoe-12"
+          ]
+        },
+        {
+          "name": "95.8_19-08-2026_19-33-23.webp",
+          "expected_slug": "roze-2",
+          "rank": 1,
+          "top5": [
+            "roze-2",
+            "leto-risling-2024",
+            "leto-muskat-oranzh-2024-suhoe-vino",
+            "rozovoe-zoloto",
+            "leto-risling-2024-polusuhoe-vino"
+          ]
+        },
+        {
+          "name": "96.05_28-08-2026_09-14-57.webp",
+          "expected_slug": "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+          "rank": 2,
+          "top5": [
+            "artvin-odesskiy-chernyy-rezerv-krasnoe-suhoe-13",
+            "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+            "vinodelnya-batrak-perfekt-klassik-saperavi-krasnoe-suhoe-135",
+            "vinodelnya-batrak-perfekt-klassik-merlo-krasnoe-suhoe-135",
+            "usadba-divnomorskoe-marselan-marselan-krasnoe-suhoe-149"
+          ]
+        },
+        {
+          "name": "96.07_28-08-2026_16-10-06.webp",
+          "expected_slug": "golubitskoe-estate-kaberne-sovinon-krasnoe-suhoe-137",
+          "rank": null,
+          "top5": [
+            "leto-kaberne-fran-2024-polusladkoe-krasnoe",
+            "vinodelnya-vedernikov-krasnostop-zolotovskiy-rezerv-krasnoe-suhoe-15",
+            "vinodelnya-batrak-perfekt-klassik-saperavi-krasnoe-suhoe-135",
+            "usadba-divnomorskoe-marselan-marselan-krasnoe-suhoe-149",
+            "leto-shardone-2023-suhoe-beloe"
+          ]
+        },
+        {
+          "name": "96.08_22-08-2026_15-12-27.webp",
+          "expected_slug": "zhemchuzhnaya-9-czitron-shardone-1",
+          "rank": 2,
+          "top5": [
+            "zhemchuzhnaya-9-czitron-shardone",
+            "zhemchuzhnaya-9-czitron-shardone-1",
+            "zhemchuzhnaya-9-aligote-czitron",
+            "czitronnyj-magaracha-sovinon-blan",
+            "zhemchuzhnaya-9-sovinon-blan-aligote"
+          ]
+        },
+        {
+          "name": "96.08_28-08-2026_16-29-50.webp",
+          "expected_slug": "golubitskoe-estate-merlo-krasnoe-suhoe-135",
+          "rank": null,
+          "top5": [
+            "rkacziteli-beloe-suhoe",
+            "sary-pandas-vyderzhannoe",
+            "usadba-divnomorskoe-solist-marselan-rozovoe-suhoe-115",
+            "vinodelnya-vedernikov-vedernikov-krasnostop-zolotovskiy-magnum-krasnoe-suhoe-145",
+            "usadba-divnomorskoe-marselan-marselan-krasnoe-suhoe-149"
+          ]
+        },
+        {
+          "name": "96.13_19-08-2026_19-33-10.webp",
+          "expected_slug": "roze-2",
+          "rank": 2,
+          "top5": [
+            "vinodelnya-batrak-perfekt-klassik-muskat-belyy-beloe-suhoe-125",
+            "roze-2",
+            "rozovoe-zoloto",
+            "vinodelnya-vedernikov-vedernikov-krasnostop-zolotovskiy-magnum-krasnoe-suhoe-145",
+            "zmv-koktebel-muskat-yantarnyy-desertnyy-beloe-sladkoe-16"
+          ]
+        },
+        {
+          "name": "96.15_22-08-2026_20-56-09.webp",
+          "expected_slug": "roze-2",
+          "rank": 1,
+          "top5": [
+            "roze-2",
+            "vinodelnya-batrak-perfekt-klassik-muskat-belyy-beloe-suhoe-125",
+            "leto-risling-2024",
+            "leto-muskat-oranzh-2024-suhoe-vino",
+            "rozovoe-zoloto"
+          ]
+        },
+        {
+          "name": "96.27_20-08-2026_16-26-30.webp",
+          "expected_slug": "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-1",
+          "rank": 2,
+          "top5": [
+            "zhemchuzhnaya-9-muskat-rozovyj-kaberne-sovinon",
+            "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-1",
+            "zhemchuzhnaya-9-kaberne-sovinon-pino-nuar",
+            "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-2",
+            "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj"
+          ]
+        },
+        {
+          "name": "96.2_28-08-2026_09-13-27.webp",
+          "expected_slug": "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+          "rank": null,
+          "top5": [
+            "vinodelnya-batrak-perfekt-klassik-saperavi-krasnoe-suhoe-135",
+            "leto-kaberne-fran-2024-polusladkoe-krasnoe",
+            "vinodelnya-vedernikov-vedernikov-krasnostop-zolotovskiy-magnum-krasnoe-suhoe-145",
+            "vinodelnya-batrak-perfekt-klassik-merlo-krasnoe-suhoe-135",
+            "vinodelnya-batrak-perfekt-klassik-kaberne-sovinon-krasnoe-suhoe-135"
+          ]
+        },
+        {
+          "name": "96.31_09-09-2026_19-29-01.webp",
+          "expected_slug": "aratti-kaberne-po-belomu",
+          "rank": null,
+          "top5": [
+            "aratti-risling-suhoe",
+            "aratti-sovinon-blan-beloe-polusuhoe",
+            "aratti-kaberne-po-belomu-1",
+            "aratti-risling-beloe-polusuhoe",
+            "aratti-muskat-belyj-polusuhoe"
+          ]
+        },
+        {
+          "name": "96.31_21-08-2026_17-24-55.webp",
+          "expected_slug": "bukovinka",
+          "rank": null,
+          "top5": [
+            "leto-kaberne-fran-2024-polusladkoe-krasnoe",
+            "leto-muskat-oranzh-2024-suhoe-vino",
+            "leto-shardone-2023-suhoe-beloe",
+            "vinodelnya-begildeeva-kaberne-sovinon-merlo-krasnoe-suhoe-14",
+            "vinodelnya-batrak-perfekt-klassik-merlo-krasnoe-suhoe-135"
+          ]
+        },
+        {
+          "name": "96.3_28-08-2026_09-12-56.webp",
+          "expected_slug": "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+          "rank": null,
+          "top5": [
+            "vinodelnya-vedernikov-vedernikov-krasnostop-zolotovskiy-magnum-krasnoe-suhoe-145",
+            "usadba-divnomorskoe-west-hill-blend-kaberne-sovinon-krasnoe-suhoe-145",
+            "leto-shardone-2023-suhoe-beloe",
+            "vinodelnya-vedernikov-krasnostop-zolotovskiy-rezerv-krasnoe-suhoe-15",
+            "artvin-odesskiy-chernyy-rezerv-krasnoe-suhoe-13"
+          ]
+        },
+        {
+          "name": "96.45_19-08-2026_19-35-28.webp",
+          "expected_slug": "czitronnyj-magaracha",
+          "rank": 4,
+          "top5": [
+            "vinodelnya-batrak-perfekt-klassik-merlo-krasnoe-suhoe-135",
+            "vinodelnya-batrak-perfekt-klassik-saperavi-krasnoe-suhoe-135",
+            "vinodelnya-vedernikov-vedernikov-krasnostop-zolotovskiy-magnum-krasnoe-suhoe-145",
+            "czitronnyj-magaracha",
+            "vinodelnya-batrak-perfekt-klassik-kaberne-sovinon-krasnoe-suhoe-135"
+          ]
+        },
+        {
+          "name": "96.54_04-09-2026_19-30-52.webp",
+          "expected_slug": "denisov-winery-risling-beloe-suhoe-115",
+          "rank": null,
+          "top5": [
+            "vinodelnya-78-aligote-otbornoe-beloe-suhoe-12",
+            "aratti-sovinon-blan-beloe-polusuhoe",
+            "vinodelnya-78-muskat-otbornyy-muskat-yantarnyy-beloe-suhoe-125",
+            "andryus-yutsis-muskat-blan-vione-beloe-suhoe-117",
+            "aratti-risling-suhoe"
+          ]
+        },
+        {
+          "name": "96.58_05-09-2026_16-05-04.webp",
+          "expected_slug": "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11",
+          "rank": null,
+          "top5": [
+            "vinodelnya-batrak-perfekt-klassik-muskat-belyy-beloe-suhoe-125",
+            "zmv-koktebel-traminer-desertnoe-beloe-sladkoe-16",
+            "zmv-koktebel-shardone-beloe-suhoe-12",
+            "zmv-koktebel-muskat-yantarnyy-desertnyy-beloe-sladkoe-16",
+            "zmv-koktebel-rkatsiteli-desertnoe-beloe-sladkoe-16"
+          ]
+        },
+        {
+          "name": "96.61_28-08-2026_09-16-27.webp",
+          "expected_slug": "balaklava-muskat",
+          "rank": 1,
+          "top5": [
+            "balaklava-muskat",
+            "shardone-balaklava",
+            "balaklava-pino-nuar",
+            "abrau-dyurso-udelnoe-vedomstvo-imperatorskoe-beloe-polusladkoe",
+            "balaklava-bryut-rezerv"
+          ]
+        },
+        {
+          "name": "96.62_07-09-2026_18-12-27.webp",
+          "expected_slug": "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11",
+          "rank": null,
+          "top5": [
+            "vinodelnya-batrak-perfekt-klassik-muskat-belyy-beloe-suhoe-125",
+            "zmv-koktebel-muskat-yantarnyy-desertnyy-beloe-sladkoe-16",
+            "zmv-koktebel-shardone-beloe-suhoe-12",
+            "solnechnaya-dolina-muskatnoe-festivalnoe-muskat-belyy-rozovoe-sladkoe-16",
+            "zmv-koktebel-bastardo-krasnoe-suhoe-14"
+          ]
+        },
+        {
+          "name": "96.66_22-08-2026_20-44-40.webp",
+          "expected_slug": "perovskih_polusuhoe_krasnoe",
+          "rank": 1,
+          "top5": [
+            "perovskih_polusuhoe_krasnoe",
+            "leto-kaberne-fran-2024-polusladkoe-krasnoe",
+            "leto-shardone-2023-suhoe-beloe",
+            "vinodelnya-batrak-perfekt-klassik-merlo-krasnoe-suhoe-135",
+            "vinodelnya-molchanova-krasnostop-zolotovskiy-krasnoe-suhoe-135"
+          ]
+        },
+        {
+          "name": "96.74_28-08-2026_13-52-26.webp",
+          "expected_slug": "usadba-mezyb-shishka-kupazh-5-kaberne-sovinon-rozovoe-suhoe-133",
+          "rank": 2,
+          "top5": [
+            "usadba-mezyb-shishka-pino-nuar-rozovoe-suhoe-115",
+            "usadba-mezyb-shishka-kupazh-5-kaberne-sovinon-rozovoe-suhoe-133",
+            "usadba-mezyb-shishka-oranzh-shardone-beloe-suhoe-127",
+            "usadba-mezyb-shishka-sovinon-blan-beloe-suhoe-12",
+            "usadba-mezyb-shishka-shenen-blan-sovinon-blan-beloe-suhoe-126"
+          ]
+        },
+        {
+          "name": "96.79_28-08-2026_22-05-22.webp",
+          "expected_slug": "vinodelnya-vedernikov-vedernikov-dolina-dona-beloe-suhoe-aligote-12",
+          "rank": null,
+          "top5": [
+            "dva-serdtsa-arinarnoa-kaberne-sovinon-krasnoe-suhoe-135",
+            "vinodelnya-vedernikov-vedernikov-dolina-dona-krasnoe-suhoe-kaberne-sovinon-125",
+            "dva-serdtsa-kaberne-fran-krasnoe-suhoe-14",
+            "vinodelnya-batrak-perfekt-klassik-kaberne-sovinon-krasnoe-suhoe-135",
+            "vinodelnya-vedernikov-vedernikov-gubernatorskoe-golubok-krasnoe-suhoe-115"
+          ]
+        },
+        {
+          "name": "96.7_28-08-2026_13-50-21.webp",
+          "expected_slug": "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+          "rank": 3,
+          "top5": [
+            "usadba-divnomorskoe-marselan-marselan-krasnoe-suhoe-149",
+            "vinodelnya-vedernikov-vedernikov-krasnostop-zolotovskiy-magnum-krasnoe-suhoe-145",
+            "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+            "usadba-divnomorskoe-west-hill-blend-kaberne-sovinon-krasnoe-suhoe-145",
+            "artvin-odesskiy-chernyy-rezerv-krasnoe-suhoe-13"
+          ]
+        },
+        {
+          "name": "96.96_05-09-2026_19-02-01.webp",
+          "expected_slug": "denisov_rubin_klaret_krasnaya_strelka",
+          "rank": null,
+          "top5": [
+            "vinodelnya-78-muskat-otbornyy-muskat-yantarnyy-beloe-suhoe-125",
+            "vinodelnya-78-aligote-otbornoe-beloe-suhoe-12",
+            "aratti-risling-suhoe",
+            "vinodelnya-78-muskat-polusladkoe-muskat-ottonel-beloe-115",
+            "vinodelnya-zhakov-rkatsiteli-eskeyp-krasnoe-suhoe-119"
+          ]
+        },
+        {
+          "name": "96.98_19-08-2026_19-05-06.webp",
+          "expected_slug": "czitronnyj-magaracha",
+          "rank": null,
+          "top5": [
+            "vinodelnya-pokrovskaya-ryzhest-rkatsiteli-beloe-suhoe-11",
+            "vinodelnya-batrak-perfekt-klassik-saperavi-krasnoe-suhoe-135",
+            "vinodelnya-batrak-perfekt-klassik-merlo-krasnoe-suhoe-135",
+            "vinodelnya-batrak-perfekt-klassik-kaberne-sovinon-krasnoe-suhoe-135",
+            "leto-kollekcziya-leta-2020-suhoe-beloe"
+          ]
+        }
+      ]
+    },
+    "motion_9px": {
+      "sample_count": 52,
+      "top1_correct": 8,
+      "top1_accuracy": 0.15384615384615385,
+      "top5_correct": 25,
+      "top5_recall": 0.4807692307692308,
+      "mean_reciprocal_rank": 0.26955128205128204,
+      "embedding_ms": 3746.409700019285,
+      "wall_ms": 21515.995399910025,
+      "predictions": [
+        {
+          "name": "48.98_02-09-2026_18-34-15.webp",
+          "expected_slug": "denisov_rubin_klaret_krasnaya_strelka",
+          "rank": null,
+          "top5": [
+            "aratti-kaberne-sovinon-2020-krasnoe-suhoe",
+            "artvin-odesskiy-chernyy-rezerv-krasnoe-suhoe-13",
+            "aratti-risling-suhoe",
+            "aratti-sovinon-blan-beloe-polusuhoe",
+            "vinodelnya-batrak-perfekt-klassik-kaberne-sovinon-krasnoe-suhoe-135"
+          ]
+        },
+        {
+          "name": "70.45_04-09-2026_13-35-37.webp",
+          "expected_slug": "fanagoriya-formula-q-kaberne-sovinon-krasnoe-suhoe-135",
+          "rank": 4,
+          "top5": [
+            "fanagoriya-saqra-saperavi-krasnoe-suhoe-135",
+            "aratti-kaberne-sovinon-2020-krasnoe-suhoe",
+            "fanagoriya-tochka-saperavi-krasnoe-suhoe-14",
+            "fanagoriya-formula-q-kaberne-sovinon-krasnoe-suhoe-135",
+            "zmv-koktebel-madera-albilo-beloe-sladkoe-19"
+          ]
+        },
+        {
+          "name": "84.73_07-09-2026_11-07-51.webp",
+          "expected_slug": "zhemchuzhnaya-9-aligote-czitron",
+          "rank": 2,
+          "top5": [
+            "zhemchuzhnaya-9-czitron-shardone",
+            "zhemchuzhnaya-9-aligote-czitron",
+            "zhemchuzhnaya-9-czitron-shardone-1",
+            "zhemchuzhnaya-9-sovinon-blan-aligote",
+            "zhemchuzhnaya-9-risling-sovinon-blan"
+          ]
+        },
+        {
+          "name": "87.09_22-08-2026_20-57-16.webp",
+          "expected_slug": "pobeda",
+          "rank": null,
+          "top5": [
+            "aratti-kaberne-sovinon-2020-krasnoe-suhoe",
+            "leto-kollekcziya-leta-2020-suhoe-beloe",
+            "vinodelnya-begildeeva-kaberne-sovinon-merlo-krasnoe-suhoe-14",
+            "leto-risling-2020",
+            "vinodelnya-pokrovskaya-sovinon-blan-pokrovskoe-beloe-suhoe-12"
+          ]
+        },
+        {
+          "name": "87.54_03-09-2026_13-27-53.webp",
+          "expected_slug": "relikta-relikta-sira-kaberne-fran-krasnoe-suhoe-13",
+          "rank": null,
+          "top5": [
+            "dva-serdtsa-kaberne-fran-krasnoe-suhoe-14",
+            "usadba-rodnoe-gnezdo-4-elements-kaberne-sovinon-krasnoe-suhoe-15",
+            "dva-serdtsa-arinarnoa-kaberne-sovinon-krasnoe-suhoe-135",
+            "usadba-rodnoe-gnezdo-4-elements-sovinon-blan-beloe-polusladkoe-12",
+            "gunko-winery-risling-beloe-suhoe-135"
+          ]
+        },
+        {
+          "name": "87.81_09-09-2026_17-16-36.webp",
+          "expected_slug": "aya-organic-wine-vineyards-purity-in-chenin-blanc-shenen-blan-beloe-suhoe-11",
+          "rank": null,
+          "top5": [
+            "aratti-kaberne-po-belomu-1",
+            "gunko-winery-risling-beloe-suhoe-135",
+            "leto-risling-2024-polusuhoe-vino",
+            "vinodelnya-batrak-monte-di-cammello-nuvola-bianca-risling-beloe-suhoe-12",
+            "usadba-rodnoe-gnezdo-4-elements-sovinon-blan-beloe-suhoe-12"
+          ]
+        },
+        {
+          "name": "88.38_20-08-2026_18-32-58.webp",
+          "expected_slug": "czitronnyj-magaracha-sovinon-blan",
+          "rank": 5,
+          "top5": [
+            "zhemchuzhnaya-9-czitron-shardone",
+            "zhemchuzhnaya-9-aligote-czitron",
+            "zhemchuzhnaya-9-czitron-shardone-1",
+            "zhemchuzhnaya-9-sovinon-blan-aligote",
+            "czitronnyj-magaracha-sovinon-blan"
+          ]
+        },
+        {
+          "name": "89.65_19-08-2026_19-48-39.webp",
+          "expected_slug": "rozovoe-zoloto",
+          "rank": null,
+          "top5": [
+            "leto-risling-2024",
+            "roze-2",
+            "leto-risling-2024-polusuhoe-vino",
+            "leto-muskat-oranzh-2024-suhoe-vino",
+            "belbek-rkatsiteli-beloe-suhoe-13"
+          ]
+        },
+        {
+          "name": "91.07_20-08-2026_18-37-46.webp",
+          "expected_slug": "aratti-kaberne-sovinon-2021-krasnoe-suhoe",
+          "rank": 3,
+          "top5": [
+            "aratti-risling-suhoe",
+            "aratti-sovinon-blan-beloe-polusuhoe",
+            "aratti-kaberne-sovinon-2021-krasnoe-suhoe",
+            "aratti-risling-beloe-polusuhoe",
+            "vinodelnya-78-saperavi-krasnoe-suhoe-135"
+          ]
+        },
+        {
+          "name": "92.21_19-08-2026_18-57-31.webp",
+          "expected_slug": "belaya-lvicza",
+          "rank": 1,
+          "top5": [
+            "belaya-lvicza",
+            "chernaya-lvicza-polusladkoe-krasnoe",
+            "rozovaya-pantera",
+            "skalistyy-bereg-skalistyy-bereg-kaberne-fran-krasnoe-suhoe-15",
+            "nosorog-gold"
+          ]
+        },
+        {
+          "name": "92.6_07-09-2026_11-04-40.webp",
+          "expected_slug": "aratti-kaberne-sovinon-2020-krasnoe-suhoe",
+          "rank": 4,
+          "top5": [
+            "imenie-sikory-merlo-semeynyy-rezerv-krasnoe-suhoe-14",
+            "imenie-sikory-kaberne-sovinon-semeynyy-rezerv-krasnoe-suhoe-14",
+            "tsimlyanskie-vina-krepost-sarkel-krasnostop-zolotovskiy-krasnoe-suhoe-145",
+            "aratti-kaberne-sovinon-2020-krasnoe-suhoe",
+            "imenie-sikory-semeynoe-nasledie-kaberne-sovinon-krasnoe-suhoe-14"
+          ]
+        },
+        {
+          "name": "92.96_19-08-2026_21-07-12.webp",
+          "expected_slug": "aratti-kaberne-sovinon-2020-krasnoe-suhoe",
+          "rank": 1,
+          "top5": [
+            "aratti-kaberne-sovinon-2020-krasnoe-suhoe",
+            "fanagoriya-saqra-saperavi-krasnoe-suhoe-135",
+            "imenie-sikory-kaberne-sovinon-semeynyy-rezerv-krasnoe-suhoe-14",
+            "imenie-sikory-merlo-semeynyy-rezerv-krasnoe-suhoe-14",
+            "imenie-sikory-semeynoe-nasledie-kaberne-sovinon-krasnoe-suhoe-14"
+          ]
+        },
+        {
+          "name": "93.31_05-09-2026_13-39-37.webp",
+          "expected_slug": "golubitskoe-estate-noble-selection-red-blend-kaberne-sovinon-krasnoe-suhoe-136",
+          "rank": 5,
+          "top5": [
+            "vinodelnya-batrak-perfekt-klassik-saperavi-krasnoe-suhoe-135",
+            "dva-serdtsa-kaberne-fran-krasnoe-suhoe-14",
+            "golubitskoe-estate-kaberne-sovinon-noble-selection-krasnoe-suhoe-133",
+            "vinodelnya-batrak-perfekt-klassik-kaberne-sovinon-krasnoe-suhoe-135",
+            "golubitskoe-estate-noble-selection-red-blend-kaberne-sovinon-krasnoe-suhoe-136"
+          ]
+        },
+        {
+          "name": "93.43_05-09-2026_13-34-45.webp",
+          "expected_slug": "denisov_pet_nat_rubin",
+          "rank": 2,
+          "top5": [
+            "stn-winery-traminer-traminer-beloe-suhoe-13",
+            "denisov_pet_nat_rubin",
+            "stn-winery-muskat-beloe-suhoe-115",
+            "stn-winery-saignee-sira-rozovoe-suhoe-125",
+            "denisov_pet_nat_citron_rkaciteli"
+          ]
+        },
+        {
+          "name": "93.68_19-08-2026_20-44-28.webp",
+          "expected_slug": "zakat-denisov-vajneri",
+          "rank": null,
+          "top5": [
+            "aratti-kaberne-po-belomu-1",
+            "aratti-kaberne-po-belomu",
+            "imenie-sikory-kaberne-fran-roze-rozovoe-suhoe-13",
+            "vinodelnya-78-muskat-otbornyy-muskat-yantarnyy-beloe-suhoe-125",
+            "vinogradniki-gay-kodzora-rose-de-gai-kodzor-grenash-rozovoe-suhoe-125"
+          ]
+        },
+        {
+          "name": "93.84_02-09-2026_17-13-04.webp",
+          "expected_slug": "zakat-denisov-vajneri",
+          "rank": null,
+          "top5": [
+            "aratti-kaberne-po-belomu-1",
+            "aratti-kaberne-po-belomu",
+            "vinodelnya-uzunov-roze-ekstra-bryut-kaberne-sovinon-rozovoe-127",
+            "kuban-vino-aristov-tsvaygelt-320-rozovoe-suhoe-125",
+            "usadba-rodnoe-gnezdo-4-elements-sira-roze-rozovoe-polusuhoe-135"
+          ]
+        },
+        {
+          "name": "94.02_24-08-2026_17-46-57.webp",
+          "expected_slug": "rubin-golodrigi",
+          "rank": null,
+          "top5": [
+            "aratti-kaberne-sovinon-2020-krasnoe-suhoe",
+            "leto-risling-2024",
+            "vinodelnya-pokrovskaya-sovinon-blan-pokrovskoe-beloe-suhoe-12",
+            "leto-kaberne-fran-2024-polusladkoe-krasnoe",
+            "domaine-lipko-kaberne-sovinon-merlo-pomeste-trenzina-krasnoe-suhoe-15"
+          ]
+        },
+        {
+          "name": "94.55_02-09-2026_16-53-08.webp",
+          "expected_slug": "denisov_pazori_risling",
+          "rank": null,
+          "top5": [
+            "vinodelnya-zhakov-tavkveri-escape-krasnoe-suhoe-117",
+            "vinodelnya-zhakov-rkatsiteli-eskeyp-krasnoe-suhoe-119",
+            "belbek-belbek-sandzhoveze-krasnoe-suhoe-138",
+            "andryus-yutsis-risling-beloe-suhoe-12",
+            "aratti-vremena-goda-saperavi-vyderzhannyj-zima"
+          ]
+        },
+        {
+          "name": "94.7_25-08-2026_15-52-07.webp",
+          "expected_slug": "czitronnyj-magaracha-sovinon-blan",
+          "rank": null,
+          "top5": [
+            "zhemchuzhnaya-9-czitron-shardone",
+            "zhemchuzhnaya-9-aligote-czitron",
+            "zhemchuzhnaya-9-czitron-shardone-1",
+            "zhemchuzhnaya-9-sovinon-blan-aligote",
+            "zhemchuzhnaya-9-risling-sovinon-blan"
+          ]
+        },
+        {
+          "name": "94.97_02-09-2026_19-01-48.webp",
+          "expected_slug": "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-2",
+          "rank": 3,
+          "top5": [
+            "zhemchuzhnaya-9-pino-gri-pino-nuar",
+            "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-1",
+            "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-2",
+            "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj",
+            "zhemchuzhnaya-9-muskat-rozovyj-pino-gri"
+          ]
+        },
+        {
+          "name": "95.03_04-09-2026_11-39-35.webp",
+          "expected_slug": "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11",
+          "rank": null,
+          "top5": [
+            "usadba-divnomorskoe-solist-marselan-rozovoe-suhoe-115",
+            "vinodelnya-batrak-perfekt-klassik-muskat-belyy-beloe-suhoe-125",
+            "shato-ay-danil-kapriz-muskat-belyy-beloe-suhoe-135",
+            "vinodelnya-batrak-monte-di-cammello-nuvola-bianca-risling-beloe-suhoe-12",
+            "vinodelnya-vedernikov-tsimlyanskiy-chernyy-rozovyy-rozovoe-suhoe-125"
+          ]
+        },
+        {
+          "name": "95.24_19-08-2026_20-00-22.webp",
+          "expected_slug": "zhemchuzhnaya-9-czitron-shardone-1",
+          "rank": 2,
+          "top5": [
+            "zhemchuzhnaya-9-sovinon-blan-aligote",
+            "zhemchuzhnaya-9-czitron-shardone-1",
+            "zhemchuzhnaya-9-risling-sovinon-blan",
+            "zhemchuzhnaya-9-czitron-shardone",
+            "zhemchuzhnaya-9-aligote-czitron"
+          ]
+        },
+        {
+          "name": "95.2_05-09-2026_13-54-13.webp",
+          "expected_slug": "aratti-kaberne-po-belomu-1",
+          "rank": 1,
+          "top5": [
+            "aratti-kaberne-po-belomu-1",
+            "aratti-kaberne-po-belomu",
+            "vinodelnya-batrak-monte-di-cammello-nuvola-bianca-risling-beloe-suhoe-12",
+            "vinodelnya-batrak-perfekt-klassik-muskat-belyy-beloe-suhoe-125",
+            "ferrum-winery-pinot-noir-pino-nuar-rozovoe-suhoe-13"
+          ]
+        },
+        {
+          "name": "95.36_28-08-2026_17-09-04.webp",
+          "expected_slug": "winemaker-selection",
+          "rank": null,
+          "top5": [
+            "aratti-vremena-goda-saperavi-vyderzhannyj-zima",
+            "aratti-kaberne-sovinon-2021-krasnoe-suhoe",
+            "aratti-vremena-goda-saperavi-leto",
+            "aratti-risling-suhoe",
+            "aratti-vremena-goda-saperavi-merlo-vesna"
+          ]
+        },
+        {
+          "name": "95.49_05-09-2026_15-34-51.webp",
+          "expected_slug": "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-1",
+          "rank": 2,
+          "top5": [
+            "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-2",
+            "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-1",
+            "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj",
+            "zhemchuzhnaya-9-kaberne-sovinon-pino-nuar",
+            "zhemchuzhnaya-9-sovinon-blan-aligote"
+          ]
+        },
+        {
+          "name": "95.63_24-08-2026_17-47-43.webp",
+          "expected_slug": "rubin-golodrigi",
+          "rank": null,
+          "top5": [
+            "aratti-kaberne-sovinon-2020-krasnoe-suhoe",
+            "vinodelnya-pokrovskaya-sovinon-blan-pokrovskoe-beloe-suhoe-12",
+            "vinodelnya-pokrovskaya-risling-pokrovskoe-risling-reynskiy-beloe-suhoe-13",
+            "kaberne-sovinon-2",
+            "dva-serdtsa-kokur-beloe-suhoe-125"
+          ]
+        },
+        {
+          "name": "95.75_02-09-2026_14-47-49.webp",
+          "expected_slug": "uva-vallis-risling",
+          "rank": null,
+          "top5": [
+            "rkacziteli-beloe-suhoe",
+            "gunko-winery-risling-beloe-suhoe-135",
+            "usadba-divnomorskoe-marselan-marselan-krasnoe-suhoe-149",
+            "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+            "usadba-divnomorskoe-solist-marselan-rozovoe-suhoe-115"
+          ]
+        },
+        {
+          "name": "95.76_23-08-2026_18-19-43.webp",
+          "expected_slug": "denisov_barynya_kurmyshi",
+          "rank": null,
+          "top5": [
+            "vibes-chardonnay-barrel-fermented-shardone-beloe-suhoe-125",
+            "vibes-chardonnay-barrel-fermented-2021",
+            "kuban-vino-aristov-tsvaygelt-320-rozovoe-suhoe-125",
+            "usadba-rodnoe-gnezdo-4-elements-sira-roze-rozovoe-polusuhoe-135",
+            "vinodelnya-zhakov-kokurkod-beloe-suhoe-118"
+          ]
+        },
+        {
+          "name": "95.88_02-09-2026_14-41-59.webp",
+          "expected_slug": "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11",
+          "rank": null,
+          "top5": [
+            "vinodelnya-batrak-perfekt-klassik-muskat-belyy-beloe-suhoe-125",
+            "usadba-divnomorskoe-solist-marselan-rozovoe-suhoe-115",
+            "vinodelnya-batrak-monte-di-cammello-nuvola-bianca-risling-beloe-suhoe-12",
+            "vinodelnya-vedernikov-krasnostop-zolotovskiy-roze-rozovoe-suhoe-12",
+            "zmv-koktebel-traminer-desertnoe-beloe-sladkoe-16"
+          ]
+        },
+        {
+          "name": "95.8_19-08-2026_19-33-23.webp",
+          "expected_slug": "roze-2",
+          "rank": 1,
+          "top5": [
+            "roze-2",
+            "leto-risling-2024",
+            "leto-muskat-oranzh-2024-suhoe-vino",
+            "dva-serdtsa-kokur-beloe-suhoe-125",
+            "leto-risling-2024-polusuhoe-vino"
+          ]
+        },
+        {
+          "name": "96.05_28-08-2026_09-14-57.webp",
+          "expected_slug": "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+          "rank": 2,
+          "top5": [
+            "usadba-divnomorskoe-marselan-marselan-krasnoe-suhoe-149",
+            "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+            "vinodelnya-vedernikov-vedernikov-krasnostop-zolotovskiy-magnum-krasnoe-suhoe-145",
+            "dva-serdtsa-kaberne-fran-krasnoe-suhoe-14",
+            "usadba-rodnoe-gnezdo-4-elements-kaberne-sovinon-krasnoe-suhoe-15"
+          ]
+        },
+        {
+          "name": "96.07_28-08-2026_16-10-06.webp",
+          "expected_slug": "golubitskoe-estate-kaberne-sovinon-krasnoe-suhoe-137",
+          "rank": null,
+          "top5": [
+            "vinodelnya-vedernikov-vedernikov-krasnostop-zolotovskiy-magnum-krasnoe-suhoe-145",
+            "leto-kaberne-fran-2024-polusladkoe-krasnoe",
+            "leto-shardone-2023-suhoe-beloe",
+            "usadba-divnomorskoe-marselan-marselan-krasnoe-suhoe-149",
+            "vinodelnya-batrak-perfekt-klassik-merlo-krasnoe-suhoe-135"
+          ]
+        },
+        {
+          "name": "96.08_22-08-2026_15-12-27.webp",
+          "expected_slug": "zhemchuzhnaya-9-czitron-shardone-1",
+          "rank": 5,
+          "top5": [
+            "zhemchuzhnaya-9-sovinon-blan-aligote",
+            "zhemchuzhnaya-9-risling-sovinon-blan",
+            "zhemchuzhnaya-9-czitron-shardone",
+            "zhemchuzhnaya-9-aligote-czitron",
+            "zhemchuzhnaya-9-czitron-shardone-1"
+          ]
+        },
+        {
+          "name": "96.08_28-08-2026_16-29-50.webp",
+          "expected_slug": "golubitskoe-estate-merlo-krasnoe-suhoe-135",
+          "rank": null,
+          "top5": [
+            "vinodelnya-vedernikov-vedernikov-krasnostop-zolotovskiy-magnum-krasnoe-suhoe-145",
+            "usadba-divnomorskoe-solist-marselan-rozovoe-suhoe-115",
+            "usadba-divnomorskoe-marselan-marselan-krasnoe-suhoe-149",
+            "rkacziteli-beloe-suhoe",
+            "aratti-kaberne-sovinon-2020-krasnoe-suhoe"
+          ]
+        },
+        {
+          "name": "96.13_19-08-2026_19-33-10.webp",
+          "expected_slug": "roze-2",
+          "rank": 4,
+          "top5": [
+            "usadba-divnomorskoe-solist-marselan-rozovoe-suhoe-115",
+            "vinodelnya-batrak-perfekt-klassik-muskat-belyy-beloe-suhoe-125",
+            "vinodelnya-vedernikov-vedernikov-krasnostop-zolotovskiy-magnum-krasnoe-suhoe-145",
+            "roze-2",
+            "solnechnaya-dolina-muskatnoe-festivalnoe-muskat-belyy-rozovoe-sladkoe-16"
+          ]
+        },
+        {
+          "name": "96.15_22-08-2026_20-56-09.webp",
+          "expected_slug": "roze-2",
+          "rank": 2,
+          "top5": [
+            "leto-risling-2024",
+            "roze-2",
+            "leto-muskat-oranzh-2024-suhoe-vino",
+            "vinodelnya-batrak-perfekt-klassik-muskat-belyy-beloe-suhoe-125",
+            "dva-serdtsa-kokur-beloe-suhoe-125"
+          ]
+        },
+        {
+          "name": "96.27_20-08-2026_16-26-30.webp",
+          "expected_slug": "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-1",
+          "rank": 1,
+          "top5": [
+            "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-1",
+            "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-2",
+            "zhemchuzhnaya-9-kaberne-sovinon-pino-nuar",
+            "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj",
+            "zhemchuzhnaya-9-pino-gri-pino-nuar"
+          ]
+        },
+        {
+          "name": "96.2_28-08-2026_09-13-27.webp",
+          "expected_slug": "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+          "rank": 3,
+          "top5": [
+            "vinodelnya-vedernikov-vedernikov-krasnostop-zolotovskiy-magnum-krasnoe-suhoe-145",
+            "vinodelnya-batrak-perfekt-klassik-merlo-krasnoe-suhoe-135",
+            "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+            "leto-kaberne-fran-2024-polusladkoe-krasnoe",
+            "dva-serdtsa-kaberne-fran-krasnoe-suhoe-14"
+          ]
+        },
+        {
+          "name": "96.31_09-09-2026_19-29-01.webp",
+          "expected_slug": "aratti-kaberne-po-belomu",
+          "rank": null,
+          "top5": [
+            "aratti-risling-suhoe",
+            "andryus-yutsis-muskat-blan-vione-beloe-suhoe-117",
+            "aratti-muskat-belyj-polusuhoe",
+            "aratti-risling-beloe-polusuhoe",
+            "stn-winery-merlo-krasnoe-suhoe-14"
+          ]
+        },
+        {
+          "name": "96.31_21-08-2026_17-24-55.webp",
+          "expected_slug": "bukovinka",
+          "rank": null,
+          "top5": [
+            "leto-kaberne-fran-2024-polusladkoe-krasnoe",
+            "leto-risling-2024",
+            "dva-serdtsa-kaberne-fran-krasnoe-suhoe-14",
+            "leto-muskat-oranzh-2024-suhoe-vino",
+            "leto-shardone-2023-suhoe-beloe"
+          ]
+        },
+        {
+          "name": "96.3_28-08-2026_09-12-56.webp",
+          "expected_slug": "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+          "rank": 3,
+          "top5": [
+            "vinodelnya-vedernikov-vedernikov-krasnostop-zolotovskiy-magnum-krasnoe-suhoe-145",
+            "usadba-divnomorskoe-marselan-marselan-krasnoe-suhoe-149",
+            "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+            "usadba-divnomorskoe-west-hill-blend-kaberne-sovinon-krasnoe-suhoe-145",
+            "dva-serdtsa-kaberne-fran-krasnoe-suhoe-14"
+          ]
+        },
+        {
+          "name": "96.45_19-08-2026_19-35-28.webp",
+          "expected_slug": "czitronnyj-magaracha",
+          "rank": null,
+          "top5": [
+            "vinodelnya-batrak-perfekt-klassik-merlo-krasnoe-suhoe-135",
+            "vinodelnya-batrak-perfekt-klassik-saperavi-krasnoe-suhoe-135",
+            "dva-serdtsa-kaberne-fran-krasnoe-suhoe-14",
+            "vinodelnya-vedernikov-vedernikov-krasnostop-zolotovskiy-magnum-krasnoe-suhoe-145",
+            "leto-risling-2020"
+          ]
+        },
+        {
+          "name": "96.54_04-09-2026_19-30-52.webp",
+          "expected_slug": "denisov-winery-risling-beloe-suhoe-115",
+          "rank": null,
+          "top5": [
+            "vinodelnya-zhakov-tavkveri-escape-krasnoe-suhoe-117",
+            "andryus-yutsis-pino-nuar-krasnoe-suhoe-12",
+            "andryus-yutsis-muskat-blan-vione-beloe-suhoe-117",
+            "andryus-yutsis-shenen-blan-beloe-suhoe-12",
+            "vibes-chardonnay-barrel-fermented-2021"
+          ]
+        },
+        {
+          "name": "96.58_05-09-2026_16-05-04.webp",
+          "expected_slug": "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11",
+          "rank": null,
+          "top5": [
+            "vinodelnya-batrak-perfekt-klassik-muskat-belyy-beloe-suhoe-125",
+            "zmv-koktebel-traminer-desertnoe-beloe-sladkoe-16",
+            "usadba-divnomorskoe-solist-marselan-rozovoe-suhoe-115",
+            "shato-ay-danil-kapriz-muskat-belyy-beloe-suhoe-135",
+            "zmv-koktebel-rkatsiteli-desertnoe-beloe-sladkoe-16"
+          ]
+        },
+        {
+          "name": "96.61_28-08-2026_09-16-27.webp",
+          "expected_slug": "balaklava-muskat",
+          "rank": 3,
+          "top5": [
+            "abrau-dyurso-udelnoe-vedomstvo-imperatorskoe-beloe-polusladkoe",
+            "abrau-dyurso-udelnoe-vedomstvo-imperatorskoe-beloe-bryut",
+            "balaklava-muskat",
+            "shardone-balaklava",
+            "inkermanskiy-zmv-inkerman-polusladkoe-roze-aligote-rozovoe-135"
+          ]
+        },
+        {
+          "name": "96.62_07-09-2026_18-12-27.webp",
+          "expected_slug": "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11",
+          "rank": null,
+          "top5": [
+            "vinodelnya-batrak-perfekt-klassik-muskat-belyy-beloe-suhoe-125",
+            "usadba-divnomorskoe-solist-marselan-rozovoe-suhoe-115",
+            "vinodelnya-vedernikov-vedernikov-krasnostop-zolotovskiy-magnum-krasnoe-suhoe-145",
+            "zmv-koktebel-traminer-desertnoe-beloe-sladkoe-16",
+            "uva-vallis-sovinon-blan"
+          ]
+        },
+        {
+          "name": "96.66_22-08-2026_20-44-40.webp",
+          "expected_slug": "perovskih_polusuhoe_krasnoe",
+          "rank": 1,
+          "top5": [
+            "perovskih_polusuhoe_krasnoe",
+            "aratti-kaberne-sovinon-2020-krasnoe-suhoe",
+            "usadba-rodnoe-gnezdo-4-elements-kaberne-sovinon-krasnoe-suhoe-15",
+            "leto-shardone-2023-suhoe-beloe",
+            "vinodelnya-batrak-perfekt-klassik-merlo-krasnoe-suhoe-135"
+          ]
+        },
+        {
+          "name": "96.74_28-08-2026_13-52-26.webp",
+          "expected_slug": "usadba-mezyb-shishka-kupazh-5-kaberne-sovinon-rozovoe-suhoe-133",
+          "rank": 1,
+          "top5": [
+            "usadba-mezyb-shishka-kupazh-5-kaberne-sovinon-rozovoe-suhoe-133",
+            "usadba-mezyb-shishka-pino-nuar-rozovoe-suhoe-115",
+            "usadba-mezyb-shishka-oranzh-shardone-beloe-suhoe-127",
+            "aratti-kaberne-po-belomu",
+            "bogovich-wine-vineyard-klaret-pino-nuar-krasnoe-suhoe-119"
+          ]
+        },
+        {
+          "name": "96.79_28-08-2026_22-05-22.webp",
+          "expected_slug": "vinodelnya-vedernikov-vedernikov-dolina-dona-beloe-suhoe-aligote-12",
+          "rank": null,
+          "top5": [
+            "dva-serdtsa-arinarnoa-kaberne-sovinon-krasnoe-suhoe-135",
+            "vinodelnya-vedernikov-krasnostop-zolotovskiy-krasnoe-suhoe-13",
+            "dva-serdtsa-kaberne-fran-krasnoe-suhoe-14",
+            "dva-serdtsa-rozovoe-kaberne-sovinon-suhoe-13",
+            "belbek-zakat-merlo-sira-krasnoe-suhoe-132"
+          ]
+        },
+        {
+          "name": "96.7_28-08-2026_13-50-21.webp",
+          "expected_slug": "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+          "rank": 1,
+          "top5": [
+            "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+            "usadba-divnomorskoe-marselan-marselan-krasnoe-suhoe-149",
+            "vinodelnya-vedernikov-vedernikov-krasnostop-zolotovskiy-magnum-krasnoe-suhoe-145",
+            "rkacziteli-beloe-suhoe",
+            "usadba-divnomorskoe-west-hill-blend-kaberne-sovinon-krasnoe-suhoe-145"
+          ]
+        },
+        {
+          "name": "96.96_05-09-2026_19-02-01.webp",
+          "expected_slug": "denisov_rubin_klaret_krasnaya_strelka",
+          "rank": null,
+          "top5": [
+            "bogovich-wine-vineyard-kaberne-sovinon-krasnoe-suhoe-125",
+            "vinodelnya-zhakov-rkatsiteli-eskeyp-krasnoe-suhoe-119",
+            "vinodelnya-vedernikov-sibirkovyy-ekstra-bryut-beloe-117",
+            "vinodelnya-78-aligote-otbornoe-beloe-suhoe-12",
+            "vinodelnya-78-muskat-polusladkoe-muskat-ottonel-beloe-115"
+          ]
+        },
+        {
+          "name": "96.98_19-08-2026_19-05-06.webp",
+          "expected_slug": "czitronnyj-magaracha",
+          "rank": null,
+          "top5": [
+            "vinodelnya-batrak-perfekt-klassik-merlo-krasnoe-suhoe-135",
+            "vinodelnya-batrak-perfekt-klassik-kaberne-sovinon-krasnoe-suhoe-135",
+            "vinodelnya-batrak-perfekt-klassik-saperavi-krasnoe-suhoe-135",
+            "vinodelnya-vedernikov-vedernikov-krasnostop-zolotovskiy-magnum-krasnoe-suhoe-145",
+            "gunko-winery-risling-beloe-suhoe-135"
+          ]
+        }
+      ]
+    },
+    "compression_median": {
+      "sample_count": 52,
+      "top1_correct": 11,
+      "top1_accuracy": 0.21153846153846154,
+      "top5_correct": 25,
+      "top5_recall": 0.4807692307692308,
+      "mean_reciprocal_rank": 0.30480769230769234,
+      "embedding_ms": 3671.4085998246446,
+      "wall_ms": 20985.98299990408,
+      "predictions": [
+        {
+          "name": "48.98_02-09-2026_18-34-15.webp",
+          "expected_slug": "denisov_rubin_klaret_krasnaya_strelka",
+          "rank": null,
+          "top5": [
+            "aratti-risling-suhoe",
+            "aratti-sovinon-blan-beloe-polusuhoe",
+            "aratti-risling-beloe-polusuhoe",
+            "aratti-muskat-belyj-polusuhoe",
+            "aratti-vremena-goda-saperavi-vyderzhannyj-zima"
+          ]
+        },
+        {
+          "name": "70.45_04-09-2026_13-35-37.webp",
+          "expected_slug": "fanagoriya-formula-q-kaberne-sovinon-krasnoe-suhoe-135",
+          "rank": 5,
+          "top5": [
+            "aratti-kaberne-sovinon-2020-krasnoe-suhoe",
+            "fanagoriya-saqra-saperavi-krasnoe-suhoe-135",
+            "cellar-master-sandzhoveze-krasnoe-suhoe-125",
+            "sober-bash-rkatsiteli-beloe-suhoe-14",
+            "fanagoriya-formula-q-kaberne-sovinon-krasnoe-suhoe-135"
+          ]
+        },
+        {
+          "name": "84.73_07-09-2026_11-07-51.webp",
+          "expected_slug": "zhemchuzhnaya-9-aligote-czitron",
+          "rank": 1,
+          "top5": [
+            "zhemchuzhnaya-9-aligote-czitron",
+            "zhemchuzhnaya-9-czitron-shardone",
+            "zhemchuzhnaya-9-czitron-shardone-1",
+            "dacha-serdyuka-porechnoe-kaberne-sovinon-krasnoe-suhoe-13",
+            "zhemchuzhnaya-9-sovinon-blan-aligote"
+          ]
+        },
+        {
+          "name": "87.09_22-08-2026_20-57-16.webp",
+          "expected_slug": "pobeda",
+          "rank": null,
+          "top5": [
+            "vinodelnya-begildeeva-kaberne-sovinon-merlo-krasnoe-suhoe-14",
+            "vinodelnya-begildeeva-merlo-krasnoe-suhoe-14",
+            "vinodelnya-pokrovskaya-pokrovskoe-krasnoe-kaberne-sovinon-suhoe-14",
+            "aratti-kaberne-sovinon-2020-krasnoe-suhoe",
+            "vinodelnya-begildeeva-kaberne-sovinon-krasnoe-suhoe-14"
+          ]
+        },
+        {
+          "name": "87.54_03-09-2026_13-27-53.webp",
+          "expected_slug": "relikta-relikta-sira-kaberne-fran-krasnoe-suhoe-13",
+          "rank": null,
+          "top5": [
+            "dva-serdtsa-kaberne-fran-krasnoe-suhoe-14",
+            "artvin-odesskiy-chernyy-rezerv-krasnoe-suhoe-13",
+            "relikta-relikta-shardone-beloe-suhoe-12",
+            "dva-serdtsa-kokur-beloe-suhoe-125",
+            "dva-serdtsa-muskat-muskat-belyy-beloe-polusuhoe-12"
+          ]
+        },
+        {
+          "name": "87.81_09-09-2026_17-16-36.webp",
+          "expected_slug": "aya-organic-wine-vineyards-purity-in-chenin-blanc-shenen-blan-beloe-suhoe-11",
+          "rank": null,
+          "top5": [
+            "aratti-kaberne-po-belomu-1",
+            "vinodelnya-78-muskat-otbornyy-muskat-yantarnyy-beloe-suhoe-125",
+            "aratti-kaberne-po-belomu",
+            "vinodelnya-78-aligote-otbornoe-beloe-suhoe-12",
+            "aratti-risling-suhoe"
+          ]
+        },
+        {
+          "name": "88.38_20-08-2026_18-32-58.webp",
+          "expected_slug": "czitronnyj-magaracha-sovinon-blan",
+          "rank": 4,
+          "top5": [
+            "zhemchuzhnaya-9-czitron-shardone-1",
+            "zhemchuzhnaya-9-aligote-czitron",
+            "zhemchuzhnaya-9-czitron-shardone",
+            "czitronnyj-magaracha-sovinon-blan",
+            "zhemchuzhnaya-9-risling-sovinon-blan"
+          ]
+        },
+        {
+          "name": "89.65_19-08-2026_19-48-39.webp",
+          "expected_slug": "rozovoe-zoloto",
+          "rank": 5,
+          "top5": [
+            "roze-2",
+            "vinodelnya-batrak-perfekt-klassik-muskat-belyy-beloe-suhoe-125",
+            "leto-risling-2024",
+            "leto-risling-2024-polusuhoe-vino",
+            "rozovoe-zoloto"
+          ]
+        },
+        {
+          "name": "91.07_20-08-2026_18-37-46.webp",
+          "expected_slug": "aratti-kaberne-sovinon-2021-krasnoe-suhoe",
+          "rank": 4,
+          "top5": [
+            "aratti-sovinon-blan-beloe-polusuhoe",
+            "aratti-risling-suhoe",
+            "aratti-risling-beloe-polusuhoe",
+            "aratti-kaberne-sovinon-2021-krasnoe-suhoe",
+            "vinodelnya-78-aligote-otbornoe-beloe-suhoe-12"
+          ]
+        },
+        {
+          "name": "92.21_19-08-2026_18-57-31.webp",
+          "expected_slug": "belaya-lvicza",
+          "rank": 1,
+          "top5": [
+            "belaya-lvicza",
+            "chernaya-lvicza-polusladkoe-krasnoe",
+            "rozovaya-pantera",
+            "nosorog-gold",
+            "skalistyy-bereg-skalistyy-bereg-kaberne-sovinon-krasnoe-suhoe-15"
+          ]
+        },
+        {
+          "name": "92.6_07-09-2026_11-04-40.webp",
+          "expected_slug": "aratti-kaberne-sovinon-2020-krasnoe-suhoe",
+          "rank": 1,
+          "top5": [
+            "aratti-kaberne-sovinon-2020-krasnoe-suhoe",
+            "imenie-sikory-merlo-semeynyy-rezerv-krasnoe-suhoe-14",
+            "imenie-sikory-kaberne-sovinon-semeynyy-rezerv-krasnoe-suhoe-14",
+            "imenie-sikory-krasnostop-zolotovskiy-na-terrasah-krasnoe-suhoe-14",
+            "vinodelnya-batrak-kaberne-kortis-krasnoe-suhoe-12"
+          ]
+        },
+        {
+          "name": "92.96_19-08-2026_21-07-12.webp",
+          "expected_slug": "aratti-kaberne-sovinon-2020-krasnoe-suhoe",
+          "rank": 1,
+          "top5": [
+            "aratti-kaberne-sovinon-2020-krasnoe-suhoe",
+            "vinodelnya-batrak-kaberne-kortis-krasnoe-suhoe-12",
+            "vinodelnya-batrak-perfekt-klassik-saperavi-krasnoe-suhoe-135",
+            "vinodelnya-batrak-perfekt-klassik-kaberne-sovinon-krasnoe-suhoe-135",
+            "massandra-kagor-gurzuf-saperavi-krasnoe-sladkoe-16"
+          ]
+        },
+        {
+          "name": "93.31_05-09-2026_13-39-37.webp",
+          "expected_slug": "golubitskoe-estate-noble-selection-red-blend-kaberne-sovinon-krasnoe-suhoe-136",
+          "rank": null,
+          "top5": [
+            "vinodelnya-batrak-perfekt-klassik-kaberne-sovinon-krasnoe-suhoe-135",
+            "vinodelnya-batrak-perfekt-klassik-saperavi-krasnoe-suhoe-135",
+            "vinodelnya-batrak-perfekt-klassik-merlo-krasnoe-suhoe-135",
+            "leto-kollekcziya-leta-2020-suhoe-beloe",
+            "golubitskoe-estate-kaberne-sovinon-noble-selection-krasnoe-suhoe-133"
+          ]
+        },
+        {
+          "name": "93.43_05-09-2026_13-34-45.webp",
+          "expected_slug": "denisov_pet_nat_rubin",
+          "rank": 1,
+          "top5": [
+            "denisov_pet_nat_rubin",
+            "stn-winery-saignee-sira-rozovoe-suhoe-125",
+            "stn-winery-muskat-beloe-suhoe-115",
+            "stn-winery-traminer-traminer-beloe-suhoe-13",
+            "belbek-meritazh-kaberne-sovinon-krasnoe-suhoe-136"
+          ]
+        },
+        {
+          "name": "93.68_19-08-2026_20-44-28.webp",
+          "expected_slug": "zakat-denisov-vajneri",
+          "rank": null,
+          "top5": [
+            "aratti-kaberne-po-belomu-1",
+            "aratti-kaberne-po-belomu",
+            "vinodelnya-78-muskat-otbornyy-muskat-yantarnyy-beloe-suhoe-125",
+            "imenie-sikory-kaberne-fran-roze-rozovoe-suhoe-13",
+            "aratti-risling-suhoe"
+          ]
+        },
+        {
+          "name": "93.84_02-09-2026_17-13-04.webp",
+          "expected_slug": "zakat-denisov-vajneri",
+          "rank": null,
+          "top5": [
+            "aratti-kaberne-po-belomu-1",
+            "aratti-kaberne-po-belomu",
+            "andryus-yutsis-shenen-blan-beloe-suhoe-12",
+            "ferrum-winery-pinot-noir-pino-nuar-rozovoe-suhoe-13",
+            "belmas-winery-malbec-katya-malbek-rozovoe-suhoe-129"
+          ]
+        },
+        {
+          "name": "94.02_24-08-2026_17-46-57.webp",
+          "expected_slug": "rubin-golodrigi",
+          "rank": null,
+          "top5": [
+            "aratti-kaberne-sovinon-2020-krasnoe-suhoe",
+            "vinodelnya-begildeeva-kaberne-sovinon-merlo-krasnoe-suhoe-14",
+            "vinodelnya-begildeeva-merlo-krasnoe-suhoe-14",
+            "vinodelnya-batrak-perfekt-klassik-kaberne-sovinon-krasnoe-suhoe-135",
+            "vinodelnya-batrak-perfekt-klassik-saperavi-krasnoe-suhoe-135"
+          ]
+        },
+        {
+          "name": "94.55_02-09-2026_16-53-08.webp",
+          "expected_slug": "denisov_pazori_risling",
+          "rank": null,
+          "top5": [
+            "vinodelnya-zhakov-rkatsiteli-eskeyp-krasnoe-suhoe-119",
+            "belbek-belbek-sandzhoveze-krasnoe-suhoe-138",
+            "a-gordienko-m-nikolaev-pino-nuar-krasnoe-suhoe-135",
+            "vinodelnya-zhakov-tavkveri-escape-krasnoe-suhoe-117",
+            "vinodelnya-78-saperavi-krasnoe-suhoe-135"
+          ]
+        },
+        {
+          "name": "94.7_25-08-2026_15-52-07.webp",
+          "expected_slug": "czitronnyj-magaracha-sovinon-blan",
+          "rank": 4,
+          "top5": [
+            "zhemchuzhnaya-9-czitron-shardone-1",
+            "zhemchuzhnaya-9-czitron-shardone",
+            "zhemchuzhnaya-9-aligote-czitron",
+            "czitronnyj-magaracha-sovinon-blan",
+            "zhemchuzhnaya-9-risling-sovinon-blan"
+          ]
+        },
+        {
+          "name": "94.97_02-09-2026_19-01-48.webp",
+          "expected_slug": "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-2",
+          "rank": 5,
+          "top5": [
+            "zhemchuzhnaya-9-pino-gri-pino-nuar",
+            "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-1",
+            "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj",
+            "zhemchuzhnaya-9-kaberne-sovinon-pino-nuar",
+            "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-2"
+          ]
+        },
+        {
+          "name": "95.03_04-09-2026_11-39-35.webp",
+          "expected_slug": "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11",
+          "rank": null,
+          "top5": [
+            "vinodelnya-batrak-perfekt-klassik-muskat-belyy-beloe-suhoe-125",
+            "solnechnaya-dolina-muskatnoe-festivalnoe-muskat-belyy-rozovoe-sladkoe-16",
+            "usadba-divnomorskoe-solist-marselan-rozovoe-suhoe-115",
+            "zmv-koktebel-rkatsiteli-desertnoe-beloe-sladkoe-16",
+            "vinodelnya-batrak-monte-di-cammello-nuvola-bianca-risling-beloe-suhoe-12"
+          ]
+        },
+        {
+          "name": "95.24_19-08-2026_20-00-22.webp",
+          "expected_slug": "zhemchuzhnaya-9-czitron-shardone-1",
+          "rank": 1,
+          "top5": [
+            "zhemchuzhnaya-9-czitron-shardone-1",
+            "zhemchuzhnaya-9-czitron-shardone",
+            "zhemchuzhnaya-9-aligote-czitron",
+            "zhemchuzhnaya-9-sovinon-blan-aligote",
+            "zhemchuzhnaya-9-risling-sovinon-blan"
+          ]
+        },
+        {
+          "name": "95.2_05-09-2026_13-54-13.webp",
+          "expected_slug": "aratti-kaberne-po-belomu-1",
+          "rank": 2,
+          "top5": [
+            "aratti-kaberne-po-belomu",
+            "aratti-kaberne-po-belomu-1",
+            "aratti-muskat-belyj-suhoe",
+            "aratti-sovinon-blan-beloe-polusuhoe",
+            "aratti-risling-suhoe"
+          ]
+        },
+        {
+          "name": "95.36_28-08-2026_17-09-04.webp",
+          "expected_slug": "winemaker-selection",
+          "rank": null,
+          "top5": [
+            "aratti-risling-beloe-polusuhoe",
+            "aratti-risling-suhoe",
+            "aratti-vremena-goda-saperavi-vyderzhannyj-zima",
+            "aratti-muskat-belyj-polusuhoe",
+            "aratti-kaberne-sovinon-2021-krasnoe-suhoe"
+          ]
+        },
+        {
+          "name": "95.49_05-09-2026_15-34-51.webp",
+          "expected_slug": "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-1",
+          "rank": 2,
+          "top5": [
+            "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj",
+            "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-1",
+            "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-2",
+            "zhemchuzhnaya-9-kaberne-sovinon-pino-nuar",
+            "zhemchuzhnaya-9-pino-gri-pino-nuar"
+          ]
+        },
+        {
+          "name": "95.63_24-08-2026_17-47-43.webp",
+          "expected_slug": "rubin-golodrigi",
+          "rank": null,
+          "top5": [
+            "aratti-kaberne-sovinon-2020-krasnoe-suhoe",
+            "vinodelnya-batrak-perfekt-klassik-kaberne-sovinon-krasnoe-suhoe-135",
+            "vinodelnya-begildeeva-kaberne-sovinon-merlo-krasnoe-suhoe-14",
+            "vinodelnya-batrak-perfekt-klassik-saperavi-krasnoe-suhoe-135",
+            "domaine-lipko-kaberne-sovinon-merlo-pomeste-trenzina-krasnoe-suhoe-15"
+          ]
+        },
+        {
+          "name": "95.75_02-09-2026_14-47-49.webp",
+          "expected_slug": "uva-vallis-risling",
+          "rank": null,
+          "top5": [
+            "dva-serdtsa-muskat-muskat-belyy-beloe-polusuhoe-12",
+            "uva-vallis-shardone",
+            "gunko-winery-krasnye-gliny-kaberne-fran-krasnoe-suhoe-14",
+            "dva-serdtsa-muskat-suhoy-muskat-belyy-beloe-suhoe-12",
+            "dva-serdtsa-arinarnoa-kaberne-sovinon-krasnoe-suhoe-135"
+          ]
+        },
+        {
+          "name": "95.76_23-08-2026_18-19-43.webp",
+          "expected_slug": "denisov_barynya_kurmyshi",
+          "rank": null,
+          "top5": [
+            "aratti-kaberne-po-belomu-1",
+            "aratti-kaberne-po-belomu",
+            "vinodelnya-zhakov-kokurkod-beloe-suhoe-118",
+            "vinodelnya-78-muskat-otbornyy-muskat-yantarnyy-beloe-suhoe-125",
+            "aratti-risling-suhoe"
+          ]
+        },
+        {
+          "name": "95.88_02-09-2026_14-41-59.webp",
+          "expected_slug": "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11",
+          "rank": null,
+          "top5": [
+            "vinodelnya-batrak-perfekt-klassik-muskat-belyy-beloe-suhoe-125",
+            "zmv-koktebel-muskat-yantarnyy-desertnyy-beloe-sladkoe-16",
+            "vinodelnya-batrak-monte-di-cammello-nuvola-bianca-risling-beloe-suhoe-12",
+            "vinodelnya-vedernikov-krasnostop-zolotovskiy-roze-rozovoe-suhoe-12",
+            "shato-ay-danil-kapriz-muskat-belyy-beloe-suhoe-135"
+          ]
+        },
+        {
+          "name": "95.8_19-08-2026_19-33-23.webp",
+          "expected_slug": "roze-2",
+          "rank": 1,
+          "top5": [
+            "roze-2",
+            "rozovoe-zoloto",
+            "leto-risling-2024",
+            "vinodelnya-batrak-perfekt-klassik-muskat-belyy-beloe-suhoe-125",
+            "leto-muskat-oranzh-2024-suhoe-vino"
+          ]
+        },
+        {
+          "name": "96.05_28-08-2026_09-14-57.webp",
+          "expected_slug": "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+          "rank": 1,
+          "top5": [
+            "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+            "usadba-divnomorskoe-marselan-marselan-krasnoe-suhoe-149",
+            "uva-vallis-sovinon-blan",
+            "artvin-odesskiy-chernyy-rezerv-krasnoe-suhoe-13",
+            "usadba-divnomorskoe-west-hill-blend-kaberne-sovinon-krasnoe-suhoe-145"
+          ]
+        },
+        {
+          "name": "96.07_28-08-2026_16-10-06.webp",
+          "expected_slug": "golubitskoe-estate-kaberne-sovinon-krasnoe-suhoe-137",
+          "rank": null,
+          "top5": [
+            "leto-kaberne-fran-2024-polusladkoe-krasnoe",
+            "leto-shardone-2023-suhoe-beloe",
+            "vinodelnya-vedernikov-vedernikov-krasnostop-zolotovskiy-magnum-krasnoe-suhoe-145",
+            "vinodelnya-batrak-perfekt-klassik-merlo-krasnoe-suhoe-135",
+            "vinodelnya-batrak-perfekt-klassik-saperavi-krasnoe-suhoe-135"
+          ]
+        },
+        {
+          "name": "96.08_22-08-2026_15-12-27.webp",
+          "expected_slug": "zhemchuzhnaya-9-czitron-shardone-1",
+          "rank": 1,
+          "top5": [
+            "zhemchuzhnaya-9-czitron-shardone-1",
+            "zhemchuzhnaya-9-czitron-shardone",
+            "zhemchuzhnaya-9-sovinon-blan-aligote",
+            "zhemchuzhnaya-9-aligote-czitron",
+            "czitronnyj-magaracha-sovinon-blan"
+          ]
+        },
+        {
+          "name": "96.08_28-08-2026_16-29-50.webp",
+          "expected_slug": "golubitskoe-estate-merlo-krasnoe-suhoe-135",
+          "rank": null,
+          "top5": [
+            "rkacziteli-beloe-suhoe",
+            "usadba-divnomorskoe-solist-marselan-rozovoe-suhoe-115",
+            "vinodelnya-vedernikov-vedernikov-krasnostop-zolotovskiy-magnum-krasnoe-suhoe-145",
+            "usadba-divnomorskoe-marselan-marselan-krasnoe-suhoe-149",
+            "usadba-divnomorskoe-west-hill-blend-kaberne-sovinon-krasnoe-suhoe-145"
+          ]
+        },
+        {
+          "name": "96.13_19-08-2026_19-33-10.webp",
+          "expected_slug": "roze-2",
+          "rank": 3,
+          "top5": [
+            "vinodelnya-batrak-perfekt-klassik-muskat-belyy-beloe-suhoe-125",
+            "vinodelnya-vedernikov-vedernikov-krasnostop-zolotovskiy-magnum-krasnoe-suhoe-145",
+            "roze-2",
+            "leto-risling-2024",
+            "leto-muskat-oranzh-2024-suhoe-vino"
+          ]
+        },
+        {
+          "name": "96.15_22-08-2026_20-56-09.webp",
+          "expected_slug": "roze-2",
+          "rank": 3,
+          "top5": [
+            "vinodelnya-batrak-perfekt-klassik-muskat-belyy-beloe-suhoe-125",
+            "leto-risling-2024",
+            "roze-2",
+            "leto-muskat-oranzh-2024-suhoe-vino",
+            "rozovoe-zoloto"
+          ]
+        },
+        {
+          "name": "96.27_20-08-2026_16-26-30.webp",
+          "expected_slug": "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-1",
+          "rank": 2,
+          "top5": [
+            "zhemchuzhnaya-9-muskat-rozovyj-kaberne-sovinon",
+            "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-1",
+            "zhemchuzhnaya-9-kaberne-sovinon-pino-nuar",
+            "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-2",
+            "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj"
+          ]
+        },
+        {
+          "name": "96.2_28-08-2026_09-13-27.webp",
+          "expected_slug": "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+          "rank": 3,
+          "top5": [
+            "vinodelnya-vedernikov-vedernikov-krasnostop-zolotovskiy-magnum-krasnoe-suhoe-145",
+            "vinodelnya-batrak-perfekt-klassik-saperavi-krasnoe-suhoe-135",
+            "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+            "dva-serdtsa-kaberne-fran-krasnoe-suhoe-14",
+            "vinodelnya-batrak-perfekt-klassik-merlo-krasnoe-suhoe-135"
+          ]
+        },
+        {
+          "name": "96.31_09-09-2026_19-29-01.webp",
+          "expected_slug": "aratti-kaberne-po-belomu",
+          "rank": null,
+          "top5": [
+            "aratti-risling-suhoe",
+            "aratti-risling-beloe-polusuhoe",
+            "aratti-sovinon-blan-beloe-polusuhoe",
+            "aratti-muskat-belyj-polusuhoe",
+            "andryus-yutsis-muskat-blan-vione-beloe-suhoe-117"
+          ]
+        },
+        {
+          "name": "96.31_21-08-2026_17-24-55.webp",
+          "expected_slug": "bukovinka",
+          "rank": null,
+          "top5": [
+            "leto-kaberne-fran-2024-polusladkoe-krasnoe",
+            "leto-shardone-2023-suhoe-beloe",
+            "vinodelnya-batrak-perfekt-klassik-kaberne-fran-krasnoe-suhoe-135",
+            "dva-serdtsa-kaberne-fran-krasnoe-suhoe-14",
+            "aratti-kaberne-sovinon-2020-krasnoe-suhoe"
+          ]
+        },
+        {
+          "name": "96.3_28-08-2026_09-12-56.webp",
+          "expected_slug": "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+          "rank": null,
+          "top5": [
+            "vinodelnya-vedernikov-vedernikov-krasnostop-zolotovskiy-magnum-krasnoe-suhoe-145",
+            "usadba-divnomorskoe-west-hill-blend-kaberne-sovinon-krasnoe-suhoe-145",
+            "leto-kaberne-fran-2024-polusladkoe-krasnoe",
+            "artvin-odesskiy-chernyy-rezerv-krasnoe-suhoe-13",
+            "leto-shardone-2023-suhoe-beloe"
+          ]
+        },
+        {
+          "name": "96.45_19-08-2026_19-35-28.webp",
+          "expected_slug": "czitronnyj-magaracha",
+          "rank": null,
+          "top5": [
+            "vinodelnya-vedernikov-vedernikov-krasnostop-zolotovskiy-magnum-krasnoe-suhoe-145",
+            "vinodelnya-batrak-perfekt-klassik-merlo-krasnoe-suhoe-135",
+            "vinodelnya-batrak-perfekt-klassik-saperavi-krasnoe-suhoe-135",
+            "vinodelnya-batrak-perfekt-klassik-kaberne-sovinon-krasnoe-suhoe-135",
+            "dva-serdtsa-kaberne-fran-krasnoe-suhoe-14"
+          ]
+        },
+        {
+          "name": "96.54_04-09-2026_19-30-52.webp",
+          "expected_slug": "denisov-winery-risling-beloe-suhoe-115",
+          "rank": null,
+          "top5": [
+            "vinodelnya-78-aligote-otbornoe-beloe-suhoe-12",
+            "vinodelnya-78-muskat-otbornyy-muskat-yantarnyy-beloe-suhoe-125",
+            "aratti-sovinon-blan-beloe-polusuhoe",
+            "andryus-yutsis-muskat-blan-vione-beloe-suhoe-117",
+            "vinodelnya-78-saperavi-krasnoe-suhoe-135"
+          ]
+        },
+        {
+          "name": "96.58_05-09-2026_16-05-04.webp",
+          "expected_slug": "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11",
+          "rank": null,
+          "top5": [
+            "vinodelnya-batrak-perfekt-klassik-muskat-belyy-beloe-suhoe-125",
+            "zmv-koktebel-traminer-desertnoe-beloe-sladkoe-16",
+            "zmv-koktebel-shardone-beloe-suhoe-12",
+            "zmv-koktebel-rkatsiteli-desertnoe-beloe-sladkoe-16",
+            "zmv-koktebel-muskat-yantarnyy-desertnyy-beloe-sladkoe-16"
+          ]
+        },
+        {
+          "name": "96.61_28-08-2026_09-16-27.webp",
+          "expected_slug": "balaklava-muskat",
+          "rank": 1,
+          "top5": [
+            "balaklava-muskat",
+            "shardone-balaklava",
+            "balaklava-pino-nuar",
+            "balaklava-bryut-rezerv",
+            "abrau-dyurso-udelnoe-vedomstvo-imperatorskoe-beloe-polusladkoe"
+          ]
+        },
+        {
+          "name": "96.62_07-09-2026_18-12-27.webp",
+          "expected_slug": "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11",
+          "rank": null,
+          "top5": [
+            "vinodelnya-batrak-perfekt-klassik-muskat-belyy-beloe-suhoe-125",
+            "zmv-koktebel-muskat-yantarnyy-desertnyy-beloe-sladkoe-16",
+            "zmv-koktebel-shardone-beloe-suhoe-12",
+            "zmv-koktebel-bastardo-krasnoe-suhoe-14",
+            "zmv-koktebel-traminer-desertnoe-beloe-sladkoe-16"
+          ]
+        },
+        {
+          "name": "96.66_22-08-2026_20-44-40.webp",
+          "expected_slug": "perovskih_polusuhoe_krasnoe",
+          "rank": 2,
+          "top5": [
+            "leto-kaberne-fran-2024-polusladkoe-krasnoe",
+            "perovskih_polusuhoe_krasnoe",
+            "leto-shardone-2023-suhoe-beloe",
+            "leto-muskat-oranzh-2024-suhoe-vino",
+            "vinodelnya-molchanova-krasnostop-zolotovskiy-krasnoe-suhoe-135"
+          ]
+        },
+        {
+          "name": "96.74_28-08-2026_13-52-26.webp",
+          "expected_slug": "usadba-mezyb-shishka-kupazh-5-kaberne-sovinon-rozovoe-suhoe-133",
+          "rank": 2,
+          "top5": [
+            "usadba-mezyb-shishka-pino-nuar-rozovoe-suhoe-115",
+            "usadba-mezyb-shishka-kupazh-5-kaberne-sovinon-rozovoe-suhoe-133",
+            "usadba-mezyb-shishka-oranzh-shardone-beloe-suhoe-127",
+            "usadba-mezyb-shishka-sovinon-blan-beloe-suhoe-12",
+            "usadba-mezyb-shishka-shenen-blan-sovinon-blan-beloe-suhoe-126"
+          ]
+        },
+        {
+          "name": "96.79_28-08-2026_22-05-22.webp",
+          "expected_slug": "vinodelnya-vedernikov-vedernikov-dolina-dona-beloe-suhoe-aligote-12",
+          "rank": null,
+          "top5": [
+            "dva-serdtsa-arinarnoa-kaberne-sovinon-krasnoe-suhoe-135",
+            "vinodelnya-batrak-perfekt-klassik-kaberne-sovinon-krasnoe-suhoe-135",
+            "vinodelnya-vedernikov-krasnostop-zolotovskiy-krasnoe-suhoe-13",
+            "dva-serdtsa-kaberne-fran-krasnoe-suhoe-14",
+            "vinodelnya-begildeeva-merlo-krasnoe-suhoe-14"
+          ]
+        },
+        {
+          "name": "96.7_28-08-2026_13-50-21.webp",
+          "expected_slug": "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+          "rank": 1,
+          "top5": [
+            "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+            "vinodelnya-vedernikov-vedernikov-krasnostop-zolotovskiy-magnum-krasnoe-suhoe-145",
+            "cellar-master-sandzhoveze-krasnoe-suhoe-125",
+            "usadba-divnomorskoe-marselan-marselan-krasnoe-suhoe-149",
+            "usadba-rodnoe-gnezdo-4-elements-kaberne-sovinon-krasnoe-suhoe-15"
+          ]
+        },
+        {
+          "name": "96.96_05-09-2026_19-02-01.webp",
+          "expected_slug": "denisov_rubin_klaret_krasnaya_strelka",
+          "rank": null,
+          "top5": [
+            "vinodelnya-zhakov-rkatsiteli-eskeyp-krasnoe-suhoe-119",
+            "vinodelnya-78-aligote-otbornoe-beloe-suhoe-12",
+            "vinodelnya-78-muskat-polusladkoe-muskat-ottonel-beloe-115",
+            "vinodelnya-78-muskat-otbornyy-muskat-yantarnyy-beloe-suhoe-125",
+            "belbek-belbek-sandzhoveze-krasnoe-suhoe-138"
+          ]
+        },
+        {
+          "name": "96.98_19-08-2026_19-05-06.webp",
+          "expected_slug": "czitronnyj-magaracha",
+          "rank": null,
+          "top5": [
+            "vinodelnya-batrak-perfekt-klassik-kaberne-sovinon-krasnoe-suhoe-135",
+            "vinodelnya-batrak-perfekt-klassik-saperavi-krasnoe-suhoe-135",
+            "vinodelnya-batrak-perfekt-klassik-merlo-krasnoe-suhoe-135",
+            "vinodelnya-pokrovskaya-ryzhest-rkatsiteli-beloe-suhoe-11",
+            "leto-kollekcziya-leta-2020-suhoe-beloe"
+          ]
+        }
+      ]
+    },
+    "blur_plus_compression": {
+      "sample_count": 52,
+      "top1_correct": 12,
+      "top1_accuracy": 0.23076923076923078,
+      "top5_correct": 24,
+      "top5_recall": 0.46153846153846156,
+      "mean_reciprocal_rank": 0.30737179487179483,
+      "embedding_ms": 3592.4290999537334,
+      "wall_ms": 20793.040600023232,
+      "predictions": [
+        {
+          "name": "48.98_02-09-2026_18-34-15.webp",
+          "expected_slug": "denisov_rubin_klaret_krasnaya_strelka",
+          "rank": null,
+          "top5": [
+            "aratti-risling-suhoe",
+            "aratti-sovinon-blan-beloe-polusuhoe",
+            "aratti-risling-beloe-polusuhoe",
+            "aratti-muskat-belyj-polusuhoe",
+            "artvin-odesskiy-chernyy-rezerv-krasnoe-suhoe-13"
+          ]
+        },
+        {
+          "name": "70.45_04-09-2026_13-35-37.webp",
+          "expected_slug": "fanagoriya-formula-q-kaberne-sovinon-krasnoe-suhoe-135",
+          "rank": 3,
+          "top5": [
+            "aratti-kaberne-sovinon-2020-krasnoe-suhoe",
+            "fanagoriya-saqra-saperavi-krasnoe-suhoe-135",
+            "fanagoriya-formula-q-kaberne-sovinon-krasnoe-suhoe-135",
+            "tsimlyanskie-vina-krepost-sarkel-krasnostop-zolotovskiy-krasnoe-suhoe-145",
+            "fanagoriya-tochka-saperavi-krasnoe-suhoe-14"
+          ]
+        },
+        {
+          "name": "84.73_07-09-2026_11-07-51.webp",
+          "expected_slug": "zhemchuzhnaya-9-aligote-czitron",
+          "rank": 2,
+          "top5": [
+            "zhemchuzhnaya-9-czitron-shardone",
+            "zhemchuzhnaya-9-aligote-czitron",
+            "zhemchuzhnaya-9-czitron-shardone-1",
+            "zhemchuzhnaya-9-sovinon-blan-aligote",
+            "zhemchuzhnaya-9-risling-sovinon-blan"
+          ]
+        },
+        {
+          "name": "87.09_22-08-2026_20-57-16.webp",
+          "expected_slug": "pobeda",
+          "rank": null,
+          "top5": [
+            "vinodelnya-begildeeva-kaberne-sovinon-merlo-krasnoe-suhoe-14",
+            "vinodelnya-begildeeva-merlo-krasnoe-suhoe-14",
+            "vinodelnya-pokrovskaya-pokrovskoe-krasnoe-kaberne-sovinon-suhoe-14",
+            "leto-kollekcziya-leta-2020-suhoe-beloe",
+            "aratti-kaberne-sovinon-2020-krasnoe-suhoe"
+          ]
+        },
+        {
+          "name": "87.54_03-09-2026_13-27-53.webp",
+          "expected_slug": "relikta-relikta-sira-kaberne-fran-krasnoe-suhoe-13",
+          "rank": null,
+          "top5": [
+            "dva-serdtsa-kaberne-fran-krasnoe-suhoe-14",
+            "usadba-rodnoe-gnezdo-4-elements-kaberne-sovinon-krasnoe-suhoe-15",
+            "dva-serdtsa-vione-beloe-suhoe-125",
+            "dva-serdtsa-arinarnoa-kaberne-sovinon-krasnoe-suhoe-135",
+            "dva-serdtsa-kokur-beloe-suhoe-125"
+          ]
+        },
+        {
+          "name": "87.81_09-09-2026_17-16-36.webp",
+          "expected_slug": "aya-organic-wine-vineyards-purity-in-chenin-blanc-shenen-blan-beloe-suhoe-11",
+          "rank": null,
+          "top5": [
+            "aratti-kaberne-po-belomu-1",
+            "vinodelnya-78-muskat-otbornyy-muskat-yantarnyy-beloe-suhoe-125",
+            "leto-risling-2024-polusuhoe-vino",
+            "leto-risling-2024",
+            "vinodelnya-78-aligote-otbornoe-beloe-suhoe-12"
+          ]
+        },
+        {
+          "name": "88.38_20-08-2026_18-32-58.webp",
+          "expected_slug": "czitronnyj-magaracha-sovinon-blan",
+          "rank": null,
+          "top5": [
+            "zhemchuzhnaya-9-czitron-shardone",
+            "zhemchuzhnaya-9-aligote-czitron",
+            "zhemchuzhnaya-9-czitron-shardone-1",
+            "zhemchuzhnaya-9-sovinon-blan-aligote",
+            "zhemchuzhnaya-9-risling-sovinon-blan"
+          ]
+        },
+        {
+          "name": "89.65_19-08-2026_19-48-39.webp",
+          "expected_slug": "rozovoe-zoloto",
+          "rank": null,
+          "top5": [
+            "roze-2",
+            "leto-risling-2024",
+            "vinodelnya-batrak-perfekt-klassik-muskat-belyy-beloe-suhoe-125",
+            "leto-risling-2024-polusuhoe-vino",
+            "leto-muskat-oranzh-2024-suhoe-vino"
+          ]
+        },
+        {
+          "name": "91.07_20-08-2026_18-37-46.webp",
+          "expected_slug": "aratti-kaberne-sovinon-2021-krasnoe-suhoe",
+          "rank": 3,
+          "top5": [
+            "aratti-risling-suhoe",
+            "aratti-sovinon-blan-beloe-polusuhoe",
+            "aratti-kaberne-sovinon-2021-krasnoe-suhoe",
+            "aratti-risling-beloe-polusuhoe",
+            "vinodelnya-78-aligote-otbornoe-beloe-suhoe-12"
+          ]
+        },
+        {
+          "name": "92.21_19-08-2026_18-57-31.webp",
+          "expected_slug": "belaya-lvicza",
+          "rank": 1,
+          "top5": [
+            "belaya-lvicza",
+            "chernaya-lvicza-polusladkoe-krasnoe",
+            "rozovaya-pantera",
+            "skalistyy-bereg-skalistyy-bereg-kaberne-fran-krasnoe-suhoe-15",
+            "skalistyy-bereg-skalistyy-bereg-krasnaya-kniga-glava-2-merlo-krasnoe-suhoe-15"
+          ]
+        },
+        {
+          "name": "92.6_07-09-2026_11-04-40.webp",
+          "expected_slug": "aratti-kaberne-sovinon-2020-krasnoe-suhoe",
+          "rank": 1,
+          "top5": [
+            "aratti-kaberne-sovinon-2020-krasnoe-suhoe",
+            "imenie-sikory-merlo-semeynyy-rezerv-krasnoe-suhoe-14",
+            "imenie-sikory-kaberne-sovinon-semeynyy-rezerv-krasnoe-suhoe-14",
+            "tsimlyanskie-vina-krepost-sarkel-krasnostop-zolotovskiy-krasnoe-suhoe-145",
+            "semeynaya-vinodelnya-mihaila-kolesnikova-kaberne-fran-merlo-krasnostop-krasnoe-suhoe-148"
+          ]
+        },
+        {
+          "name": "92.96_19-08-2026_21-07-12.webp",
+          "expected_slug": "aratti-kaberne-sovinon-2020-krasnoe-suhoe",
+          "rank": 1,
+          "top5": [
+            "aratti-kaberne-sovinon-2020-krasnoe-suhoe",
+            "fanagoriya-saqra-saperavi-krasnoe-suhoe-135",
+            "kaberne-sovinon-2",
+            "imenie-sikory-kaberne-sovinon-semeynyy-rezerv-krasnoe-suhoe-14",
+            "vinodelnya-batrak-kaberne-kortis-krasnoe-suhoe-12"
+          ]
+        },
+        {
+          "name": "93.31_05-09-2026_13-39-37.webp",
+          "expected_slug": "golubitskoe-estate-noble-selection-red-blend-kaberne-sovinon-krasnoe-suhoe-136",
+          "rank": null,
+          "top5": [
+            "vinodelnya-batrak-perfekt-klassik-saperavi-krasnoe-suhoe-135",
+            "vinodelnya-batrak-perfekt-klassik-kaberne-sovinon-krasnoe-suhoe-135",
+            "vinodelnya-vedernikov-vedernikov-krasnostop-zolotovskiy-magnum-krasnoe-suhoe-145",
+            "vinodelnya-batrak-perfekt-klassik-merlo-krasnoe-suhoe-135",
+            "golubitskoe-estate-kaberne-sovinon-noble-selection-krasnoe-suhoe-133"
+          ]
+        },
+        {
+          "name": "93.43_05-09-2026_13-34-45.webp",
+          "expected_slug": "denisov_pet_nat_rubin",
+          "rank": 1,
+          "top5": [
+            "denisov_pet_nat_rubin",
+            "stn-winery-muskat-beloe-suhoe-115",
+            "stn-winery-traminer-traminer-beloe-suhoe-13",
+            "stn-winery-saignee-sira-rozovoe-suhoe-125",
+            "shato-pino-petnat-pino-nuar-rozovoe-ekstra-bryut-11"
+          ]
+        },
+        {
+          "name": "93.68_19-08-2026_20-44-28.webp",
+          "expected_slug": "zakat-denisov-vajneri",
+          "rank": null,
+          "top5": [
+            "aratti-kaberne-po-belomu-1",
+            "aratti-kaberne-po-belomu",
+            "vinodelnya-78-muskat-otbornyy-muskat-yantarnyy-beloe-suhoe-125",
+            "imenie-sikory-kaberne-fran-roze-rozovoe-suhoe-13",
+            "andryus-yutsis-shenen-blan-beloe-suhoe-12"
+          ]
+        },
+        {
+          "name": "93.84_02-09-2026_17-13-04.webp",
+          "expected_slug": "zakat-denisov-vajneri",
+          "rank": null,
+          "top5": [
+            "aratti-kaberne-po-belomu-1",
+            "aratti-kaberne-po-belomu",
+            "vinodelnya-uzunov-roze-ekstra-bryut-kaberne-sovinon-rozovoe-127",
+            "kuban-vino-aristov-tsvaygelt-320-rozovoe-suhoe-125",
+            "usadba-rodnoe-gnezdo-4-elements-sira-roze-rozovoe-polusuhoe-135"
+          ]
+        },
+        {
+          "name": "94.02_24-08-2026_17-46-57.webp",
+          "expected_slug": "rubin-golodrigi",
+          "rank": null,
+          "top5": [
+            "vinodelnya-begildeeva-kaberne-sovinon-merlo-krasnoe-suhoe-14",
+            "aratti-kaberne-sovinon-2020-krasnoe-suhoe",
+            "vinodelnya-pokrovskaya-pokrovskoe-krasnoe-kaberne-sovinon-suhoe-14",
+            "vinodelnya-pokrovskaya-sovinon-blan-pokrovskoe-beloe-suhoe-12",
+            "vinodelnya-pokrovskaya-risling-pokrovskoe-risling-reynskiy-beloe-suhoe-13"
+          ]
+        },
+        {
+          "name": "94.55_02-09-2026_16-53-08.webp",
+          "expected_slug": "denisov_pazori_risling",
+          "rank": null,
+          "top5": [
+            "vinodelnya-zhakov-rkatsiteli-eskeyp-krasnoe-suhoe-119",
+            "vinodelnya-zhakov-tavkveri-escape-krasnoe-suhoe-117",
+            "belbek-belbek-sandzhoveze-krasnoe-suhoe-138",
+            "a-gordienko-m-nikolaev-pino-nuar-krasnoe-suhoe-135",
+            "vinodelnya-78-muskat-otbornyy-muskat-yantarnyy-beloe-suhoe-125"
+          ]
+        },
+        {
+          "name": "94.7_25-08-2026_15-52-07.webp",
+          "expected_slug": "czitronnyj-magaracha-sovinon-blan",
+          "rank": null,
+          "top5": [
+            "zhemchuzhnaya-9-czitron-shardone",
+            "zhemchuzhnaya-9-czitron-shardone-1",
+            "zhemchuzhnaya-9-aligote-czitron",
+            "zhemchuzhnaya-9-sovinon-blan-aligote",
+            "zhemchuzhnaya-9-risling-sovinon-blan"
+          ]
+        },
+        {
+          "name": "94.97_02-09-2026_19-01-48.webp",
+          "expected_slug": "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-2",
+          "rank": 3,
+          "top5": [
+            "zhemchuzhnaya-9-pino-gri-pino-nuar",
+            "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-1",
+            "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-2",
+            "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj",
+            "zhemchuzhnaya-9-kaberne-sovinon-pino-nuar"
+          ]
+        },
+        {
+          "name": "95.03_04-09-2026_11-39-35.webp",
+          "expected_slug": "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11",
+          "rank": null,
+          "top5": [
+            "usadba-divnomorskoe-solist-marselan-rozovoe-suhoe-115",
+            "vinodelnya-vedernikov-gubernatorskoe-rozovoe-tsimlyanskiy-chernyy-suhoe-11",
+            "vinodelnya-vedernikov-vedernikov-krasnostop-zolotovskiy-magnum-krasnoe-suhoe-145",
+            "vinodelnya-batrak-perfekt-klassik-muskat-belyy-beloe-suhoe-125",
+            "vinodelnya-vedernikov-tsimlyanskiy-chernyy-rozovyy-rozovoe-suhoe-125"
+          ]
+        },
+        {
+          "name": "95.24_19-08-2026_20-00-22.webp",
+          "expected_slug": "zhemchuzhnaya-9-czitron-shardone-1",
+          "rank": 1,
+          "top5": [
+            "zhemchuzhnaya-9-czitron-shardone-1",
+            "zhemchuzhnaya-9-czitron-shardone",
+            "zhemchuzhnaya-9-sovinon-blan-aligote",
+            "zhemchuzhnaya-9-aligote-czitron",
+            "zhemchuzhnaya-9-risling-sovinon-blan"
+          ]
+        },
+        {
+          "name": "95.2_05-09-2026_13-54-13.webp",
+          "expected_slug": "aratti-kaberne-po-belomu-1",
+          "rank": 1,
+          "top5": [
+            "aratti-kaberne-po-belomu-1",
+            "aratti-kaberne-po-belomu",
+            "ferrum-winery-pinot-noir-pino-nuar-rozovoe-suhoe-13",
+            "aratti-sovinon-blan-beloe-polusuhoe",
+            "zmv-koktebel-roze-merlo-rozovoe-suhoe-12"
+          ]
+        },
+        {
+          "name": "95.36_28-08-2026_17-09-04.webp",
+          "expected_slug": "winemaker-selection",
+          "rank": null,
+          "top5": [
+            "aratti-risling-suhoe",
+            "aratti-risling-beloe-polusuhoe",
+            "aratti-vremena-goda-saperavi-vyderzhannyj-zima",
+            "aratti-muskat-belyj-polusuhoe",
+            "aratti-kaberne-sovinon-2021-krasnoe-suhoe"
+          ]
+        },
+        {
+          "name": "95.49_05-09-2026_15-34-51.webp",
+          "expected_slug": "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-1",
+          "rank": 3,
+          "top5": [
+            "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-2",
+            "aratti-kaberne-po-belomu-1",
+            "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-1",
+            "aratti-kaberne-po-belomu",
+            "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj"
+          ]
+        },
+        {
+          "name": "95.63_24-08-2026_17-47-43.webp",
+          "expected_slug": "rubin-golodrigi",
+          "rank": null,
+          "top5": [
+            "vinodelnya-pokrovskaya-sovinon-blan-pokrovskoe-beloe-suhoe-12",
+            "vinodelnya-pokrovskaya-risling-pokrovskoe-risling-reynskiy-beloe-suhoe-13",
+            "aratti-kaberne-sovinon-2020-krasnoe-suhoe",
+            "vinodelnya-pokrovskaya-pokrovskoe-krasnoe-kaberne-sovinon-suhoe-14",
+            "vinodelnya-pokrovskaya-pokrovskoe-sladkoe-krasnoe-kaberne-sovinon-13"
+          ]
+        },
+        {
+          "name": "95.75_02-09-2026_14-47-49.webp",
+          "expected_slug": "uva-vallis-risling",
+          "rank": null,
+          "top5": [
+            "usadba-divnomorskoe-marselan-marselan-krasnoe-suhoe-149",
+            "rkacziteli-beloe-suhoe",
+            "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+            "gunko-winery-krasnye-gliny-kaberne-fran-krasnoe-suhoe-14",
+            "gunko-winery-risling-beloe-suhoe-135"
+          ]
+        },
+        {
+          "name": "95.76_23-08-2026_18-19-43.webp",
+          "expected_slug": "denisov_barynya_kurmyshi",
+          "rank": null,
+          "top5": [
+            "aratti-kaberne-po-belomu-1",
+            "vinodelnya-zhakov-kokurkod-beloe-suhoe-118",
+            "aratti-kaberne-po-belomu",
+            "kuban-vino-aristov-tsvaygelt-320-rozovoe-suhoe-125",
+            "vibes-chardonnay-barrel-fermented-shardone-beloe-suhoe-125"
+          ]
+        },
+        {
+          "name": "95.88_02-09-2026_14-41-59.webp",
+          "expected_slug": "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11",
+          "rank": null,
+          "top5": [
+            "vinodelnya-batrak-perfekt-klassik-muskat-belyy-beloe-suhoe-125",
+            "usadba-divnomorskoe-solist-marselan-rozovoe-suhoe-115",
+            "vinodelnya-batrak-monte-di-cammello-nuvola-bianca-risling-beloe-suhoe-12",
+            "vinodelnya-vedernikov-krasnostop-zolotovskiy-roze-rozovoe-suhoe-12",
+            "roze-2"
+          ]
+        },
+        {
+          "name": "95.8_19-08-2026_19-33-23.webp",
+          "expected_slug": "roze-2",
+          "rank": 1,
+          "top5": [
+            "roze-2",
+            "leto-risling-2024",
+            "dva-serdtsa-kokur-beloe-suhoe-125",
+            "leto-muskat-oranzh-2024-suhoe-vino",
+            "leto-risling-2024-polusuhoe-vino"
+          ]
+        },
+        {
+          "name": "96.05_28-08-2026_09-14-57.webp",
+          "expected_slug": "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+          "rank": 1,
+          "top5": [
+            "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+            "usadba-rodnoe-gnezdo-4-elements-kaberne-sovinon-krasnoe-suhoe-15",
+            "usadba-divnomorskoe-marselan-marselan-krasnoe-suhoe-149",
+            "vinodelnya-vedernikov-vedernikov-krasnostop-zolotovskiy-magnum-krasnoe-suhoe-145",
+            "katharon-mezenka-merlo"
+          ]
+        },
+        {
+          "name": "96.07_28-08-2026_16-10-06.webp",
+          "expected_slug": "golubitskoe-estate-kaberne-sovinon-krasnoe-suhoe-137",
+          "rank": null,
+          "top5": [
+            "vinodelnya-vedernikov-vedernikov-krasnostop-zolotovskiy-magnum-krasnoe-suhoe-145",
+            "leto-kaberne-fran-2024-polusladkoe-krasnoe",
+            "vinodelnya-vedernikov-krasnostop-zolotovskiy-rezerv-krasnoe-suhoe-15",
+            "vinodelnya-batrak-perfekt-klassik-saperavi-krasnoe-suhoe-135",
+            "vinodelnya-batrak-perfekt-klassik-merlo-krasnoe-suhoe-135"
+          ]
+        },
+        {
+          "name": "96.08_22-08-2026_15-12-27.webp",
+          "expected_slug": "zhemchuzhnaya-9-czitron-shardone-1",
+          "rank": null,
+          "top5": [
+            "zhemchuzhnaya-9-sovinon-blan-aligote",
+            "zhemchuzhnaya-9-czitron-shardone",
+            "zhemchuzhnaya-9-risling-sovinon-blan",
+            "zhemchuzhnaya-9-aligote-czitron",
+            "czitronnyj-magaracha-sovinon-blan"
+          ]
+        },
+        {
+          "name": "96.08_28-08-2026_16-29-50.webp",
+          "expected_slug": "golubitskoe-estate-merlo-krasnoe-suhoe-135",
+          "rank": null,
+          "top5": [
+            "vinodelnya-vedernikov-vedernikov-krasnostop-zolotovskiy-magnum-krasnoe-suhoe-145",
+            "usadba-divnomorskoe-solist-marselan-rozovoe-suhoe-115",
+            "usadba-divnomorskoe-marselan-marselan-krasnoe-suhoe-149",
+            "rkacziteli-beloe-suhoe",
+            "usadba-divnomorskoe-west-hill-blend-kaberne-sovinon-krasnoe-suhoe-145"
+          ]
+        },
+        {
+          "name": "96.13_19-08-2026_19-33-10.webp",
+          "expected_slug": "roze-2",
+          "rank": 3,
+          "top5": [
+            "vinodelnya-vedernikov-vedernikov-krasnostop-zolotovskiy-magnum-krasnoe-suhoe-145",
+            "usadba-divnomorskoe-solist-marselan-rozovoe-suhoe-115",
+            "roze-2",
+            "vinodelnya-batrak-perfekt-klassik-muskat-belyy-beloe-suhoe-125",
+            "rozovoe-zoloto"
+          ]
+        },
+        {
+          "name": "96.15_22-08-2026_20-56-09.webp",
+          "expected_slug": "roze-2",
+          "rank": 3,
+          "top5": [
+            "leto-risling-2024",
+            "vinodelnya-batrak-perfekt-klassik-muskat-belyy-beloe-suhoe-125",
+            "roze-2",
+            "leto-muskat-oranzh-2024-suhoe-vino",
+            "leto-risling-2024-polusuhoe-vino"
+          ]
+        },
+        {
+          "name": "96.27_20-08-2026_16-26-30.webp",
+          "expected_slug": "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-1",
+          "rank": 1,
+          "top5": [
+            "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-1",
+            "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-2",
+            "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj",
+            "zhemchuzhnaya-9-kaberne-sovinon-pino-nuar",
+            "zhemchuzhnaya-9-muskat-rozovyj-kaberne-sovinon"
+          ]
+        },
+        {
+          "name": "96.2_28-08-2026_09-13-27.webp",
+          "expected_slug": "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+          "rank": 1,
+          "top5": [
+            "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+            "dva-serdtsa-kaberne-fran-krasnoe-suhoe-14",
+            "vinodelnya-batrak-perfekt-klassik-saperavi-krasnoe-suhoe-135",
+            "vinodelnya-vedernikov-vedernikov-krasnostop-zolotovskiy-magnum-krasnoe-suhoe-145",
+            "vinodelnya-batrak-perfekt-klassik-merlo-krasnoe-suhoe-135"
+          ]
+        },
+        {
+          "name": "96.31_09-09-2026_19-29-01.webp",
+          "expected_slug": "aratti-kaberne-po-belomu",
+          "rank": null,
+          "top5": [
+            "aratti-risling-suhoe",
+            "aratti-risling-beloe-polusuhoe",
+            "aratti-sovinon-blan-beloe-polusuhoe",
+            "aratti-muskat-belyj-polusuhoe",
+            "vinodelnya-zhakov-vostorg-beloe-suhoe-116"
+          ]
+        },
+        {
+          "name": "96.31_21-08-2026_17-24-55.webp",
+          "expected_slug": "bukovinka",
+          "rank": null,
+          "top5": [
+            "leto-kaberne-fran-2024-polusladkoe-krasnoe",
+            "leto-shardone-2023-suhoe-beloe",
+            "dva-serdtsa-kaberne-fran-krasnoe-suhoe-14",
+            "aratti-kaberne-sovinon-2020-krasnoe-suhoe",
+            "vinodelnya-begildeeva-kaberne-sovinon-merlo-krasnoe-suhoe-14"
+          ]
+        },
+        {
+          "name": "96.3_28-08-2026_09-12-56.webp",
+          "expected_slug": "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+          "rank": 4,
+          "top5": [
+            "vinodelnya-vedernikov-vedernikov-krasnostop-zolotovskiy-magnum-krasnoe-suhoe-145",
+            "usadba-divnomorskoe-marselan-marselan-krasnoe-suhoe-149",
+            "usadba-divnomorskoe-west-hill-blend-kaberne-sovinon-krasnoe-suhoe-145",
+            "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+            "vinodelnya-vedernikov-krasnostop-zolotovskiy-rezerv-krasnoe-suhoe-15"
+          ]
+        },
+        {
+          "name": "96.45_19-08-2026_19-35-28.webp",
+          "expected_slug": "czitronnyj-magaracha",
+          "rank": 5,
+          "top5": [
+            "vinodelnya-vedernikov-vedernikov-krasnostop-zolotovskiy-magnum-krasnoe-suhoe-145",
+            "vinodelnya-batrak-perfekt-klassik-merlo-krasnoe-suhoe-135",
+            "vinodelnya-batrak-perfekt-klassik-saperavi-krasnoe-suhoe-135",
+            "vinodelnya-batrak-perfekt-klassik-kaberne-sovinon-krasnoe-suhoe-135",
+            "czitronnyj-magaracha"
+          ]
+        },
+        {
+          "name": "96.54_04-09-2026_19-30-52.webp",
+          "expected_slug": "denisov-winery-risling-beloe-suhoe-115",
+          "rank": null,
+          "top5": [
+            "vinodelnya-78-muskat-otbornyy-muskat-yantarnyy-beloe-suhoe-125",
+            "andryus-yutsis-muskat-blan-vione-beloe-suhoe-117",
+            "vinodelnya-78-aligote-otbornoe-beloe-suhoe-12",
+            "aratti-risling-beloe-polusuhoe",
+            "aratti-sovinon-blan-beloe-polusuhoe"
+          ]
+        },
+        {
+          "name": "96.58_05-09-2026_16-05-04.webp",
+          "expected_slug": "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11",
+          "rank": null,
+          "top5": [
+            "vinodelnya-batrak-perfekt-klassik-muskat-belyy-beloe-suhoe-125",
+            "usadba-divnomorskoe-solist-marselan-rozovoe-suhoe-115",
+            "zmv-koktebel-traminer-desertnoe-beloe-sladkoe-16",
+            "vinodelnya-vedernikov-vedernikov-krasnostop-zolotovskiy-magnum-krasnoe-suhoe-145",
+            "shato-ay-danil-kapriz-muskat-belyy-beloe-suhoe-135"
+          ]
+        },
+        {
+          "name": "96.61_28-08-2026_09-16-27.webp",
+          "expected_slug": "balaklava-muskat",
+          "rank": 1,
+          "top5": [
+            "balaklava-muskat",
+            "abrau-dyurso-udelnoe-vedomstvo-imperatorskoe-beloe-polusladkoe",
+            "shardone-balaklava",
+            "abrau-dyurso-udelnoe-vedomstvo-imperatorskoe-beloe-bryut",
+            "balaklava-pino-nuar"
+          ]
+        },
+        {
+          "name": "96.62_07-09-2026_18-12-27.webp",
+          "expected_slug": "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11",
+          "rank": null,
+          "top5": [
+            "vinodelnya-batrak-perfekt-klassik-muskat-belyy-beloe-suhoe-125",
+            "vinodelnya-vedernikov-vedernikov-krasnostop-zolotovskiy-magnum-krasnoe-suhoe-145",
+            "usadba-divnomorskoe-solist-marselan-rozovoe-suhoe-115",
+            "zmv-koktebel-traminer-desertnoe-beloe-sladkoe-16",
+            "uva-vallis-sovinon-blan"
+          ]
+        },
+        {
+          "name": "96.66_22-08-2026_20-44-40.webp",
+          "expected_slug": "perovskih_polusuhoe_krasnoe",
+          "rank": 5,
+          "top5": [
+            "leto-shardone-2023-suhoe-beloe",
+            "aratti-kaberne-sovinon-2020-krasnoe-suhoe",
+            "leto-kaberne-fran-2024-polusladkoe-krasnoe",
+            "usadba-rodnoe-gnezdo-4-elements-kaberne-sovinon-krasnoe-suhoe-15",
+            "perovskih_polusuhoe_krasnoe"
+          ]
+        },
+        {
+          "name": "96.74_28-08-2026_13-52-26.webp",
+          "expected_slug": "usadba-mezyb-shishka-kupazh-5-kaberne-sovinon-rozovoe-suhoe-133",
+          "rank": 2,
+          "top5": [
+            "usadba-mezyb-shishka-pino-nuar-rozovoe-suhoe-115",
+            "usadba-mezyb-shishka-kupazh-5-kaberne-sovinon-rozovoe-suhoe-133",
+            "usadba-mezyb-shishka-oranzh-shardone-beloe-suhoe-127",
+            "usadba-mezyb-shishka-sovinon-blan-beloe-suhoe-12",
+            "usadba-mezyb-shishka-shenen-blan-sovinon-blan-beloe-suhoe-126"
+          ]
+        },
+        {
+          "name": "96.79_28-08-2026_22-05-22.webp",
+          "expected_slug": "vinodelnya-vedernikov-vedernikov-dolina-dona-beloe-suhoe-aligote-12",
+          "rank": 3,
+          "top5": [
+            "vinodelnya-vedernikov-krasnostop-zolotovskiy-krasnoe-suhoe-13",
+            "dva-serdtsa-arinarnoa-kaberne-sovinon-krasnoe-suhoe-135",
+            "vinodelnya-vedernikov-vedernikov-dolina-dona-beloe-suhoe-aligote-12",
+            "vinodelnya-vedernikov-sibirkovyy-beloe-suhoe-11",
+            "dva-serdtsa-kaberne-fran-krasnoe-suhoe-14"
+          ]
+        },
+        {
+          "name": "96.7_28-08-2026_13-50-21.webp",
+          "expected_slug": "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+          "rank": 1,
+          "top5": [
+            "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+            "vinodelnya-vedernikov-vedernikov-krasnostop-zolotovskiy-magnum-krasnoe-suhoe-145",
+            "usadba-divnomorskoe-marselan-marselan-krasnoe-suhoe-149",
+            "usadba-rodnoe-gnezdo-4-elements-kaberne-sovinon-krasnoe-suhoe-15",
+            "cellar-master-sandzhoveze-krasnoe-suhoe-125"
+          ]
+        },
+        {
+          "name": "96.96_05-09-2026_19-02-01.webp",
+          "expected_slug": "denisov_rubin_klaret_krasnaya_strelka",
+          "rank": null,
+          "top5": [
+            "bogovich-wine-vineyard-kaberne-sovinon-krasnoe-suhoe-125",
+            "vinodelnya-78-aligote-otbornoe-beloe-suhoe-12",
+            "vinodelnya-78-muskat-otbornyy-muskat-yantarnyy-beloe-suhoe-125",
+            "aratti-risling-suhoe",
+            "vinodelnya-zhakov-rkatsiteli-eskeyp-krasnoe-suhoe-119"
+          ]
+        },
+        {
+          "name": "96.98_19-08-2026_19-05-06.webp",
+          "expected_slug": "czitronnyj-magaracha",
+          "rank": null,
+          "top5": [
+            "vinodelnya-batrak-perfekt-klassik-kaberne-sovinon-krasnoe-suhoe-135",
+            "vinodelnya-batrak-perfekt-klassik-saperavi-krasnoe-suhoe-135",
+            "vinodelnya-batrak-perfekt-klassik-merlo-krasnoe-suhoe-135",
+            "vinodelnya-pokrovskaya-ryzhest-rkatsiteli-beloe-suhoe-11",
+            "vinodelnya-vedernikov-vedernikov-krasnostop-zolotovskiy-magnum-krasnoe-suhoe-145"
+          ]
+        }
+      ]
+    }
+  },
+  "runtime": {
+    "model": "facebook/dinov2-small",
+    "model_revision": "ed25f3a31f01632728cabb09d1542f84ab7b0056",
+    "device": "cuda",
+    "embedding_size": 384,
+    "image_size": 518,
+    "patch_size": 14,
+    "gpu_name": "NVIDIA GeForce RTX 4060",
+    "peak_vram_bytes": 519559680
+  }
+}

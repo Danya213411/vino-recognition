@@ -16,16 +16,16 @@
   "distributions": {
     "categories": {
       "Белое брют": 137,
-      "Белое полусладкое": 65,
-      "Белое полусухое": 49,
+      "Белое полусладкое": 67,
+      "Белое полусухое": 51,
       "Белое сладкое": 41,
-      "Белое сухое": 592,
+      "Белое сухое": 593,
       "Белое экстра брют": 79,
       "Красное брют": 4,
-      "Красное полусладкое": 39,
-      "Красное полусухое": 13,
+      "Красное полусладкое": 40,
+      "Красное полусухое": 14,
       "Красное сладкое": 27,
-      "Красное сухое": 676,
+      "Красное сухое": 679,
       "Красное экстра брют": 1,
       "Оранжевое сухое": 17,
       "Розовое брют": 58,
@@ -40,7 +40,7 @@
       "Дальневосточная зона": 1,
       "Долина Дона": 78,
       "Крым": 745,
-      "Кубань": 1014,
+      "Кубань": 1024,
       "Нижняя Волга": 22,
       "Самара": 21,
       "Северная Осетия — Алания": 5,
@@ -60,88 +60,88 @@
   "field_coverage": {
     "alcohol": {
       "missing": 0,
-      "present": 2025
+      "present": 2035
     },
     "alcohol_max": {
-      "missing": 1957,
+      "missing": 1967,
       "present": 68
     },
     "category": {
       "missing": 0,
-      "present": 2025
+      "present": 2035
     },
     "color": {
       "missing": 0,
-      "present": 2025
+      "present": 2035
     },
     "color_gradient": {
       "missing": 0,
-      "present": 2025
+      "present": 2035
     },
     "description": {
       "missing": 0,
-      "present": 2025
+      "present": 2035
     },
     "dishes": {
       "missing": 0,
-      "present": 2025
+      "present": 2035
     },
     "grapes": {
       "missing": 0,
-      "present": 2025
+      "present": 2035
     },
     "image_alt": {
       "missing": 0,
-      "present": 2025
+      "present": 2035
     },
     "image_local": {
       "missing": 0,
-      "present": 2025
+      "present": 2035
     },
     "image_source_url": {
       "missing": 0,
-      "present": 2025
+      "present": 2035
     },
     "manufacturer": {
       "missing": 0,
-      "present": 2025
+      "present": 2035
     },
     "manufacturer_slug": {
       "missing": 9,
-      "present": 2016
+      "present": 2026
     },
     "public_rating": {
-      "missing": 1127,
-      "present": 898
+      "missing": 1131,
+      "present": 904
     },
     "rating": {
-      "missing": 1857,
+      "missing": 1867,
       "present": 168
     },
     "region": {
       "missing": 0,
-      "present": 2025
+      "present": 2035
     },
     "slug": {
       "missing": 0,
-      "present": 2025
+      "present": 2035
     },
     "source_url": {
       "missing": 0,
-      "present": 2025
+      "present": 2035
     },
     "temperature": {
       "missing": 2018,
-      "present": 7
+      "present": 17
     },
     "title": {
       "missing": 0,
-      "present": 2025
+      "present": 2035
     }
   },
   "images": {
     "decode_error_count": 0,
-    "decoded_count": 2025,
+    "decoded_count": 2035,
     "dimensions": {
       "106x540": 2,
       "110x540": 1,
@@ -332,23 +332,24 @@
       "540x405": 1,
       "540x539": 6,
       "540x540": 187,
+      "607x910": 10,
       "87x540": 3,
       "88x540": 2,
       "89x540": 1,
       "91x540": 2
     },
-    "existing_count": 2025,
+    "existing_count": 2035,
     "missing_count": 0,
     "modes": {
       "RGB": 103,
-      "RGBA": 1922
+      "RGBA": 1932
     },
     "orphan_count": 0,
     "orphan_names": [],
-    "referenced_count": 2025,
-    "total_bytes": 22156384,
-    "unique_dimension_count": 193,
-    "with_alpha_count": 1922
+    "referenced_count": 2035,
+    "total_bytes": 22300350,
+    "unique_dimension_count": 194,
+    "with_alpha_count": 1932
   },
   "issues": {
     "by_code": {
@@ -370,19 +371,19 @@
     "path": "data/parser/wines.sqlite",
     "sqlite_only_slug_count": 0,
     "tables": {
-      "dishes": 5891,
-      "grapes": 2662,
+      "dishes": 5937,
+      "grapes": 2672,
       "metadata": 10,
-      "wines": 2025
+      "wines": 2035
     }
   },
   "summary": {
     "category_count": 19,
-    "coverage_percent": 99.21607055365017,
+    "coverage_percent": 99.70602645761882,
     "manufacturer_count": 135,
     "region_count": 9,
     "reported_wine_count": 2041,
-    "unique_slug_count": 2025,
-    "wine_count": 2025
+    "unique_slug_count": 2035,
+    "wine_count": 2035
   }
 }

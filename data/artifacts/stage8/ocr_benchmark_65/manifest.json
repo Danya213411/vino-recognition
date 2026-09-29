@@ -1,0 +1,5165 @@
+[
+  {
+    "name": "48.98_02-09-2026_18-34-15.webp",
+    "path": "data/test/field_66_review/images/48.98_02-09-2026_18-34-15.webp",
+    "verdict": "incorrect",
+    "correct_slug": "denisov_rubin_klaret_krasnaya_strelka",
+    "target": {
+      "alcohol": 11,
+      "alcohol_max": null,
+      "catalog_index": 257,
+      "category": "Розовое сухое",
+      "color": "Ярко-рубиновый  цвет",
+      "color_gradient": "linear-gradient(180deg, #F2AAAD 0%, #F2828F 100%)",
+      "description": "Аромат: зрелые чёрные ягоды ежевики, вишни, оттенки кожицы сливы, джемовые тона, а также еле заметные цветочные акценты фиалки, карамели и ванили. Вкус: гармоничный, округлый и сбалансированный, повторяет ягодно-фруктовую доминанту аромата.",
+      "dishes": [
+        "Легкие закуски",
+        "Рыба и морепродукты"
+      ],
+      "grapes": [
+        "Рубин Голодриги"
+      ],
+      "image": {
+        "bytes": 12462,
+        "exists": true,
+        "format": "WEBP",
+        "has_alpha": true,
+        "height": 540,
+        "label_dhash": "5f105690b6486e04de229e91bd893c803c003fe467f465e465c44fe44fe44fc4",
+        "mode": "RGBA",
+        "sha256": "d1ed61a4e81135b1f5ee56453868c46a27873acef6b6699720284552b32a99a2",
+        "width": 362
+      },
+      "image_alt": "Красная стрелка",
+      "image_local": "images/denisov_rubin_klaret_krasnaya_strelka.webp",
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/540/540/resize/uploads/Vino_krasnoe_Kr_Strelka_3_7c02276274.webp",
+      "manufacturer": "Denisov Winery",
+      "manufacturer_slug": "denisov-winery",
+      "public_rating": 5,
+      "rating": null,
+      "region": "Самара",
+      "schema_version": 1,
+      "slug": "denisov_rubin_klaret_krasnaya_strelka",
+      "source_url": "https://vino-svoe.ru/wines/denisov_rubin_klaret_krasnaya_strelka",
+      "temperature": null,
+      "title": "Рубин кларет . Красная стрелка"
+    },
+    "baseline_ocr_lines": [
+      {
+        "text": "DENISOV",
+        "normalized": "denisov",
+        "score": 0.97613
+      },
+      {
+        "text": "CAMAPA",
+        "normalized": "camapa",
+        "score": 0.97657
+      },
+      {
+        "text": "KPACHAA",
+        "normalized": "kpachaa",
+        "score": 0.89011
+      },
+      {
+        "text": "СТРЕЛКА",
+        "normalized": "стрелка",
+        "score": 0.92001
+      },
+      {
+        "text": "Py6иH",
+        "normalized": "py6иh",
+        "score": 0.55347
+      }
+    ]
+  },
+  {
+    "name": "70.45_04-09-2026_13-35-37.webp",
+    "path": "data/test/field_66_review/images/70.45_04-09-2026_13-35-37.webp",
+    "verdict": "incorrect",
+    "correct_slug": "fanagoriya-formula-q-kaberne-sovinon-krasnoe-suhoe-135",
+    "target": {
+      "alcohol": 13,
+      "alcohol_max": null,
+      "catalog_index": 1196,
+      "category": "Красное сухое",
+      "color": "Вино насыщенного рубинового цвета.",
+      "color_gradient": "linear-gradient(180deg, #A51B3A 0%, #741D30 100%)",
+      "description": "Аромат выразительный и многослойный: ноты черники, черной смородины, вишни, сливового джема, пряностей, сухой листвы. Вкус полный, сочный, с приятной округлостью. Яркая кислотность задает тон, танин мягко обволакивает. В послевкусии щедрые пряно-ягодны ноты. Ярко, сочно, согревающе.",
+      "dishes": [
+        "Мясо и стейки",
+        "Сыры"
+      ],
+      "grapes": [
+        "Каберне Совиньон"
+      ],
+      "image": {
+        "bytes": 7414,
+        "exists": true,
+        "format": "WEBP",
+        "has_alpha": true,
+        "height": 540,
+        "label_dhash": "ce809ca21f031cc30ce70f270f870d671b230b230d430d030d038d038c43bcc2",
+        "mode": "RGBA",
+        "sha256": "b51f81af8155ee06479a42de7d3c743585025c99c0d9702bf13e862168820b3e",
+        "width": 540
+      },
+      "image_alt": "Формула Q",
+      "image_local": "images/fanagoriya-formula-q-kaberne-sovinon-krasnoe-suhoe-135.webp",
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/540/540/resize/uploads/fanagoriya_formula_q_kaberne_sovinon_krasnoe_suhoe_vyderzhannoe_135_9d678f8cd7.webp",
+      "manufacturer": "Фанагория",
+      "manufacturer_slug": "fanagoriya",
+      "public_rating": 5,
+      "rating": 4.39,
+      "region": "Кубань",
+      "schema_version": 1,
+      "slug": "fanagoriya-formula-q-kaberne-sovinon-krasnoe-suhoe-135",
+      "source_url": "https://vino-svoe.ru/wines/fanagoriya-formula-q-kaberne-sovinon-krasnoe-suhoe-135",
+      "temperature": null,
+      "title": "Формула Q"
+    },
+    "baseline_ocr_lines": [
+      {
+        "text": "2998",
+        "normalized": "2998",
+        "score": 0.98848
+      },
+      {
+        "text": "FANAGORIA",
+        "normalized": "fanagoria",
+        "score": 0.94148
+      },
+      {
+        "text": "NOBLESSE OBLIGE",
+        "normalized": "noblesse oblige",
+        "score": 0.97811
+      },
+      {
+        "text": "ФОРМУЛА",
+        "normalized": "формула",
+        "score": 0.97437
+      },
+      {
+        "text": "PANCKAR",
+        "normalized": "panckar",
+        "score": 0.47074
+      },
+      {
+        "text": "МЕРЛО 2022",
+        "normalized": "мерло 2022",
+        "score": 0.75528
+      },
+      {
+        "text": "СANERABM 2024",
+        "normalized": "сanerabm 2024",
+        "score": 0.66264
+      }
+    ]
+  },
+  {
+    "name": "82.33_27-08-2026_10-03-52.webp",
+    "path": "data/test/field_66_review/images/82.33_27-08-2026_10-03-52.webp",
+    "verdict": "not_in_catalog",
+    "correct_slug": null,
+    "target": null,
+    "baseline_ocr_lines": [
+      {
+        "text": "IBE",
+        "normalized": "ibe",
+        "score": 0.88084
+      }
+    ]
+  },
+  {
+    "name": "84.73_07-09-2026_11-07-51.webp",
+    "path": "data/test/field_66_review/images/84.73_07-09-2026_11-07-51.webp",
+    "verdict": "correct",
+    "correct_slug": "zhemchuzhnaya-9-aligote-czitron",
+    "target": {
+      "alcohol": 11,
+      "alcohol_max": null,
+      "catalog_index": 193,
+      "category": "Белое сухое",
+      "color": "Светло-соломенный",
+      "color_gradient": "linear-gradient(180deg, #FCFBDF 0%, #F0EFD5 100%)",
+      "description": "Вкус и аромат: белая акация, лайм, зелёный чай. Утонченное и шелковистое, с деликатной горчинкой грейпфрута.\nСочетания: азиатские блюда, паровые мидии, козий сыр с травами.",
+      "dishes": [
+        "Азиатская кухня",
+        "Сыры"
+      ],
+      "grapes": [
+        "Алиготе",
+        "Цитронный Магарача"
+      ],
+      "image": {
+        "bytes": 14024,
+        "exists": true,
+        "format": "WEBP",
+        "has_alpha": true,
+        "height": 540,
+        "label_dhash": "bcf178f8f0f8e26ce96ec12ad362ff62ffacfc1ced9cf980fb12deec0f9f817f",
+        "mode": "RGBA",
+        "sha256": "a86648c2cbf2f26cb00650056b39e268b24683d26aaa6a164f70d273a4831964",
+        "width": 135
+      },
+      "image_alt": "Алиготе, Цитрон бел.сух Аратти",
+      "image_local": "images/zhemchuzhnaya-9-aligote-czitron.webp",
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/540/540/resize/uploads/Aligote_Czitron_bel_suh_8bc8ca2832.webp",
+      "manufacturer": "АРАТТИ",
+      "manufacturer_slug": "aratti",
+      "public_rating": 5,
+      "rating": null,
+      "region": "Кубань",
+      "schema_version": 1,
+      "slug": "zhemchuzhnaya-9-aligote-czitron",
+      "source_url": "https://vino-svoe.ru/wines/zhemchuzhnaya-9-aligote-czitron",
+      "temperature": null,
+      "title": "Жемчужная 9 Алиготе, Цитрон"
+    },
+    "baseline_ocr_lines": [
+      {
+        "text": "ЖЕМЧУЖНАЯ",
+        "normalized": "жемчужная",
+        "score": 0.9106
+      },
+      {
+        "text": "9",
+        "normalized": "9",
+        "score": 0.99965
+      },
+      {
+        "text": "АЛИГОТЕ",
+        "normalized": "алиготе",
+        "score": 0.97579
+      },
+      {
+        "text": "ЦИТРОН",
+        "normalized": "цитрон",
+        "score": 0.86078
+      },
+      {
+        "text": "БЕЛОЕ СУХОЕ",
+        "normalized": "белое сухое",
+        "score": 0.9421
+      },
+      {
+        "text": "2024",
+        "normalized": "2024",
+        "score": 0.99811
+      }
+    ]
+  },
+  {
+    "name": "87.09_22-08-2026_20-57-16.webp",
+    "path": "data/test/field_66_review/images/87.09_22-08-2026_20-57-16.webp",
+    "verdict": "correct",
+    "correct_slug": "pobeda",
+    "target": {
+      "alcohol": 12,
+      "alcohol_max": null,
+      "catalog_index": 130,
+      "category": "Красное сухое",
+      "color": "Темно-рубиновый",
+      "color_gradient": "linear-gradient(180deg, #A51B3A 0%, #741D30 100%)",
+      "description": "Аромат насыщенный, ягодный. Во вкусе темные ягоды, смородина, ежевика, с нотами дыма, кожи.",
+      "dishes": [
+        "Мясное ассорти",
+        "Мясо и стейки",
+        "Сыры"
+      ],
+      "grapes": [
+        "Каберне Совиньон",
+        "Мерло",
+        "Рубин Голодриги"
+      ],
+      "image": {
+        "bytes": 6742,
+        "exists": true,
+        "format": "WEBP",
+        "has_alpha": true,
+        "height": 496,
+        "label_dhash": "c7069f730f513fc403784f601f803fe0f8031c403e40fd403fc07f808f638703",
+        "mode": "RGBA",
+        "sha256": "fb3706b504181cd8078744ae36fc08bce7676dda6e62b6f27bb3f8584b1c21c6",
+        "width": 257
+      },
+      "image_alt": "Табия Победа",
+      "image_local": "images/pobeda.webp",
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/540/540/resize/uploads/Screenshot_7_53531eb2bc.webp",
+      "manufacturer": "Табия",
+      "manufacturer_slug": "tabiya",
+      "public_rating": 5,
+      "rating": null,
+      "region": "Кубань",
+      "schema_version": 1,
+      "slug": "pobeda",
+      "source_url": "https://vino-svoe.ru/wines/pobeda",
+      "temperature": null,
+      "title": "Победа"
+    },
+    "baseline_ocr_lines": [
+      {
+        "text": "ledegd",
+        "normalized": "ledegd",
+        "score": 0.77207
+      },
+      {
+        "text": "ТАБИЯ",
+        "normalized": "табия",
+        "score": 0.98049
+      },
+      {
+        "text": "ВИНОДЕЛЬНЯ",
+        "normalized": "винодельня",
+        "score": 0.986
+      },
+      {
+        "text": "РУБИН ГОЛОДРИГИ",
+        "normalized": "рубин голодриги",
+        "score": 0.96092
+      },
+      {
+        "text": "ТИРАЖ",
+        "normalized": "тираж",
+        "score": 0.89079
+      },
+      {
+        "text": "1945",
+        "normalized": "1945",
+        "score": 0.99973
+      }
+    ]
+  },
+  {
+    "name": "87.54_03-09-2026_13-27-53.webp",
+    "path": "data/test/field_66_review/images/87.54_03-09-2026_13-27-53.webp",
+    "verdict": "correct",
+    "correct_slug": "relikta-relikta-sira-kaberne-fran-krasnoe-suhoe-13",
+    "target": {
+      "alcohol": 13,
+      "alcohol_max": null,
+      "catalog_index": 868,
+      "category": "Красное сухое",
+      "color": "Рубиновый",
+      "color_gradient": "linear-gradient(180deg, #A51B3A 0%, #741D30 100%)",
+      "description": "Аромат гармоничный, элегантный. Вкус сочный, сбалансированный, фруктовыми и ягодными штрихами.",
+      "dishes": [
+        "BBQ",
+        "Мясное ассорти",
+        "Паштеты",
+        "Сыры"
+      ],
+      "grapes": [
+        "Каберне Фран",
+        "Сира"
+      ],
+      "image": {
+        "bytes": 10334,
+        "exists": true,
+        "format": "WEBP",
+        "has_alpha": true,
+        "height": 540,
+        "label_dhash": "fe008f402f414f61433d5ba54bfd4fe537b11ff31ff10d7d43f95dd90ddd43b1",
+        "mode": "RGBA",
+        "sha256": "186ae72fa199482f97e985013725e086759e10cfc21303fd384b7fdaa57e2874",
+        "width": 162
+      },
+      "image_alt": "Реликта",
+      "image_local": "images/relikta-relikta-sira-kaberne-fran-krasnoe-suhoe-13.webp",
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/540/540/resize/uploads/relikta_relikta_sira_kaberne_fran_krasnoe_suhoe_13_f915b3e0fa.webp",
+      "manufacturer": "Реликта",
+      "manufacturer_slug": "relikta",
+      "public_rating": 5,
+      "rating": null,
+      "region": "Кубань",
+      "schema_version": 1,
+      "slug": "relikta-relikta-sira-kaberne-fran-krasnoe-suhoe-13",
+      "source_url": "https://vino-svoe.ru/wines/relikta-relikta-sira-kaberne-fran-krasnoe-suhoe-13",
+      "temperature": null,
+      "title": "Реликта Сира, Каберне Фран"
+    },
+    "baseline_ocr_lines": [
+      {
+        "text": "РЕЛИКТА",
+        "normalized": "реликта",
+        "score": 0.94647
+      },
+      {
+        "text": "ФПАН",
+        "normalized": "фпан",
+        "score": 0.75259
+      },
+      {
+        "text": "CNPA",
+        "normalized": "cnpa",
+        "score": 0.49305
+      },
+      {
+        "text": "Год урожая",
+        "normalized": "год урожая",
+        "score": 0.94343
+      },
+      {
+        "text": "2024",
+        "normalized": "2024",
+        "score": 0.99956
+      },
+      {
+        "text": "КАБЕРНЕ",
+        "normalized": "каберне",
+        "score": 0.96204
+      },
+      {
+        "text": "Вино Красное",
+        "normalized": "вино красное",
+        "score": 0.88016
+      },
+      {
+        "text": "Cyxoe",
+        "normalized": "cyxoe",
+        "score": 0.73756
+      }
+    ]
+  },
+  {
+    "name": "87.81_09-09-2026_17-16-36.webp",
+    "path": "data/test/field_66_review/images/87.81_09-09-2026_17-16-36.webp",
+    "verdict": "incorrect",
+    "correct_slug": "aya-organic-wine-vineyards-purity-in-chenin-blanc-shenen-blan-beloe-suhoe-11",
+    "target": {
+      "alcohol": 11,
+      "alcohol_max": null,
+      "catalog_index": 1298,
+      "category": "Белое сухое",
+      "color": "Бледно-соломенный цвет с золотистыми отблесками.",
+      "color_gradient": "linear-gradient(180deg, #FCFBDF 0%, #F0EFD5 100%)",
+      "description": "Аромат элегантный, с нотой зеленого яблока, изящным тоном цветущей жимолости, свежим сеном и легким имбирным акцентом. Раскрывается оттенками ромашки, айвы и свежей цитрусовой цедры. Вкус свежий, с минеральными оттенками и чистым послевкусием.",
+      "dishes": [
+        "Легкие закуски",
+        "Рыба и морепродукты",
+        "Салаты"
+      ],
+      "grapes": [
+        "Шенен Блан"
+      ],
+      "image": {
+        "bytes": 7818,
+        "exists": true,
+        "format": "WEBP",
+        "has_alpha": true,
+        "height": 540,
+        "label_dhash": "b4086c09c804d802b0033001300130010f838fe18fe18f038fa58fa18dc3e6c1",
+        "mode": "RGBA",
+        "sha256": "fa160ce5752c30077ac4f9212d79ee1e9403b5efe6ff35fbfe4372fb88a7c044",
+        "width": 163
+      },
+      "image_alt": "PURITY_Chenin_Blanc",
+      "image_local": "images/aya-organic-wine-vineyards-purity-in-chenin-blanc-shenen-blan-beloe-suhoe-11.webp",
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/540/540/resize/uploads/PURITY_Chenin_Blanc_no_bg_preview_carve_photos_7cc1a42466.webp",
+      "manufacturer": "AYA Organic Wine & Vineyards",
+      "manufacturer_slug": "aya-organic-wine-vineyards",
+      "public_rating": null,
+      "rating": 4.29,
+      "region": "Крым",
+      "schema_version": 1,
+      "slug": "aya-organic-wine-vineyards-purity-in-chenin-blanc-shenen-blan-beloe-suhoe-11",
+      "source_url": "https://vino-svoe.ru/wines/aya-organic-wine-vineyards-purity-in-chenin-blanc-shenen-blan-beloe-suhoe-11",
+      "temperature": null,
+      "title": "Purity in Chenin Blanc"
+    },
+    "baseline_ocr_lines": [
+      {
+        "text": "VF",
+        "normalized": "vf",
+        "score": 0.48277
+      },
+      {
+        "text": "PURITY",
+        "normalized": "purity",
+        "score": 0.88419
+      }
+    ]
+  },
+  {
+    "name": "87.88_28-08-2026_16-56-20.webp",
+    "path": "data/test/field_66_review/images/87.88_28-08-2026_16-56-20.webp",
+    "verdict": "not_in_catalog",
+    "correct_slug": null,
+    "target": null,
+    "baseline_ocr_lines": [
+      {
+        "text": "ОБЪЕДИ",
+        "normalized": "объеди",
+        "score": 0.55144
+      },
+      {
+        "text": "MACCAHAPA",
+        "normalized": "maccahapa",
+        "score": 0.86493
+      },
+      {
+        "text": "ПРОИЗВОДСТ",
+        "normalized": "производст",
+        "score": 0.99499
+      },
+      {
+        "text": "PA",
+        "normalized": "pa",
+        "score": 0.77332
+      },
+      {
+        "text": "MAC",
+        "normalized": "mac",
+        "score": 0.97738
+      },
+      {
+        "text": "СЫДЕРНКА В ДУБЕ",
+        "normalized": "сыдернка в дубе",
+        "score": 0.75513
+      },
+      {
+        "text": "годоснования",
+        "normalized": "годоснования",
+        "score": 0.84143
+      },
+      {
+        "text": "ГОД",
+        "normalized": "год",
+        "score": 0.42075
+      },
+      {
+        "text": "1894",
+        "normalized": "1894",
+        "score": 0.99103
+      },
+      {
+        "text": "МУАТЕЛЬ",
+        "normalized": "муатель",
+        "score": 0.38564
+      },
+      {
+        "text": "ВИНО РОССИИ",
+        "normalized": "вино россии",
+        "score": 0.87294
+      },
+      {
+        "text": "MYCK",
+        "normalized": "myck",
+        "score": 0.92154
+      },
+      {
+        "text": "BИ",
+        "normalized": "bи",
+        "score": 0.59138
+      },
+      {
+        "text": "KPACHO",
+        "normalized": "kpacho",
+        "score": 0.8841
+      },
+      {
+        "text": "БЕЛЫЙ",
+        "normalized": "белый",
+        "score": 0.90542
+      },
+      {
+        "text": "0%706",
+        "normalized": "0 706",
+        "score": 0.44433
+      },
+      {
+        "text": "ГОД УРОЖАЯ",
+        "normalized": "год урожая",
+        "score": 0.89366
+      },
+      {
+        "text": "2023",
+        "normalized": "2023",
+        "score": 0.99832
+      },
+      {
+        "text": "Codemben",
+        "normalized": "codemben",
+        "score": 0.61285
+      },
+      {
+        "text": "0,751",
+        "normalized": "0 751",
+        "score": 0.88313
+      },
+      {
+        "text": "0,75л",
+        "normalized": "0 75л",
+        "score": 0.8749
+      }
+    ]
+  },
+  {
+    "name": "88.38_20-08-2026_18-32-58.webp",
+    "path": "data/test/field_66_review/images/88.38_20-08-2026_18-32-58.webp",
+    "verdict": "correct",
+    "correct_slug": "czitronnyj-magaracha-sovinon-blan",
+    "target": {
+      "alcohol": 11,
+      "alcohol_max": null,
+      "catalog_index": 170,
+      "category": "Белое полусухое",
+      "color": "Светло-соломенный",
+      "color_gradient": "linear-gradient(180deg, #FCFBDF 0%, #F0EFD5 100%)",
+      "description": "Вкус и аромат: цветочный букет с нотами лайма и мяты. Во вкусе свежесть сада после дождя — лёгкая, с намёком на цитрус и деликатной сладостью.",
+      "dishes": [
+        "Морепродукты",
+        "Салаты",
+        "Сыры"
+      ],
+      "grapes": [
+        "Совиньон Блан",
+        "Цитронный Магарача"
+      ],
+      "image": {
+        "bytes": 13542,
+        "exists": true,
+        "format": "WEBP",
+        "has_alpha": true,
+        "height": 540,
+        "label_dhash": "bde27dd1f558e678db6cd16a956aad22f940fedcf938eb387322b31efbcf027f",
+        "mode": "RGBA",
+        "sha256": "11a86f3ec9b6e29707f5c7d71012c24e78a258d302c2f99125e16871f7a1c3fb",
+        "width": 132
+      },
+      "image_alt": "Цитрон, Совиньон п.сух",
+      "image_local": "images/czitronnyj-magaracha-sovinon-blan.webp",
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/540/540/resize/uploads/Czitron_Sovinon_p_suh_f07f1d8280.webp",
+      "manufacturer": "АРАТТИ",
+      "manufacturer_slug": "aratti",
+      "public_rating": 5,
+      "rating": null,
+      "region": "Кубань",
+      "schema_version": 1,
+      "slug": "czitronnyj-magaracha-sovinon-blan",
+      "source_url": "https://vino-svoe.ru/wines/czitronnyj-magaracha-sovinon-blan",
+      "temperature": null,
+      "title": "Жемчужная 9 Цитрон, Совиньон блан"
+    },
+    "baseline_ocr_lines": [
+      {
+        "text": "ЖЕМЖНАЯ",
+        "normalized": "жемжная",
+        "score": 0.9526
+      },
+      {
+        "text": "ЦИТРОН",
+        "normalized": "цитрон",
+        "score": 0.85146
+      },
+      {
+        "text": "БЕЛОЕ ПОЛУСУХОЕ",
+        "normalized": "белое полусухое",
+        "score": 0.91471
+      },
+      {
+        "text": "2024",
+        "normalized": "2024",
+        "score": 0.99948
+      }
+    ]
+  },
+  {
+    "name": "89.65_19-08-2026_19-48-39.webp",
+    "path": "data/test/field_66_review/images/89.65_19-08-2026_19-48-39.webp",
+    "verdict": "correct",
+    "correct_slug": "rozovoe-zoloto",
+    "target": {
+      "alcohol": 12,
+      "alcohol_max": null,
+      "catalog_index": 128,
+      "category": "Розовое полусухое",
+      "color": "Нежно-розовый",
+      "color_gradient": "linear-gradient(180deg, #F2AAAD 0%, #F2828F 100%)",
+      "description": "Тонкий аромат земляники, красной смородины и черешни. Фруктовый вкус с нотами ягод.",
+      "dishes": [
+        "Морепродукты",
+        "Салаты",
+        "Сыры"
+      ],
+      "grapes": [
+        "Каберне Совиньон"
+      ],
+      "image": {
+        "bytes": 7336,
+        "exists": true,
+        "format": "WEBP",
+        "has_alpha": true,
+        "height": 464,
+        "label_dhash": "e400b8003fc07f207f403fc03fc0bf20bf00bf80bfc0bfc0dff0ffe03bc09f00",
+        "mode": "RGBA",
+        "sha256": "15ea4fa7c150bda1480a35e69b7f5901a98ba490868df262b636462cb5a1ba05",
+        "width": 253
+      },
+      "image_alt": "Табия Розовое золото",
+      "image_local": "images/rozovoe-zoloto.webp",
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/540/540/resize/uploads/Screenshot_16_a237793391.webp",
+      "manufacturer": "Табия",
+      "manufacturer_slug": "tabiya",
+      "public_rating": 4.89,
+      "rating": null,
+      "region": "Кубань",
+      "schema_version": 1,
+      "slug": "rozovoe-zoloto",
+      "source_url": "https://vino-svoe.ru/wines/rozovoe-zoloto",
+      "temperature": null,
+      "title": "Розовое золото"
+    },
+    "baseline_ocr_lines": [
+      {
+        "text": "ТАБИЯ",
+        "normalized": "табия",
+        "score": 0.98421
+      },
+      {
+        "text": "ВИНОАЕЛЬНЯ",
+        "normalized": "виноаельня",
+        "score": 0.9324
+      },
+      {
+        "text": "2024",
+        "normalized": "2024",
+        "score": 0.99964
+      },
+      {
+        "text": "РОЗОВОЕ ЗОЛОТО",
+        "normalized": "розовое золото",
+        "score": 0.94115
+      },
+      {
+        "text": "PO3OBOE",
+        "normalized": "po3oboe",
+        "score": 0.73705
+      },
+      {
+        "text": "ПОЛУСУХОЕ",
+        "normalized": "полусухое",
+        "score": 0.90126
+      }
+    ]
+  },
+  {
+    "name": "91.07_20-08-2026_18-37-46.webp",
+    "path": "data/test/field_66_review/images/91.07_20-08-2026_18-37-46.webp",
+    "verdict": "correct",
+    "correct_slug": "aratti-kaberne-sovinon-2021-krasnoe-suhoe",
+    "target": {
+      "alcohol": 13,
+      "alcohol_max": null,
+      "catalog_index": 181,
+      "category": "Красное сухое",
+      "color": "Рубиновый",
+      "color_gradient": "linear-gradient(180deg, #A51B3A 0%, #741D30 100%)",
+      "description": "Аромат сушеных черных и красных ягод, немного древесный и легкий тон\nтабачного листа. Вкус сочный и яркий, с нотами свежей вишни. Сочетания: Шашлык или любой вариант мяса на углях, запеченая говядина или свинина, а так же\nмясные деликатесы.",
+      "dishes": [
+        "BBQ",
+        "Кавказская кухня"
+      ],
+      "grapes": [
+        "Каберне Совиньон"
+      ],
+      "image": {
+        "bytes": 14218,
+        "exists": true,
+        "format": "WEBP",
+        "has_alpha": true,
+        "height": 540,
+        "label_dhash": "b9627a717250e458ee74d96cd56ae522ec2cf3f4e3b88776c954b2bac0fec3fc",
+        "mode": "RGBA",
+        "sha256": "d3644d89845acb2b815ed62ccee8a2421fda0dd8663ad0978cf563c25e77bc24",
+        "width": 136
+      },
+      "image_alt": "Каб.Сов 21 Аратти",
+      "image_local": "images/aratti-kaberne-sovinon-2021-krasnoe-suhoe.webp",
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/540/540/resize/uploads/Kab_Sov_21_5fe7e50b8a.webp",
+      "manufacturer": "АРАТТИ",
+      "manufacturer_slug": "aratti",
+      "public_rating": 5,
+      "rating": null,
+      "region": "Кубань",
+      "schema_version": 1,
+      "slug": "aratti-kaberne-sovinon-2021-krasnoe-suhoe",
+      "source_url": "https://vino-svoe.ru/wines/aratti-kaberne-sovinon-2021-krasnoe-suhoe",
+      "temperature": null,
+      "title": "АРАТТИ Каберне Совиньон 2021 красное сухое"
+    },
+    "baseline_ocr_lines": [
+      {
+        "text": "АРАТТИ",
+        "normalized": "аратти",
+        "score": 0.75096
+      },
+      {
+        "text": "2021",
+        "normalized": "2021",
+        "score": 0.99901
+      }
+    ]
+  },
+  {
+    "name": "91.43_02-09-2026_12-08-50.webp",
+    "path": "data/test/field_66_review/images/91.43_02-09-2026_12-08-50.webp",
+    "verdict": "correct",
+    "correct_slug": "merlo-2",
+    "target": {
+      "alcohol": 14,
+      "alcohol_max": null,
+      "catalog_index": 2033,
+      "category": "Красное сухое",
+      "color": "Темно-рубиновый",
+      "color_gradient": "linear-gradient(180deg, #A51B3A 0%, #741D30 100%)",
+      "description": "Обладает гармоничным, округлым ароматом с доминирующими тонами спелой вишни, сливы, черной смородины и красных ягод, с нюансами пряностей, подлеска и легкими древесными оттенками. Во вкусе  мягкое и сбалансированное, с бархатистыми танинами, сочной фруктовой основой и длительным сухим послевкусием с ягодными и пряными нюансами.",
+      "dishes": [
+        "BBQ",
+        "Брускетты",
+        "Кавказская кухня",
+        "Мясное ассорти",
+        "Сыры"
+      ],
+      "grapes": [
+        "Мерло"
+      ],
+      "image": {
+        "bytes": 15554,
+        "exists": true,
+        "format": "WEBP",
+        "has_alpha": true,
+        "height": 910,
+        "label_dhash": "7402e801da009a843a803a823e423f823b403b68396037c83ec0bf803fc43fc0",
+        "mode": "RGBA",
+        "sha256": "ceba6ff3f934b6f3ab8af5dab6c972a9479c9990a2fde4be0a66673273cb3cb1",
+        "width": 607
+      },
+      "image_alt": "Мерло",
+      "image_local": "images/merlo-2.webp",
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/910/910/resize/uploads/MAX_02299_1_9c99c57b86.webp",
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "manufacturer_slug": "litavshchuk-vineyards-and-winery",
+      "public_rating": null,
+      "rating": null,
+      "region": "Кубань",
+      "schema_version": 1,
+      "slug": "merlo-2",
+      "source_url": "https://vino-svoe.ru/wines/merlo-2",
+      "temperature": "15-18",
+      "title": "Мерло"
+    },
+    "baseline_ocr_lines": [
+      {
+        "text": "Семейная винодельня",
+        "normalized": "семейная винодельня",
+        "score": 0.97176
+      },
+      {
+        "text": "Литавщуков",
+        "normalized": "литавщуков",
+        "score": 0.86013
+      },
+      {
+        "text": "lepлo",
+        "normalized": "lepлo",
+        "score": 0.38504
+      },
+      {
+        "text": "сухое красное",
+        "normalized": "сухое красное",
+        "score": 0.87731
+      }
+    ]
+  },
+  {
+    "name": "92.21_19-08-2026_18-57-31.webp",
+    "path": "data/test/field_66_review/images/92.21_19-08-2026_18-57-31.webp",
+    "verdict": "correct",
+    "correct_slug": "belaya-lvicza",
+    "target": {
+      "alcohol": 11,
+      "alcohol_max": null,
+      "catalog_index": 187,
+      "category": "Белое полусладкое",
+      "color": "Соломенный",
+      "color_gradient": "linear-gradient(180deg, #FCFBDF 0%, #F0EFD5 100%)",
+      "description": "Свежее, с нотками маракуйи, фейхоа, хвои и узнаваемым ароматом лилии. Приятная, легкая сладость во вкусе, длительное цитрусовое послевкусие.\nСочетания: Ароматные сыры, десерты с ярким фруктовым джемом, самостоятельно, в качестве десерта.",
+      "dishes": [
+        "Сыры",
+        "Фруктово-ягодные десерты"
+      ],
+      "grapes": [
+        "Рислинг Рейнский",
+        "Совиньон Блан"
+      ],
+      "image": {
+        "bytes": 14966,
+        "exists": true,
+        "format": "WEBP",
+        "has_alpha": true,
+        "height": 540,
+        "label_dhash": "bcf178f0f1f8e66cc92cd12a932ebc2ad1f2f966f97afc3ade1a9f8993e382fb",
+        "mode": "RGBA",
+        "sha256": "478f75c344bfb870095180d1c358b20ecf8a61b161255ae5e78780d33df728b7",
+        "width": 132
+      },
+      "image_alt": "Бел.Львица Аратти",
+      "image_local": "images/belaya-lvicza.webp",
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/540/540/resize/uploads/Bel_Lviczv_920970caba.webp",
+      "manufacturer": "АРАТТИ",
+      "manufacturer_slug": "aratti",
+      "public_rating": 5,
+      "rating": null,
+      "region": "Кубань",
+      "schema_version": 1,
+      "slug": "belaya-lvicza",
+      "source_url": "https://vino-svoe.ru/wines/belaya-lvicza",
+      "temperature": null,
+      "title": "Белая Львица белое полусладкое"
+    },
+    "baseline_ocr_lines": [
+      {
+        "text": "HYAP",
+        "normalized": "hyap",
+        "score": 0.96135
+      },
+      {
+        "text": "3ОВЫЙ",
+        "normalized": "3овый",
+        "score": 0.51383
+      },
+      {
+        "text": "CWAUOE",
+        "normalized": "cwauoe",
+        "score": 0.67805
+      },
+      {
+        "text": "ARATTI",
+        "normalized": "aratti",
+        "score": 0.9161
+      },
+      {
+        "text": "БЕЛАЯ",
+        "normalized": "белая",
+        "score": 0.77402
+      },
+      {
+        "text": "ЬВИЦА",
+        "normalized": "ьвица",
+        "score": 0.63384
+      }
+    ]
+  },
+  {
+    "name": "92.6_07-09-2026_11-04-40.webp",
+    "path": "data/test/field_66_review/images/92.6_07-09-2026_11-04-40.webp",
+    "verdict": "correct",
+    "correct_slug": "aratti-kaberne-sovinon-2020-krasnoe-suhoe",
+    "target": {
+      "alcohol": 13,
+      "alcohol_max": null,
+      "catalog_index": 182,
+      "category": "Красное сухое",
+      "color": "Гранатовый",
+      "color_gradient": "linear-gradient(180deg, #A51B3A 0%, #741D30 100%)",
+      "description": "В аромате сушеные цветы, чай пуэр, землистость. Вкус нежный с мягкими танинами.\nСочетания: Овощное рагу с очень мягким мясом и специями, тушеное мясо, легкие мясные закуски.",
+      "dishes": [
+        "Мясное ассорти",
+        "Мясо и стейки",
+        "Сыры"
+      ],
+      "grapes": [
+        "Каберне Совиньон"
+      ],
+      "image": {
+        "bytes": 14004,
+        "exists": true,
+        "format": "WEBP",
+        "has_alpha": true,
+        "height": 540,
+        "label_dhash": "f320f368d96ed76ae72ae92cf1f0a96ce96cf6f0e57cf37cf27cf4f8ba7ac2be",
+        "mode": "RGBA",
+        "sha256": "06cdc3abb9a8bbaa3ea8ebbda34f8d5004ca2e0247665593ce21b046ec1636ff",
+        "width": 133
+      },
+      "image_alt": "Каб.сов 20 Аратти",
+      "image_local": "images/aratti-kaberne-sovinon-2020-krasnoe-suhoe.webp",
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/540/540/resize/uploads/Kab_sov_20_0ec2d4acd2.webp",
+      "manufacturer": "АРАТТИ",
+      "manufacturer_slug": "aratti",
+      "public_rating": 4.89,
+      "rating": null,
+      "region": "Кубань",
+      "schema_version": 1,
+      "slug": "aratti-kaberne-sovinon-2020-krasnoe-suhoe",
+      "source_url": "https://vino-svoe.ru/wines/aratti-kaberne-sovinon-2020-krasnoe-suhoe",
+      "temperature": null,
+      "title": "АРАТТИ Каберне Совиньон 2020 красное сухое"
+    },
+    "baseline_ocr_lines": [
+      {
+        "text": "семейная винодельня",
+        "normalized": "семейная винодельня",
+        "score": 0.98384
+      },
+      {
+        "text": "tpammu",
+        "normalized": "tpammu",
+        "score": 0.64091
+      },
+      {
+        "text": "2020",
+        "normalized": "2020",
+        "score": 0.99934
+      }
+    ]
+  },
+  {
+    "name": "92.96_19-08-2026_21-07-12.webp",
+    "path": "data/test/field_66_review/images/92.96_19-08-2026_21-07-12.webp",
+    "verdict": "correct",
+    "correct_slug": "aratti-kaberne-sovinon-2020-krasnoe-suhoe",
+    "target": {
+      "alcohol": 13,
+      "alcohol_max": null,
+      "catalog_index": 182,
+      "category": "Красное сухое",
+      "color": "Гранатовый",
+      "color_gradient": "linear-gradient(180deg, #A51B3A 0%, #741D30 100%)",
+      "description": "В аромате сушеные цветы, чай пуэр, землистость. Вкус нежный с мягкими танинами.\nСочетания: Овощное рагу с очень мягким мясом и специями, тушеное мясо, легкие мясные закуски.",
+      "dishes": [
+        "Мясное ассорти",
+        "Мясо и стейки",
+        "Сыры"
+      ],
+      "grapes": [
+        "Каберне Совиньон"
+      ],
+      "image": {
+        "bytes": 14004,
+        "exists": true,
+        "format": "WEBP",
+        "has_alpha": true,
+        "height": 540,
+        "label_dhash": "f320f368d96ed76ae72ae92cf1f0a96ce96cf6f0e57cf37cf27cf4f8ba7ac2be",
+        "mode": "RGBA",
+        "sha256": "06cdc3abb9a8bbaa3ea8ebbda34f8d5004ca2e0247665593ce21b046ec1636ff",
+        "width": 133
+      },
+      "image_alt": "Каб.сов 20 Аратти",
+      "image_local": "images/aratti-kaberne-sovinon-2020-krasnoe-suhoe.webp",
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/540/540/resize/uploads/Kab_sov_20_0ec2d4acd2.webp",
+      "manufacturer": "АРАТТИ",
+      "manufacturer_slug": "aratti",
+      "public_rating": 4.89,
+      "rating": null,
+      "region": "Кубань",
+      "schema_version": 1,
+      "slug": "aratti-kaberne-sovinon-2020-krasnoe-suhoe",
+      "source_url": "https://vino-svoe.ru/wines/aratti-kaberne-sovinon-2020-krasnoe-suhoe",
+      "temperature": null,
+      "title": "АРАТТИ Каберне Совиньон 2020 красное сухое"
+    },
+    "baseline_ocr_lines": [
+      {
+        "text": "семейная винодельия",
+        "normalized": "семейная винодельия",
+        "score": 0.86712
+      },
+      {
+        "text": "rammu",
+        "normalized": "rammu",
+        "score": 0.72813
+      },
+      {
+        "text": "КАБЕРНЕ СОВИНЬОН",
+        "normalized": "каберне совиньон",
+        "score": 0.7873
+      },
+      {
+        "text": "2020",
+        "normalized": "2020",
+        "score": 0.99952
+      },
+      {
+        "text": "ЗГУ КУБАНЬ. АНАПА",
+        "normalized": "згу кубань анапа",
+        "score": 0.95374
+      }
+    ]
+  },
+  {
+    "name": "93.31_05-09-2026_13-39-37.webp",
+    "path": "data/test/field_66_review/images/93.31_05-09-2026_13-39-37.webp",
+    "verdict": "correct",
+    "correct_slug": "golubitskoe-estate-noble-selection-red-blend-kaberne-sovinon-krasnoe-suhoe-136",
+    "target": {
+      "alcohol": 13,
+      "alcohol_max": null,
+      "catalog_index": 1610,
+      "category": "Красное сухое",
+      "color": "Красивый гранатово-красный",
+      "color_gradient": "linear-gradient(180deg, #A51B3A 0%, #741D30 100%)",
+      "description": "Вкус: Яркий, с ягодными оттенками: ежевика, тутовник, черника, кизил. Танины шероховатые. Послевкусие длительное, с оттенком горького шоколада и крем де кассис. С яркой палитрой красных фруктов: вишня, черешня, кизил, ликёр из черной смородины, деликатные пряные ноты, подлесок.",
+      "dishes": [
+        "Мясо и стейки",
+        "Овощи гриль",
+        "Сыры"
+      ],
+      "grapes": [
+        "Каберне Совиньон"
+      ],
+      "image": {
+        "bytes": 9446,
+        "exists": true,
+        "format": "WEBP",
+        "has_alpha": true,
+        "height": 540,
+        "label_dhash": "e30c874317110ff107f103f1067103f107f11ff38f139753975307f307f907f1",
+        "mode": "RGBA",
+        "sha256": "d01109e044885f060b0edacf51c0e7185bbbb0d29dfbe267bb5be533b3351fb9",
+        "width": 142
+      },
+      "image_alt": "Noble Selection Red Blend",
+      "image_local": "images/golubitskoe-estate-noble-selection-red-blend-kaberne-sovinon-krasnoe-suhoe-136.webp",
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/540/540/resize/uploads/golubitskoe_estate_noble_selection_red_blend_kaberne_sovinon_krasnoe_suhoe_136_37a3acdce0.webp",
+      "manufacturer": "Golubitskoe Estate",
+      "manufacturer_slug": "golubitskoe-estate",
+      "public_rating": null,
+      "rating": null,
+      "region": "Кубань",
+      "schema_version": 1,
+      "slug": "golubitskoe-estate-noble-selection-red-blend-kaberne-sovinon-krasnoe-suhoe-136",
+      "source_url": "https://vino-svoe.ru/wines/golubitskoe-estate-noble-selection-red-blend-kaberne-sovinon-krasnoe-suhoe-136",
+      "temperature": null,
+      "title": "Noble Selection Red Blend"
+    },
+    "baseline_ocr_lines": [
+      {
+        "text": "H",
+        "normalized": "h",
+        "score": 0.63101
+      },
+      {
+        "text": "GOLUBITSKOE",
+        "normalized": "golubitskoe",
+        "score": 0.97849
+      },
+      {
+        "text": "ESTATE",
+        "normalized": "estate",
+        "score": 0.98874
+      },
+      {
+        "text": "RED BLEND",
+        "normalized": "red blend",
+        "score": 0.99502
+      },
+      {
+        "text": "/2019",
+        "normalized": "2019",
+        "score": 0.8754
+      }
+    ]
+  },
+  {
+    "name": "93.43_05-09-2026_13-34-45.webp",
+    "path": "data/test/field_66_review/images/93.43_05-09-2026_13-34-45.webp",
+    "verdict": "correct",
+    "correct_slug": "denisov_pet_nat_rubin",
+    "target": {
+      "alcohol": 11,
+      "alcohol_max": null,
+      "catalog_index": 254,
+      "category": "Розовое экстра брют",
+      "color": "Светло-соломенный с устойчивым муссом и длительным перляжем",
+      "color_gradient": "linear-gradient(180deg, #F2AAAD 0%, #F2828F 100%)",
+      "description": "Аромат: яркий, свежий, с пеобладающими оттенками садовых ягод, выроженными нотами вишни, брусники и клюквы. Вкус:  яркие оттенки кизила, клюквы, с выраженными тонами черной смородины и высокой освежающей кислотностью на финише.",
+      "dishes": [
+        "Легкие закуски",
+        "Рыба и морепродукты"
+      ],
+      "grapes": [
+        "Рубин Голодриги"
+      ],
+      "image": {
+        "bytes": 12356,
+        "exists": true,
+        "format": "WEBP",
+        "has_alpha": true,
+        "height": 540,
+        "label_dhash": "2e882f485e405e44bf20ba1276507749f708e54cd66cdc3cdb9cda0cd938d920",
+        "mode": "RGBA",
+        "sha256": "a6c036344cc89bece076ac7184cec4ca2b2c2e7bd5b65b195916735a2e23eaca",
+        "width": 379
+      },
+      "image_alt": "Пет-нат Рубин",
+      "image_local": "images/denisov_pet_nat_rubin.webp",
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/540/540/resize/uploads/PETNAT_Rubin_prozrachnaya_3964ed9fec.webp",
+      "manufacturer": "Denisov Winery",
+      "manufacturer_slug": "denisov-winery",
+      "public_rating": 5,
+      "rating": null,
+      "region": "Самара",
+      "schema_version": 1,
+      "slug": "denisov_pet_nat_rubin",
+      "source_url": "https://vino-svoe.ru/wines/denisov_pet_nat_rubin",
+      "temperature": null,
+      "title": "Пет-Нат Рубин"
+    },
+    "baseline_ocr_lines": [
+      {
+        "text": "170",
+        "normalized": "170",
+        "score": 0.997
+      },
+      {
+        "text": "DENISOV",
+        "normalized": "denisov",
+        "score": 0.9505
+      },
+      {
+        "text": "CAMAPA",
+        "normalized": "camapa",
+        "score": 0.97727
+      }
+    ]
+  },
+  {
+    "name": "93.68_19-08-2026_20-44-28.webp",
+    "path": "data/test/field_66_review/images/93.68_19-08-2026_20-44-28.webp",
+    "verdict": "correct",
+    "correct_slug": "zakat-denisov-vajneri",
+    "target": {
+      "alcohol": 11,
+      "alcohol_max": 12,
+      "catalog_index": 7,
+      "category": "Розовое сухое",
+      "color": "Розовый",
+      "color_gradient": "linear-gradient(180deg, #F2AAAD 0%, #F2828F 100%)",
+      "description": "Аромат: многослойный яркий раскрывающийся нотами красных ягод спелой садовой земляники, нюансами малины, красной смородины, с тонкими цветочными оттенками лепестков пиона и нераспустившейся розы. \n\nВкус: вино имеет шелковистую текстуру и сочную цветочно-ягодную палитру во вкусе.\n\nТехнология: машинный сбор, ферментация при t +15 +18, выдержка в стали 5 месяцев",
+      "dishes": [
+        "Блюда из птицы",
+        "Легкие закуски",
+        "Салаты"
+      ],
+      "grapes": [
+        "Левокумский",
+        "Шардоне"
+      ],
+      "image": {
+        "bytes": 10696,
+        "exists": true,
+        "format": "WEBP",
+        "has_alpha": true,
+        "height": 540,
+        "label_dhash": "5384b7926f89cf449f423f413ee13ee13e613ec13eb31cf15b7866341f64dec2",
+        "mode": "RGBA",
+        "sha256": "1a7917094159dc2f50a5a593fefdd238b0b3e5d6ed762f56b15e84f38b87ec4b",
+        "width": 207
+      },
+      "image_alt": "закат денисов вайнери",
+      "image_local": "images/zakat-denisov-vajneri.webp",
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/540/540/resize/uploads/zakat_denisov_vajneri_no_bg_preview_carve_photos_1_6ae9baa13d.webp",
+      "manufacturer": "Denisov Winery",
+      "manufacturer_slug": "denisov-winery",
+      "public_rating": 4.57,
+      "rating": null,
+      "region": "Самара",
+      "schema_version": 1,
+      "slug": "zakat-denisov-vajneri",
+      "source_url": "https://vino-svoe.ru/wines/zakat-denisov-vajneri",
+      "temperature": null,
+      "title": "Закат. Денисов Вайнери"
+    },
+    "baseline_ocr_lines": [
+      {
+        "text": "ДЕHИCOВ",
+        "normalized": "деhиcoв",
+        "score": 0.55666
+      },
+      {
+        "text": "CAMAPA",
+        "normalized": "camapa",
+        "score": 0.98119
+      },
+      {
+        "text": "3AKAT",
+        "normalized": "3akat",
+        "score": 0.87036
+      }
+    ]
+  },
+  {
+    "name": "93.84_02-09-2026_17-13-04.webp",
+    "path": "data/test/field_66_review/images/93.84_02-09-2026_17-13-04.webp",
+    "verdict": "correct",
+    "correct_slug": "zakat-denisov-vajneri",
+    "target": {
+      "alcohol": 11,
+      "alcohol_max": 12,
+      "catalog_index": 7,
+      "category": "Розовое сухое",
+      "color": "Розовый",
+      "color_gradient": "linear-gradient(180deg, #F2AAAD 0%, #F2828F 100%)",
+      "description": "Аромат: многослойный яркий раскрывающийся нотами красных ягод спелой садовой земляники, нюансами малины, красной смородины, с тонкими цветочными оттенками лепестков пиона и нераспустившейся розы. \n\nВкус: вино имеет шелковистую текстуру и сочную цветочно-ягодную палитру во вкусе.\n\nТехнология: машинный сбор, ферментация при t +15 +18, выдержка в стали 5 месяцев",
+      "dishes": [
+        "Блюда из птицы",
+        "Легкие закуски",
+        "Салаты"
+      ],
+      "grapes": [
+        "Левокумский",
+        "Шардоне"
+      ],
+      "image": {
+        "bytes": 10696,
+        "exists": true,
+        "format": "WEBP",
+        "has_alpha": true,
+        "height": 540,
+        "label_dhash": "5384b7926f89cf449f423f413ee13ee13e613ec13eb31cf15b7866341f64dec2",
+        "mode": "RGBA",
+        "sha256": "1a7917094159dc2f50a5a593fefdd238b0b3e5d6ed762f56b15e84f38b87ec4b",
+        "width": 207
+      },
+      "image_alt": "закат денисов вайнери",
+      "image_local": "images/zakat-denisov-vajneri.webp",
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/540/540/resize/uploads/zakat_denisov_vajneri_no_bg_preview_carve_photos_1_6ae9baa13d.webp",
+      "manufacturer": "Denisov Winery",
+      "manufacturer_slug": "denisov-winery",
+      "public_rating": 4.57,
+      "rating": null,
+      "region": "Самара",
+      "schema_version": 1,
+      "slug": "zakat-denisov-vajneri",
+      "source_url": "https://vino-svoe.ru/wines/zakat-denisov-vajneri",
+      "temperature": null,
+      "title": "Закат. Денисов Вайнери"
+    },
+    "baseline_ocr_lines": [
+      {
+        "text": "20",
+        "normalized": "20",
+        "score": 0.95236
+      },
+      {
+        "text": "ДЕНИСОВ",
+        "normalized": "денисов",
+        "score": 0.70476
+      },
+      {
+        "text": "3AKAT",
+        "normalized": "3akat",
+        "score": 0.70627
+      },
+      {
+        "text": "CAMAPA",
+        "normalized": "camapa",
+        "score": 0.98026
+      }
+    ]
+  },
+  {
+    "name": "93.97_28-08-2026_16-02-48.webp",
+    "path": "data/test/field_66_review/images/93.97_28-08-2026_16-02-48.webp",
+    "verdict": "not_in_catalog",
+    "correct_slug": null,
+    "target": null,
+    "baseline_ocr_lines": [
+      {
+        "text": "GOLUBITSKOE",
+        "normalized": "golubitskoe",
+        "score": 0.91753
+      },
+      {
+        "text": "—ESTATE",
+        "normalized": "estate",
+        "score": 0.9459
+      },
+      {
+        "text": "CHARDONNAY",
+        "normalized": "chardonnay",
+        "score": 0.99529
+      },
+      {
+        "text": "TAMAGNE",
+        "normalized": "tamagne",
+        "score": 0.98868
+      },
+      {
+        "text": "2024",
+        "normalized": "2024",
+        "score": 0.999
+      }
+    ]
+  },
+  {
+    "name": "94.02_24-08-2026_17-46-57.webp",
+    "path": "data/test/field_66_review/images/94.02_24-08-2026_17-46-57.webp",
+    "verdict": "correct",
+    "correct_slug": "rubin-golodrigi",
+    "target": {
+      "alcohol": 12,
+      "alcohol_max": null,
+      "catalog_index": 126,
+      "category": "Красное сухое",
+      "color": "Темно-гранатовый",
+      "color_gradient": "linear-gradient(180deg, #A51B3A 0%, #741D30 100%)",
+      "description": "В аромате варенье из спелой черной сливы, с нотами ванили и пряными нюансами. Во вкусе пряный с хлебными нотами и оттенками специй.",
+      "dishes": [
+        "Закуски",
+        "Мясное ассорти",
+        "Сыры"
+      ],
+      "grapes": [
+        "Рубин Голодриги"
+      ],
+      "image": {
+        "bytes": 7880,
+        "exists": true,
+        "format": "WEBP",
+        "has_alpha": true,
+        "height": 540,
+        "label_dhash": "d4803b823e803a883b823e823cc23cc23cc239c63f82bf80bf80bec2b202be00",
+        "mode": "RGBA",
+        "sha256": "5dfe4f6873b78578e7074930789edd542bf6a75b4940925d772073b0296fa997",
+        "width": 273
+      },
+      "image_alt": "Табия Рубин голодриги",
+      "image_local": "images/rubin-golodrigi.webp",
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/540/540/resize/uploads/Screenshot_18_1109114bb0.webp",
+      "manufacturer": "Табия",
+      "manufacturer_slug": "tabiya",
+      "public_rating": 4.98,
+      "rating": null,
+      "region": "Кубань",
+      "schema_version": 1,
+      "slug": "rubin-golodrigi",
+      "source_url": "https://vino-svoe.ru/wines/rubin-golodrigi",
+      "temperature": null,
+      "title": "Рубин Голодриги"
+    },
+    "baseline_ocr_lines": [
+      {
+        "text": "ТАБИЯ",
+        "normalized": "табия",
+        "score": 0.96219
+      },
+      {
+        "text": "СЕМЕЙНАЯ ВИНОДЕЛЬНЯ",
+        "normalized": "семейная винодельня",
+        "score": 0.9668
+      },
+      {
+        "text": "2023",
+        "normalized": "2023",
+        "score": 0.97393
+      },
+      {
+        "text": "MACHOE",
+        "normalized": "machoe",
+        "score": 0.80882
+      },
+      {
+        "text": "GTYOE",
+        "normalized": "gtyoe",
+        "score": 0.55868
+      },
+      {
+        "text": "ПРОИЗВЕДЕНО:ИЗВИ",
+        "normalized": "произведено изви",
+        "score": 0.94131
+      },
+      {
+        "text": "НА ТЕРРИТОРИИ",
+        "normalized": "на территории",
+        "score": 0.76402
+      },
+      {
+        "text": "ВЫРАШЕННОГО",
+        "normalized": "вырашенного",
+        "score": 0.90278
+      },
+      {
+        "text": "ФЕДЕРАЦИИ",
+        "normalized": "федерации",
+        "score": 0.96652
+      }
+    ]
+  },
+  {
+    "name": "94.55_02-09-2026_16-53-08.webp",
+    "path": "data/test/field_66_review/images/94.55_02-09-2026_16-53-08.webp",
+    "verdict": "correct",
+    "correct_slug": "denisov_pazori_risling",
+    "target": {
+      "alcohol": 11,
+      "alcohol_max": null,
+      "catalog_index": 256,
+      "category": "Белое брют",
+      "color": "Светло-соломенный с устойчивым муссом и длительным перляжем",
+      "color_gradient": "linear-gradient(180deg, #FCFBDF 0%, #F0EFD5 100%)",
+      "description": "Аромат: груша, желтые спелые яблоки, цитрусовые, белые цветы и луговые травы. Глубину вкуса подчеркивают минеральные тона. Вкус: утончённое, без излишней тяжести ,глубину вкуса подчеркивают минеральные тона.",
+      "dishes": [
+        "Легкие закуски",
+        "Рыба и морепродукты"
+      ],
+      "grapes": [
+        "Рислинг"
+      ],
+      "image": {
+        "bytes": 12132,
+        "exists": true,
+        "format": "WEBP",
+        "has_alpha": true,
+        "height": 540,
+        "label_dhash": "2f907b005b48b7646722cf119688b6d42efc3ebe0c064cc646c6465e0dbe0ffe",
+        "mode": "RGBA",
+        "sha256": "6cb2695751e0440be50175340e2c07bcc99ae9202749157cc0ab6a63657b3337",
+        "width": 201
+      },
+      "image_alt": "Пазори рислинг",
+      "image_local": "images/denisov_pazori_risling.webp",
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/540/540/resize/uploads/Pazori_Risling_e5de844d95.webp",
+      "manufacturer": "Denisov Winery",
+      "manufacturer_slug": "denisov-winery",
+      "public_rating": 5,
+      "rating": null,
+      "region": "Самара",
+      "schema_version": 1,
+      "slug": "denisov_pazori_risling",
+      "source_url": "https://vino-svoe.ru/wines/denisov_pazori_risling",
+      "temperature": null,
+      "title": "Пазори Рислинг"
+    },
+    "baseline_ocr_lines": [
+      {
+        "text": "DENISOV",
+        "normalized": "denisov",
+        "score": 0.94346
+      },
+      {
+        "text": "CAMAPA",
+        "normalized": "camapa",
+        "score": 0.96904
+      },
+      {
+        "text": "TaJopu",
+        "normalized": "tajopu",
+        "score": 0.65235
+      },
+      {
+        "text": "Минпромторг",
+        "normalized": "минпромторг",
+        "score": 0.97909
+      },
+      {
+        "text": "Рoсcии",
+        "normalized": "рoсcии",
+        "score": 0.46255
+      },
+      {
+        "text": "IIРСХБ",
+        "normalized": "iiрсхб",
+        "score": 0.63716
+      }
+    ]
+  },
+  {
+    "name": "94.7_25-08-2026_15-52-07.webp",
+    "path": "data/test/field_66_review/images/94.7_25-08-2026_15-52-07.webp",
+    "verdict": "incorrect",
+    "correct_slug": "czitronnyj-magaracha-sovinon-blan",
+    "target": {
+      "alcohol": 11,
+      "alcohol_max": null,
+      "catalog_index": 170,
+      "category": "Белое полусухое",
+      "color": "Светло-соломенный",
+      "color_gradient": "linear-gradient(180deg, #FCFBDF 0%, #F0EFD5 100%)",
+      "description": "Вкус и аромат: цветочный букет с нотами лайма и мяты. Во вкусе свежесть сада после дождя — лёгкая, с намёком на цитрус и деликатной сладостью.",
+      "dishes": [
+        "Морепродукты",
+        "Салаты",
+        "Сыры"
+      ],
+      "grapes": [
+        "Совиньон Блан",
+        "Цитронный Магарача"
+      ],
+      "image": {
+        "bytes": 13542,
+        "exists": true,
+        "format": "WEBP",
+        "has_alpha": true,
+        "height": 540,
+        "label_dhash": "bde27dd1f558e678db6cd16a956aad22f940fedcf938eb387322b31efbcf027f",
+        "mode": "RGBA",
+        "sha256": "11a86f3ec9b6e29707f5c7d71012c24e78a258d302c2f99125e16871f7a1c3fb",
+        "width": 132
+      },
+      "image_alt": "Цитрон, Совиньон п.сух",
+      "image_local": "images/czitronnyj-magaracha-sovinon-blan.webp",
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/540/540/resize/uploads/Czitron_Sovinon_p_suh_f07f1d8280.webp",
+      "manufacturer": "АРАТТИ",
+      "manufacturer_slug": "aratti",
+      "public_rating": 5,
+      "rating": null,
+      "region": "Кубань",
+      "schema_version": 1,
+      "slug": "czitronnyj-magaracha-sovinon-blan",
+      "source_url": "https://vino-svoe.ru/wines/czitronnyj-magaracha-sovinon-blan",
+      "temperature": null,
+      "title": "Жемчужная 9 Цитрон, Совиньон блан"
+    },
+    "baseline_ocr_lines": [
+      {
+        "text": "ЖЕМЧУЖНАЯ",
+        "normalized": "жемчужная",
+        "score": 0.99067
+      },
+      {
+        "text": "2",
+        "normalized": "2",
+        "score": 0.77814
+      },
+      {
+        "text": "9",
+        "normalized": "9",
+        "score": 0.99962
+      },
+      {
+        "text": "АРАТТИ",
+        "normalized": "аратти",
+        "score": 0.58447
+      },
+      {
+        "text": "ЦИТРОН",
+        "normalized": "цитрон",
+        "score": 0.87004
+      },
+      {
+        "text": "2024",
+        "normalized": "2024",
+        "score": 0.99933
+      }
+    ]
+  },
+  {
+    "name": "94.97_02-09-2026_19-01-48.webp",
+    "path": "data/test/field_66_review/images/94.97_02-09-2026_19-01-48.webp",
+    "verdict": "incorrect",
+    "correct_slug": "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-2",
+    "target": {
+      "alcohol": 11,
+      "alcohol_max": null,
+      "catalog_index": 173,
+      "category": "Розовое полусладкое",
+      "color": "Насыщенный розовый",
+      "color_gradient": "linear-gradient(180deg, #F2AAAD 0%, #F2828F 100%)",
+      "description": "Вкус и аромат: цветочный аромат с оттенком лепестков роз и земляники. Вкус нежный, чуть сладковатый, с лёгкой терпкостью, как ягода, которую только что сорвали.",
+      "dishes": [
+        "Азиатская кухня",
+        "Десерты",
+        "Паштеты"
+      ],
+      "grapes": [
+        "Мускат Розовый",
+        "Пино Нуар"
+      ],
+      "image": {
+        "bytes": 15068,
+        "exists": true,
+        "format": "WEBP",
+        "has_alpha": true,
+        "height": 540,
+        "label_dhash": "bcc27dd1f5d8ee58f96c9568956aff20ffecf98cecfcb5f8f3cafcd0037f8b4e",
+        "mode": "RGBA",
+        "sha256": "2e6b1e43b4929df4a65314090cddb693537562b3eb2e3c388c2f94f214f4b6b0",
+        "width": 133
+      },
+      "image_alt": "Пино Нуар, Мускат п.сл",
+      "image_local": "images/zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-2.webp",
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/540/540/resize/uploads/Pino_Nuar_Muskat_p_sl_7adf03cd48.webp",
+      "manufacturer": "АРАТТИ",
+      "manufacturer_slug": "aratti",
+      "public_rating": 5,
+      "rating": null,
+      "region": "Кубань",
+      "schema_version": 1,
+      "slug": "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-2",
+      "source_url": "https://vino-svoe.ru/wines/zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-2",
+      "temperature": null,
+      "title": "Жемчужная 9 Пино нуар, Мускат Розовый"
+    },
+    "baseline_ocr_lines": [
+      {
+        "text": "HE СОВИНЬ",
+        "normalized": "he совинь",
+        "score": 0.61426
+      },
+      {
+        "text": "КABИ",
+        "normalized": "кabи",
+        "score": 0.6061
+      },
+      {
+        "text": "ПИНОНУАР",
+        "normalized": "пинонуар",
+        "score": 0.93586
+      },
+      {
+        "text": "ОЗОВОЕ ПОЛУСЛАДКОЕ",
+        "normalized": "озовое полусладкое",
+        "score": 0.9168
+      },
+      {
+        "text": "2024",
+        "normalized": "2024",
+        "score": 0.99959
+      },
+      {
+        "text": "ЖЕМЧУЖНАЯ",
+        "normalized": "жемчужная",
+        "score": 0.99214
+      },
+      {
+        "text": "APATT",
+        "normalized": "apatt",
+        "score": 0.98772
+      },
+      {
+        "text": "ПИНО НУАР",
+        "normalized": "пино нуар",
+        "score": 0.89245
+      },
+      {
+        "text": "2024",
+        "normalized": "2024",
+        "score": 0.87552
+      }
+    ]
+  },
+  {
+    "name": "95.03_04-09-2026_11-39-35.webp",
+    "path": "data/test/field_66_review/images/95.03_04-09-2026_11-39-35.webp",
+    "verdict": "correct",
+    "correct_slug": "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11",
+    "target": {
+      "alcohol": 11,
+      "alcohol_max": null,
+      "catalog_index": 641,
+      "category": "Белое полусухое",
+      "color": "Светло‑соломенный с зеленоватым оттенком",
+      "color_gradient": "linear-gradient(180deg, #FCFBDF 0%, #F0EFD5 100%)",
+      "description": "В аромате цитрус, зелёное яблоко, травяные ноты. Вкус свежий, гармоничный, с минеральными тонами и цитрусовой кислинкой.",
+      "dishes": [
+        "Легкие закуски",
+        "Морепродукты"
+      ],
+      "grapes": [
+        "Рислинг",
+        "Цитронный Магарача"
+      ],
+      "image": {
+        "bytes": 8180,
+        "exists": true,
+        "format": "WEBP",
+        "has_alpha": true,
+        "height": 540,
+        "label_dhash": "7c4e9c06bc42bf007f00ff017f01be00ff01ff007f80bf02fe00ff02ff00fe00",
+        "mode": "RGBA",
+        "sha256": "53a042af954e2dc211df83fcb9e27d8dfa82c7d9097abc80cfd9611d3a6d670a",
+        "width": 127
+      },
+      "image_alt": "Фанагория",
+      "image_local": "images/fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11.webp",
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/540/540/resize/uploads/fanagoriya_zelyonoe_vino_risling_tsitronnyy_magaracha_beloe_polusuhoe_11_e4de13ab6b.webp",
+      "manufacturer": "Фанагория",
+      "manufacturer_slug": "fanagoriya",
+      "public_rating": 5,
+      "rating": null,
+      "region": "Кубань",
+      "schema_version": 1,
+      "slug": "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11",
+      "source_url": "https://vino-svoe.ru/wines/fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11",
+      "temperature": null,
+      "title": "Зелёное вино. Рислинг - Цитронный Магарача"
+    },
+    "baseline_ocr_lines": [
+      {
+        "text": "10%",
+        "normalized": "10",
+        "score": 0.91158
+      },
+      {
+        "text": "HИЗKИЙTPAД",
+        "normalized": "hизkийtpaд",
+        "score": 0.48015
+      },
+      {
+        "text": "АЛКОГОЛЯ",
+        "normalized": "алкоголя",
+        "score": 0.82132
+      },
+      {
+        "text": "FANAGORIA",
+        "normalized": "fanagoria",
+        "score": 0.97991
+      },
+      {
+        "text": "KOBLESSE OBLIGE",
+        "normalized": "koblesse oblige",
+        "score": 0.98146
+      },
+      {
+        "text": "Зеленое",
+        "normalized": "зеленое",
+        "score": 0.92139
+      },
+      {
+        "text": "6NHO",
+        "normalized": "6nho",
+        "score": 0.46073
+      },
+      {
+        "text": "1198",
+        "normalized": "1198",
+        "score": 0.95576
+      },
+      {
+        "text": "БЕЛОЕ",
+        "normalized": "белое",
+        "score": 0.97401
+      },
+      {
+        "text": "ПОЛУСУХОЕ",
+        "normalized": "полусухое",
+        "score": 0.854
+      },
+      {
+        "text": "РАННИЙ СБОР",
+        "normalized": "ранний сбор",
+        "score": 0.96259
+      },
+      {
+        "text": "РИCЛИНG",
+        "normalized": "риcлинg",
+        "score": 0.46373
+      }
+    ]
+  },
+  {
+    "name": "95.24_19-08-2026_20-00-22.webp",
+    "path": "data/test/field_66_review/images/95.24_19-08-2026_20-00-22.webp",
+    "verdict": "correct",
+    "correct_slug": "zhemchuzhnaya-9-czitron-shardone-1",
+    "target": {
+      "alcohol": 11,
+      "alcohol_max": null,
+      "catalog_index": 174,
+      "category": "Белое полусладкое",
+      "color": "Светло-соломенный",
+      "color_gradient": "linear-gradient(180deg, #FCFBDF 0%, #F0EFD5 100%)",
+      "description": "Вкус и аромат: сочные яблоки, мёд, лимонная карамель. Вкус, будто ложка цитрусового джема — ярко, кисло-сладко, с солнечным настроением.",
+      "dishes": [
+        "Выпечка и десерты",
+        "Фрукты"
+      ],
+      "grapes": [
+        "Цитронный Магарача",
+        "Шардоне"
+      ],
+      "image": {
+        "bytes": 13732,
+        "exists": true,
+        "format": "WEBP",
+        "has_alpha": true,
+        "height": 540,
+        "label_dhash": "9cf17df0f5e8e66ce96cd92ed72ef722ffe4f73cfc9cf594f912ddaefdcf837f",
+        "mode": "RGBA",
+        "sha256": "8f1db6bf36d0460e8d1b1316437384914791ac0c8dc85fd609354f382072dc92",
+        "width": 136
+      },
+      "image_alt": "Цитрон, Шард п.сл.",
+      "image_local": "images/zhemchuzhnaya-9-czitron-shardone-1.webp",
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/540/540/resize/uploads/Czitron_Shard_p_sl_b94274915f.webp",
+      "manufacturer": "АРАТТИ",
+      "manufacturer_slug": "aratti",
+      "public_rating": 5,
+      "rating": null,
+      "region": "Кубань",
+      "schema_version": 1,
+      "slug": "zhemchuzhnaya-9-czitron-shardone-1",
+      "source_url": "https://vino-svoe.ru/wines/zhemchuzhnaya-9-czitron-shardone-1",
+      "temperature": null,
+      "title": "Жемчужная 9 Цитрон, Шардоне"
+    },
+    "baseline_ocr_lines": [
+      {
+        "text": "ЖЕМЧУЖНАЯ",
+        "normalized": "жемчужная",
+        "score": 0.99194
+      },
+      {
+        "text": "O",
+        "normalized": "o",
+        "score": 0.42248
+      },
+      {
+        "text": "АРАТТИ",
+        "normalized": "аратти",
+        "score": 0.61484
+      },
+      {
+        "text": "ЦИТРОН",
+        "normalized": "цитрон",
+        "score": 0.88677
+      },
+      {
+        "text": "ШАРДОНЕ",
+        "normalized": "шардоне",
+        "score": 0.89417
+      },
+      {
+        "text": "2024",
+        "normalized": "2024",
+        "score": 0.99953
+      }
+    ]
+  },
+  {
+    "name": "95.2_05-09-2026_13-54-13.webp",
+    "path": "data/test/field_66_review/images/95.2_05-09-2026_13-54-13.webp",
+    "verdict": "correct",
+    "correct_slug": "aratti-kaberne-po-belomu-1",
+    "target": {
+      "alcohol": 12,
+      "alcohol_max": null,
+      "catalog_index": 190,
+      "category": "Розовое полусухое",
+      "color": "Насыщенный розовый",
+      "color_gradient": "linear-gradient(180deg, #F2AAAD 0%, #F2828F 100%)",
+      "description": "Цвет апероля сразу поднимает настроение! В аромате цедра, спелая клубника и\nкрасное яблочко. Во вкусе напоминает клубничный компот, сангрию. Умеренная сладость и приятное цитрусовое послевкусие Сочетания: Запеченная утка(дичь) с ягодным соусом, сырные шарики с брусничным вареньем, карпачо из говядины, ростбиф, полутвердые ароматные сыры.",
+      "dishes": [
+        "Мясное ассорти",
+        "Сыры"
+      ],
+      "grapes": [
+        "Каберне Совиньон"
+      ],
+      "image": {
+        "bytes": 14250,
+        "exists": true,
+        "format": "WEBP",
+        "has_alpha": true,
+        "height": 540,
+        "label_dhash": "be627a79e648ae48c97cd7609d62b102ff8866fcd624ecfceb54d5fe77bd03ff",
+        "mode": "RGBA",
+        "sha256": "8d8a6a945e56bd8842d50695766c80036383caa474e66c331c9565d2b8ec3690",
+        "width": 137
+      },
+      "image_alt": "Каберне по-бел п.сух Аратти",
+      "image_local": "images/aratti-kaberne-po-belomu-1.webp",
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/540/540/resize/uploads/Kaberne_po_bel_p_suh_6e9878c657.webp",
+      "manufacturer": "АРАТТИ",
+      "manufacturer_slug": "aratti",
+      "public_rating": 5,
+      "rating": null,
+      "region": "Кубань",
+      "schema_version": 1,
+      "slug": "aratti-kaberne-po-belomu-1",
+      "source_url": "https://vino-svoe.ru/wines/aratti-kaberne-po-belomu-1",
+      "temperature": null,
+      "title": "АРАТТИ Каберне по-белому"
+    },
+    "baseline_ocr_lines": [
+      {
+        "text": "1600",
+        "normalized": "1600",
+        "score": 0.99521
+      },
+      {
+        "text": "KEM4Y",
+        "normalized": "kem4y",
+        "score": 0.70701
+      },
+      {
+        "text": "СЕМЕЙНАЯ ВИНОДЕЛЬНЯ",
+        "normalized": "семейная винодельня",
+        "score": 0.98798
+      },
+      {
+        "text": "2024",
+        "normalized": "2024",
+        "score": 0.99968
+      },
+      {
+        "text": "ПОЛУСУХОЕ",
+        "normalized": "полусухое",
+        "score": 0.98645
+      }
+    ]
+  },
+  {
+    "name": "95.32_02-09-2026_12-09-23.webp",
+    "path": "data/test/field_66_review/images/95.32_02-09-2026_12-09-23.webp",
+    "verdict": "correct",
+    "correct_slug": "sovinon-blan",
+    "target": {
+      "alcohol": 12,
+      "alcohol_max": null,
+      "catalog_index": 2026,
+      "category": "Белое полусладкое",
+      "color": "Золотистый",
+      "color_gradient": "linear-gradient(180deg, #FCFBDF 0%, #F0EFD5 100%)",
+      "description": "Обладает свежим, фруктовым ароматом с нотами крыжовника, цитрусовых, зеленого яблока и легкими травянистыми оттенками, с тонами тропических фруктов. Во вкусе  мягкое и гармоничное, с хорошо сбалансированной сладостью, яркой кислотностью и чистым фруктово-минеральным послевкусием.",
+      "dishes": [
+        "Азиатская кухня",
+        "Блюда из рыбы",
+        "Десерты",
+        "Закуски",
+        "Пицца",
+        "Сыры"
+      ],
+      "grapes": [
+        "Совиньон Блан"
+      ],
+      "image": {
+        "bytes": 16346,
+        "exists": true,
+        "format": "WEBP",
+        "has_alpha": true,
+        "height": 910,
+        "label_dhash": "90803286320637c27fe17d916d916e817fe17fe07fc17fe17fe17fe633c3b903",
+        "mode": "RGBA",
+        "sha256": "5c343d041dad150fd92f4655699eeac2c8824d1f5aab28efd92fca7064eb9460",
+        "width": 607
+      },
+      "image_alt": "Совиньон блан",
+      "image_local": "images/sovinon-blan.webp",
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/910/910/resize/uploads/MAX_02320_d56a1a6d6d.webp",
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "manufacturer_slug": "litavshchuk-vineyards-and-winery",
+      "public_rating": null,
+      "rating": null,
+      "region": "Кубань",
+      "schema_version": 1,
+      "slug": "sovinon-blan",
+      "source_url": "https://vino-svoe.ru/wines/sovinon-blan",
+      "temperature": "10-12",
+      "title": "Совиньон Блан"
+    },
+    "baseline_ocr_lines": [
+      {
+        "text": "Семейная винодельня",
+        "normalized": "семейная винодельня",
+        "score": 0.98727
+      },
+      {
+        "text": "Литавщуков",
+        "normalized": "литавщуков",
+        "score": 0.8018
+      },
+      {
+        "text": "Собиньон",
+        "normalized": "собиньон",
+        "score": 0.48614
+      },
+      {
+        "text": "полусладкое",
+        "normalized": "полусладкое",
+        "score": 0.98225
+      },
+      {
+        "text": "белое",
+        "normalized": "белое",
+        "score": 0.95516
+      },
+      {
+        "text": "12",
+        "normalized": "12",
+        "score": 0.84064
+      }
+    ]
+  },
+  {
+    "name": "95.36_28-08-2026_17-09-04.webp",
+    "path": "data/test/field_66_review/images/95.36_28-08-2026_17-09-04.webp",
+    "verdict": "incorrect",
+    "correct_slug": "winemaker-selection",
+    "target": {
+      "alcohol": 13,
+      "alcohol_max": null,
+      "catalog_index": 222,
+      "category": "Белое полусухое",
+      "color": "Светло-соломенный",
+      "color_gradient": "linear-gradient(180deg, #FCFBDF 0%, #F0EFD5 100%)",
+      "description": "Вино обладает свежим сортовым ароматом с яркими цветочными нотами, легкими оттенками экзотических фруктов и цветочного мёда.",
+      "dishes": [
+        "Легкие закуски",
+        "Морепродукты",
+        "Паста",
+        "Сыры"
+      ],
+      "grapes": [
+        "Рислинг"
+      ],
+      "image": {
+        "bytes": 8418,
+        "exists": true,
+        "format": "WEBP",
+        "has_alpha": true,
+        "height": 540,
+        "label_dhash": "a7496f04d68696832d812d812d816d012f011f236f282f410e411e010f010e11",
+        "mode": "RGBA",
+        "sha256": "9dfdef7f05dc0144d35b3f10e43c9cb6dd5cbb3178c81090d8c13b23137b6dfb",
+        "width": 194
+      },
+      "image_alt": "Инкерман",
+      "image_local": "images/winemaker-selection.webp",
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/540/540/resize/uploads/PU_Sjv7dn_M_Nil_H25_TO_9_Bcb_M8_AKD_4_B2_Y2_Z_Siq4lp0vl_NDQ_1_Im_Kjlu_Vnc_Wpupc0tii_Ai_C0_S_Jlrf_F34yl_QF_Vb_Wx_BQ_6bf5975f02.webp",
+      "manufacturer": "Инкерманский ЗМВ",
+      "manufacturer_slug": "inkermanskiy_zmv",
+      "public_rating": 5,
+      "rating": null,
+      "region": "Крым",
+      "schema_version": 1,
+      "slug": "winemaker-selection",
+      "source_url": "https://vino-svoe.ru/wines/winemaker-selection",
+      "temperature": null,
+      "title": "Winemaker selection"
+    },
+    "baseline_ocr_lines": [
+      {
+        "text": "RMAN",
+        "normalized": "rman",
+        "score": 0.9816
+      },
+      {
+        "text": "MAN",
+        "normalized": "man",
+        "score": 0.97662
+      },
+      {
+        "text": "MAN",
+        "normalized": "man",
+        "score": 0.91227
+      },
+      {
+        "text": "IAN",
+        "normalized": "ian",
+        "score": 0.84041
+      },
+      {
+        "text": "AN",
+        "normalized": "an",
+        "score": 0.95426
+      },
+      {
+        "text": "IR",
+        "normalized": "ir",
+        "score": 0.97256
+      },
+      {
+        "text": "p",
+        "normalized": "p",
+        "score": 0.58211
+      },
+      {
+        "text": "KPACHOE",
+        "normalized": "kpachoe",
+        "score": 0.9021
+      },
+      {
+        "text": "19",
+        "normalized": "19",
+        "score": 0.99982
+      },
+      {
+        "text": "61",
+        "normalized": "61",
+        "score": 0.99958
+      },
+      {
+        "text": "INKERMAN",
+        "normalized": "inkerman",
+        "score": 0.96447
+      },
+      {
+        "text": "19",
+        "normalized": "19",
+        "score": 0.99981
+      },
+      {
+        "text": "61",
+        "normalized": "61",
+        "score": 0.99956
+      },
+      {
+        "text": "INKERMAN",
+        "normalized": "inkerman",
+        "score": 0.95214
+      },
+      {
+        "text": "ELECTION",
+        "normalized": "election",
+        "score": 0.99202
+      },
+      {
+        "text": "RIESLING",
+        "normalized": "riesling",
+        "score": 0.99076
+      },
+      {
+        "text": "RIESLING",
+        "normalized": "riesling",
+        "score": 0.99172
+      },
+      {
+        "text": "Puaun",
+        "normalized": "puaun",
+        "score": 0.6201
+      },
+      {
+        "text": "Buaun",
+        "normalized": "buaun",
+        "score": 0.53073
+      },
+      {
+        "text": "ВинО ПОЛУСУХОЕ БЕЛОВ",
+        "normalized": "вино полусухое белов",
+        "score": 0.65189
+      },
+      {
+        "text": "2025",
+        "normalized": "2025",
+        "score": 0.99968
+      },
+      {
+        "text": "2025",
+        "normalized": "2025",
+        "score": 0.99953
+      },
+      {
+        "text": "1028623",
+        "normalized": "1028623",
+        "score": 0.99904
+      },
+      {
+        "text": "винЛаб",
+        "normalized": "винлаб",
+        "score": 0.52538
+      },
+      {
+        "text": "цена без карты",
+        "normalized": "цена без карты",
+        "score": 0.88217
+      },
+      {
+        "text": "Вино Инкерман",
+        "normalized": "вино инкерман",
+        "score": 0.93221
+      },
+      {
+        "text": "777%",
+        "normalized": "777",
+        "score": 0.90387
+      },
+      {
+        "text": "Pucnиng",
+        "normalized": "pucnиng",
+        "score": 0.4322
+      },
+      {
+        "text": "6eл.л.сух. 0,75",
+        "normalized": "6eл л сух 0 75",
+        "score": 0.78104
+      },
+      {
+        "text": "скидка по карте",
+        "normalized": "скидка по карте",
+        "score": 0.94732
+      },
+      {
+        "text": "23%",
+        "normalized": "23",
+        "score": 0.99948
+      }
+    ]
+  },
+  {
+    "name": "95.49_05-09-2026_15-34-51.webp",
+    "path": "data/test/field_66_review/images/95.49_05-09-2026_15-34-51.webp",
+    "verdict": "incorrect",
+    "correct_slug": "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-1",
+    "target": {
+      "alcohol": 11,
+      "alcohol_max": null,
+      "catalog_index": 169,
+      "category": "Розовое полусухое",
+      "color": "Ярко-розовый",
+      "color_gradient": "linear-gradient(180deg, #F2AAAD 0%, #F2828F 100%)",
+      "description": "Во вкусе и аромате: садовая земляника, цветочный мёд, малиновый джем. Нежное и округлое, как тёплый вечер на веранде.",
+      "dishes": [
+        "Блюда из птицы",
+        "Салаты",
+        "Сыры"
+      ],
+      "grapes": [
+        "Мускат Розовый",
+        "Пино Нуар"
+      ],
+      "image": {
+        "bytes": 14536,
+        "exists": true,
+        "format": "WEBP",
+        "has_alpha": true,
+        "height": 540,
+        "label_dhash": "bcf17cd0f1f8f66ce96cdd68dd2af92affe4699cfc8cf4f8b7f8f2da7cf7837f",
+        "mode": "RGBA",
+        "sha256": "c430c3ae68af2e0492828c56cf46229c631678c0f7bf2340f3f31277a16ed043",
+        "width": 137
+      },
+      "image_alt": "Пино Нуар, Мускат п.сух",
+      "image_local": "images/zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-1.webp",
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/540/540/resize/uploads/Pino_Nuar_Muskat_p_suh_6f84a398e4.webp",
+      "manufacturer": "АРАТТИ",
+      "manufacturer_slug": "aratti",
+      "public_rating": 5,
+      "rating": null,
+      "region": "Кубань",
+      "schema_version": 1,
+      "slug": "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-1",
+      "source_url": "https://vino-svoe.ru/wines/zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-1",
+      "temperature": null,
+      "title": "Жемчужная 9 Пино Нуар, Мускат розовый"
+    },
+    "baseline_ocr_lines": [
+      {
+        "text": "ЖЕМЧУЖНАЯ",
+        "normalized": "жемчужная",
+        "score": 0.99064
+      },
+      {
+        "text": "9",
+        "normalized": "9",
+        "score": 0.9981
+      },
+      {
+        "text": "APAT",
+        "normalized": "apat",
+        "score": 0.94471
+      },
+      {
+        "text": "ПИНОНУАР",
+        "normalized": "пинонуар",
+        "score": 0.92814
+      },
+      {
+        "text": "KAB",
+        "normalized": "kab",
+        "score": 0.62257
+      },
+      {
+        "text": "2024",
+        "normalized": "2024",
+        "score": 0.9996
+      }
+    ]
+  },
+  {
+    "name": "95.63_24-08-2026_17-47-43.webp",
+    "path": "data/test/field_66_review/images/95.63_24-08-2026_17-47-43.webp",
+    "verdict": "correct",
+    "correct_slug": "rubin-golodrigi",
+    "target": {
+      "alcohol": 12,
+      "alcohol_max": null,
+      "catalog_index": 126,
+      "category": "Красное сухое",
+      "color": "Темно-гранатовый",
+      "color_gradient": "linear-gradient(180deg, #A51B3A 0%, #741D30 100%)",
+      "description": "В аромате варенье из спелой черной сливы, с нотами ванили и пряными нюансами. Во вкусе пряный с хлебными нотами и оттенками специй.",
+      "dishes": [
+        "Закуски",
+        "Мясное ассорти",
+        "Сыры"
+      ],
+      "grapes": [
+        "Рубин Голодриги"
+      ],
+      "image": {
+        "bytes": 7880,
+        "exists": true,
+        "format": "WEBP",
+        "has_alpha": true,
+        "height": 540,
+        "label_dhash": "d4803b823e803a883b823e823cc23cc23cc239c63f82bf80bf80bec2b202be00",
+        "mode": "RGBA",
+        "sha256": "5dfe4f6873b78578e7074930789edd542bf6a75b4940925d772073b0296fa997",
+        "width": 273
+      },
+      "image_alt": "Табия Рубин голодриги",
+      "image_local": "images/rubin-golodrigi.webp",
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/540/540/resize/uploads/Screenshot_18_1109114bb0.webp",
+      "manufacturer": "Табия",
+      "manufacturer_slug": "tabiya",
+      "public_rating": 4.98,
+      "rating": null,
+      "region": "Кубань",
+      "schema_version": 1,
+      "slug": "rubin-golodrigi",
+      "source_url": "https://vino-svoe.ru/wines/rubin-golodrigi",
+      "temperature": null,
+      "title": "Рубин Голодриги"
+    },
+    "baseline_ocr_lines": [
+      {
+        "text": "ТАБИЯ",
+        "normalized": "табия",
+        "score": 0.88067
+      },
+      {
+        "text": "СЕМЕЙНАЯ ВИНОДЕЛЬНЯ",
+        "normalized": "семейная винодельня",
+        "score": 0.97691
+      },
+      {
+        "text": "2023",
+        "normalized": "2023",
+        "score": 0.79745
+      },
+      {
+        "text": "ПРОИЗВЕДЕНОИЗ",
+        "normalized": "произведеноиз",
+        "score": 0.97306
+      },
+      {
+        "text": "ШЕННОГО",
+        "normalized": "шенного",
+        "score": 0.82147
+      },
+      {
+        "text": "HATEPPИTOP",
+        "normalized": "hateppиtop",
+        "score": 0.54152
+      }
+    ]
+  },
+  {
+    "name": "95.75_02-09-2026_14-47-49.webp",
+    "path": "data/test/field_66_review/images/95.75_02-09-2026_14-47-49.webp",
+    "verdict": "correct",
+    "correct_slug": "uva-vallis-risling",
+    "target": {
+      "alcohol": 12,
+      "alcohol_max": null,
+      "catalog_index": 109,
+      "category": "Красное сухое",
+      "color": "Золотисто-соломенный",
+      "color_gradient": "linear-gradient(180deg, #A51B3A 0%, #741D30 100%)",
+      "description": "Аромат раскрывается классическими для сорта нотами белых цветов, хрустящего белого яблока и груши, дополненными деликатными нюансами специй и воска. \n\nВо вкусе вино строгое и структурное, с яркой, хрустящей и сбалансированной кислотностью, средним телом и выраженным минеральным послевкусием. Классический молодой рислинг с характерной минеральностью, сочностью и гастрономическим потенциалом.",
+      "dishes": [
+        "Блюда из птицы",
+        "Закуски",
+        "Салаты"
+      ],
+      "grapes": [
+        "Рислинг"
+      ],
+      "image": {
+        "bytes": 7212,
+        "exists": true,
+        "format": "WEBP",
+        "has_alpha": true,
+        "height": 540,
+        "label_dhash": "ff607c787f117f817da1729165597c11584f5c7c7f187e755c9c7ac15e195f9f",
+        "mode": "RGBA",
+        "sha256": "cc67cc85d1f322e4cae67a44c4f78e1ba9449328b91b20db4e492992f2988b2d",
+        "width": 147
+      },
+      "image_alt": "Фото",
+      "image_local": "images/uva-vallis-risling.webp",
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/540/540/resize/uploads/cu3xjk4e93p2zxvazyl9c3jlidfny9ub_cf6ed0e9b3.webp",
+      "manufacturer": "Uva Vallis",
+      "manufacturer_slug": "uva-vallis",
+      "public_rating": 4.67,
+      "rating": null,
+      "region": "Крым",
+      "schema_version": 1,
+      "slug": "uva-vallis-risling",
+      "source_url": "https://vino-svoe.ru/wines/uva-vallis-risling",
+      "temperature": null,
+      "title": "Uva Vallis Рислинг"
+    },
+    "baseline_ocr_lines": [
+      {
+        "text": "UUA UALLIS",
+        "normalized": "uua uallis",
+        "score": 0.72058
+      },
+      {
+        "text": "RIESLING",
+        "normalized": "riesling",
+        "score": 0.99233
+      },
+      {
+        "text": "2023",
+        "normalized": "2023",
+        "score": 0.99922
+      },
+      {
+        "text": "CRIMEA",
+        "normalized": "crimea",
+        "score": 0.99059
+      }
+    ]
+  },
+  {
+    "name": "95.76_23-08-2026_18-19-43.webp",
+    "path": "data/test/field_66_review/images/95.76_23-08-2026_18-19-43.webp",
+    "verdict": "correct",
+    "correct_slug": "denisov_barynya_kurmyshi",
+    "target": {
+      "alcohol": 13,
+      "alcohol_max": null,
+      "catalog_index": 260,
+      "category": "Розовое сухое",
+      "color": "Ярко-розовый цвет",
+      "color_gradient": "linear-gradient(180deg, #F2AAAD 0%, #F2828F 100%)",
+      "description": "Аромат: раскрывается садовыми ягодами малины и клубники, барбарисовыми леденцами и ягодным лимонадом «Крюшон», лепестками цветов шиповника. Вкус: ягодный, с легким минеральным послевкусием.",
+      "dishes": [
+        "Легкие закуски",
+        "Рыба и морепродукты"
+      ],
+      "grapes": [
+        "Рубин Голодриги",
+        "Цитронный Магарача"
+      ],
+      "image": {
+        "bytes": 12884,
+        "exists": true,
+        "format": "WEBP",
+        "has_alpha": true,
+        "height": 540,
+        "label_dhash": "5b105710b7086e24de129e88be893d8c3d8c3e04565458147f645d845c845654",
+        "mode": "RGBA",
+        "sha256": "364e60e75ad49adf80ee0141299a92f082217092e41499c90bbac8fb0f98afe6",
+        "width": 374
+      },
+      "image_alt": "Барыня. Курмыши",
+      "image_local": "images/denisov_barynya_kurmyshi.webp",
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/540/540/resize/uploads/Tihoe_Barynya_2025_cb29b43230.webp",
+      "manufacturer": "Denisov Winery",
+      "manufacturer_slug": "denisov-winery",
+      "public_rating": 5,
+      "rating": null,
+      "region": "Самара",
+      "schema_version": 1,
+      "slug": "denisov_barynya_kurmyshi",
+      "source_url": "https://vino-svoe.ru/wines/denisov_barynya_kurmyshi",
+      "temperature": null,
+      "title": "Барыня. Курмыши"
+    },
+    "baseline_ocr_lines": [
+      {
+        "text": "DENISOV",
+        "normalized": "denisov",
+        "score": 0.95531
+      },
+      {
+        "text": "CAMAPA",
+        "normalized": "camapa",
+        "score": 0.96895
+      },
+      {
+        "text": "4",
+        "normalized": "4",
+        "score": 0.94749
+      }
+    ]
+  },
+  {
+    "name": "95.88_02-09-2026_14-41-59.webp",
+    "path": "data/test/field_66_review/images/95.88_02-09-2026_14-41-59.webp",
+    "verdict": "correct",
+    "correct_slug": "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11",
+    "target": {
+      "alcohol": 11,
+      "alcohol_max": null,
+      "catalog_index": 641,
+      "category": "Белое полусухое",
+      "color": "Светло‑соломенный с зеленоватым оттенком",
+      "color_gradient": "linear-gradient(180deg, #FCFBDF 0%, #F0EFD5 100%)",
+      "description": "В аромате цитрус, зелёное яблоко, травяные ноты. Вкус свежий, гармоничный, с минеральными тонами и цитрусовой кислинкой.",
+      "dishes": [
+        "Легкие закуски",
+        "Морепродукты"
+      ],
+      "grapes": [
+        "Рислинг",
+        "Цитронный Магарача"
+      ],
+      "image": {
+        "bytes": 8180,
+        "exists": true,
+        "format": "WEBP",
+        "has_alpha": true,
+        "height": 540,
+        "label_dhash": "7c4e9c06bc42bf007f00ff017f01be00ff01ff007f80bf02fe00ff02ff00fe00",
+        "mode": "RGBA",
+        "sha256": "53a042af954e2dc211df83fcb9e27d8dfa82c7d9097abc80cfd9611d3a6d670a",
+        "width": 127
+      },
+      "image_alt": "Фанагория",
+      "image_local": "images/fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11.webp",
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/540/540/resize/uploads/fanagoriya_zelyonoe_vino_risling_tsitronnyy_magaracha_beloe_polusuhoe_11_e4de13ab6b.webp",
+      "manufacturer": "Фанагория",
+      "manufacturer_slug": "fanagoriya",
+      "public_rating": 5,
+      "rating": null,
+      "region": "Кубань",
+      "schema_version": 1,
+      "slug": "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11",
+      "source_url": "https://vino-svoe.ru/wines/fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11",
+      "temperature": null,
+      "title": "Зелёное вино. Рислинг - Цитронный Магарача"
+    },
+    "baseline_ocr_lines": [
+      {
+        "text": "10%",
+        "normalized": "10",
+        "score": 0.90063
+      },
+      {
+        "text": "НИЗКИЙГРАДУС",
+        "normalized": "низкийградус",
+        "score": 0.69897
+      },
+      {
+        "text": "АЛКОГОЛЯ",
+        "normalized": "алкоголя",
+        "score": 0.87782
+      },
+      {
+        "text": "БНОДЕЛЬНЯ",
+        "normalized": "бнодельня",
+        "score": 0.92919
+      },
+      {
+        "text": "2023ГОДА",
+        "normalized": "2023года",
+        "score": 0.82038
+      },
+      {
+        "text": "О%АЛК",
+        "normalized": "о алк",
+        "score": 0.90471
+      },
+      {
+        "text": "FANAGORIA",
+        "normalized": "fanagoria",
+        "score": 0.94982
+      },
+      {
+        "text": "DOBLESSE CELIGE",
+        "normalized": "doblesse celige",
+        "score": 0.71474
+      },
+      {
+        "text": "Зеленое",
+        "normalized": "зеленое",
+        "score": 0.87689
+      },
+      {
+        "text": "3epo",
+        "normalized": "3epo",
+        "score": 0.84197
+      },
+      {
+        "text": "6NHO",
+        "normalized": "6nho",
+        "score": 0.48168
+      },
+      {
+        "text": "FANAGORIA",
+        "normalized": "fanagoria",
+        "score": 0.85606
+      },
+      {
+        "text": "БЕЛОЕ",
+        "normalized": "белое",
+        "score": 0.93956
+      },
+      {
+        "text": "ПОЛУСУХОЕ",
+        "normalized": "полусухое",
+        "score": 0.97371
+      },
+      {
+        "text": "РАННИЙ СБОР",
+        "normalized": "ранний сбор",
+        "score": 0.87998
+      },
+      {
+        "text": "PИCЛИНГ",
+        "normalized": "pиcлинг",
+        "score": 0.46263
+      }
+    ]
+  },
+  {
+    "name": "95.8_19-08-2026_19-33-23.webp",
+    "path": "data/test/field_66_review/images/95.8_19-08-2026_19-33-23.webp",
+    "verdict": "correct",
+    "correct_slug": "roze-2",
+    "target": {
+      "alcohol": 12,
+      "alcohol_max": null,
+      "catalog_index": 129,
+      "category": "Розовое сухое",
+      "color": "Нежно-розовый",
+      "color_gradient": "linear-gradient(180deg, #F2AAAD 0%, #F2828F 100%)",
+      "description": "Тонкий аромат земляники, красной смородины и черешни. Вкус фруктовый с нотами ягод.",
+      "dishes": [
+        "Морепродукты",
+        "Салаты",
+        "Сыры"
+      ],
+      "grapes": [
+        "Каберне Совиньон"
+      ],
+      "image": {
+        "bytes": 7768,
+        "exists": true,
+        "format": "WEBP",
+        "has_alpha": true,
+        "height": 540,
+        "label_dhash": "e00098803f617f603fc0bfc0bf20bf20bf00bf80bfc0ffe0dff03fe0b8009f00",
+        "mode": "RGBA",
+        "sha256": "745b1ccf6ad558be1cc1413d1233025b485a9b9fefa253180c339e17fa4d9ed0",
+        "width": 199
+      },
+      "image_alt": "Табия розе",
+      "image_local": "images/roze-2.webp",
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/540/540/resize/uploads/Screenshot_17_6d600742f0.webp",
+      "manufacturer": "Табия",
+      "manufacturer_slug": "tabiya",
+      "public_rating": 4.96,
+      "rating": null,
+      "region": "Кубань",
+      "schema_version": 1,
+      "slug": "roze-2",
+      "source_url": "https://vino-svoe.ru/wines/roze-2",
+      "temperature": null,
+      "title": "Розе"
+    },
+    "baseline_ocr_lines": [
+      {
+        "text": "ТАБИЯ",
+        "normalized": "табия",
+        "score": 0.9585
+      },
+      {
+        "text": "ВИНОДЕЛЬНЯ",
+        "normalized": "винодельня",
+        "score": 0.97903
+      },
+      {
+        "text": "2024",
+        "normalized": "2024",
+        "score": 0.99937
+      },
+      {
+        "text": "PO3E",
+        "normalized": "po3e",
+        "score": 0.89322
+      },
+      {
+        "text": "PO3OBOE",
+        "normalized": "po3oboe",
+        "score": 0.83166
+      },
+      {
+        "text": "CYXOE",
+        "normalized": "cyxoe",
+        "score": 0.92931
+      }
+    ]
+  },
+  {
+    "name": "96.05_28-08-2026_09-14-57.webp",
+    "path": "data/test/field_66_review/images/96.05_28-08-2026_09-14-57.webp",
+    "verdict": "correct",
+    "correct_slug": "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+    "target": {
+      "alcohol": 13,
+      "alcohol_max": null,
+      "catalog_index": 1209,
+      "category": "Красное сухое",
+      "color": "Вино яркого рубинового цвета с блеском.",
+      "color_gradient": "linear-gradient(180deg, #A51B3A 0%, #741D30 100%)",
+      "description": "Спокойный зрелый аромат с тонами черных ягод, спелой вишни, кофейных зерен и темного шоколада. Вкус с хорошей структурой, мягкими зрелыми танинами и живой кислотностью, добавляющей вину сочности. В послевкусии оттенки вишни и сливы. Сочно, ровно, сбалансированно.",
+      "dishes": [
+        "Мясо и стейки",
+        "Пицца",
+        "Фастфуд"
+      ],
+      "grapes": [
+        "Мерло"
+      ],
+      "image": {
+        "bytes": 7652,
+        "exists": true,
+        "format": "WEBP",
+        "has_alpha": true,
+        "height": 540,
+        "label_dhash": "e364133366b0cd184d4d132f1c4f1cc7133730453005302134853cc51c451067",
+        "mode": "RGBA",
+        "sha256": "c114ff9cb1bef32cb5fccf1c5e917c0c6f8d75f5ac27ccb8298123cb6c6be52b",
+        "width": 540
+      },
+      "image_alt": "Южный Лес",
+      "image_local": "images/usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137.webp",
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/540/540/resize/uploads/usadba_divnomorskoe_yuzhnyy_les_merlo_krasnoe_suhoe_137_89faa0325c.webp",
+      "manufacturer": "Усадьба Дивноморское",
+      "manufacturer_slug": "usadba-divnomorskoe",
+      "public_rating": null,
+      "rating": 4.26,
+      "region": "Кубань",
+      "schema_version": 1,
+      "slug": "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+      "source_url": "https://vino-svoe.ru/wines/usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+      "temperature": null,
+      "title": "Южный Лес"
+    },
+    "baseline_ocr_lines": [
+      {
+        "text": "YCAДЬBA",
+        "normalized": "ycaдьba",
+        "score": 0.63082
+      },
+      {
+        "text": "ДИВНОМОРСКОЕ",
+        "normalized": "дивноморское",
+        "score": 0.96743
+      },
+      {
+        "text": "ТEPPУАP",
+        "normalized": "тeppуаp",
+        "score": 0.53434
+      },
+      {
+        "text": "ВТОРАЯЛИНИЯ",
+        "normalized": "втораялиния",
+        "score": 0.95171
+      },
+      {
+        "text": "Беrернца",
+        "normalized": "беrернца",
+        "score": 0.47789
+      }
+    ]
+  },
+  {
+    "name": "96.07_28-08-2026_16-10-06.webp",
+    "path": "data/test/field_66_review/images/96.07_28-08-2026_16-10-06.webp",
+    "verdict": "incorrect",
+    "correct_slug": "golubitskoe-estate-kaberne-sovinon-krasnoe-suhoe-137",
+    "target": {
+      "alcohol": 13,
+      "alcohol_max": null,
+      "catalog_index": 1594,
+      "category": "Красное сухое",
+      "color": "Темно-рубиновый с гранатовым ободком",
+      "color_gradient": "linear-gradient(180deg, #A51B3A 0%, #741D30 100%)",
+      "description": "Вкус: Сочный, сбалансированный, с нотками спелых красных фруктов и ягод, мягкими танинами и долгим, приятным послевкусием. Мягкий, с нотками спелой вишни, сливы, лесной фиалки и лесных ягод.",
+      "dishes": [
+        "Выпечка и десерты",
+        "Мясо и стейки",
+        "Сыры"
+      ],
+      "grapes": [
+        "Каберне Совиньон"
+      ],
+      "image": {
+        "bytes": 9026,
+        "exists": true,
+        "format": "WEBP",
+        "has_alpha": true,
+        "height": 540,
+        "label_dhash": "fc403c0158005b215b215f015f815b215b217f815f815e415f215b0178017a01",
+        "mode": "RGBA",
+        "sha256": "26f2671203c7905a7710cc1de887085af6c799fabac42caf4693db27a140b25d",
+        "width": 143
+      },
+      "image_alt": "Каберне Совиньон",
+      "image_local": "images/golubitskoe-estate-kaberne-sovinon-krasnoe-suhoe-137.webp",
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/540/540/resize/uploads/golubitskoe_estate_kaberne_sovinon_krasnoe_suhoe_137_b1ceb967fd.webp",
+      "manufacturer": "Golubitskoe Estate",
+      "manufacturer_slug": "golubitskoe-estate",
+      "public_rating": null,
+      "rating": null,
+      "region": "Кубань",
+      "schema_version": 1,
+      "slug": "golubitskoe-estate-kaberne-sovinon-krasnoe-suhoe-137",
+      "source_url": "https://vino-svoe.ru/wines/golubitskoe-estate-kaberne-sovinon-krasnoe-suhoe-137",
+      "temperature": null,
+      "title": "Каберне Совиньон"
+    },
+    "baseline_ocr_lines": [
+      {
+        "text": "GOLUBITSKOE",
+        "normalized": "golubitskoe",
+        "score": 0.91366
+      },
+      {
+        "text": "ESTATE-",
+        "normalized": "estate",
+        "score": 0.94118
+      },
+      {
+        "text": "LUBITS",
+        "normalized": "lubits",
+        "score": 0.99508
+      },
+      {
+        "text": "CABERNET",
+        "normalized": "cabernet",
+        "score": 0.99462
+      },
+      {
+        "text": "SAUVIGNON",
+        "normalized": "sauvignon",
+        "score": 0.98509
+      },
+      {
+        "text": "GОLUBIТSКАYA STRELКA",
+        "normalized": "gоlubiтsкаya strelкa",
+        "score": 0.67896
+      },
+      {
+        "text": "TAMAGNE",
+        "normalized": "tamagne",
+        "score": 0.98014
+      },
+      {
+        "text": "2023",
+        "normalized": "2023",
+        "score": 0.99926
+      },
+      {
+        "text": "OL",
+        "normalized": "ol",
+        "score": 0.92561
+      },
+      {
+        "text": "BI",
+        "normalized": "bi",
+        "score": 0.53174
+      }
+    ]
+  },
+  {
+    "name": "96.08_22-08-2026_15-12-27.webp",
+    "path": "data/test/field_66_review/images/96.08_22-08-2026_15-12-27.webp",
+    "verdict": "correct",
+    "correct_slug": "zhemchuzhnaya-9-czitron-shardone-1",
+    "target": {
+      "alcohol": 11,
+      "alcohol_max": null,
+      "catalog_index": 174,
+      "category": "Белое полусладкое",
+      "color": "Светло-соломенный",
+      "color_gradient": "linear-gradient(180deg, #FCFBDF 0%, #F0EFD5 100%)",
+      "description": "Вкус и аромат: сочные яблоки, мёд, лимонная карамель. Вкус, будто ложка цитрусового джема — ярко, кисло-сладко, с солнечным настроением.",
+      "dishes": [
+        "Выпечка и десерты",
+        "Фрукты"
+      ],
+      "grapes": [
+        "Цитронный Магарача",
+        "Шардоне"
+      ],
+      "image": {
+        "bytes": 13732,
+        "exists": true,
+        "format": "WEBP",
+        "has_alpha": true,
+        "height": 540,
+        "label_dhash": "9cf17df0f5e8e66ce96cd92ed72ef722ffe4f73cfc9cf594f912ddaefdcf837f",
+        "mode": "RGBA",
+        "sha256": "8f1db6bf36d0460e8d1b1316437384914791ac0c8dc85fd609354f382072dc92",
+        "width": 136
+      },
+      "image_alt": "Цитрон, Шард п.сл.",
+      "image_local": "images/zhemchuzhnaya-9-czitron-shardone-1.webp",
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/540/540/resize/uploads/Czitron_Shard_p_sl_b94274915f.webp",
+      "manufacturer": "АРАТТИ",
+      "manufacturer_slug": "aratti",
+      "public_rating": 5,
+      "rating": null,
+      "region": "Кубань",
+      "schema_version": 1,
+      "slug": "zhemchuzhnaya-9-czitron-shardone-1",
+      "source_url": "https://vino-svoe.ru/wines/zhemchuzhnaya-9-czitron-shardone-1",
+      "temperature": null,
+      "title": "Жемчужная 9 Цитрон, Шардоне"
+    },
+    "baseline_ocr_lines": [
+      {
+        "text": "ЖЕМЧУЖНАЯ",
+        "normalized": "жемчужная",
+        "score": 0.99028
+      },
+      {
+        "text": "0",
+        "normalized": "0",
+        "score": 0.4283
+      },
+      {
+        "text": "HЬOH",
+        "normalized": "hьoh",
+        "score": 0.60907
+      },
+      {
+        "text": "ЦИТРОН",
+        "normalized": "цитрон",
+        "score": 0.90474
+      },
+      {
+        "text": "ШАРДОНЕ",
+        "normalized": "шардоне",
+        "score": 0.8902
+      },
+      {
+        "text": "2024",
+        "normalized": "2024",
+        "score": 0.9996
+      }
+    ]
+  },
+  {
+    "name": "96.08_28-08-2026_16-29-50.webp",
+    "path": "data/test/field_66_review/images/96.08_28-08-2026_16-29-50.webp",
+    "verdict": "incorrect",
+    "correct_slug": "golubitskoe-estate-merlo-krasnoe-suhoe-135",
+    "target": {
+      "alcohol": 13,
+      "alcohol_max": null,
+      "catalog_index": 1588,
+      "category": "Красное сухое",
+      "color": "Темно-рубиновый",
+      "color_gradient": "linear-gradient(180deg, #A51B3A 0%, #741D30 100%)",
+      "description": "Вкус: Сбалансированный, мягкий с шелковистой текстурой, фруктовым профилем и тонкими минеральными нюансами в стойком послевкусии. Гармоничный, с оттенками спелых темных фруктов, подлеска, минералов и цветов.",
+      "dishes": [
+        "Блюда из птицы",
+        "Мясо и стейки",
+        "Салаты",
+        "Сыры"
+      ],
+      "grapes": [
+        "Мерло"
+      ],
+      "image": {
+        "bytes": 8130,
+        "exists": true,
+        "format": "WEBP",
+        "has_alpha": true,
+        "height": 540,
+        "label_dhash": "fc003d0158005b017b215e017f817b217b215f817f415e415f215b8178017801",
+        "mode": "RGBA",
+        "sha256": "13568c8e9376a469ed282e30d05a6394aae6a6f7f66e45a7d28a60e173102d81",
+        "width": 143
+      },
+      "image_alt": "Мерло",
+      "image_local": "images/golubitskoe-estate-merlo-krasnoe-suhoe-135.webp",
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/540/540/resize/uploads/golubitskoe_estate_merlo_krasnoe_suhoe_135_4cc0abb46d.webp",
+      "manufacturer": "Golubitskoe Estate",
+      "manufacturer_slug": "golubitskoe-estate",
+      "public_rating": 1,
+      "rating": null,
+      "region": "Кубань",
+      "schema_version": 1,
+      "slug": "golubitskoe-estate-merlo-krasnoe-suhoe-135",
+      "source_url": "https://vino-svoe.ru/wines/golubitskoe-estate-merlo-krasnoe-suhoe-135",
+      "temperature": null,
+      "title": "Мерло"
+    },
+    "baseline_ocr_lines": [
+      {
+        "text": "GOLUBITSKOE",
+        "normalized": "golubitskoe",
+        "score": 0.97513
+      },
+      {
+        "text": "GO",
+        "normalized": "go",
+        "score": 0.7255
+      },
+      {
+        "text": "—ESTATE-",
+        "normalized": "estate",
+        "score": 0.85682
+      },
+      {
+        "text": "R",
+        "normalized": "r",
+        "score": 0.96877
+      },
+      {
+        "text": "MERLOT",
+        "normalized": "merlot",
+        "score": 0.98813
+      },
+      {
+        "text": "GOLUBITS",
+        "normalized": "golubits",
+        "score": 0.99894
+      },
+      {
+        "text": "TAMAGN",
+        "normalized": "tamagn",
+        "score": 0.97966
+      },
+      {
+        "text": "TAMAGNE",
+        "normalized": "tamagne",
+        "score": 0.9791
+      },
+      {
+        "text": "2022",
+        "normalized": "2022",
+        "score": 0.99915
+      }
+    ]
+  },
+  {
+    "name": "96.13_19-08-2026_19-33-10.webp",
+    "path": "data/test/field_66_review/images/96.13_19-08-2026_19-33-10.webp",
+    "verdict": "correct",
+    "correct_slug": "roze-2",
+    "target": {
+      "alcohol": 12,
+      "alcohol_max": null,
+      "catalog_index": 129,
+      "category": "Розовое сухое",
+      "color": "Нежно-розовый",
+      "color_gradient": "linear-gradient(180deg, #F2AAAD 0%, #F2828F 100%)",
+      "description": "Тонкий аромат земляники, красной смородины и черешни. Вкус фруктовый с нотами ягод.",
+      "dishes": [
+        "Морепродукты",
+        "Салаты",
+        "Сыры"
+      ],
+      "grapes": [
+        "Каберне Совиньон"
+      ],
+      "image": {
+        "bytes": 7768,
+        "exists": true,
+        "format": "WEBP",
+        "has_alpha": true,
+        "height": 540,
+        "label_dhash": "e00098803f617f603fc0bfc0bf20bf20bf00bf80bfc0ffe0dff03fe0b8009f00",
+        "mode": "RGBA",
+        "sha256": "745b1ccf6ad558be1cc1413d1233025b485a9b9fefa253180c339e17fa4d9ed0",
+        "width": 199
+      },
+      "image_alt": "Табия розе",
+      "image_local": "images/roze-2.webp",
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/540/540/resize/uploads/Screenshot_17_6d600742f0.webp",
+      "manufacturer": "Табия",
+      "manufacturer_slug": "tabiya",
+      "public_rating": 4.96,
+      "rating": null,
+      "region": "Кубань",
+      "schema_version": 1,
+      "slug": "roze-2",
+      "source_url": "https://vino-svoe.ru/wines/roze-2",
+      "temperature": null,
+      "title": "Розе"
+    },
+    "baseline_ocr_lines": [
+      {
+        "text": "ТАБИЯ",
+        "normalized": "табия",
+        "score": 0.92597
+      },
+      {
+        "text": "ВИНОДЕАЬНЯ",
+        "normalized": "винодеаьня",
+        "score": 0.88983
+      },
+      {
+        "text": "2024",
+        "normalized": "2024",
+        "score": 0.99967
+      },
+      {
+        "text": "PO3E",
+        "normalized": "po3e",
+        "score": 0.90941
+      },
+      {
+        "text": "AHARA",
+        "normalized": "ahara",
+        "score": 0.80034
+      },
+      {
+        "text": "PO3OBOE",
+        "normalized": "po3oboe",
+        "score": 0.85905
+      },
+      {
+        "text": "CYXOE",
+        "normalized": "cyxoe",
+        "score": 0.97447
+      },
+      {
+        "text": "ПРОИЗВЕДЕНО ИЗ ВИНОГРАДА. ВЫРАЩЕННОГО",
+        "normalized": "произведено из винограда выращенного",
+        "score": 0.97992
+      },
+      {
+        "text": "НА ТЕРРИТОРИИ РОССИЙСКОЙ ФЕДЕРАЦИИ",
+        "normalized": "на территории российской федерации",
+        "score": 0.98441
+      },
+      {
+        "text": "200",
+        "normalized": "200",
+        "score": 0.88598
+      },
+      {
+        "text": "000",
+        "normalized": "000",
+        "score": 0.47154
+      }
+    ]
+  },
+  {
+    "name": "96.15_22-08-2026_20-56-09.webp",
+    "path": "data/test/field_66_review/images/96.15_22-08-2026_20-56-09.webp",
+    "verdict": "incorrect",
+    "correct_slug": "roze-2",
+    "target": {
+      "alcohol": 12,
+      "alcohol_max": null,
+      "catalog_index": 129,
+      "category": "Розовое сухое",
+      "color": "Нежно-розовый",
+      "color_gradient": "linear-gradient(180deg, #F2AAAD 0%, #F2828F 100%)",
+      "description": "Тонкий аромат земляники, красной смородины и черешни. Вкус фруктовый с нотами ягод.",
+      "dishes": [
+        "Морепродукты",
+        "Салаты",
+        "Сыры"
+      ],
+      "grapes": [
+        "Каберне Совиньон"
+      ],
+      "image": {
+        "bytes": 7768,
+        "exists": true,
+        "format": "WEBP",
+        "has_alpha": true,
+        "height": 540,
+        "label_dhash": "e00098803f617f603fc0bfc0bf20bf20bf00bf80bfc0ffe0dff03fe0b8009f00",
+        "mode": "RGBA",
+        "sha256": "745b1ccf6ad558be1cc1413d1233025b485a9b9fefa253180c339e17fa4d9ed0",
+        "width": 199
+      },
+      "image_alt": "Табия розе",
+      "image_local": "images/roze-2.webp",
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/540/540/resize/uploads/Screenshot_17_6d600742f0.webp",
+      "manufacturer": "Табия",
+      "manufacturer_slug": "tabiya",
+      "public_rating": 4.96,
+      "rating": null,
+      "region": "Кубань",
+      "schema_version": 1,
+      "slug": "roze-2",
+      "source_url": "https://vino-svoe.ru/wines/roze-2",
+      "temperature": null,
+      "title": "Розе"
+    },
+    "baseline_ocr_lines": [
+      {
+        "text": "ТАБИЯ",
+        "normalized": "табия",
+        "score": 0.90665
+      },
+      {
+        "text": "ВИНОДЕЛЬНЯ",
+        "normalized": "винодельня",
+        "score": 0.91654
+      },
+      {
+        "text": "2024",
+        "normalized": "2024",
+        "score": 0.99936
+      },
+      {
+        "text": "2024",
+        "normalized": "2024",
+        "score": 0.99952
+      },
+      {
+        "text": "PO3E",
+        "normalized": "po3e",
+        "score": 0.89447
+      },
+      {
+        "text": "PO3OBOE",
+        "normalized": "po3oboe",
+        "score": 0.85468
+      },
+      {
+        "text": "PO3OBOE",
+        "normalized": "po3oboe",
+        "score": 0.67194
+      },
+      {
+        "text": "CYXOE",
+        "normalized": "cyxoe",
+        "score": 0.97419
+      },
+      {
+        "text": "ПОЛУСУХОЕ",
+        "normalized": "полусухое",
+        "score": 0.86016
+      }
+    ]
+  },
+  {
+    "name": "96.27_20-08-2026_16-26-30.webp",
+    "path": "data/test/field_66_review/images/96.27_20-08-2026_16-26-30.webp",
+    "verdict": "correct",
+    "correct_slug": "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-1",
+    "target": {
+      "alcohol": 11,
+      "alcohol_max": null,
+      "catalog_index": 169,
+      "category": "Розовое полусухое",
+      "color": "Ярко-розовый",
+      "color_gradient": "linear-gradient(180deg, #F2AAAD 0%, #F2828F 100%)",
+      "description": "Во вкусе и аромате: садовая земляника, цветочный мёд, малиновый джем. Нежное и округлое, как тёплый вечер на веранде.",
+      "dishes": [
+        "Блюда из птицы",
+        "Салаты",
+        "Сыры"
+      ],
+      "grapes": [
+        "Мускат Розовый",
+        "Пино Нуар"
+      ],
+      "image": {
+        "bytes": 14536,
+        "exists": true,
+        "format": "WEBP",
+        "has_alpha": true,
+        "height": 540,
+        "label_dhash": "bcf17cd0f1f8f66ce96cdd68dd2af92affe4699cfc8cf4f8b7f8f2da7cf7837f",
+        "mode": "RGBA",
+        "sha256": "c430c3ae68af2e0492828c56cf46229c631678c0f7bf2340f3f31277a16ed043",
+        "width": 137
+      },
+      "image_alt": "Пино Нуар, Мускат п.сух",
+      "image_local": "images/zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-1.webp",
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/540/540/resize/uploads/Pino_Nuar_Muskat_p_suh_6f84a398e4.webp",
+      "manufacturer": "АРАТТИ",
+      "manufacturer_slug": "aratti",
+      "public_rating": 5,
+      "rating": null,
+      "region": "Кубань",
+      "schema_version": 1,
+      "slug": "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-1",
+      "source_url": "https://vino-svoe.ru/wines/zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-1",
+      "temperature": null,
+      "title": "Жемчужная 9 Пино Нуар, Мускат розовый"
+    },
+    "baseline_ocr_lines": [
+      {
+        "text": "ЖЕМЧУЖНАЯ",
+        "normalized": "жемчужная",
+        "score": 0.98832
+      },
+      {
+        "text": "EEPHEC",
+        "normalized": "eephec",
+        "score": 0.65705
+      },
+      {
+        "text": "ПИНО НУАР",
+        "normalized": "пино нуар",
+        "score": 0.9584
+      },
+      {
+        "text": "МУСКАТ РОЗОВЫЙ",
+        "normalized": "мускат розовый",
+        "score": 0.98255
+      },
+      {
+        "text": "РОЗОВОЕ ПОЛУСУХОЕ",
+        "normalized": "розовое полусухое",
+        "score": 0.98105
+      },
+      {
+        "text": "2024",
+        "normalized": "2024",
+        "score": 0.99964
+      }
+    ]
+  },
+  {
+    "name": "96.2_28-08-2026_09-13-27.webp",
+    "path": "data/test/field_66_review/images/96.2_28-08-2026_09-13-27.webp",
+    "verdict": "correct",
+    "correct_slug": "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+    "target": {
+      "alcohol": 13,
+      "alcohol_max": null,
+      "catalog_index": 1209,
+      "category": "Красное сухое",
+      "color": "Вино яркого рубинового цвета с блеском.",
+      "color_gradient": "linear-gradient(180deg, #A51B3A 0%, #741D30 100%)",
+      "description": "Спокойный зрелый аромат с тонами черных ягод, спелой вишни, кофейных зерен и темного шоколада. Вкус с хорошей структурой, мягкими зрелыми танинами и живой кислотностью, добавляющей вину сочности. В послевкусии оттенки вишни и сливы. Сочно, ровно, сбалансированно.",
+      "dishes": [
+        "Мясо и стейки",
+        "Пицца",
+        "Фастфуд"
+      ],
+      "grapes": [
+        "Мерло"
+      ],
+      "image": {
+        "bytes": 7652,
+        "exists": true,
+        "format": "WEBP",
+        "has_alpha": true,
+        "height": 540,
+        "label_dhash": "e364133366b0cd184d4d132f1c4f1cc7133730453005302134853cc51c451067",
+        "mode": "RGBA",
+        "sha256": "c114ff9cb1bef32cb5fccf1c5e917c0c6f8d75f5ac27ccb8298123cb6c6be52b",
+        "width": 540
+      },
+      "image_alt": "Южный Лес",
+      "image_local": "images/usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137.webp",
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/540/540/resize/uploads/usadba_divnomorskoe_yuzhnyy_les_merlo_krasnoe_suhoe_137_89faa0325c.webp",
+      "manufacturer": "Усадьба Дивноморское",
+      "manufacturer_slug": "usadba-divnomorskoe",
+      "public_rating": null,
+      "rating": 4.26,
+      "region": "Кубань",
+      "schema_version": 1,
+      "slug": "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+      "source_url": "https://vino-svoe.ru/wines/usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+      "temperature": null,
+      "title": "Южный Лес"
+    },
+    "baseline_ocr_lines": [
+      {
+        "text": "YCAAbBA",
+        "normalized": "ycaabba",
+        "score": 0.65908
+      },
+      {
+        "text": "ДИВНОМОРСКОЕ",
+        "normalized": "дивноморское",
+        "score": 0.92476
+      },
+      {
+        "text": "TEPPYAP",
+        "normalized": "teppyap",
+        "score": 0.62277
+      },
+      {
+        "text": "ВТОРАЯ ЛИНИЯ",
+        "normalized": "вторая линия",
+        "score": 0.92001
+      },
+      {
+        "text": "Беrерuуа",
+        "normalized": "беrерuуа",
+        "score": 0.45354
+      }
+    ]
+  },
+  {
+    "name": "96.31_09-09-2026_19-29-01.webp",
+    "path": "data/test/field_66_review/images/96.31_09-09-2026_19-29-01.webp",
+    "verdict": "incorrect",
+    "correct_slug": "aratti-kaberne-po-belomu",
+    "target": {
+      "alcohol": 13,
+      "alcohol_max": null,
+      "catalog_index": 183,
+      "category": "Красное сухое",
+      "color": "Светло-лососевый",
+      "color_gradient": "linear-gradient(180deg, #A51B3A 0%, #741D30 100%)",
+      "description": "Вино обладает ярким ароматом свежеиспечённой шарлотки, кожицы грейпфрута и клубничного варенья. А во вкусе приятно удивляет своей мягкостью и одновременно брутальностью.\nСочетания: устрицы, мясо краба, тар тар из лосося, крудо из гребешков.",
+      "dishes": [
+        "Рыба и морепродукты",
+        "Сыры"
+      ],
+      "grapes": [
+        "Каберне Совиньон"
+      ],
+      "image": {
+        "bytes": 14496,
+        "exists": true,
+        "format": "WEBP",
+        "has_alpha": true,
+        "height": 540,
+        "label_dhash": "ba627a51f650fe58da70d964956abd2eff9cf77cdd66eabcfaacd5fc77ff0bef",
+        "mode": "RGBA",
+        "sha256": "a8b8ac898e7189e071646f16d81fcdf1cda9c85acda3943e09991ede88073454",
+        "width": 138
+      },
+      "image_alt": "Каберне по-бел Аратти",
+      "image_local": "images/aratti-kaberne-po-belomu.webp",
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/540/540/resize/uploads/Kaberne_po_bel_7f4d2143bf.webp",
+      "manufacturer": "АРАТТИ",
+      "manufacturer_slug": "aratti",
+      "public_rating": 5,
+      "rating": null,
+      "region": "Кубань",
+      "schema_version": 1,
+      "slug": "aratti-kaberne-po-belomu",
+      "source_url": "https://vino-svoe.ru/wines/aratti-kaberne-po-belomu",
+      "temperature": null,
+      "title": "АРАТТИ Каберне по-белому"
+    },
+    "baseline_ocr_lines": [
+      {
+        "text": "2500",
+        "normalized": "2500",
+        "score": 0.87282
+      },
+      {
+        "text": "СЕМЕЙНАЯ ВИНОДЕЛЬНЯ",
+        "normalized": "семейная винодельня",
+        "score": 0.98626
+      },
+      {
+        "text": "АPАTTИ",
+        "normalized": "аpаttи",
+        "score": 0.57191
+      },
+      {
+        "text": "КАБЕРНЕ ПО-БЕЛОМУ",
+        "normalized": "каберне по белому",
+        "score": 0.99643
+      },
+      {
+        "text": "2024",
+        "normalized": "2024",
+        "score": 0.99936
+      }
+    ]
+  },
+  {
+    "name": "96.31_21-08-2026_17-24-55.webp",
+    "path": "data/test/field_66_review/images/96.31_21-08-2026_17-24-55.webp",
+    "verdict": "incorrect",
+    "correct_slug": "bukovinka",
+    "target": {
+      "alcohol": 12,
+      "alcohol_max": null,
+      "catalog_index": 132,
+      "category": "Белое полусухое",
+      "color": "Светло-золотистый",
+      "color_gradient": "linear-gradient(180deg, #FCFBDF 0%, #F0EFD5 100%)",
+      "description": "В аромате тропические фрукты с нотами жасмина и цедры лайма. Вкус легкий, освежающий с долгим послевкусием.",
+      "dishes": [
+        "Блюда из рыбы",
+        "Легкие закуски",
+        "Салаты",
+        "Сыры"
+      ],
+      "grapes": [
+        "Буковинка"
+      ],
+      "image": {
+        "bytes": 7468,
+        "exists": true,
+        "format": "WEBP",
+        "has_alpha": true,
+        "height": 540,
+        "label_dhash": "c3cc876707330f837f401d500fc11f001b203f001e811be19f819f800fe30773",
+        "mode": "RGBA",
+        "sha256": "ab11fedfd028fda04dbb9c0a936aef4285011d49af0ef6f94e3fc88dcc2dfaeb",
+        "width": 274
+      },
+      "image_alt": "Табия Буковинка",
+      "image_local": "images/bukovinka.webp",
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/540/540/resize/uploads/Screenshot_10_a566dcdabb.webp",
+      "manufacturer": "Табия",
+      "manufacturer_slug": "tabiya",
+      "public_rating": 4.94,
+      "rating": null,
+      "region": "Кубань",
+      "schema_version": 1,
+      "slug": "bukovinka",
+      "source_url": "https://vino-svoe.ru/wines/bukovinka",
+      "temperature": null,
+      "title": "Буковинка"
+    },
+    "baseline_ocr_lines": [
+      {
+        "text": "ТАБИЯ",
+        "normalized": "табия",
+        "score": 0.97314
+      },
+      {
+        "text": "ВИНОДЕЛЬНЯ",
+        "normalized": "винодельня",
+        "score": 0.97365
+      },
+      {
+        "text": "AHAPA",
+        "normalized": "ahapa",
+        "score": 0.62508
+      },
+      {
+        "text": "БУКОВИНКА",
+        "normalized": "буковинка",
+        "score": 0.72811
+      },
+      {
+        "text": "ANARA",
+        "normalized": "anara",
+        "score": 0.61033
+      }
+    ]
+  },
+  {
+    "name": "96.3_28-08-2026_09-12-56.webp",
+    "path": "data/test/field_66_review/images/96.3_28-08-2026_09-12-56.webp",
+    "verdict": "correct",
+    "correct_slug": "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+    "target": {
+      "alcohol": 13,
+      "alcohol_max": null,
+      "catalog_index": 1209,
+      "category": "Красное сухое",
+      "color": "Вино яркого рубинового цвета с блеском.",
+      "color_gradient": "linear-gradient(180deg, #A51B3A 0%, #741D30 100%)",
+      "description": "Спокойный зрелый аромат с тонами черных ягод, спелой вишни, кофейных зерен и темного шоколада. Вкус с хорошей структурой, мягкими зрелыми танинами и живой кислотностью, добавляющей вину сочности. В послевкусии оттенки вишни и сливы. Сочно, ровно, сбалансированно.",
+      "dishes": [
+        "Мясо и стейки",
+        "Пицца",
+        "Фастфуд"
+      ],
+      "grapes": [
+        "Мерло"
+      ],
+      "image": {
+        "bytes": 7652,
+        "exists": true,
+        "format": "WEBP",
+        "has_alpha": true,
+        "height": 540,
+        "label_dhash": "e364133366b0cd184d4d132f1c4f1cc7133730453005302134853cc51c451067",
+        "mode": "RGBA",
+        "sha256": "c114ff9cb1bef32cb5fccf1c5e917c0c6f8d75f5ac27ccb8298123cb6c6be52b",
+        "width": 540
+      },
+      "image_alt": "Южный Лес",
+      "image_local": "images/usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137.webp",
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/540/540/resize/uploads/usadba_divnomorskoe_yuzhnyy_les_merlo_krasnoe_suhoe_137_89faa0325c.webp",
+      "manufacturer": "Усадьба Дивноморское",
+      "manufacturer_slug": "usadba-divnomorskoe",
+      "public_rating": null,
+      "rating": 4.26,
+      "region": "Кубань",
+      "schema_version": 1,
+      "slug": "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+      "source_url": "https://vino-svoe.ru/wines/usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+      "temperature": null,
+      "title": "Южный Лес"
+    },
+    "baseline_ocr_lines": [
+      {
+        "text": "YCAДЬBA",
+        "normalized": "ycaдьba",
+        "score": 0.63927
+      },
+      {
+        "text": "ДИВНОМОРСКОЕ",
+        "normalized": "дивноморское",
+        "score": 0.95355
+      },
+      {
+        "text": "TEPPУAP",
+        "normalized": "teppуap",
+        "score": 0.60806
+      },
+      {
+        "text": "ВТОРАЯ ЛИНИЯ",
+        "normalized": "вторая линия",
+        "score": 0.89113
+      },
+      {
+        "text": "Беrерна",
+        "normalized": "беrерна",
+        "score": 0.50639
+      }
+    ]
+  },
+  {
+    "name": "96.44_05-09-2026_15-33-59.webp",
+    "path": "data/test/field_66_review/images/96.44_05-09-2026_15-33-59.webp",
+    "verdict": "correct",
+    "correct_slug": "sovinon-blan",
+    "target": {
+      "alcohol": 12,
+      "alcohol_max": null,
+      "catalog_index": 2026,
+      "category": "Белое полусладкое",
+      "color": "Золотистый",
+      "color_gradient": "linear-gradient(180deg, #FCFBDF 0%, #F0EFD5 100%)",
+      "description": "Обладает свежим, фруктовым ароматом с нотами крыжовника, цитрусовых, зеленого яблока и легкими травянистыми оттенками, с тонами тропических фруктов. Во вкусе  мягкое и гармоничное, с хорошо сбалансированной сладостью, яркой кислотностью и чистым фруктово-минеральным послевкусием.",
+      "dishes": [
+        "Азиатская кухня",
+        "Блюда из рыбы",
+        "Десерты",
+        "Закуски",
+        "Пицца",
+        "Сыры"
+      ],
+      "grapes": [
+        "Совиньон Блан"
+      ],
+      "image": {
+        "bytes": 16346,
+        "exists": true,
+        "format": "WEBP",
+        "has_alpha": true,
+        "height": 910,
+        "label_dhash": "90803286320637c27fe17d916d916e817fe17fe07fc17fe17fe17fe633c3b903",
+        "mode": "RGBA",
+        "sha256": "5c343d041dad150fd92f4655699eeac2c8824d1f5aab28efd92fca7064eb9460",
+        "width": 607
+      },
+      "image_alt": "Совиньон блан",
+      "image_local": "images/sovinon-blan.webp",
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/910/910/resize/uploads/MAX_02320_d56a1a6d6d.webp",
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "manufacturer_slug": "litavshchuk-vineyards-and-winery",
+      "public_rating": null,
+      "rating": null,
+      "region": "Кубань",
+      "schema_version": 1,
+      "slug": "sovinon-blan",
+      "source_url": "https://vino-svoe.ru/wines/sovinon-blan",
+      "temperature": "10-12",
+      "title": "Совиньон Блан"
+    },
+    "baseline_ocr_lines": [
+      {
+        "text": "Семейная винодельня",
+        "normalized": "семейная винодельня",
+        "score": 0.99243
+      },
+      {
+        "text": "Литавщуков",
+        "normalized": "литавщуков",
+        "score": 0.79413
+      },
+      {
+        "text": "aH",
+        "normalized": "ah",
+        "score": 0.50225
+      },
+      {
+        "text": "полусухое белое",
+        "normalized": "полусухое белое",
+        "score": 0.98021
+      },
+      {
+        "text": "фермерское вино",
+        "normalized": "фермерское вино",
+        "score": 0.92501
+      },
+      {
+        "text": "75",
+        "normalized": "75",
+        "score": 0.99884
+      }
+    ]
+  },
+  {
+    "name": "96.45_19-08-2026_19-35-28.webp",
+    "path": "data/test/field_66_review/images/96.45_19-08-2026_19-35-28.webp",
+    "verdict": "correct",
+    "correct_slug": "czitronnyj-magaracha",
+    "target": {
+      "alcohol": 12,
+      "alcohol_max": null,
+      "catalog_index": 134,
+      "category": "Белое сухое",
+      "color": "Светло-золотистый",
+      "color_gradient": "linear-gradient(180deg, #FCFBDF 0%, #F0EFD5 100%)",
+      "description": "Аромат веточный с легким цитрусовым оттенком. Вкус свежий, фруктовый, с нотами спелой груши.",
+      "dishes": [
+        "Блюда из рыбы",
+        "Легкие закуски",
+        "Салаты",
+        "Сыры"
+      ],
+      "grapes": [
+        "Цитронный Магарача"
+      ],
+      "image": {
+        "bytes": 7292,
+        "exists": true,
+        "format": "WEBP",
+        "has_alpha": true,
+        "height": 540,
+        "label_dhash": "d2803c823f007f603fc03fc03f80bf80bf80bf80bfc0ffc0bfc0bfe3b802bf00",
+        "mode": "RGBA",
+        "sha256": "f00b9220edb08ab7fc43c1a271ad18ea99ff4021b774b7a878ec972d3f5f1a93",
+        "width": 283
+      },
+      "image_alt": "Табия Цитрон",
+      "image_local": "images/czitronnyj-magaracha.webp",
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/540/540/resize/uploads/Screenshot_20_74ce4e5bae.webp",
+      "manufacturer": "Табия",
+      "manufacturer_slug": "tabiya",
+      "public_rating": 4.91,
+      "rating": null,
+      "region": "Кубань",
+      "schema_version": 1,
+      "slug": "czitronnyj-magaracha",
+      "source_url": "https://vino-svoe.ru/wines/czitronnyj-magaracha",
+      "temperature": null,
+      "title": "Цитрон"
+    },
+    "baseline_ocr_lines": [
+      {
+        "text": "ТАБИЯ",
+        "normalized": "табия",
+        "score": 0.96306
+      },
+      {
+        "text": "ВИНОДЕЛЬНЯ",
+        "normalized": "винодельня",
+        "score": 0.93107
+      },
+      {
+        "text": "2024",
+        "normalized": "2024",
+        "score": 0.99912
+      },
+      {
+        "text": "БEЛОE",
+        "normalized": "бeлоe",
+        "score": 0.50739
+      },
+      {
+        "text": "ЦИТРОН",
+        "normalized": "цитрон",
+        "score": 0.86881
+      },
+      {
+        "text": "ПОЛУСYХОЕ",
+        "normalized": "полусyхое",
+        "score": 0.65064
+      }
+    ]
+  },
+  {
+    "name": "96.54_04-09-2026_19-30-52.webp",
+    "path": "data/test/field_66_review/images/96.54_04-09-2026_19-30-52.webp",
+    "verdict": "correct",
+    "correct_slug": "denisov-winery-risling-beloe-suhoe-115",
+    "target": {
+      "alcohol": 11,
+      "alcohol_max": null,
+      "catalog_index": 1670,
+      "category": "Белое сухое",
+      "color": "Соломенно-золотистый",
+      "color_gradient": "linear-gradient(180deg, #FCFBDF 0%, #F0EFD5 100%)",
+      "description": "Вкус: Мягкий, питкий, сбалансированный, с фруктово-цитрусовым профилем, тонкими травяными нюансами и соблазнительным послевкусием. Свежий, гармоничный, с оттенками груши, персика, яблока, цитрусовых и белых цветов.",
+      "dishes": [
+        "Блюда из птицы",
+        "Мясо и стейки",
+        "Сыры"
+      ],
+      "grapes": [
+        "Рислинг"
+      ],
+      "image": {
+        "bytes": 13240,
+        "exists": true,
+        "format": "WEBP",
+        "has_alpha": true,
+        "height": 540,
+        "label_dhash": "b6026d11ed88d884b8d230da70ca70497308df90bbd07ff87bf0ffd8fff0fff8",
+        "mode": "RGBA",
+        "sha256": "ec55f44026732a373c68bb127734119c26f2e60427b45d136e2e52edc5683de7",
+        "width": 143
+      },
+      "image_alt": "Рислинг",
+      "image_local": "images/denisov-winery-risling-beloe-suhoe-115.webp",
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/540/540/resize/uploads/denisov_winery_risling_beloe_suhoe_115_3963e7c359.webp",
+      "manufacturer": "Denisov Winery",
+      "manufacturer_slug": "denisov-winery",
+      "public_rating": 5,
+      "rating": null,
+      "region": "Самара",
+      "schema_version": 1,
+      "slug": "denisov-winery-risling-beloe-suhoe-115",
+      "source_url": "https://vino-svoe.ru/wines/denisov-winery-risling-beloe-suhoe-115",
+      "temperature": null,
+      "title": "Рислинг"
+    },
+    "baseline_ocr_lines": [
+      {
+        "text": "DENISOV",
+        "normalized": "denisov",
+        "score": 0.98235
+      },
+      {
+        "text": "Pucun",
+        "normalized": "pucun",
+        "score": 0.62033
+      },
+      {
+        "text": "CAMAPA",
+        "normalized": "camapa",
+        "score": 0.96872
+      },
+      {
+        "text": "WM",
+        "normalized": "wm",
+        "score": 0.40338
+      }
+    ]
+  },
+  {
+    "name": "96.55_30-08-2026_19-34-31.webp",
+    "path": "data/test/field_66_review/images/96.55_30-08-2026_19-34-31.webp",
+    "verdict": "not_in_catalog",
+    "correct_slug": null,
+    "target": null,
+    "baseline_ocr_lines": [
+      {
+        "text": "18",
+        "normalized": "18",
+        "score": 0.99934
+      },
+      {
+        "text": "78",
+        "normalized": "78",
+        "score": 0.9999
+      },
+      {
+        "text": "НовЫЙ Свъть",
+        "normalized": "новый свъть",
+        "score": 0.58586
+      },
+      {
+        "text": "Дом Шампанских Вин",
+        "normalized": "дом шампанских вин",
+        "score": 0.77426
+      },
+      {
+        "text": "ВЫДЕРЖАННОЕ",
+        "normalized": "выдержанное",
+        "score": 0.99614
+      },
+      {
+        "text": "2023",
+        "normalized": "2023",
+        "score": 0.99932
+      }
+    ]
+  },
+  {
+    "name": "96.58_05-09-2026_16-05-04.webp",
+    "path": "data/test/field_66_review/images/96.58_05-09-2026_16-05-04.webp",
+    "verdict": "correct",
+    "correct_slug": "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11",
+    "target": {
+      "alcohol": 11,
+      "alcohol_max": null,
+      "catalog_index": 641,
+      "category": "Белое полусухое",
+      "color": "Светло‑соломенный с зеленоватым оттенком",
+      "color_gradient": "linear-gradient(180deg, #FCFBDF 0%, #F0EFD5 100%)",
+      "description": "В аромате цитрус, зелёное яблоко, травяные ноты. Вкус свежий, гармоничный, с минеральными тонами и цитрусовой кислинкой.",
+      "dishes": [
+        "Легкие закуски",
+        "Морепродукты"
+      ],
+      "grapes": [
+        "Рислинг",
+        "Цитронный Магарача"
+      ],
+      "image": {
+        "bytes": 8180,
+        "exists": true,
+        "format": "WEBP",
+        "has_alpha": true,
+        "height": 540,
+        "label_dhash": "7c4e9c06bc42bf007f00ff017f01be00ff01ff007f80bf02fe00ff02ff00fe00",
+        "mode": "RGBA",
+        "sha256": "53a042af954e2dc211df83fcb9e27d8dfa82c7d9097abc80cfd9611d3a6d670a",
+        "width": 127
+      },
+      "image_alt": "Фанагория",
+      "image_local": "images/fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11.webp",
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/540/540/resize/uploads/fanagoriya_zelyonoe_vino_risling_tsitronnyy_magaracha_beloe_polusuhoe_11_e4de13ab6b.webp",
+      "manufacturer": "Фанагория",
+      "manufacturer_slug": "fanagoriya",
+      "public_rating": 5,
+      "rating": null,
+      "region": "Кубань",
+      "schema_version": 1,
+      "slug": "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11",
+      "source_url": "https://vino-svoe.ru/wines/fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11",
+      "temperature": null,
+      "title": "Зелёное вино. Рислинг - Цитронный Магарача"
+    },
+    "baseline_ocr_lines": [
+      {
+        "text": "10,",
+        "normalized": "10",
+        "score": 0.85397
+      },
+      {
+        "text": "HИЗKИЙГРАДУС",
+        "normalized": "hизkийградус",
+        "score": 0.59359
+      },
+      {
+        "text": "ВИНОДЕЛЬНЯ",
+        "normalized": "винодельня",
+        "score": 0.98945
+      },
+      {
+        "text": "2023 ГОДА",
+        "normalized": "2023 года",
+        "score": 0.86412
+      },
+      {
+        "text": "АЛКОГОЛЯ",
+        "normalized": "алкоголя",
+        "score": 0.935
+      },
+      {
+        "text": "FANAGORIA",
+        "normalized": "fanagoria",
+        "score": 0.94002
+      },
+      {
+        "text": "NOBLESSE OBLIGE",
+        "normalized": "noblesse oblige",
+        "score": 0.97387
+      },
+      {
+        "text": "Зеленое",
+        "normalized": "зеленое",
+        "score": 0.87861
+      },
+      {
+        "text": "6uHO",
+        "normalized": "6uho",
+        "score": 0.516
+      },
+      {
+        "text": "БЕЛОЕ",
+        "normalized": "белое",
+        "score": 0.96858
+      },
+      {
+        "text": "ПОЛУСУХОЕ",
+        "normalized": "полусухое",
+        "score": 0.98203
+      },
+      {
+        "text": "РАННИЙ СБОР",
+        "normalized": "ранний сбор",
+        "score": 0.95097
+      },
+      {
+        "text": "PУCЛИНG",
+        "normalized": "pуcлинg",
+        "score": 0.44974
+      }
+    ]
+  },
+  {
+    "name": "96.61_28-08-2026_09-16-27.webp",
+    "path": "data/test/field_66_review/images/96.61_28-08-2026_09-16-27.webp",
+    "verdict": "correct",
+    "correct_slug": "balaklava-muskat",
+    "target": {
+      "alcohol": 12,
+      "alcohol_max": null,
+      "catalog_index": 1139,
+      "category": "Белое брют",
+      "color": "Светло-золотистый",
+      "color_gradient": "linear-gradient(180deg, #FCFBDF 0%, #F0EFD5 100%)",
+      "description": "Вкус насыщенный, гармоничный с шелковистой текстурой, освежающей кислотностью и фруктовыми нотками в послевкусии.  \n\nВ аромате экзотические фрукты: ананас, личи, маракуйя, с тонкими оттенками абрикоса и крымского персика, шлейфом из лепестков чайной розы.",
+      "dishes": [
+        "Выпечка и десерты",
+        "Сыры"
+      ],
+      "grapes": [
+        "Мускат"
+      ],
+      "image": {
+        "bytes": 12676,
+        "exists": true,
+        "format": "WEBP",
+        "has_alpha": true,
+        "height": 540,
+        "label_dhash": "2f085f005f04bf026cc9df04bf423f01770177007f003f03760179013d017700",
+        "mode": "RGBA",
+        "sha256": "66f55234c2958dd24448e60a23dfdeb433b7a99e7f7ed70f500801306a2c4202",
+        "width": 361
+      },
+      "image_alt": "Мускат",
+      "image_local": "images/balaklava-muskat.webp",
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/540/540/resize/uploads/Muskat_4b2f12e649.webp",
+      "manufacturer": "Золотая Балка",
+      "manufacturer_slug": "zolotaya_balka",
+      "public_rating": null,
+      "rating": null,
+      "region": "Крым",
+      "schema_version": 1,
+      "slug": "balaklava-muskat",
+      "source_url": "https://vino-svoe.ru/wines/balaklava-muskat",
+      "temperature": null,
+      "title": "Балаклава Мускат"
+    },
+    "baseline_ocr_lines": [
+      {
+        "text": "ЗОЛОТАЯ",
+        "normalized": "золотая",
+        "score": 0.90579
+      },
+      {
+        "text": "5АЛ",
+        "normalized": "5ал",
+        "score": 0.42856
+      },
+      {
+        "text": "МУСКАТ ПОЛУСЛАДКОЕ БЕЛОЕ",
+        "normalized": "мускат полусладкое белое",
+        "score": 0.98028
+      },
+      {
+        "text": "Росийское иристое вино",
+        "normalized": "росийское иристое вино",
+        "score": 0.72871
+      },
+      {
+        "text": "БАЛАКЛАВА",
+        "normalized": "балаклава",
+        "score": 0.99459
+      },
+      {
+        "text": "ПОЛУСЛАДКОЕ",
+        "normalized": "полусладкое",
+        "score": 0.99766
+      },
+      {
+        "text": "Muscat",
+        "normalized": "muscat",
+        "score": 0.97994
+      }
+    ]
+  },
+  {
+    "name": "96.62_07-09-2026_18-12-27.webp",
+    "path": "data/test/field_66_review/images/96.62_07-09-2026_18-12-27.webp",
+    "verdict": "correct",
+    "correct_slug": "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11",
+    "target": {
+      "alcohol": 11,
+      "alcohol_max": null,
+      "catalog_index": 641,
+      "category": "Белое полусухое",
+      "color": "Светло‑соломенный с зеленоватым оттенком",
+      "color_gradient": "linear-gradient(180deg, #FCFBDF 0%, #F0EFD5 100%)",
+      "description": "В аромате цитрус, зелёное яблоко, травяные ноты. Вкус свежий, гармоничный, с минеральными тонами и цитрусовой кислинкой.",
+      "dishes": [
+        "Легкие закуски",
+        "Морепродукты"
+      ],
+      "grapes": [
+        "Рислинг",
+        "Цитронный Магарача"
+      ],
+      "image": {
+        "bytes": 8180,
+        "exists": true,
+        "format": "WEBP",
+        "has_alpha": true,
+        "height": 540,
+        "label_dhash": "7c4e9c06bc42bf007f00ff017f01be00ff01ff007f80bf02fe00ff02ff00fe00",
+        "mode": "RGBA",
+        "sha256": "53a042af954e2dc211df83fcb9e27d8dfa82c7d9097abc80cfd9611d3a6d670a",
+        "width": 127
+      },
+      "image_alt": "Фанагория",
+      "image_local": "images/fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11.webp",
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/540/540/resize/uploads/fanagoriya_zelyonoe_vino_risling_tsitronnyy_magaracha_beloe_polusuhoe_11_e4de13ab6b.webp",
+      "manufacturer": "Фанагория",
+      "manufacturer_slug": "fanagoriya",
+      "public_rating": 5,
+      "rating": null,
+      "region": "Кубань",
+      "schema_version": 1,
+      "slug": "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11",
+      "source_url": "https://vino-svoe.ru/wines/fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11",
+      "temperature": null,
+      "title": "Зелёное вино. Рислинг - Цитронный Магарача"
+    },
+    "baseline_ocr_lines": [
+      {
+        "text": "10%",
+        "normalized": "10",
+        "score": 0.99692
+      },
+      {
+        "text": "НИЗКИЙГРАДС",
+        "normalized": "низкийградс",
+        "score": 0.78863
+      },
+      {
+        "text": "ВИНОДЕЛЬНЯ",
+        "normalized": "винодельня",
+        "score": 0.89302
+      },
+      {
+        "text": "АЛКОГОЛЯ",
+        "normalized": "алкоголя",
+        "score": 0.92694
+      },
+      {
+        "text": "2023ГОДА",
+        "normalized": "2023года",
+        "score": 0.53428
+      },
+      {
+        "text": "FANAGORIA",
+        "normalized": "fanagoria",
+        "score": 0.92346
+      },
+      {
+        "text": "NOBLESSE OBLIGE",
+        "normalized": "noblesse oblige",
+        "score": 0.98856
+      },
+      {
+        "text": "Зеленое",
+        "normalized": "зеленое",
+        "score": 0.91342
+      },
+      {
+        "text": "6uHO",
+        "normalized": "6uho",
+        "score": 0.45037
+      },
+      {
+        "text": "CK",
+        "normalized": "ck",
+        "score": 0.92782
+      },
+      {
+        "text": "Иr",
+        "normalized": "иr",
+        "score": 0.43925
+      },
+      {
+        "text": "БЕЛОЕ",
+        "normalized": "белое",
+        "score": 0.91616
+      },
+      {
+        "text": "BOF",
+        "normalized": "bof",
+        "score": 0.85372
+      },
+      {
+        "text": "ПОЛУСУХОЕ",
+        "normalized": "полусухое",
+        "score": 0.96533
+      },
+      {
+        "text": "62",
+        "normalized": "62",
+        "score": 0.70249
+      },
+      {
+        "text": "РАННИЙ СБОР",
+        "normalized": "ранний сбор",
+        "score": 0.94723
+      },
+      {
+        "text": "РУСЛИНГ",
+        "normalized": "руслинг",
+        "score": 0.47984
+      }
+    ]
+  },
+  {
+    "name": "96.64_26-08-2026_16-52-37.webp",
+    "path": "data/test/field_66_review/images/96.64_26-08-2026_16-52-37.webp",
+    "verdict": "not_in_catalog",
+    "correct_slug": null,
+    "target": null,
+    "baseline_ocr_lines": [
+      {
+        "text": "АВТОРСКОЕ ВИНО",
+        "normalized": "авторское вино",
+        "score": 0.79207
+      },
+      {
+        "text": "КАБЕРНЕ",
+        "normalized": "каберне",
+        "score": 0.86524
+      },
+      {
+        "text": "СОВИНЬОН",
+        "normalized": "совиньон",
+        "score": 0.62478
+      },
+      {
+        "text": "ЛЮБЛО",
+        "normalized": "любло",
+        "score": 0.63951
+      }
+    ]
+  },
+  {
+    "name": "96.65_02-09-2026_12-08-51.webp",
+    "path": "data/test/field_66_review/images/96.65_02-09-2026_12-08-51.webp",
+    "verdict": "correct",
+    "correct_slug": "kaberne-sovinon-3",
+    "target": {
+      "alcohol": 12,
+      "alcohol_max": null,
+      "catalog_index": 2029,
+      "category": "Красное полусухое",
+      "color": "Темно-рубиновый",
+      "color_gradient": "linear-gradient(180deg, #A51B3A 0%, #741D30 100%)",
+      "description": "Насыщенный аромат с доминирующими тонами черной смородины, вишни, сливы и лесных ягод, с оттенками пряностей, сухих трав и легкой древесной нотой. Во вкусе полнотелое и округлое, с мягкими зрелыми танинами, деликатной сладостью в финале и длительным сбалансированным послевкусием с ягодными и пряными нюансами.\n\n",
+      "dishes": [
+        "BBQ",
+        "Брускетты",
+        "Кавказская кухня",
+        "Паста",
+        "Паштеты"
+      ],
+      "grapes": [
+        "Каберне Совиньон"
+      ],
+      "image": {
+        "bytes": 16516,
+        "exists": true,
+        "format": "WEBP",
+        "has_alpha": true,
+        "height": 910,
+        "label_dhash": "d4803e803e823e423f863e42364033423fc23e823fc0bfc0bfc03f81b5c3ba03",
+        "mode": "RGBA",
+        "sha256": "895df1211b36594b9c1861e83ec35ca0c98bbe77119b1725f9359302a55c06bc",
+        "width": 607
+      },
+      "image_alt": "Каберне совньон",
+      "image_local": "images/kaberne-sovinon-3.webp",
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/910/910/resize/uploads/MAX_02337_7ecc0a53a9.webp",
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "manufacturer_slug": "litavshchuk-vineyards-and-winery",
+      "public_rating": 5,
+      "rating": null,
+      "region": "Кубань",
+      "schema_version": 1,
+      "slug": "kaberne-sovinon-3",
+      "source_url": "https://vino-svoe.ru/wines/kaberne-sovinon-3",
+      "temperature": "15-18",
+      "title": "Каберне Совиньон"
+    },
+    "baseline_ocr_lines": [
+      {
+        "text": "Семейная винодельня",
+        "normalized": "семейная винодельня",
+        "score": 0.97667
+      },
+      {
+        "text": "Литавщуков",
+        "normalized": "литавщуков",
+        "score": 0.81618
+      },
+      {
+        "text": "биньон",
+        "normalized": "биньон",
+        "score": 0.63016
+      },
+      {
+        "text": "ское вино",
+        "normalized": "ское вино",
+        "score": 0.88749
+      },
+      {
+        "text": "02,5%5",
+        "normalized": "02 5 5",
+        "score": 0.62614
+      },
+      {
+        "text": "Каденe",
+        "normalized": "каденe",
+        "score": 0.50423
+      },
+      {
+        "text": "Собиaн",
+        "normalized": "собиaн",
+        "score": 0.3694
+      },
+      {
+        "text": "фермерское вино",
+        "normalized": "фермерское вино",
+        "score": 0.84671
+      },
+      {
+        "text": "0,751",
+        "normalized": "0 751",
+        "score": 0.87069
+      },
+      {
+        "text": "12,4%",
+        "normalized": "12 4",
+        "score": 0.95763
+      }
+    ]
+  },
+  {
+    "name": "96.66_22-08-2026_20-44-40.webp",
+    "path": "data/test/field_66_review/images/96.66_22-08-2026_20-44-40.webp",
+    "verdict": "correct",
+    "correct_slug": "perovskih_polusuhoe_krasnoe",
+    "target": {
+      "alcohol": 12,
+      "alcohol_max": null,
+      "catalog_index": 275,
+      "category": "Красное полусухое",
+      "color": "Вино красное полусухое, рубинового цвета.",
+      "color_gradient": "linear-gradient(180deg, #A51B3A 0%, #741D30 100%)",
+      "description": "В аромате мощное, фруктовое, в букете ярко выражены красные ягоды и спелая малина. Вкус легкий, элегантный, ягодный, с мягкими танинами, полусухой сладостью и долгим приятным послевкусием",
+      "dishes": [
+        "Мясо и стейки",
+        "Паста",
+        "Пицца"
+      ],
+      "grapes": [
+        "Мурведр",
+        "Пино Нуар"
+      ],
+      "image": {
+        "bytes": 9988,
+        "exists": true,
+        "format": "WEBP",
+        "has_alpha": true,
+        "height": 540,
+        "label_dhash": "cf049e433e81bfe181fe81fe80fe81fe81fe83fb89f38cf683bf85fd8cfd9f82",
+        "mode": "RGBA",
+        "sha256": "015f1758879e751dadd4c5f7362e4c9f6e11a6009064426b875435637afca142",
+        "width": 162
+      },
+      "image_alt": "Полусухое красное",
+      "image_local": "images/perovskih_polusuhoe_krasnoe.webp",
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/540/540/resize/uploads/Krasnoe_polusuhoe_2024_a4eadaac17.webp",
+      "manufacturer": "Усадьба Перовских",
+      "manufacturer_slug": "usadba-perovskih",
+      "public_rating": 4.67,
+      "rating": null,
+      "region": "Крым",
+      "schema_version": 1,
+      "slug": "perovskih_polusuhoe_krasnoe",
+      "source_url": "https://vino-svoe.ru/wines/perovskih_polusuhoe_krasnoe",
+      "temperature": null,
+      "title": "Полусухое Красное"
+    },
+    "baseline_ocr_lines": [
+      {
+        "text": "90",
+        "normalized": "90",
+        "score": 0.99872
+      },
+      {
+        "text": "дьба",
+        "normalized": "дьба",
+        "score": 0.95874
+      },
+      {
+        "text": "BCKИX",
+        "normalized": "bckиx",
+        "score": 0.73909
+      },
+      {
+        "text": "KPACHOE",
+        "normalized": "kpachoe",
+        "score": 0.89679
+      },
+      {
+        "text": "2024",
+        "normalized": "2024",
+        "score": 0.9995
+      },
+      {
+        "text": "Крым",
+        "normalized": "крым",
+        "score": 0.74305
+      }
+    ]
+  },
+  {
+    "name": "96.74_28-08-2026_13-52-26.webp",
+    "path": "data/test/field_66_review/images/96.74_28-08-2026_13-52-26.webp",
+    "verdict": "correct",
+    "correct_slug": "usadba-mezyb-shishka-kupazh-5-kaberne-sovinon-rozovoe-suhoe-133",
+    "target": {
+      "alcohol": 13,
+      "alcohol_max": null,
+      "catalog_index": 547,
+      "category": "Розовое сухое",
+      "color": "Бледно-розовый",
+      "color_gradient": "linear-gradient(180deg, #F2AAAD 0%, #F2828F 100%)",
+      "description": "В аромате оттенки малины, красной смородины и нежной ванили. Вкус насыщенный, мягкий, с тонами красных ягод, цитрусовых фруктов, длительным послевкусием.",
+      "dishes": [
+        "BBQ",
+        "Мясное ассорти",
+        "Сыры"
+      ],
+      "grapes": [
+        "Вионье",
+        "Каберне Совиньон",
+        "Каберне Фран",
+        "Пино Нуар",
+        "Саперави"
+      ],
+      "image": {
+        "bytes": 8776,
+        "exists": true,
+        "format": "WEBP",
+        "has_alpha": true,
+        "height": 540,
+        "label_dhash": "a6126e09dd049f003ae07aa078e07f017e817f817f817e017e857f017f017f01",
+        "mode": "RGBA",
+        "sha256": "a1316b545f3ba416bc624e02279383f849e66d27cd92bdc159cbd14ac3342e6e",
+        "width": 360
+      },
+      "image_alt": "Усадьба Мезыбь",
+      "image_local": "images/usadba-mezyb-shishka-kupazh-5-kaberne-sovinon-rozovoe-suhoe-133.webp",
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/540/540/resize/uploads/usadba_mezyb_shishka_kupazh_5_kaberne_sovinon_rozovoe_suhoe_133_eb0dc52713.webp",
+      "manufacturer": "Усадьба Мезыбь",
+      "manufacturer_slug": "usadba-mezyb",
+      "public_rating": 4,
+      "rating": null,
+      "region": "Кубань",
+      "schema_version": 1,
+      "slug": "usadba-mezyb-shishka-kupazh-5-kaberne-sovinon-rozovoe-suhoe-133",
+      "source_url": "https://vino-svoe.ru/wines/usadba-mezyb-shishka-kupazh-5-kaberne-sovinon-rozovoe-suhoe-133",
+      "temperature": null,
+      "title": "Шишка. Купаж №5"
+    },
+    "baseline_ocr_lines": [
+      {
+        "text": "МЕЗЫБЬ",
+        "normalized": "мезыбь",
+        "score": 0.71963
+      },
+      {
+        "text": "YCAД68",
+        "normalized": "ycaд68",
+        "score": 0.38788
+      },
+      {
+        "text": "KУПАЖ №5",
+        "normalized": "kупаж no5",
+        "score": 0.77946
+      },
+      {
+        "text": "2023",
+        "normalized": "2023",
+        "score": 0.99942
+      }
+    ]
+  },
+  {
+    "name": "96.76_07-09-2026_14-57-04.webp",
+    "path": "data/test/field_66_review/images/96.76_07-09-2026_14-57-04.webp",
+    "verdict": "not_in_catalog",
+    "correct_slug": null,
+    "target": null,
+    "baseline_ocr_lines": [
+      {
+        "text": "LITAVSHCHUK",
+        "normalized": "litavshchuk",
+        "score": 0.99135
+      },
+      {
+        "text": "VINEYARDS &WINERY",
+        "normalized": "vineyards winery",
+        "score": 0.97084
+      },
+      {
+        "text": "АНАПА, ВИННАЯ ДЕРЕВНЯ",
+        "normalized": "анапа винная деревня",
+        "score": 0.98603
+      },
+      {
+        "text": "ПОЗДНИЙ",
+        "normalized": "поздний",
+        "score": 0.82442
+      }
+    ]
+  },
+  {
+    "name": "96.79_20-08-2026_17-48-31.webp",
+    "path": "data/test/field_66_review/images/96.79_20-08-2026_17-48-31.webp",
+    "verdict": "not_in_catalog",
+    "correct_slug": null,
+    "target": null,
+    "baseline_ocr_lines": [
+      {
+        "text": "ТАБИЯ",
+        "normalized": "табия",
+        "score": 0.98601
+      },
+      {
+        "text": "ВИНОДЕЛЬНЯ",
+        "normalized": "винодельня",
+        "score": 0.9763
+      },
+      {
+        "text": "2025",
+        "normalized": "2025",
+        "score": 0.99883
+      },
+      {
+        "text": "202",
+        "normalized": "202",
+        "score": 0.99523
+      },
+      {
+        "text": "БEЛOE",
+        "normalized": "бeлoe",
+        "score": 0.56342
+      },
+      {
+        "text": "CYXOE",
+        "normalized": "cyxoe",
+        "score": 0.95219
+      },
+      {
+        "text": "АНАЛA",
+        "normalized": "аналa",
+        "score": 0.44782
+      },
+      {
+        "text": "PO3O",
+        "normalized": "po3o",
+        "score": 0.83198
+      },
+      {
+        "text": "CYxO",
+        "normalized": "cyxo",
+        "score": 0.49038
+      },
+      {
+        "text": "LUU",
+        "normalized": "luu",
+        "score": 0.86149
+      }
+    ]
+  },
+  {
+    "name": "96.7_28-08-2026_13-50-21.webp",
+    "path": "data/test/field_66_review/images/96.7_28-08-2026_13-50-21.webp",
+    "verdict": "correct",
+    "correct_slug": "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+    "target": {
+      "alcohol": 13,
+      "alcohol_max": null,
+      "catalog_index": 1209,
+      "category": "Красное сухое",
+      "color": "Вино яркого рубинового цвета с блеском.",
+      "color_gradient": "linear-gradient(180deg, #A51B3A 0%, #741D30 100%)",
+      "description": "Спокойный зрелый аромат с тонами черных ягод, спелой вишни, кофейных зерен и темного шоколада. Вкус с хорошей структурой, мягкими зрелыми танинами и живой кислотностью, добавляющей вину сочности. В послевкусии оттенки вишни и сливы. Сочно, ровно, сбалансированно.",
+      "dishes": [
+        "Мясо и стейки",
+        "Пицца",
+        "Фастфуд"
+      ],
+      "grapes": [
+        "Мерло"
+      ],
+      "image": {
+        "bytes": 7652,
+        "exists": true,
+        "format": "WEBP",
+        "has_alpha": true,
+        "height": 540,
+        "label_dhash": "e364133366b0cd184d4d132f1c4f1cc7133730453005302134853cc51c451067",
+        "mode": "RGBA",
+        "sha256": "c114ff9cb1bef32cb5fccf1c5e917c0c6f8d75f5ac27ccb8298123cb6c6be52b",
+        "width": 540
+      },
+      "image_alt": "Южный Лес",
+      "image_local": "images/usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137.webp",
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/540/540/resize/uploads/usadba_divnomorskoe_yuzhnyy_les_merlo_krasnoe_suhoe_137_89faa0325c.webp",
+      "manufacturer": "Усадьба Дивноморское",
+      "manufacturer_slug": "usadba-divnomorskoe",
+      "public_rating": null,
+      "rating": 4.26,
+      "region": "Кубань",
+      "schema_version": 1,
+      "slug": "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+      "source_url": "https://vino-svoe.ru/wines/usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+      "temperature": null,
+      "title": "Южный Лес"
+    },
+    "baseline_ocr_lines": [
+      {
+        "text": "YCAДbBA",
+        "normalized": "ycaдbba",
+        "score": 0.60285
+      },
+      {
+        "text": "ДИВНОМОРСКОЕ",
+        "normalized": "дивноморское",
+        "score": 0.94991
+      },
+      {
+        "text": "TEPPУAP",
+        "normalized": "teppуap",
+        "score": 0.59192
+      },
+      {
+        "text": "ВТОРАЯЛИНИЯ",
+        "normalized": "втораялиния",
+        "score": 0.93331
+      },
+      {
+        "text": "Bечерна",
+        "normalized": "bечерна",
+        "score": 0.55919
+      }
+    ]
+  },
+  {
+    "name": "96.83_20-08-2026_17-48-13.webp",
+    "path": "data/test/field_66_review/images/96.83_20-08-2026_17-48-13.webp",
+    "verdict": "not_in_catalog",
+    "correct_slug": null,
+    "target": null,
+    "baseline_ocr_lines": [
+      {
+        "text": "ТАБИЯ",
+        "normalized": "табия",
+        "score": 0.96
+      },
+      {
+        "text": "ВИНОДЕЛЬНЯ",
+        "normalized": "винодельня",
+        "score": 0.98954
+      },
+      {
+        "text": "20",
+        "normalized": "20",
+        "score": 0.99954
+      },
+      {
+        "text": "2025",
+        "normalized": "2025",
+        "score": 0.99541
+      },
+      {
+        "text": "PO3",
+        "normalized": "po3",
+        "score": 0.83293
+      },
+      {
+        "text": "Cy",
+        "normalized": "cy",
+        "score": 0.64728
+      },
+      {
+        "text": "BEAOE",
+        "normalized": "beaoe",
+        "score": 0.60057
+      },
+      {
+        "text": "CYXOE",
+        "normalized": "cyxoe",
+        "score": 0.98067
+      }
+    ]
+  },
+  {
+    "name": "96.8_25-08-2026_22-20-38.webp",
+    "path": "data/test/field_66_review/images/96.8_25-08-2026_22-20-38.webp",
+    "verdict": "correct",
+    "correct_slug": "sovinon-blan",
+    "target": {
+      "alcohol": 12,
+      "alcohol_max": null,
+      "catalog_index": 2026,
+      "category": "Белое полусладкое",
+      "color": "Золотистый",
+      "color_gradient": "linear-gradient(180deg, #FCFBDF 0%, #F0EFD5 100%)",
+      "description": "Обладает свежим, фруктовым ароматом с нотами крыжовника, цитрусовых, зеленого яблока и легкими травянистыми оттенками, с тонами тропических фруктов. Во вкусе  мягкое и гармоничное, с хорошо сбалансированной сладостью, яркой кислотностью и чистым фруктово-минеральным послевкусием.",
+      "dishes": [
+        "Азиатская кухня",
+        "Блюда из рыбы",
+        "Десерты",
+        "Закуски",
+        "Пицца",
+        "Сыры"
+      ],
+      "grapes": [
+        "Совиньон Блан"
+      ],
+      "image": {
+        "bytes": 16346,
+        "exists": true,
+        "format": "WEBP",
+        "has_alpha": true,
+        "height": 910,
+        "label_dhash": "90803286320637c27fe17d916d916e817fe17fe07fc17fe17fe17fe633c3b903",
+        "mode": "RGBA",
+        "sha256": "5c343d041dad150fd92f4655699eeac2c8824d1f5aab28efd92fca7064eb9460",
+        "width": 607
+      },
+      "image_alt": "Совиньон блан",
+      "image_local": "images/sovinon-blan.webp",
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/910/910/resize/uploads/MAX_02320_d56a1a6d6d.webp",
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "manufacturer_slug": "litavshchuk-vineyards-and-winery",
+      "public_rating": null,
+      "rating": null,
+      "region": "Кубань",
+      "schema_version": 1,
+      "slug": "sovinon-blan",
+      "source_url": "https://vino-svoe.ru/wines/sovinon-blan",
+      "temperature": "10-12",
+      "title": "Совиньон Блан"
+    },
+    "baseline_ocr_lines": [
+      {
+        "text": "Семейная винодельня",
+        "normalized": "семейная винодельня",
+        "score": 0.96788
+      },
+      {
+        "text": "Литавщуков",
+        "normalized": "литавщуков",
+        "score": 0.89824
+      },
+      {
+        "text": "Сaвиньон",
+        "normalized": "сaвиньон",
+        "score": 0.49239
+      },
+      {
+        "text": "полусухое белое",
+        "normalized": "полусухое белое",
+        "score": 0.98299
+      },
+      {
+        "text": "фермерское вино",
+        "normalized": "фермерское вино",
+        "score": 0.92573
+      },
+      {
+        "text": "сия.Кубань. Анапа.",
+        "normalized": "сия кубань анапа",
+        "score": 0.90066
+      },
+      {
+        "text": "25.08.2026 2",
+        "normalized": "25 08 2026 2",
+        "score": 0.95598
+      }
+    ]
+  },
+  {
+    "name": "96.96_05-09-2026_19-02-01.webp",
+    "path": "data/test/field_66_review/images/96.96_05-09-2026_19-02-01.webp",
+    "verdict": "correct",
+    "correct_slug": "denisov_rubin_klaret_krasnaya_strelka",
+    "target": {
+      "alcohol": 11,
+      "alcohol_max": null,
+      "catalog_index": 257,
+      "category": "Розовое сухое",
+      "color": "Ярко-рубиновый  цвет",
+      "color_gradient": "linear-gradient(180deg, #F2AAAD 0%, #F2828F 100%)",
+      "description": "Аромат: зрелые чёрные ягоды ежевики, вишни, оттенки кожицы сливы, джемовые тона, а также еле заметные цветочные акценты фиалки, карамели и ванили. Вкус: гармоничный, округлый и сбалансированный, повторяет ягодно-фруктовую доминанту аромата.",
+      "dishes": [
+        "Легкие закуски",
+        "Рыба и морепродукты"
+      ],
+      "grapes": [
+        "Рубин Голодриги"
+      ],
+      "image": {
+        "bytes": 12462,
+        "exists": true,
+        "format": "WEBP",
+        "has_alpha": true,
+        "height": 540,
+        "label_dhash": "5f105690b6486e04de229e91bd893c803c003fe467f465e465c44fe44fe44fc4",
+        "mode": "RGBA",
+        "sha256": "d1ed61a4e81135b1f5ee56453868c46a27873acef6b6699720284552b32a99a2",
+        "width": 362
+      },
+      "image_alt": "Красная стрелка",
+      "image_local": "images/denisov_rubin_klaret_krasnaya_strelka.webp",
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/540/540/resize/uploads/Vino_krasnoe_Kr_Strelka_3_7c02276274.webp",
+      "manufacturer": "Denisov Winery",
+      "manufacturer_slug": "denisov-winery",
+      "public_rating": 5,
+      "rating": null,
+      "region": "Самара",
+      "schema_version": 1,
+      "slug": "denisov_rubin_klaret_krasnaya_strelka",
+      "source_url": "https://vino-svoe.ru/wines/denisov_rubin_klaret_krasnaya_strelka",
+      "temperature": null,
+      "title": "Рубин кларет . Красная стрелка"
+    },
+    "baseline_ocr_lines": [
+      {
+        "text": "SOV I ENIS",
+        "normalized": "sov i enis",
+        "score": 0.92175
+      },
+      {
+        "text": "700",
+        "normalized": "700",
+        "score": 0.7615
+      },
+      {
+        "text": "3",
+        "normalized": "3",
+        "score": 0.99504
+      },
+      {
+        "text": "Puemn",
+        "normalized": "puemn",
+        "score": 0.50968
+      },
+      {
+        "text": "DENISOY",
+        "normalized": "denisoy",
+        "score": 0.88297
+      },
+      {
+        "text": "Bpan",
+        "normalized": "bpan",
+        "score": 0.61702
+      },
+      {
+        "text": "1700",
+        "normalized": "1700",
+        "score": 0.87491
+      },
+      {
+        "text": "DENISOV",
+        "normalized": "denisov",
+        "score": 0.98258
+      },
+      {
+        "text": "CAMAPA",
+        "normalized": "camapa",
+        "score": 0.97278
+      },
+      {
+        "text": "KPACHAA",
+        "normalized": "kpachaa",
+        "score": 0.82828
+      },
+      {
+        "text": "СТРЕЛКА",
+        "normalized": "стрелка",
+        "score": 0.94197
+      },
+      {
+        "text": "Ру6iн",
+        "normalized": "ру6iн",
+        "score": 0.42487
+      }
+    ]
+  },
+  {
+    "name": "96.98_19-08-2026_19-05-06.webp",
+    "path": "data/test/field_66_review/images/96.98_19-08-2026_19-05-06.webp",
+    "verdict": "correct",
+    "correct_slug": "czitronnyj-magaracha",
+    "target": {
+      "alcohol": 12,
+      "alcohol_max": null,
+      "catalog_index": 134,
+      "category": "Белое сухое",
+      "color": "Светло-золотистый",
+      "color_gradient": "linear-gradient(180deg, #FCFBDF 0%, #F0EFD5 100%)",
+      "description": "Аромат веточный с легким цитрусовым оттенком. Вкус свежий, фруктовый, с нотами спелой груши.",
+      "dishes": [
+        "Блюда из рыбы",
+        "Легкие закуски",
+        "Салаты",
+        "Сыры"
+      ],
+      "grapes": [
+        "Цитронный Магарача"
+      ],
+      "image": {
+        "bytes": 7292,
+        "exists": true,
+        "format": "WEBP",
+        "has_alpha": true,
+        "height": 540,
+        "label_dhash": "d2803c823f007f603fc03fc03f80bf80bf80bf80bfc0ffc0bfc0bfe3b802bf00",
+        "mode": "RGBA",
+        "sha256": "f00b9220edb08ab7fc43c1a271ad18ea99ff4021b774b7a878ec972d3f5f1a93",
+        "width": 283
+      },
+      "image_alt": "Табия Цитрон",
+      "image_local": "images/czitronnyj-magaracha.webp",
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/540/540/resize/uploads/Screenshot_20_74ce4e5bae.webp",
+      "manufacturer": "Табия",
+      "manufacturer_slug": "tabiya",
+      "public_rating": 4.91,
+      "rating": null,
+      "region": "Кубань",
+      "schema_version": 1,
+      "slug": "czitronnyj-magaracha",
+      "source_url": "https://vino-svoe.ru/wines/czitronnyj-magaracha",
+      "temperature": null,
+      "title": "Цитрон"
+    },
+    "baseline_ocr_lines": [
+      {
+        "text": "ТАБИЯ",
+        "normalized": "табия",
+        "score": 0.97136
+      },
+      {
+        "text": "ВИНОДЕЛЬНЯ",
+        "normalized": "винодельня",
+        "score": 0.9531
+      },
+      {
+        "text": "20",
+        "normalized": "20",
+        "score": 0.98836
+      },
+      {
+        "text": "2024",
+        "normalized": "2024",
+        "score": 0.99945
+      },
+      {
+        "text": "ПОЛУСУХОЕ",
+        "normalized": "полусухое",
+        "score": 0.49306
+      },
+      {
+        "text": "5EAОE",
+        "normalized": "5eaоe",
+        "score": 0.47178
+      },
+      {
+        "text": "ЦИТРОН",
+        "normalized": "цитрон",
+        "score": 0.9169
+      }
+    ]
+  },
+  {
+    "name": "97.23_05-09-2026_15-34-36.webp",
+    "path": "data/test/field_66_review/images/97.23_05-09-2026_15-34-36.webp",
+    "verdict": "correct",
+    "correct_slug": "sovinon-blan",
+    "target": {
+      "alcohol": 12,
+      "alcohol_max": null,
+      "catalog_index": 2026,
+      "category": "Белое полусладкое",
+      "color": "Золотистый",
+      "color_gradient": "linear-gradient(180deg, #FCFBDF 0%, #F0EFD5 100%)",
+      "description": "Обладает свежим, фруктовым ароматом с нотами крыжовника, цитрусовых, зеленого яблока и легкими травянистыми оттенками, с тонами тропических фруктов. Во вкусе  мягкое и гармоничное, с хорошо сбалансированной сладостью, яркой кислотностью и чистым фруктово-минеральным послевкусием.",
+      "dishes": [
+        "Азиатская кухня",
+        "Блюда из рыбы",
+        "Десерты",
+        "Закуски",
+        "Пицца",
+        "Сыры"
+      ],
+      "grapes": [
+        "Совиньон Блан"
+      ],
+      "image": {
+        "bytes": 16346,
+        "exists": true,
+        "format": "WEBP",
+        "has_alpha": true,
+        "height": 910,
+        "label_dhash": "90803286320637c27fe17d916d916e817fe17fe07fc17fe17fe17fe633c3b903",
+        "mode": "RGBA",
+        "sha256": "5c343d041dad150fd92f4655699eeac2c8824d1f5aab28efd92fca7064eb9460",
+        "width": 607
+      },
+      "image_alt": "Совиньон блан",
+      "image_local": "images/sovinon-blan.webp",
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/910/910/resize/uploads/MAX_02320_d56a1a6d6d.webp",
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "manufacturer_slug": "litavshchuk-vineyards-and-winery",
+      "public_rating": null,
+      "rating": null,
+      "region": "Кубань",
+      "schema_version": 1,
+      "slug": "sovinon-blan",
+      "source_url": "https://vino-svoe.ru/wines/sovinon-blan",
+      "temperature": "10-12",
+      "title": "Совиньон Блан"
+    },
+    "baseline_ocr_lines": [
+      {
+        "text": "1600",
+        "normalized": "1600",
+        "score": 0.90096
+      },
+      {
+        "text": "hen",
+        "normalized": "hen",
+        "score": 0.42258
+      },
+      {
+        "text": "lapgene",
+        "normalized": "lapgene",
+        "score": 0.55671
+      },
+      {
+        "text": "Литавщуков",
+        "normalized": "литавщуков",
+        "score": 0.71197
+      },
+      {
+        "text": "полусухое белое",
+        "normalized": "полусухое белое",
+        "score": 0.96349
+      }
+    ]
+  }
+]

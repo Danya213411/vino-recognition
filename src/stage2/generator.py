@@ -20,7 +20,6 @@ PROFILES = (
     "background",
     "perspective",
     "glare",
-    "blur",
     "crop",
     "compression",
     "combined",
@@ -164,8 +163,6 @@ def profile_parameters(profile: str, rng: np.random.Generator) -> dict[str, Any]
         parameters["yaw_limit_degrees"] = 7.0
         parameters["pitch_limit_degrees"] = 5.0
         parameters["roll_limit_degrees"] = 4.0
-    elif profile == "blur":
-        parameters["blur"] = "motion" if rng.random() < 0.55 else "gaussian"
     elif profile == "crop":
         parameters["target_height"] = float(rng.uniform(1.00, 1.24))
         parameters["shift_x"] = float(rng.uniform(-0.17, 0.17))
@@ -180,7 +177,6 @@ def profile_parameters(profile: str, rng: np.random.Generator) -> dict[str, Any]
         parameters["target_height"] = float(rng.uniform(0.85, 1.08))
         parameters["shift_x"] = float(rng.uniform(-0.13, 0.13))
         parameters["glare"] = bool(rng.random() < 0.75)
-        parameters["blur"] = "motion" if rng.random() < 0.65 else "gaussian"
         parameters["low_resolution_scale"] = float(rng.uniform(0.48, 0.78))
         parameters["occlusion"] = bool(rng.random() < 0.55)
         parameters["jpeg_quality"] = int(rng.integers(42, 68))

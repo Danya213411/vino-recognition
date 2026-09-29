@@ -9,7 +9,6 @@
       "background",
       "perspective",
       "glare",
-      "blur",
       "crop",
       "compression",
       "combined"
@@ -20,23 +19,22 @@
   },
   "foreground_masks": {
     "inferred_border": 103,
-    "source_alpha": 1922
+    "source_alpha": 1932
   },
   "profiles": {
-    "background": 290,
-    "blur": 289,
-    "combined": 289,
-    "compression": 289,
-    "crop": 289,
-    "glare": 289,
-    "perspective": 290
+    "background": 340,
+    "combined": 339,
+    "compression": 339,
+    "crop": 339,
+    "glare": 339,
+    "perspective": 339
   },
   "schema_version": 1,
   "summary": {
-    "sample_count": 2025,
-    "source_slug_count": 2025,
+    "sample_count": 2035,
+    "source_slug_count": 2035,
     "split": "validation",
-    "total_bytes": 36108660,
+    "total_bytes": 36643399,
     "train_validation_source_overlap": 0
   }
 }

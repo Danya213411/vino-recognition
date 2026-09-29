@@ -36,10 +36,9 @@ uv run vino-generate-synthetic --variants-per-wine 7
 | `background` | бутылка на процедурном фоне полки |
 | `perspective` | сильное перспективное искажение |
 | `glare` | вытянутый блик, ограниченный маской бутылки |
-| `blur` | Gaussian или motion blur |
 | `crop` | крупный масштаб и частичный выход бутылки за кадр |
 | `compression` | уменьшение разрешения и сильное JPEG-сжатие |
-| `combined` | перспектива, блик, blur, occlusion и компрессия |
+| `combined` | перспектива, блик, occlusion и компрессия без blur |
 
 Для всех профилей также меняются положение, масштаб, яркость и контраст.
 
@@ -90,4 +89,4 @@ uv run vino-generate-synthetic `
 - `predictions`;
 - `latency_ms`.
 
-`vino-evaluate` уже строит отдельный breakdown по `augmentation_profile`, поэтому качество перспективы, бликов, blur, crop, background и compression будет видно отдельно.
+`vino-evaluate` уже строит отдельный breakdown по `augmentation_profile`, поэтому качество перспективы, бликов, crop, background и compression будет видно отдельно. Blur исключён из основной синтетической выборки после сравнения с 66 полевыми фотографиями; при необходимости он должен запускаться отдельно как stress-test.

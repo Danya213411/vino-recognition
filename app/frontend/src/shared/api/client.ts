@@ -3,6 +3,8 @@ import type {
   AdminStats,
   Analysis,
   FeedbackVerdict,
+  ReviewMatrixItem,
+  ReviewSetItem,
 } from "./contracts";
 
 const API_BASE = process.env.NEXT_PUBLIC_API_URL?.replace(/\/$/, "") ?? "";
@@ -48,6 +50,21 @@ export async function sendFeedback(
       body: JSON.stringify({ verdict, correct_slug: correctSlug }),
     }),
   );
+}
+
+export async function loadReviewSet(): Promise<{ total: number; items: ReviewSetItem[] }> {
+  return checked(await fetch(`${API_BASE}/api/v1/review-set`));
+}
+
+export async function loadReviewMatrix(): Promise<{ total: number; items: ReviewMatrixItem[] }> {
+  return checked(await fetch(`${API_BASE}/api/v1/review-matrix`));
+}
+
+export async function loadReviewFile(item: ReviewSetItem): Promise<File> {
+  const response = await fetch(`${API_BASE}${item.image_url}`);
+  if (!response.ok) throw new Error(`Не удалось открыть ${item.name}`);
+  const blob = await response.blob();
+  return new File([blob], item.name, { type: blob.type || "image/webp" });
 }
 
 export async function downloadManifest(

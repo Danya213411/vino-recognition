@@ -11,6 +11,7 @@ app/frontend/.next/
 app/frontend/out/
 app/frontend/node_modules/
 app/frontend/node_modules.partial-install/
+data/artifacts/stage8/ocr_benchmark_65/tesseractjs/node_modules/
 data/app/stage6/
 
 # Local configuration and runtime logs

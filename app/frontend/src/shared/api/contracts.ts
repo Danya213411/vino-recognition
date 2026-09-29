@@ -47,13 +47,30 @@ export type Analysis = {
   predictions: Prediction[];
   evidence: Record<string, number>;
   ocr_lines: Array<{ text?: string; normalized?: string; score?: number }>;
+  manufacturer_match?: {
+    value: string | null;
+    values?: string[];
+    score: number;
+    runner_up: string | null;
+    runner_score: number;
+    margin: number;
+    mode: "hard" | "none";
+    matched_text: string | null;
+    candidate_count: number;
+  } | null;
   crop_consistency: Record<string, number | string[]>;
   timing_ms: Record<string, number>;
   memory: Record<string, number>;
   manifest_url: string;
 };
 
-export type FeedbackVerdict = "correct" | "incorrect" | "not_in_catalog";
+export type FeedbackVerdict = "correct" | "incorrect" | "not_in_catalog" | "not_in_store";
+
+export type ReviewSetItem = {
+  name: string;
+  size: number;
+  image_url: string;
+};
 
 export type AdminStats = {
   recognitions: {
@@ -68,6 +85,7 @@ export type AdminStats = {
     correct: number;
     incorrect: number;
     not_in_catalog: number;
+    not_in_store: number;
   };
 };
 
@@ -96,4 +114,10 @@ export type AdminRecord = {
   mime_type: string;
   client_host?: string | null;
   user_agent?: string | null;
+};
+
+export type ReviewMatrixItem = {
+  name: string;
+  input_image_url: string;
+  recognition: AdminRecord;
 };

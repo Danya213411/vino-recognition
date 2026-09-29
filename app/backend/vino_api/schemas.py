@@ -8,7 +8,7 @@ from pydantic import BaseModel, Field, model_validator
 
 
 class FeedbackRequest(BaseModel):
-    verdict: Literal["correct", "incorrect", "not_in_catalog"]
+    verdict: Literal["correct", "incorrect", "not_in_catalog", "not_in_store"]
     correct_slug: str | None = Field(default=None, max_length=240)
     note: str | None = Field(default=None, max_length=1000)
 

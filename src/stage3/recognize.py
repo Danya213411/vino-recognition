@@ -75,7 +75,11 @@ def collect_paths(path: Path) -> list[Path]:
     if not path.is_dir():
         raise FileNotFoundError(path)
     extensions = {".jpg", ".jpeg", ".png", ".webp", ".bmp"}
-    return [item for item in sorted(path.iterdir()) if item.suffix.lower() in extensions]
+    return [
+        item
+        for item in sorted(path.rglob("*"))
+        if item.is_file() and item.suffix.lower() in extensions
+    ]
 
 
 def build_parser() -> argparse.ArgumentParser:

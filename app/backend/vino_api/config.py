@@ -32,6 +32,9 @@ class Settings:
         PROJECT_ROOT / "data/artifacts/stage5/confidence_model.json",
     )
     app_data_dir: Path = _path_env("VINO_APP_DATA_DIR", PROJECT_ROOT / "data/app/stage6")
+    review_set_dir: Path = _path_env(
+        "VINO_REVIEW_SET_DIR", PROJECT_ROOT / "data/test/recheck_fuzzy_v2/images"
+    )
     web_dir: Path = _path_env("VINO_WEB_DIR", PROJECT_ROOT / "app/frontend/out")
     device: str = os.getenv("VINO_DEVICE", "auto")
     local_files_only: bool = os.getenv("VINO_LOCAL_FILES_ONLY", "1") != "0"

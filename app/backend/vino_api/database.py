@@ -60,13 +60,34 @@ class EventDatabase:
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
                     recognition_id TEXT NOT NULL UNIQUE,
                     created_at TEXT NOT NULL,
-                    verdict TEXT NOT NULL CHECK (verdict IN ('correct', 'incorrect', 'not_in_catalog')),
+                    verdict TEXT NOT NULL CHECK (verdict IN ('correct', 'incorrect', 'not_in_catalog', 'not_in_store')),
                     correct_slug TEXT,
                     note TEXT,
                     FOREIGN KEY (recognition_id) REFERENCES recognitions(id) ON DELETE CASCADE
                 );
                 """
             )
+            feedback_schema = connection.execute(
+                "SELECT sql FROM sqlite_master WHERE type = 'table' AND name = 'feedback'"
+            ).fetchone()
+            if feedback_schema and "not_in_store" not in feedback_schema["sql"]:
+                connection.executescript(
+                    """
+                    CREATE TABLE feedback_new (
+                        id INTEGER PRIMARY KEY AUTOINCREMENT,
+                        recognition_id TEXT NOT NULL UNIQUE,
+                        created_at TEXT NOT NULL,
+                        verdict TEXT NOT NULL CHECK (verdict IN ('correct', 'incorrect', 'not_in_catalog', 'not_in_store')),
+                        correct_slug TEXT,
+                        note TEXT,
+                        FOREIGN KEY (recognition_id) REFERENCES recognitions(id) ON DELETE CASCADE
+                    );
+                    INSERT INTO feedback_new (id, recognition_id, created_at, verdict, correct_slug, note)
+                        SELECT id, recognition_id, created_at, verdict, correct_slug, note FROM feedback;
+                    DROP TABLE feedback;
+                    ALTER TABLE feedback_new RENAME TO feedback;
+                    """
+                )
 
     def insert_recognition(self, record: dict[str, Any]) -> None:
         columns = tuple(record)
@@ -151,6 +172,29 @@ class EventDatabase:
             ).fetchall()
         return {"total": total, "items": [self._expand(row) for row in rows]}
 
+    def latest_review_records(self, original_names: list[str]) -> list[dict[str, Any]]:
+        """Return the latest manually reviewed recognition for each requested filename."""
+        if not original_names:
+            return []
+        output: list[dict[str, Any]] = []
+        with self.connect() as connection:
+            for name in original_names:
+                row = connection.execute(
+                    """
+                    SELECT r.*, f.created_at AS feedback_created_at, f.verdict,
+                           f.correct_slug, f.note
+                    FROM recognitions r
+                    JOIN feedback f ON f.recognition_id = r.id
+                    WHERE r.original_name = ?
+                    ORDER BY r.created_at DESC
+                    LIMIT 1
+                    """,
+                    (name,),
+                ).fetchone()
+                if row:
+                    output.append(self._expand(row))
+        return output
+
     def delete_recognition(self, recognition_id: str) -> bool:
         with self.connect() as connection:
             cursor = connection.execute(
@@ -188,7 +232,8 @@ class EventDatabase:
                 SELECT COUNT(*) AS total,
                     SUM(verdict = 'correct') AS correct,
                     SUM(verdict = 'incorrect') AS incorrect,
-                    SUM(verdict = 'not_in_catalog') AS not_in_catalog
+                    SUM(verdict = 'not_in_catalog') AS not_in_catalog,
+                    SUM(verdict = 'not_in_store') AS not_in_store
                 FROM feedback
                 """
             ).fetchone()
@@ -206,7 +251,7 @@ class EventDatabase:
                 "p50": percentile(timings, 0.50),
                 "p95": percentile(timings, 0.95),
             },
-            "feedback": {key: int(feedback[key] or 0) for key in ("total", "correct", "incorrect", "not_in_catalog")},
+            "feedback": {key: int(feedback[key] or 0) for key in ("total", "correct", "incorrect", "not_in_catalog", "not_in_store")},
         }
 
     @staticmethod

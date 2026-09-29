@@ -7,6 +7,8 @@ export function SiteFooter() {
         <nav aria-label="Навигация в подвале">
           <Link href="/">Распознать вино</Link>
           <Link href="/calib">Калибровка</Link>
+          <Link href="/review">Проверка выборки</Link>
+          <Link href="/matrix">Матрица ошибок</Link>
           <Link href="/admin">Администрирование</Link>
         </nav>
         <p>Локальный сервис распознавания российских вин по фотографии этикетки.</p>

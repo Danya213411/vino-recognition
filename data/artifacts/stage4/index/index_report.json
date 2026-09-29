@@ -3,19 +3,19 @@
     "reference_text": "data/artifacts/stage4/index/reference_text.jsonl",
     "sift_index": "data/artifacts/stage4/index/sift_index.npz"
   },
-  "item_count": 2025,
+  "item_count": 2035,
   "ocr": {
-    "build_ms": 858486.7853999604,
+    "build_ms": 750379.8379999353,
     "engine": "RapidOCR PP-OCRv6 tiny detector + PP-OCRv5 Cyrillic recognizer",
-    "line_count": 8291,
-    "mean_image_ms": 1268.9338239497379,
-    "nonempty_item_count": 2001,
+    "line_count": 8361,
+    "mean_image_ms": 1100.7053734637404,
+    "nonempty_item_count": 2011,
     "workers": 3
   },
   "schema_version": 1,
   "sift": {
-    "build_ms": 92852.68000001088,
-    "descriptor_count": 911198,
+    "build_ms": 102412.32380003203,
+    "descriptor_count": 915701,
     "descriptor_dtype": "float16",
     "empty_item_count": 0
   }

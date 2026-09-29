@@ -1,4 +1,4 @@
-{"code": "incomplete_source_coverage", "message": "Collected 2025 of 2041 source items", "severity": "warning"}
+{"code": "incomplete_source_coverage", "message": "Collected 2035 of 2041 source items", "severity": "warning"}
 {"code": "missing_manufacturer_slug", "message": "manufacturer_slug is empty", "severity": "warning", "slug": "golubitskoe-estate-chardonnay"}
 {"code": "missing_manufacturer_slug", "message": "manufacturer_slug is empty", "severity": "warning", "slug": "golubitskoe-rose"}
 {"code": "missing_manufacturer_slug", "message": "manufacturer_slug is empty", "severity": "warning", "slug": "mancopia-kaberne-sovinon"}

@@ -4,7 +4,7 @@
   "captured_at": "2026-09-13T20:10:33.697Z",
   "total_items_reported": 2041,
   "total_pages_reported": 128,
-  "collected_items": 2025,
+  "collected_items": 2035,
   "failures": [
     {
       "stage": "list",
@@ -57165,6 +57165,302 @@
       "image_alt": "Quintessence New Generation. Совиньон Блан",
       "source_url": "https://vino-svoe.ru/wines/vinodelnya-myshako-quintessence-new-generation-sovinon-blan-beloe-suhoe-122",
       "image_local": "images/vinodelnya-myshako-quintessence-new-generation-sovinon-blan-beloe-suhoe-122.webp"
+    },
+    {
+      "slug": "saperavi",
+      "title": "Саперави",
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "manufacturer_slug": "litavshchuk-vineyards-and-winery",
+      "region": "Кубань",
+      "category": "Красное сухое",
+      "color": "Темно-гранатовый",
+      "public_rating": 5,
+      "rating": null,
+      "alcohol": 14,
+      "alcohol_max": null,
+      "temperature": "16-18",
+      "description": "Насыщенное, полнотелое, с бархатными танинами и яркой кислотностью, в аромате доминируют ноты черных ягод: ежевика, черная смородина, слива, вишня, часто с оттенками специй, табака и земли. Во вкусе плотное и терпкое, с выраженной структурой, длительным послевкусием и характерными тонами темных фруктов, черного перца, кожи.",
+      "color_gradient": "linear-gradient(180deg, #A51B3A 0%, #741D30 100%)",
+      "grapes": [
+        "Мерло"
+      ],
+      "dishes": [
+        "BBQ",
+        "Брускетты",
+        "Кавказская кухня",
+        "Овощи гриль"
+      ],
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/910/910/resize/uploads/MAX_02309_5b49a2088a.webp",
+      "image_alt": "Саперави литавщук",
+      "source_url": "https://vino-svoe.ru/wines/saperavi",
+      "image_local": "images/saperavi.webp"
+    },
+    {
+      "slug": "sovinon-blan",
+      "title": "Совиньон Блан",
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "manufacturer_slug": "litavshchuk-vineyards-and-winery",
+      "region": "Кубань",
+      "category": "Белое полусладкое",
+      "color": "Золотистый",
+      "public_rating": null,
+      "rating": null,
+      "alcohol": 12,
+      "alcohol_max": null,
+      "temperature": "10-12",
+      "description": "Обладает свежим, фруктовым ароматом с нотами крыжовника, цитрусовых, зеленого яблока и легкими травянистыми оттенками, с тонами тропических фруктов. Во вкусе  мягкое и гармоничное, с хорошо сбалансированной сладостью, яркой кислотностью и чистым фруктово-минеральным послевкусием.",
+      "color_gradient": "linear-gradient(180deg, #FCFBDF 0%, #F0EFD5 100%)",
+      "grapes": [
+        "Совиньон Блан"
+      ],
+      "dishes": [
+        "Азиатская кухня",
+        "Блюда из рыбы",
+        "Десерты",
+        "Закуски",
+        "Пицца",
+        "Сыры"
+      ],
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/910/910/resize/uploads/MAX_02320_d56a1a6d6d.webp",
+      "image_alt": "Совиньон блан",
+      "source_url": "https://vino-svoe.ru/wines/sovinon-blan",
+      "image_local": "images/sovinon-blan.webp"
+    },
+    {
+      "slug": "risling-2",
+      "title": "Рислинг ",
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "manufacturer_slug": "litavshchuk-vineyards-and-winery",
+      "region": "Кубань",
+      "category": "Белое полусухое",
+      "color": "Светло-золотистый",
+      "public_rating": 4,
+      "rating": null,
+      "alcohol": 12,
+      "alcohol_max": null,
+      "temperature": "6-8",
+      "description": "Свежий, чистый аромат с нотами зеленого яблока, цитрусовых, груши, белых цветов и легкими минеральными или медовыми оттенками. Во вкусе оно легкое и гармоничное, с яркой кислотностью, деликатной сладостью и сбалансированным фруктово-минеральным послевкусием.",
+      "color_gradient": "linear-gradient(180deg, #FCFBDF 0%, #F0EFD5 100%)",
+      "grapes": [
+        "Рислинг"
+      ],
+      "dishes": [
+        "Блюда из рыбы",
+        "Закуски",
+        "Кухни народов мира",
+        "Морепродукты"
+      ],
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/910/910/resize/uploads/MAX_02346_1_edcbff60a1.webp",
+      "image_alt": "Рислинг",
+      "source_url": "https://vino-svoe.ru/wines/risling-2",
+      "image_local": "images/risling-2.webp"
+    },
+    {
+      "slug": "veselaya-gorka",
+      "title": "Веселая горка",
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "manufacturer_slug": "litavshchuk-vineyards-and-winery",
+      "region": "Кубань",
+      "category": "Красное полусладкое",
+      "color": "Рубиновый",
+      "public_rating": null,
+      "rating": null,
+      "alcohol": 12,
+      "alcohol_max": null,
+      "temperature": "15-18",
+      "description": "Аромат насыщенный , гармоничный с доминирующими тонами спелой вишни, сливы, черной смородины и красных ягод, с легкими нюансами специй, шоколада или древесных оттенков. Во вкусе мягкое, с бархатистыми танинами, выразительной фруктовой основой и сбалансированным сладковато-пряным послевкусием.\n\n\n",
+      "color_gradient": "linear-gradient(180deg, #A51B3A 0%, #741D30 100%)",
+      "grapes": [
+        "Мерло"
+      ],
+      "dishes": [
+        "BBQ",
+        "Запеченные овощи",
+        "Кавказская кухня",
+        "Легкие закуски"
+      ],
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/910/910/resize/uploads/MAX_02353_297cd6e851.webp",
+      "image_alt": "Веселая горка",
+      "source_url": "https://vino-svoe.ru/wines/veselaya-gorka",
+      "image_local": "images/veselaya-gorka.webp"
+    },
+    {
+      "slug": "kaberne-sovinon-3",
+      "title": "Каберне Совиньон",
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "manufacturer_slug": "litavshchuk-vineyards-and-winery",
+      "region": "Кубань",
+      "category": "Красное полусухое",
+      "color": "Темно-рубиновый",
+      "public_rating": 5,
+      "rating": null,
+      "alcohol": 12,
+      "alcohol_max": null,
+      "temperature": "15-18",
+      "description": "Насыщенный аромат с доминирующими тонами черной смородины, вишни, сливы и лесных ягод, с оттенками пряностей, сухих трав и легкой древесной нотой. Во вкусе полнотелое и округлое, с мягкими зрелыми танинами, деликатной сладостью в финале и длительным сбалансированным послевкусием с ягодными и пряными нюансами.\n\n",
+      "color_gradient": "linear-gradient(180deg, #A51B3A 0%, #741D30 100%)",
+      "grapes": [
+        "Каберне Совиньон"
+      ],
+      "dishes": [
+        "BBQ",
+        "Брускетты",
+        "Кавказская кухня",
+        "Паста",
+        "Паштеты"
+      ],
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/910/910/resize/uploads/MAX_02337_7ecc0a53a9.webp",
+      "image_alt": "Каберне совньон",
+      "source_url": "https://vino-svoe.ru/wines/kaberne-sovinon-3",
+      "image_local": "images/kaberne-sovinon-3.webp"
+    },
+    {
+      "slug": "domashnyaya-gorka",
+      "title": "Домашняя горка ",
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "manufacturer_slug": "litavshchuk-vineyards-and-winery",
+      "region": "Кубань",
+      "category": "Белое полусладкое",
+      "color": "Светло-золотистый",
+      "public_rating": null,
+      "rating": null,
+      "alcohol": 12,
+      "alcohol_max": null,
+      "temperature": "10-12",
+      "description": "Свежий, фруктовый аромат с нотами цитрусовых и зелёного яблока, дополненный легкими травянистыми оттенками. Во вкусе хорошо сбалансированная сладость с чистым фруктово-минеральным послевкусием",
+      "color_gradient": "linear-gradient(180deg, #FCFBDF 0%, #F0EFD5 100%)",
+      "grapes": [
+        "Совиньон Блан"
+      ],
+      "dishes": [
+        "Азиатская кухня",
+        "Блюда из птицы",
+        "Блюда из рыбы",
+        "Выпечка и десерты",
+        "Салаты"
+      ],
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/910/910/resize/uploads/MAX_02374_8762420674.webp",
+      "image_alt": "Горка",
+      "source_url": "https://vino-svoe.ru/wines/domashnyaya-gorka",
+      "image_local": "images/domashnyaya-gorka.webp"
+    },
+    {
+      "slug": "sovinon-blan-2",
+      "title": "Совиньон Блан",
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "manufacturer_slug": "litavshchuk-vineyards-and-winery",
+      "region": "Кубань",
+      "category": "Белое сухое",
+      "color": "Светло-соломенный",
+      "public_rating": 4.5,
+      "rating": null,
+      "alcohol": 12,
+      "alcohol_max": null,
+      "temperature": "6-8",
+      "description": "Яркий, свежий аромат с доминирующими нотами крыжовника, смородинового листа, цитрусовых и зеленого яблока, с травянистыми и минеральными оттенками. Во вкусе оно легкое и сбалансированное, с выраженной кислотностью, чистой фруктовой основой и длительным освежающим послевкусием.\n\n",
+      "color_gradient": "linear-gradient(180deg, #FCFBDF 0%, #F0EFD5 100%)",
+      "grapes": [
+        "Совиньон Блан"
+      ],
+      "dishes": [
+        "Блюда из рыбы",
+        "Брускетты",
+        "Морепродукты",
+        "Сыры"
+      ],
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/910/910/resize/uploads/MAX_02232_b4e3ff9ae5.webp",
+      "image_alt": "Совблан.",
+      "source_url": "https://vino-svoe.ru/wines/sovinon-blan-2",
+      "image_local": "images/sovinon-blan-2.webp"
+    },
+    {
+      "slug": "pinoy-noir",
+      "title": "Pinoy Noir",
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "manufacturer_slug": "litavshchuk-vineyards-and-winery",
+      "region": "Кубань",
+      "category": "Красное сухое",
+      "color": "Рубиновый",
+      "public_rating": 5,
+      "rating": null,
+      "alcohol": 12,
+      "alcohol_max": null,
+      "temperature": "10-12",
+      "description": "Элегантный, утонченный аромат с доминирующими тонами вишни, малины, клубники и красной смородины, с нюансами розы, подлеска, специй и легкими древесными оттенками. Во вкусе оно легкое или среднетелое, с шелковистыми танинами, яркой кислотностью и сбалансированным ягодным профилем, завершающимся длительным изящным послевкусием.",
+      "color_gradient": "linear-gradient(180deg, #A51B3A 0%, #741D30 100%)",
+      "grapes": [
+        "Пино Нуар"
+      ],
+      "dishes": [
+        "Закуски",
+        "Мясное ассорти",
+        "Паста",
+        "Сыры"
+      ],
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/910/910/resize/uploads/MAX_02261_50b6c31b32.webp",
+      "image_alt": "Pinot Noir",
+      "source_url": "https://vino-svoe.ru/wines/pinoy-noir",
+      "image_local": "images/pinoy-noir.webp"
+    },
+    {
+      "slug": "merlo-2",
+      "title": "Мерло",
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "manufacturer_slug": "litavshchuk-vineyards-and-winery",
+      "region": "Кубань",
+      "category": "Красное сухое",
+      "color": "Темно-рубиновый",
+      "public_rating": null,
+      "rating": null,
+      "alcohol": 14,
+      "alcohol_max": null,
+      "temperature": "15-18",
+      "description": "Обладает гармоничным, округлым ароматом с доминирующими тонами спелой вишни, сливы, черной смородины и красных ягод, с нюансами пряностей, подлеска и легкими древесными оттенками. Во вкусе  мягкое и сбалансированное, с бархатистыми танинами, сочной фруктовой основой и длительным сухим послевкусием с ягодными и пряными нюансами.",
+      "color_gradient": "linear-gradient(180deg, #A51B3A 0%, #741D30 100%)",
+      "grapes": [
+        "Мерло"
+      ],
+      "dishes": [
+        "BBQ",
+        "Брускетты",
+        "Кавказская кухня",
+        "Мясное ассорти",
+        "Сыры"
+      ],
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/910/910/resize/uploads/MAX_02299_1_9c99c57b86.webp",
+      "image_alt": "Мерло",
+      "source_url": "https://vino-svoe.ru/wines/merlo-2",
+      "image_local": "images/merlo-2.webp"
+    },
+    {
+      "slug": "muskat",
+      "title": "Мускат",
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "manufacturer_slug": "litavshchuk-vineyards-and-winery",
+      "region": "Кубань",
+      "category": "Белое полусухое",
+      "color": "Светло-соломенный",
+      "public_rating": 5,
+      "rating": null,
+      "alcohol": 12,
+      "alcohol_max": null,
+      "temperature": "10-12",
+      "description": "Яркий, цветочно-фруктовый аромат с доминирующими нотами белого цвета, розы, апельсинового цвета, спелого винограда, персика и абрикоса, с медовыми и цитрусовыми оттенками. Во вкусе мягкое и гармоничное, с нежной фруктовой сладостью, сбалансированной освежающей кислотностью, и длительным свежим послевкусием, дополненным цветочными и медовыми нюансами.",
+      "color_gradient": "linear-gradient(180deg, #FCFBDF 0%, #F0EFD5 100%)",
+      "grapes": [
+        "Мускат"
+      ],
+      "dishes": [
+        "Выпечка и десерты",
+        "Закуски",
+        "Морепродукты",
+        "Пицца",
+        "Сыры"
+      ],
+      "image_source_url": "https://api.vino-svoe.ru/v1/img/str-api/910/910/resize/uploads/MAX_02198_1_c52c0cfeec.webp",
+      "image_alt": "Мускат",
+      "source_url": "https://vino-svoe.ru/wines/muskat",
+      "image_local": "images/muskat.webp"
     }
   ]
 }

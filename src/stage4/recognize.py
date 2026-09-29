@@ -8,8 +8,8 @@ from typing import Any
 
 import numpy as np
 
-from stage1.catalog import write_jsonl
-from stage3.baseline import ranked, ranked_candidates
+from stage1.catalog import read_jsonl, write_jsonl
+from stage3.baseline import ranked
 from stage3.embeddings import Dinov2Embedder, query_views
 from stage3.index import DEFAULT_OUTPUT_DIR as STAGE3_INDEX_DIR
 from stage3.index import VisualIndex
@@ -19,6 +19,11 @@ from stage4.baseline import normalize_rows
 from stage4.features import create_ocr_engine, extract_sift, ocr_similarity, run_ocr, sift_similarity
 from stage4.index import DEFAULT_OUTPUT_DIR as STAGE4_INDEX_DIR
 from stage4.index import HybridIndex
+from stage4.manufacturer import (
+    apply_manufacturer_gate,
+    manufacturer_values,
+    resolve_taxonomy_value,
+)
 
 
 DEFAULT_WEIGHTS = {"embedding_weight": 0.45, "sift_weight": 0.15, "ocr_weight": 0.40}
@@ -86,6 +91,7 @@ def recognize_paths(
     candidate_count: int = 30,
     batch_size: int = 8,
     ocr_candidate_count: int = DEFAULT_OCR_CANDIDATE_COUNT,
+    catalog_by_slug: dict[str, dict[str, Any]] | None = None,
 ) -> list[dict[str, Any]]:
     if [str(slug) for slug in visual_index.slugs] != [str(slug) for slug in hybrid_index.slugs]:
         raise ValueError("Stage 3 and stage 4 indexes use a different slug order")
@@ -125,6 +131,36 @@ def recognize_paths(
         candidate_count,
         ocr_candidate_count,
     )
+    manufacturer_matches: list[dict[str, Any]] = []
+    manufacturer_candidate_sets: list[set[int]] = [set() for _ in paths]
+    if catalog_by_slug:
+        manufacturers = manufacturer_values(catalog_by_slug)
+        manufacturer_matches = [
+            resolve_taxonomy_value(result["lines"], manufacturers).to_dict()
+            for result in query_ocr
+        ]
+        candidates, manufacturer_candidate_sets = apply_manufacturer_gate(
+            candidates,
+            all_scores,
+            global_ocr_scores,
+            visual_index.slugs,
+            catalog_by_slug,
+            manufacturer_matches,
+        )
+    else:
+        manufacturer_matches = [
+            {
+                "value": None,
+                "score": 0.0,
+                "runner_up": None,
+                "runner_score": 0.0,
+                "margin": 0.0,
+                "mode": "none",
+                "matched_text": None,
+                "candidate_count": 0,
+            }
+            for _ in paths
+        ]
     raw_embedding = np.take_along_axis(all_scores, candidates, axis=1)
     embedding_scores = normalize_rows(raw_embedding)
 
@@ -149,41 +185,57 @@ def recognize_paths(
         + weights["sift_weight"] * sift_scores
         + weights["ocr_weight"] * ocr_scores
     )
-    indices, scores = ranked_candidates(candidates, final_scores, top_k)
-    order = np.argsort(-final_scores, axis=1)[:, :top_k]
-    ranked_embedding = np.take_along_axis(embedding_scores, order, axis=1)
-    ranked_sift = np.take_along_axis(sift_scores, order, axis=1)
-    ranked_inliers = np.take_along_axis(sift_inliers, order, axis=1)
-    ranked_ocr = np.take_along_axis(ocr_scores, order, axis=1)
+    gated_columns: list[np.ndarray] = []
+    for row, allowed in enumerate(manufacturer_candidate_sets):
+        if allowed:
+            valid = np.asarray(
+                [column for column, candidate in enumerate(candidates[row]) if int(candidate) in allowed],
+                dtype=np.int64,
+            )
+        else:
+            valid = np.arange(candidates.shape[1], dtype=np.int64)
+        ordered = valid[np.argsort(-final_scores[row, valid])]
+        gated_columns.append(ordered[: min(top_k, len(ordered))])
     total_ms = (time.perf_counter() - total_started) * 1000
     count = max(len(paths), 1)
 
     results = []
     for row, path in enumerate(paths):
+        order = gated_columns[row]
         predictions = [
             {
-                "slug": str(visual_index.slugs[index]),
-                "score": float(scores[row, rank]),
-                "embedding_score": float(ranked_embedding[row, rank]),
-                "sift_score": float(ranked_sift[row, rank]),
-                "sift_inliers": int(ranked_inliers[row, rank]),
-                "ocr_score": float(ranked_ocr[row, rank]),
+                "slug": str(visual_index.slugs[candidates[row, column]]),
+                "score": float(final_scores[row, column]),
+                "embedding_score": float(embedding_scores[row, column]),
+                "sift_score": float(sift_scores[row, column]),
+                "sift_inliers": int(sift_inliers[row, column]),
+                "ocr_score": float(ocr_scores[row, column]),
                 "candidate_sources": [
                     source
                     for source, selected in (
-                        ("visual", int(index) in visual_candidate_sets[row]),
-                        ("ocr", int(index) in ocr_candidate_sets[row]),
+                        ("visual", int(candidates[row, column]) in visual_candidate_sets[row]),
+                        ("ocr", int(candidates[row, column]) in ocr_candidate_sets[row]),
+                        (
+                            "manufacturer",
+                            int(candidates[row, column]) in manufacturer_candidate_sets[row],
+                        ),
                     )
                     if selected
                 ],
             }
-            for rank, index in enumerate(indices[row])
+            for column in order
         ]
-        winner = int(indices[row, 0])
+        winner = int(candidates[row, order[0]])
         candidate_view_scores = view_scores[row][:, candidates[row]]
         winner_column = int(np.flatnonzero(candidates[row] == winner)[0])
+        if manufacturer_candidate_sets[row]:
+            allowed_mask = np.asarray(
+                [int(candidate) in manufacturer_candidate_sets[row] for candidate in candidates[row]]
+            )
+            candidate_view_scores = candidate_view_scores.copy()
+            candidate_view_scores[:, ~allowed_mask] = -np.inf
         per_view_top1 = np.argmax(candidate_view_scores, axis=1)
-        view_top_k = min(5, candidate_view_scores.shape[1])
+        view_top_k = min(5, len(order))
         per_view_top5 = np.argpartition(
             -candidate_view_scores, view_top_k - 1, axis=1
         )[:, :view_top_k]
@@ -208,6 +260,7 @@ def recognize_paths(
                 "slug": predictions[0]["slug"],
                 "predictions": predictions,
                 "ocr_lines": query_ocr[row]["lines"],
+                "manufacturer_match": manufacturer_matches[row],
                 "crop_consistency": crop_consistency,
                 "weights": weights,
                 "timing_ms": {
@@ -226,6 +279,11 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("path", type=Path)
     parser.add_argument("--visual-index", type=Path, default=STAGE3_INDEX_DIR / "index.npz")
     parser.add_argument("--hybrid-index-dir", type=Path, default=STAGE4_INDEX_DIR)
+    parser.add_argument(
+        "--catalog-manifest",
+        type=Path,
+        default=Path("data/artifacts/stage1/catalog_manifest.jsonl"),
+    )
     parser.add_argument(
         "--weights-report", type=Path, default=STAGE4_BASELINE_DIR / "stage4_report.json"
     )
@@ -247,6 +305,8 @@ def main() -> int:
         raise ValueError(f"No supported images found: {args.path}")
     visual_index = VisualIndex.load(args.visual_index)
     hybrid_index = HybridIndex.load(args.hybrid_index_dir)
+    catalog = read_jsonl(args.catalog_manifest)
+    catalog_by_slug = {str(record["slug"]): record for record in catalog}
     embedder = Dinov2Embedder(args.model or visual_index.model_name, args.device, args.local_files_only)
     if embedder.embedding_size != visual_index.full.shape[1]:
         raise ValueError("DINOv2 model and visual index embedding sizes differ")
@@ -263,6 +323,7 @@ def main() -> int:
         args.candidate_count,
         args.batch_size,
         args.ocr_candidate_count,
+        catalog_by_slug,
     )
     if args.output:
         write_jsonl(args.output, results)

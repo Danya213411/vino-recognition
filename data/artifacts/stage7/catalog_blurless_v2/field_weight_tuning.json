@@ -1,0 +1,245 @@
+{
+  "calibration_count": 29,
+  "evaluation": {
+    "field_robust_selected": {
+      "all_labeled": {
+        "count": 57,
+        "mrr": 0.8593567251461989,
+        "top1": 0.7894736842105263,
+        "top1_correct": 45,
+        "top5": 0.9824561403508771,
+        "top5_correct": 56
+      },
+      "calibration": {
+        "count": 29,
+        "mrr": 0.8603448275862069,
+        "top1": 0.7931034482758621,
+        "top1_correct": 23,
+        "top5": 0.9655172413793104,
+        "top5_correct": 28
+      },
+      "test": {
+        "count": 19,
+        "mrr": 0.8175438596491228,
+        "top1": 0.7368421052631579,
+        "top1_correct": 14,
+        "top5": 1.0,
+        "top5_correct": 19
+      },
+      "validation": {
+        "count": 9,
+        "mrr": 0.9444444444444444,
+        "top1": 0.8888888888888888,
+        "top1_correct": 8,
+        "top5": 1.0,
+        "top5_correct": 9
+      },
+      "weights": {
+        "embedding_weight": 0.45,
+        "ocr_weight": 0.5,
+        "sift_weight": 0.05
+      }
+    },
+    "field_safe_selected": {
+      "all_labeled": {
+        "count": 57,
+        "mrr": 0.8426900584795322,
+        "top1": 0.7543859649122807,
+        "top1_correct": 43,
+        "top5": 0.9649122807017544,
+        "top5_correct": 55
+      },
+      "calibration": {
+        "count": 29,
+        "mrr": 0.8879310344827587,
+        "top1": 0.8275862068965517,
+        "top1_correct": 24,
+        "top5": 0.9655172413793104,
+        "top5_correct": 28
+      },
+      "test": {
+        "count": 19,
+        "mrr": 0.7254385964912281,
+        "top1": 0.5789473684210527,
+        "top1_correct": 11,
+        "top5": 0.9473684210526315,
+        "top5_correct": 18
+      },
+      "validation": {
+        "count": 9,
+        "mrr": 0.9444444444444444,
+        "top1": 0.8888888888888888,
+        "top1_correct": 8,
+        "top5": 1.0,
+        "top5_correct": 9
+      },
+      "weights": {
+        "embedding_weight": 0.55,
+        "ocr_weight": 0.39999999999999997,
+        "sift_weight": 0.05
+      }
+    },
+    "field_unconstrained": {
+      "all_labeled": {
+        "count": 57,
+        "mrr": 0.8426900584795322,
+        "top1": 0.7543859649122807,
+        "top1_correct": 43,
+        "top5": 0.9649122807017544,
+        "top5_correct": 55
+      },
+      "calibration": {
+        "count": 29,
+        "mrr": 0.8879310344827587,
+        "top1": 0.8275862068965517,
+        "top1_correct": 24,
+        "top5": 0.9655172413793104,
+        "top5_correct": 28
+      },
+      "test": {
+        "count": 19,
+        "mrr": 0.7254385964912281,
+        "top1": 0.5789473684210527,
+        "top1_correct": 11,
+        "top5": 0.9473684210526315,
+        "top5_correct": 18
+      },
+      "validation": {
+        "count": 9,
+        "mrr": 0.9444444444444444,
+        "top1": 0.8888888888888888,
+        "top1_correct": 8,
+        "top5": 1.0,
+        "top5_correct": 9
+      },
+      "weights": {
+        "embedding_weight": 0.55,
+        "ocr_weight": 0.39999999999999997,
+        "sift_weight": 0.05
+      }
+    },
+    "legacy_production": {
+      "all_labeled": {
+        "count": 57,
+        "mrr": 0.8241436925647452,
+        "top1": 0.7192982456140351,
+        "top1_correct": 41,
+        "top5": 0.9649122807017544,
+        "top5_correct": 55
+      },
+      "calibration": {
+        "count": 29,
+        "mrr": 0.8210180623973727,
+        "top1": 0.7241379310344828,
+        "top1_correct": 21,
+        "top5": 0.9310344827586207,
+        "top5_correct": 27
+      },
+      "test": {
+        "count": 19,
+        "mrr": 0.7456140350877193,
+        "top1": 0.5789473684210527,
+        "top1_correct": 11,
+        "top5": 1.0,
+        "top5_correct": 19
+      },
+      "validation": {
+        "count": 9,
+        "mrr": 1.0,
+        "top1": 1.0,
+        "top1_correct": 9,
+        "top5": 1.0,
+        "top5_correct": 9
+      },
+      "weights": {
+        "embedding_weight": 0.45,
+        "ocr_weight": 0.4,
+        "sift_weight": 0.15
+      }
+    },
+    "previous_deployed": {
+      "all_labeled": {
+        "count": 57,
+        "mrr": 0.8593567251461989,
+        "top1": 0.7894736842105263,
+        "top1_correct": 45,
+        "top5": 0.9824561403508771,
+        "top5_correct": 56
+      },
+      "calibration": {
+        "count": 29,
+        "mrr": 0.8603448275862069,
+        "top1": 0.7931034482758621,
+        "top1_correct": 23,
+        "top5": 0.9655172413793104,
+        "top5_correct": 28
+      },
+      "test": {
+        "count": 19,
+        "mrr": 0.8175438596491228,
+        "top1": 0.7368421052631579,
+        "top1_correct": 14,
+        "top5": 1.0,
+        "top5_correct": 19
+      },
+      "validation": {
+        "count": 9,
+        "mrr": 0.9444444444444444,
+        "top1": 0.8888888888888888,
+        "top1_correct": 8,
+        "top5": 1.0,
+        "top5_correct": 9
+      },
+      "weights": {
+        "embedding_weight": 0.45,
+        "ocr_weight": 0.5,
+        "sift_weight": 0.05
+      }
+    },
+    "synthetic_blurless": {
+      "all_labeled": {
+        "count": 57,
+        "mrr": 0.7438596491228071,
+        "top1": 0.631578947368421,
+        "top1_correct": 36,
+        "top5": 0.9298245614035088,
+        "top5_correct": 53
+      },
+      "calibration": {
+        "count": 29,
+        "mrr": 0.7425287356321838,
+        "top1": 0.6551724137931034,
+        "top1_correct": 19,
+        "top5": 0.896551724137931,
+        "top5_correct": 26
+      },
+      "test": {
+        "count": 19,
+        "mrr": 0.650877192982456,
+        "top1": 0.47368421052631576,
+        "top1_correct": 9,
+        "top5": 0.9473684210526315,
+        "top5_correct": 18
+      },
+      "validation": {
+        "count": 9,
+        "mrr": 0.9444444444444444,
+        "top1": 0.8888888888888888,
+        "top1_correct": 8,
+        "top5": 1.0,
+        "top5_correct": 9
+      },
+      "weights": {
+        "embedding_weight": 0.35,
+        "ocr_weight": 0.25,
+        "sift_weight": 0.4
+      }
+    }
+  },
+  "labeled_count": 57,
+  "schema_version": 1,
+  "selection_objective": "report calibration/validation/test selection and deploy only weights that do not regress the currently deployed Top1 or Top5 on any split",
+  "split_rule": "SHA1(expected_slug) mod 5: 0..2 calibration, 3 validation, 4 test; duplicate photos of one slug stay together",
+  "test_count": 19,
+  "validation_count": 9
+}

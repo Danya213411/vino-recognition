@@ -80,9 +80,10 @@ export function CalibrationWorkspace() {
                   <strong>Первый вариант определён правильно?</strong>
                   <div className="feedback-actions">
                     <button className="button button--primary" onClick={() => answer("correct")}>Да, правильно</button>
-                    <button className="button button--ghost" onClick={() => answer("not_in_catalog")}>Этого вина нет</button>
+                    <button className="button button--ghost" onClick={() => answer("not_in_catalog")}>Правильного нет среди вариантов</button>
+                    <button className="button button--danger-soft" onClick={() => answer("not_in_store")}>Этого вина нет в магазине</button>
                   </div>
-                  <small>Если верный вариант ниже — нажмите «Это оно» в его строке.</small>
+                  <small>Если верный вариант ниже — нажмите «Это оно» в его строке. «Нет в магазине» означает, что модель физически не могла найти эту бутылку в каталоге магазина.</small>
                 </>
               )}
             </div>

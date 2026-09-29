@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="510" viewBox="0 0 1100 510">
+<rect width="100%" height="100%" fill="#fbf7ed"/>
+<text x="55" y="30" font-family="Arial" font-size="20" fill="#302b28">Медианная резкость detail-crop (Laplacian variance, 512 px)</text>
+<line x1="85" y1="410.0" x2="1075" y2="410.0" stroke="#d9d1c3"/>
+<text x="75" y="415.0" text-anchor="end" font-family="Arial" font-size="13" fill="#615a54">0</text>
+<line x1="85" y1="339.0" x2="1075" y2="339.0" stroke="#d9d1c3"/>
+<text x="75" y="344.0" text-anchor="end" font-family="Arial" font-size="13" fill="#615a54">2139</text>
+<line x1="85" y1="268.0" x2="1075" y2="268.0" stroke="#d9d1c3"/>
+<text x="75" y="273.0" text-anchor="end" font-family="Arial" font-size="13" fill="#615a54">4278</text>
+<line x1="85" y1="197.0" x2="1075" y2="197.0" stroke="#d9d1c3"/>
+<text x="75" y="202.0" text-anchor="end" font-family="Arial" font-size="13" fill="#615a54">6418</text>
+<line x1="85" y1="126.0" x2="1075" y2="126.0" stroke="#d9d1c3"/>
+<text x="75" y="131.0" text-anchor="end" font-family="Arial" font-size="13" fill="#615a54">8557</text>
+<line x1="85" y1="55.0" x2="1075" y2="55.0" stroke="#d9d1c3"/>
+<text x="75" y="60.0" text-anchor="end" font-family="Arial" font-size="13" fill="#615a54">10696</text>
+<rect x="108.5" y="359.5" width="76.7" height="50.5" rx="5" fill="#9f3047"/>
+<text x="146.9" y="351.5" text-anchor="middle" font-family="Arial" font-size="13" fill="#302b28">1522</text>
+<text x="146.9" y="434" text-anchor="middle" font-family="Arial" font-size="13" fill="#302b28" transform="rotate(-25 146.9 434)">background</text>
+<rect x="232.3" y="357.1" width="76.7" height="52.9" rx="5" fill="#9f3047"/>
+<text x="270.6" y="349.1" text-anchor="middle" font-family="Arial" font-size="13" fill="#302b28">1595</text>
+<text x="270.6" y="434" text-anchor="middle" font-family="Arial" font-size="13" fill="#302b28" transform="rotate(-25 270.6 434)">perspective</text>
+<rect x="356.0" y="366.2" width="76.7" height="43.8" rx="5" fill="#9f3047"/>
+<text x="394.4" y="358.2" text-anchor="middle" font-family="Arial" font-size="13" fill="#302b28">1319</text>
+<text x="394.4" y="434" text-anchor="middle" font-family="Arial" font-size="13" fill="#302b28" transform="rotate(-25 394.4 434)">glare</text>
+<rect x="479.8" y="369.3" width="76.7" height="40.7" rx="5" fill="#9f3047"/>
+<text x="518.1" y="361.3" text-anchor="middle" font-family="Arial" font-size="13" fill="#302b28">1226</text>
+<text x="518.1" y="434" text-anchor="middle" font-family="Arial" font-size="13" fill="#302b28" transform="rotate(-25 518.1 434)">crop</text>
+<rect x="603.5" y="403.4" width="76.7" height="6.6" rx="5" fill="#9f3047"/>
+<text x="641.9" y="395.4" text-anchor="middle" font-family="Arial" font-size="13" fill="#302b28">200</text>
+<text x="641.9" y="434" text-anchor="middle" font-family="Arial" font-size="13" fill="#302b28" transform="rotate(-25 641.9 434)">compression</text>
+<rect x="727.3" y="407.9" width="76.7" height="2.1" rx="5" fill="#9f3047"/>
+<text x="765.6" y="399.9" text-anchor="middle" font-family="Arial" font-size="13" fill="#302b28">63</text>
+<text x="765.6" y="434" text-anchor="middle" font-family="Arial" font-size="13" fill="#302b28" transform="rotate(-25 765.6 434)">blur</text>
+<rect x="851.0" y="408.9" width="76.7" height="1.1" rx="5" fill="#9f3047"/>
+<text x="889.4" y="400.9" text-anchor="middle" font-family="Arial" font-size="13" fill="#302b28">33</text>
+<text x="889.4" y="434" text-anchor="middle" font-family="Arial" font-size="13" fill="#302b28" transform="rotate(-25 889.4 434)">combined</text>
+<rect x="974.8" y="93.0" width="76.7" height="317.0" rx="5" fill="#173f35"/>
+<text x="1013.1" y="85.0" text-anchor="middle" font-family="Arial" font-size="13" fill="#302b28">9550</text>
+<text x="1013.1" y="434" text-anchor="middle" font-family="Arial" font-size="13" fill="#302b28" transform="rotate(-25 1013.1 434)">real</text>
+</svg>
