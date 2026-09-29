@@ -6,6 +6,7 @@ import { analyzePhoto } from "@/shared/api/client";
 import type { Analysis } from "@/shared/api/contracts";
 import { getSessionId } from "@/shared/lib/session";
 import { PhotoInput } from "@/shared/ui/PhotoInput";
+import { TopCandidates } from "@/features/recognition/TopCandidates";
 
 export function RecognitionWorkspace() {
   const [analysis, setAnalysis] = useState<Analysis>();
@@ -44,6 +45,7 @@ export function RecognitionWorkspace() {
         {busy && <div className="processing-banner"><div className="loader" />Сверяем новый кадр с каталогом…</div>}
         {error && <div className="notice notice--error" role="alert">{error}</div>}
         <WineDetail wine={analysis.wine} decision={analysis.decision} action={retake} />
+        <TopCandidates predictions={analysis.predictions} />
       </div>
     );
   }

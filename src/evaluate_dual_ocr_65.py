@@ -53,6 +53,7 @@ HYBRID_INDEX = ROOT / "data/artifacts/stage4/index"
 MODEL = ROOT / "data/artifacts/stage5/confidence_model.json"
 CURRENT_RESULTS = ROOT / "data/artifacts/stage7/catalog_blurless_v2/field_66_robust_predictions.jsonl"
 OUTPUT_DIR = ROOT / "data/artifacts/stage8/dual_ocr_65"
+MANUAL_LABELS = OUTPUT_DIR / "manual_labels.json"
 PREDICTIONS = OUTPUT_DIR / "predictions.jsonl"
 REPORT_JSON = OUTPUT_DIR / "report.json"
 REPORT_MD = OUTPUT_DIR / "report.md"
@@ -225,6 +226,9 @@ def rank_metrics(rows: list[dict[str, Any]], rank_key: str) -> dict[str, Any]:
 
 def main() -> int:
     manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))
+    manual_labels = {}
+    if MANUAL_LABELS.is_file():
+        manual_labels = json.loads(MANUAL_LABELS.read_text(encoding="utf-8"))
     rapid = rows_by(RAPID_RAW, "name")
     glm = rows_by(GLM_RAW, "name")
     previous = rows_by(CURRENT_RESULTS, "file")
@@ -414,7 +418,7 @@ def main() -> int:
         verified = is_multimodal_verified(prediction_rows[0], evidence)
         confidence = max(calibrated, 0.95) if verified else calibrated
         decision = "match" if verified else confidence_model.decision(confidence)
-        expected = item.get("correct_slug")
+        expected = manual_labels.get(item["name"], item.get("correct_slug"))
         slugs = [prediction["slug"] for prediction in prediction_rows]
         expected_rank = slugs.index(expected) + 1 if expected and expected in slugs else None
         previous_row = previous.get(item["name"], {})
