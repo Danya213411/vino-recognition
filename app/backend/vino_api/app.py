@@ -199,6 +199,22 @@ def create_app(
         result = await analyze_upload(request, file, "user", owner_session)
         return {"slug": str(result["candidate_slug"])}
 
+    @application.post("/v1/eval/predict", response_model=FlatRecognition, tags=["evaluation"])
+    async def evaluate_predict(
+        request: Request,
+        image: Annotated[UploadFile, File(description="Контрольное изображение")],
+        x_session_id: Annotated[str | None, Header(alias="X-Session-ID")] = None,
+    ) -> dict[str, str]:
+        """Compatibility contract used by the case-holder evaluation script.
+
+        The evaluator sends the multipart field ``image`` to this path and
+        expects a flat JSON object with one ``slug``. Keep the production API
+        above unchanged: this endpoint is only an adapter at the HTTP boundary.
+        """
+        owner_session = validated_session_id(x_session_id or "case-eval-local")
+        result = await analyze_upload(request, image, "user", owner_session)
+        return {"slug": str(result["candidate_slug"])}
+
     @application.post("/api/v1/analyze", tags=["recognition"])
     async def analyze(
         request: Request,

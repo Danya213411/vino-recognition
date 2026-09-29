@@ -142,14 +142,25 @@ def test_stage6_full_flow(tmp_path: Path) -> None:
         assert flat.status_code == 200
         assert flat.json() == {"slug": "test-wine"}
 
+        case_eval = client.post(
+            "/v1/eval/predict",
+            files={"image": ("q-000001.jpg", image_bytes(), "image/jpeg")},
+        )
+        assert case_eval.status_code == 200
+        assert case_eval.json() == {"slug": "test-wine"}
+
         assert client.get("/api/v1/admin/stats").status_code == 401
         stats = client.get("/api/v1/admin/stats", headers=admin_headers)
         assert stats.status_code == 200
-        assert stats.json()["recognitions"]["total"] == 2
+        assert stats.json()["recognitions"]["total"] == 3
         assert stats.json()["feedback"]["not_in_store"] == 1
         rows = client.get("/api/v1/admin/recognitions", headers=admin_headers).json()
-        assert rows["total"] == 2
-        assert rows["items"][1]["feedback"]["verdict"] == "not_in_store"
+        assert rows["total"] == 3
+        assert any(
+            item.get("feedback")
+            and item["feedback"]["verdict"] == "not_in_store"
+            for item in rows["items"]
+        )
 
 
 def test_stage6_rejects_invalid_image(tmp_path: Path) -> None:
