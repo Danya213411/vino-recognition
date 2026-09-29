@@ -39,7 +39,11 @@ export function RecognitionWorkspace() {
     </>
   );
 
-  if (analysis && analysis.decision !== "not_found") {
+  // The API returns the same candidate list for user and calibration modes.
+  // Keep the home page transparent as well: a low-confidence result should
+  // still show the candidate card and Top-5 so the user can compare the
+  // bottle, instead of losing the whole analysis behind a retry message.
+  if (analysis) {
     return (
       <div className="recognized-page core-container">
         {busy && <div className="processing-banner"><div className="loader" />Сверяем новый кадр с каталогом…</div>}
@@ -62,7 +66,6 @@ export function RecognitionWorkspace() {
         <div className="recognition-workspace">
           <PhotoInput busy={busy} onSelect={recognize} />
           {error && <div className="notice notice--error" role="alert">{error}</div>}
-          {analysis?.decision === "not_found" && <article className="no-match-card"><span className="eyebrow">Совпадение не подтверждено</span><h2>Не хотим угадывать</h2><p>Попробуйте снять этикетку ближе и без блика — текущий кадр не подтвердили одновременно изображение, детали и текст.</p></article>}
         </div>
       </section>
       <section className="how-it-works core-container">

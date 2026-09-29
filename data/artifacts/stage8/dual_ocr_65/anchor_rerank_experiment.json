@@ -1,0 +1,717 @@
+{
+  "anchor_rerank": {
+    "count": 65,
+    "top1": 59,
+    "top1_rate": 0.9076923076923077,
+    "top5": 64,
+    "top5_rate": 0.9846153846153847
+  },
+  "baseline": {
+    "count": 65,
+    "top1": 49,
+    "top1_rate": 0.7538461538461538,
+    "top5": 60,
+    "top5_rate": 0.9230769230769231
+  },
+  "photos": 65,
+  "rows": [
+    {
+      "baseline_rank": 2,
+      "baseline_slug": "denisov_pino_noir_klaret",
+      "expected_slug": "denisov_rubin_klaret_krasnaya_strelka",
+      "file": "48.98_02-09-2026_18-34-15.webp",
+      "matched_rule": "Denisov + Красная стрелка + Рубин",
+      "ocr": "camapa denisov стрелка kpachaa py6иh самара красная рубин",
+      "selected_rank": 1,
+      "selected_slug": "denisov_rubin_klaret_krasnaya_strelka"
+    },
+    {
+      "baseline_rank": 1,
+      "baseline_slug": "fanagoriya-formula-q-kaberne-sovinon-krasnoe-suhoe-135",
+      "expected_slug": "fanagoriya-formula-q-kaberne-sovinon-krasnoe-suhoe-135",
+      "file": "70.45_04-09-2026_13-35-37.webp",
+      "matched_rule": null,
+      "ocr": "2998 noblesse oblige формула fanagoria мерло 2022 сanerabm 2024 panckar на винограда темирах поделенных урна сбор с наших душих виноградных ассоцима французского мерурного каберне совиньон 2021 фрасностол золотовский 2023 саперави 2024",
+      "selected_rank": 1,
+      "selected_slug": "fanagoriya-formula-q-kaberne-sovinon-krasnoe-suhoe-135"
+    },
+    {
+      "baseline_rank": 99,
+      "baseline_slug": "leto-risling-2024-polusuhoe-vino",
+      "expected_slug": "skalistyj-bereg-shepot-czvetov",
+      "file": "82.33_27-08-2026_10-03-52.webp",
+      "matched_rule": null,
+      "ocr": "ibe скалис бере осн 2010 пепс пве",
+      "selected_rank": 99,
+      "selected_slug": "leto-risling-2024-polusuhoe-vino"
+    },
+    {
+      "baseline_rank": 1,
+      "baseline_slug": "zhemchuzhnaya-9-aligote-czitron",
+      "expected_slug": "zhemchuzhnaya-9-aligote-czitron",
+      "file": "84.73_07-09-2026_11-07-51.webp",
+      "matched_rule": null,
+      "ocr": "9 2024 алиготе белое сухое жемчужная цитрон",
+      "selected_rank": 1,
+      "selected_slug": "zhemchuzhnaya-9-aligote-czitron"
+    },
+    {
+      "baseline_rank": 3,
+      "baseline_slug": "rubin-golodrigi",
+      "expected_slug": "pobeda",
+      "file": "87.09_22-08-2026_20-57-16.webp",
+      "matched_rule": "Tabia + blend tokens from Победа",
+      "ocr": "1945 винодельня табия рубин голодриги тираж ledegd odega каберне совиньон мерло",
+      "selected_rank": 1,
+      "selected_slug": "pobeda"
+    },
+    {
+      "baseline_rank": 1,
+      "baseline_slug": "relikta-relikta-sira-kaberne-fran-krasnoe-suhoe-13",
+      "expected_slug": "relikta-relikta-sira-kaberne-fran-krasnoe-suhoe-13",
+      "file": "87.54_03-09-2026_13-27-53.webp",
+      "matched_rule": null,
+      "ocr": "2024 каберне реликта год урожая вино красное фпан cyxoe cnpa еликта сира каберне фран сухое",
+      "selected_rank": 1,
+      "selected_slug": "relikta-relikta-sira-kaberne-fran-krasnoe-suhoe-13"
+    },
+    {
+      "baseline_rank": 4,
+      "baseline_slug": "aya-organic-wine-vineyards-purity-in-syrah-sira-rozovoe-suhoe-132",
+      "expected_slug": "aya-organic-wine-vineyards-purity-in-chenin-blanc-shenen-blan-beloe-suhoe-11",
+      "file": "87.81_09-09-2026_17-16-36.webp",
+      "matched_rule": null,
+      "ocr": "purity vf urity balance 2025",
+      "selected_rank": 4,
+      "selected_slug": "aya-organic-wine-vineyards-purity-in-syrah-sira-rozovoe-suhoe-132"
+    },
+    {
+      "baseline_rank": 99,
+      "baseline_slug": "massandra-portveyn-belyy-gurzuf-kokur-belyy-beloe-sladkoe-135",
+      "expected_slug": "massandra-muskatel-belyy-belye-sorta-vinograda-beloe-sladkoe-16",
+      "file": "87.88_28-08-2026_16-56-20.webp",
+      "matched_rule": "Massandra + Мускатель + белый",
+      "ocr": "2023 производст 1894 mac myck белый год урожая kpacho 0 751 0 75л вино россии годоснования pa сыдернка в дубе codemben bи объеди 0 706 год муатель ироксво летвенико аграркое объелники массандра крым 25 09 25 год основания мускатель бельи собственное виноградки 0 75 л",
+      "selected_rank": 1,
+      "selected_slug": "massandra-muskatel-belyy-belye-sorta-vinograda-beloe-sladkoe-16"
+    },
+    {
+      "baseline_rank": 2,
+      "baseline_slug": "zhemchuzhnaya-9-czitron-shardone-1",
+      "expected_slug": "czitronnyj-magaracha-sovinon-blan",
+      "file": "88.38_20-08-2026_18-32-58.webp",
+      "matched_rule": "Aratti + Цитрон + Совиньон блан",
+      "ocr": "2024 жемжная белое полусухое цитрон аратт совиньон блан",
+      "selected_rank": 1,
+      "selected_slug": "czitronnyj-magaracha-sovinon-blan"
+    },
+    {
+      "baseline_rank": 1,
+      "baseline_slug": "rozovoe-zoloto",
+      "expected_slug": "rozovoe-zoloto",
+      "file": "89.65_19-08-2026_19-48-39.webp",
+      "matched_rule": null,
+      "ocr": "2024 табия розовое золото виноаельня полусухое po3oboe винодельня розовое произведено из винограда вырашенного на территории российской федерации",
+      "selected_rank": 1,
+      "selected_slug": "rozovoe-zoloto"
+    },
+    {
+      "baseline_rank": 1,
+      "baseline_slug": "aratti-kaberne-sovinon-2021-krasnoe-suhoe",
+      "expected_slug": "aratti-kaberne-sovinon-2021-krasnoe-suhoe",
+      "file": "91.07_20-08-2026_18-37-46.webp",
+      "matched_rule": null,
+      "ocr": "2021 аратти семейная винодельна аратгти каберне совиньон",
+      "selected_rank": 1,
+      "selected_slug": "aratti-kaberne-sovinon-2021-krasnoe-suhoe"
+    },
+    {
+      "baseline_rank": 1,
+      "baseline_slug": "merlo-2",
+      "expected_slug": "merlo-2",
+      "file": "91.43_02-09-2026_12-08-50.webp",
+      "matched_rule": null,
+      "ocr": "семейная винодельня сухое красное литавщуков lepлo медло фермерское вино сделано в винной деревне кубань анапа",
+      "selected_rank": 1,
+      "selected_slug": "merlo-2"
+    },
+    {
+      "baseline_rank": 1,
+      "baseline_slug": "belaya-lvicza",
+      "expected_slug": "belaya-lvicza",
+      "file": "92.21_19-08-2026_18-57-31.webp",
+      "matched_rule": null,
+      "ocr": "hyap aratti белая cwauoe ьвица 3овый львица российское вино с згу полусладкое белое",
+      "selected_rank": 1,
+      "selected_slug": "belaya-lvicza"
+    },
+    {
+      "baseline_rank": 1,
+      "baseline_slug": "aratti-kaberne-sovinon-2020-krasnoe-suhoe",
+      "expected_slug": "aratti-kaberne-sovinon-2020-krasnoe-suhoe",
+      "file": "92.6_07-09-2026_11-04-40.webp",
+      "matched_rule": null,
+      "ocr": "2020 семейная винодельня tpammu трами каберне совиньон эгу кубань анапа",
+      "selected_rank": 1,
+      "selected_slug": "aratti-kaberne-sovinon-2020-krasnoe-suhoe"
+    },
+    {
+      "baseline_rank": 1,
+      "baseline_slug": "aratti-kaberne-sovinon-2020-krasnoe-suhoe",
+      "expected_slug": "aratti-kaberne-sovinon-2020-krasnoe-suhoe",
+      "file": "92.96_19-08-2026_21-07-12.webp",
+      "matched_rule": null,
+      "ocr": "2020 згу кубань анапа семейная винодельия каберне совиньон rammu",
+      "selected_rank": 1,
+      "selected_slug": "aratti-kaberne-sovinon-2020-krasnoe-suhoe"
+    },
+    {
+      "baseline_rank": 1,
+      "baseline_slug": "golubitskoe-estate-noble-selection-red-blend-kaberne-sovinon-krasnoe-suhoe-136",
+      "expected_slug": "golubitskoe-estate-noble-selection-red-blend-kaberne-sovinon-krasnoe-suhoe-136",
+      "file": "93.31_05-09-2026_13-39-37.webp",
+      "matched_rule": null,
+      "ocr": "red blend estate golubitskoe 2019 h golubitskoe estate noble selection red blend 2019",
+      "selected_rank": 1,
+      "selected_slug": "golubitskoe-estate-noble-selection-red-blend-kaberne-sovinon-krasnoe-suhoe-136"
+    },
+    {
+      "baseline_rank": 1,
+      "baseline_slug": "denisov_pet_nat_rubin",
+      "expected_slug": "denisov_pet_nat_rubin",
+      "file": "93.43_05-09-2026_13-34-45.webp",
+      "matched_rule": null,
+      "ocr": "170 camapa denisov 1700 пет нат рубин самара",
+      "selected_rank": 1,
+      "selected_slug": "denisov_pet_nat_rubin"
+    },
+    {
+      "baseline_rank": 1,
+      "baseline_slug": "zakat-denisov-vajneri",
+      "expected_slug": "zakat-denisov-vajneri",
+      "file": "93.68_19-08-2026_20-44-28.webp",
+      "matched_rule": null,
+      "ocr": "camapa 3akat деhиcoв deнисов самара закат",
+      "selected_rank": 1,
+      "selected_slug": "zakat-denisov-vajneri"
+    },
+    {
+      "baseline_rank": 1,
+      "baseline_slug": "zakat-denisov-vajneri",
+      "expected_slug": "zakat-denisov-vajneri",
+      "file": "93.84_02-09-2026_17-13-04.webp",
+      "matched_rule": null,
+      "ocr": "camapa 20 3akat денисов deнисов самара закат",
+      "selected_rank": 1,
+      "selected_slug": "zakat-denisov-vajneri"
+    },
+    {
+      "baseline_rank": 99,
+      "baseline_slug": "golubitskoe-estate-red-blend-kaberne-sovinon-krasnoe-suhoe-136",
+      "expected_slug": "golubitskoe-estate-chardonnay",
+      "file": "93.97_28-08-2026_16-02-48.webp",
+      "matched_rule": "Golubitskoe + Chardonnay",
+      "ocr": "2024 chardonnay tamagne estate golubitskoe golubitskaya strelka tamagne 2024",
+      "selected_rank": 1,
+      "selected_slug": "golubitskoe-estate-chardonnay"
+    },
+    {
+      "baseline_rank": 1,
+      "baseline_slug": "rubin-golodrigi",
+      "expected_slug": "rubin-golodrigi",
+      "file": "94.02_24-08-2026_17-46-57.webp",
+      "matched_rule": null,
+      "ocr": "2023 семейная винодельня федерации табия произведено изви вырашенного machoe на территории gtyoe семейная винодельная рубин голодриги красное сухое произведено из винограда вырашенного на территории российской федерации",
+      "selected_rank": 1,
+      "selected_slug": "rubin-golodrigi"
+    },
+    {
+      "baseline_rank": 1,
+      "baseline_slug": "denisov_pazori_risling",
+      "expected_slug": "denisov_pazori_risling",
+      "file": "94.55_02-09-2026_16-53-08.webp",
+      "matched_rule": null,
+      "ocr": "минпромторг camapa denisov tajopu iiрсхб рoсcии самара падори белое брюгг 2022 промторг сии рсх",
+      "selected_rank": 1,
+      "selected_slug": "denisov_pazori_risling"
+    },
+    {
+      "baseline_rank": 4,
+      "baseline_slug": "zhemchuzhnaya-9-czitron-shardone-1",
+      "expected_slug": "czitronnyj-magaracha-sovinon-blan",
+      "file": "94.7_25-08-2026_15-52-07.webp",
+      "matched_rule": "Aratti + Цитрон + Совиньон блан",
+      "ocr": "9 2024 жемчужная цитрон 2 аратти apat совиньон блан белое полусухое",
+      "selected_rank": 1,
+      "selected_slug": "czitronnyj-magaracha-sovinon-blan"
+    },
+    {
+      "baseline_rank": 4,
+      "baseline_slug": "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-1",
+      "expected_slug": "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-2",
+      "file": "94.97_02-09-2026_19-01-48.webp",
+      "matched_rule": null,
+      "ocr": "2024 жемчужная apatt пинонуар озовое полусладкое he совинь кabи 1600 аратти пино нуар мускат розовый розовое полусладкое",
+      "selected_rank": 4,
+      "selected_slug": "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-1"
+    },
+    {
+      "baseline_rank": 1,
+      "baseline_slug": "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11",
+      "expected_slug": "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11",
+      "file": "95.03_04-09-2026_11-39-35.webp",
+      "matched_rule": null,
+      "ocr": "koblesse oblige fanagoria белое ранний сбор 1198 зеленое 10 полусухое алкоголя hизkийtpaд риcлинg 6nho 100 winnes винодельния жозетиода низкий градис бино рислинг цитронный магарача",
+      "selected_rank": 1,
+      "selected_slug": "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11"
+    },
+    {
+      "baseline_rank": 1,
+      "baseline_slug": "zhemchuzhnaya-9-czitron-shardone-1",
+      "expected_slug": "zhemchuzhnaya-9-czitron-shardone-1",
+      "file": "95.24_19-08-2026_20-00-22.webp",
+      "matched_rule": null,
+      "ocr": "2024 жемчужная шардоне цитрон аратти o белое полусладкое",
+      "selected_rank": 1,
+      "selected_slug": "zhemchuzhnaya-9-czitron-shardone-1"
+    },
+    {
+      "baseline_rank": 1,
+      "baseline_slug": "aratti-kaberne-po-belomu-1",
+      "expected_slug": "aratti-kaberne-po-belomu-1",
+      "file": "95.2_05-09-2026_13-54-13.webp",
+      "matched_rule": null,
+      "ocr": "2024 1600 семейная винодельня полусухое kem4y семейная винодельная аратти каберне по белому 70mm",
+      "selected_rank": 1,
+      "selected_slug": "aratti-kaberne-po-belomu-1"
+    },
+    {
+      "baseline_rank": 1,
+      "baseline_slug": "sovinon-blan",
+      "expected_slug": "sovinon-blan",
+      "file": "95.32_02-09-2026_12-09-23.webp",
+      "matched_rule": null,
+      "ocr": "семейная винодельня полусладкое белое 12 литавщуков собиньон совиньон блан полусладкое белое фермерское вино сделано в винной деревне россия кубань анапа 0 75 l 12 5",
+      "selected_rank": 1,
+      "selected_slug": "sovinon-blan"
+    },
+    {
+      "baseline_rank": 2,
+      "baseline_slug": "inkermanskiy-zmv-winemakers-selection-saperavi-krasnoe-polusladkoe-12",
+      "expected_slug": "winemaker-selection",
+      "file": "95.36_28-08-2026_17-09-04.webp",
+      "matched_rule": "Inkerman + Winemaker's Selection + Riesling",
+      "ocr": "19 2025 61 23 election riesling rman man ir an скидка по карте вино инкерман 777 kpachoe цена без карты ian 6eл л сух 0 75 вино полусухое белов puaun p buaun винлаб 19 61 inkerman виино полусухое белое winemaker s selection 1028623 винлаб цена без карты",
+      "selected_rank": 1,
+      "selected_slug": "winemaker-selection"
+    },
+    {
+      "baseline_rank": 2,
+      "baseline_slug": "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj",
+      "expected_slug": "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-1",
+      "file": "95.49_05-09-2026_15-34-51.webp",
+      "matched_rule": null,
+      "ocr": "2024 9 жемчужная apat пинонуар kab 1600 аратти пино нуар мускат розовый розовое полусладкое",
+      "selected_rank": 2,
+      "selected_slug": "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj"
+    },
+    {
+      "baseline_rank": 1,
+      "baseline_slug": "rubin-golodrigi",
+      "expected_slug": "rubin-golodrigi",
+      "file": "95.63_24-08-2026_17-47-43.webp",
+      "matched_rule": null,
+      "ocr": "семейная винодельня произведеноиз табия шенного 2023 hateppиtop красное сухое рубин голодриги произведено из винограда виращенного на территории российской федерации",
+      "selected_rank": 1,
+      "selected_slug": "rubin-golodrigi"
+    },
+    {
+      "baseline_rank": 1,
+      "baseline_slug": "uva-vallis-risling",
+      "expected_slug": "uva-vallis-risling",
+      "file": "95.75_02-09-2026_14-47-49.webp",
+      "matched_rule": null,
+      "ocr": "2023 riesling crimea uua uallis uva vallis levitas",
+      "selected_rank": 1,
+      "selected_slug": "uva-vallis-risling"
+    },
+    {
+      "baseline_rank": 1,
+      "baseline_slug": "denisov_barynya_kurmyshi",
+      "expected_slug": "denisov_barynya_kurmyshi",
+      "file": "95.76_23-08-2026_18-19-43.webp",
+      "matched_rule": null,
+      "ocr": "camapa denisov 4 1700 самара курмыши",
+      "selected_rank": 1,
+      "selected_slug": "denisov_barynya_kurmyshi"
+    },
+    {
+      "baseline_rank": 1,
+      "baseline_slug": "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11",
+      "expected_slug": "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11",
+      "file": "95.88_02-09-2026_14-41-59.webp",
+      "matched_rule": null,
+      "ocr": "полусухое fanagoria белое бнодельня о алк 10 ранний сбор алкоголя зеленое 3epo 2023года doblesse celige низкийградус 6nho pиcлинг top 100 wines баннодельня 2023 года низкий градус noblesse oblige бино рислинг цитронный магарача",
+      "selected_rank": 1,
+      "selected_slug": "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11"
+    },
+    {
+      "baseline_rank": 1,
+      "baseline_slug": "roze-2",
+      "expected_slug": "roze-2",
+      "file": "95.8_19-08-2026_19-33-23.webp",
+      "matched_rule": null,
+      "ocr": "2024 винодельня табия cyxoe po3e po3oboe розе розовое сухое произведено из винограда вырашенного на территории российской федерации",
+      "selected_rank": 1,
+      "selected_slug": "roze-2"
+    },
+    {
+      "baseline_rank": 1,
+      "baseline_slug": "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+      "expected_slug": "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+      "file": "96.05_28-08-2026_09-14-57.webp",
+      "matched_rule": null,
+      "ocr": "дивноморское втораялиния ycaдьba тeppуаp беrернца усадьба терруар вторая линия вереппия",
+      "selected_rank": 1,
+      "selected_slug": "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137"
+    },
+    {
+      "baseline_rank": 1,
+      "baseline_slug": "golubitskoe-estate-kaberne-sovinon-krasnoe-suhoe-137",
+      "expected_slug": "golubitskoe-estate-kaberne-sovinon-krasnoe-suhoe-137",
+      "file": "96.07_28-08-2026_16-10-06.webp",
+      "matched_rule": null,
+      "ocr": "2023 lubits cabernet sauvignon tamagne estate ol gоlubiтsкаya strelкa bi golubitskoe golubitskaya strelka tamagne 2023",
+      "selected_rank": 1,
+      "selected_slug": "golubitskoe-estate-kaberne-sovinon-krasnoe-suhoe-137"
+    },
+    {
+      "baseline_rank": 1,
+      "baseline_slug": "zhemchuzhnaya-9-czitron-shardone-1",
+      "expected_slug": "zhemchuzhnaya-9-czitron-shardone-1",
+      "file": "96.08_22-08-2026_15-12-27.webp",
+      "matched_rule": null,
+      "ocr": "2024 жемчужная цитрон шардоне hьoh 0 аратти белое полусладкое",
+      "selected_rank": 1,
+      "selected_slug": "zhemchuzhnaya-9-czitron-shardone-1"
+    },
+    {
+      "baseline_rank": 3,
+      "baseline_slug": "golubitskoe-rose",
+      "expected_slug": "golubitskoe-estate-merlo-krasnoe-suhoe-135",
+      "file": "96.08_28-08-2026_16-29-50.webp",
+      "matched_rule": "Golubitskoe + Merlot",
+      "ocr": "2022 golubits merlot tamagn r estate go golubitskoe golubitskaya strelka tamagne 2022",
+      "selected_rank": 1,
+      "selected_slug": "golubitskoe-estate-merlo-krasnoe-suhoe-135"
+    },
+    {
+      "baseline_rank": 1,
+      "baseline_slug": "roze-2",
+      "expected_slug": "roze-2",
+      "file": "96.13_19-08-2026_19-33-10.webp",
+      "matched_rule": null,
+      "ocr": "2024 на территории российской федерации произведено из винограда выращенного cyxoe табия po3e винодеаьня 200 po3oboe ahara 000 винодельня розе розовое сухое",
+      "selected_rank": 1,
+      "selected_slug": "roze-2"
+    },
+    {
+      "baseline_rank": 1,
+      "baseline_slug": "roze-2",
+      "expected_slug": "roze-2",
+      "file": "96.15_22-08-2026_20-56-09.webp",
+      "matched_rule": null,
+      "ocr": "2024 cyxoe винодельня табия po3e полусухое po3oboe розе розовое сухое произведено из винограда вырашенного на территории российской федерации",
+      "selected_rank": 1,
+      "selected_slug": "roze-2"
+    },
+    {
+      "baseline_rank": 1,
+      "baseline_slug": "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-1",
+      "expected_slug": "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-1",
+      "file": "96.27_20-08-2026_16-26-30.webp",
+      "matched_rule": null,
+      "ocr": "2024 жемчужная мускат розовый розовое полусухое пино нуар eephec 1600 аратти",
+      "selected_rank": 1,
+      "selected_slug": "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-1"
+    },
+    {
+      "baseline_rank": 1,
+      "baseline_slug": "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+      "expected_slug": "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+      "file": "96.2_28-08-2026_09-13-27.webp",
+      "matched_rule": null,
+      "ocr": "дивноморское вторая линия ycaabba teppyap беrерuуа усадьба террvар вегерпица",
+      "selected_rank": 1,
+      "selected_slug": "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137"
+    },
+    {
+      "baseline_rank": 2,
+      "baseline_slug": "aratti-kaberne-po-belomu-1",
+      "expected_slug": "aratti-kaberne-po-belomu",
+      "file": "96.31_09-09-2026_19-29-01.webp",
+      "matched_rule": null,
+      "ocr": "2024 каберне по белому семейная винодельня 2500 аpаttи аратти",
+      "selected_rank": 2,
+      "selected_slug": "aratti-kaberne-po-belomu-1"
+    },
+    {
+      "baseline_rank": 1,
+      "baseline_slug": "bukovinka",
+      "expected_slug": "bukovinka",
+      "file": "96.31_21-08-2026_17-24-55.webp",
+      "matched_rule": null,
+      "ocr": "винодельня табия буковинка ahapa anara винодельнка состав вино из винограда сорта буковинка изоптивитель ии гана кох писол аа 2025 совственные вино анава сухое произведено из винограда выращенного на территории российской федерации",
+      "selected_rank": 1,
+      "selected_slug": "bukovinka"
+    },
+    {
+      "baseline_rank": 1,
+      "baseline_slug": "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+      "expected_slug": "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+      "file": "96.3_28-08-2026_09-12-56.webp",
+      "matched_rule": null,
+      "ocr": "дивноморское вторая линия ycaдьba teppуap беrерна усадьба терруар верегища",
+      "selected_rank": 1,
+      "selected_slug": "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137"
+    },
+    {
+      "baseline_rank": 1,
+      "baseline_slug": "sovinon-blan",
+      "expected_slug": "sovinon-blan",
+      "file": "96.44_05-09-2026_15-33-59.webp",
+      "matched_rule": null,
+      "ocr": "75 семейная винодельня полусухое белое фермерское вино литавщуков ah севиндон блан сделано в винной деревне россия кубань анапа 0 75 l 12 5",
+      "selected_rank": 1,
+      "selected_slug": "sovinon-blan"
+    },
+    {
+      "baseline_rank": 1,
+      "baseline_slug": "czitronnyj-magaracha",
+      "expected_slug": "czitronnyj-magaracha",
+      "file": "96.45_19-08-2026_19-35-28.webp",
+      "matched_rule": null,
+      "ocr": "2024 табия винодельня цитрон полусyхое бeлоe белое полусухое произведено из винограда выращенного на территории российской федерации",
+      "selected_rank": 1,
+      "selected_slug": "czitronnyj-magaracha"
+    },
+    {
+      "baseline_rank": 1,
+      "baseline_slug": "denisov-winery-risling-beloe-suhoe-115",
+      "expected_slug": "denisov-winery-risling-beloe-suhoe-115",
+      "file": "96.54_04-09-2026_19-30-52.webp",
+      "matched_rule": null,
+      "ocr": "denisov camapa pucun wm самара рисели",
+      "selected_rank": 1,
+      "selected_slug": "denisov-winery-risling-beloe-suhoe-115"
+    },
+    {
+      "baseline_rank": 99,
+      "baseline_slug": "sary-pandas-vyderzhannoe",
+      "expected_slug": "novyy-svet-dom-shampanskih-vin-novyy-svet-polusladkoe-roze-shardone-rozovoe-115",
+      "file": "96.55_30-08-2026_19-34-31.webp",
+      "matched_rule": "Новый Свет + полусладкое розовое",
+      "ocr": "78 18 2023 выдержанное дом шампанских вин новый свъть 18 78 полусладкое розовое российское шампанское",
+      "selected_rank": 1,
+      "selected_slug": "novyy-svet-dom-shampanskih-vin-novyy-svet-polusladkoe-roze-shardone-rozovoe-115"
+    },
+    {
+      "baseline_rank": 1,
+      "baseline_slug": "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11",
+      "expected_slug": "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11",
+      "file": "96.58_05-09-2026_16-05-04.webp",
+      "matched_rule": null,
+      "ocr": "винодельня полусухое noblesse oblige белое ранний сбор fanagoria алкоголя зеленое 2023 года 10 hизkийградус 6uho pуcлинg тор 100 wines низкий градис бино рислинг цитронный магарача",
+      "selected_rank": 1,
+      "selected_slug": "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11"
+    },
+    {
+      "baseline_rank": 1,
+      "baseline_slug": "balaklava-muskat",
+      "expected_slug": "balaklava-muskat",
+      "file": "96.61_28-08-2026_09-16-27.webp",
+      "matched_rule": null,
+      "ocr": "полусладкое балаклава muscat золотая росийское иристое вино 5ал крым 1889 балка мускат полусладкое белое российское игристое вино с защищенным географическим указанием крым",
+      "selected_rank": 1,
+      "selected_slug": "balaklava-muskat"
+    },
+    {
+      "baseline_rank": 1,
+      "baseline_slug": "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11",
+      "expected_slug": "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11",
+      "file": "96.62_07-09-2026_18-12-27.webp",
+      "matched_rule": null,
+      "ocr": "10 noblesse oblige полусухое ранний сбор ck алкоголя fanagoria белое зеленое винодельня bof низкийградс 62 2023года руслинг 6uho иr 100 индоедельния 2013 года низкий градис бино рислинг цитронный магарача",
+      "selected_rank": 1,
+      "selected_slug": "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11"
+    },
+    {
+      "baseline_rank": 2,
+      "baseline_slug": "valeriy-zaharin-avtorskoe-vino-ot-valeriya-zaharina-aleatiko-rozovoe-suhoe-115",
+      "expected_slug": "valeriy-zaharin-bastardo-kefesiya-avtohtonnoe-vino-kryma-bastardo-magarachskiy-krasnoe-suhoe-115",
+      "file": "96.64_26-08-2026_16-52-37.webp",
+      "matched_rule": null,
+      "ocr": "каберне авторское вино любло совиньон валерий захарын с собственных виноградников 2024 российское вино с защищенным географическим указанием",
+      "selected_rank": 2,
+      "selected_slug": "valeriy-zaharin-avtorskoe-vino-ot-valeriya-zaharina-aleatiko-rozovoe-suhoe-115"
+    },
+    {
+      "baseline_rank": 1,
+      "baseline_slug": "kaberne-sovinon-3",
+      "expected_slug": "kaberne-sovinon-3",
+      "file": "96.65_02-09-2026_12-08-51.webp",
+      "matched_rule": null,
+      "ocr": "семейная винодельня 12 4 ское вино 0 751 литавщуков биньон 02 5 5 каденe собиaн кабедие савибал полусухое красное фермерское вино сделано в винной деревне россия кубань анапа 0 75 l",
+      "selected_rank": 1,
+      "selected_slug": "kaberne-sovinon-3"
+    },
+    {
+      "baseline_rank": 1,
+      "baseline_slug": "perovskih_polusuhoe_krasnoe",
+      "expected_slug": "perovskih_polusuhoe_krasnoe",
+      "file": "96.66_22-08-2026_20-44-40.webp",
+      "matched_rule": null,
+      "ocr": "2024 90 дьба kpachoe крым bckиx 1890 усадьба перивских фоодусуное красное",
+      "selected_rank": 1,
+      "selected_slug": "perovskih_polusuhoe_krasnoe"
+    },
+    {
+      "baseline_rank": 1,
+      "baseline_slug": "usadba-mezyb-shishka-kupazh-5-kaberne-sovinon-rozovoe-suhoe-133",
+      "expected_slug": "usadba-mezyb-shishka-kupazh-5-kaberne-sovinon-rozovoe-suhoe-133",
+      "file": "96.74_28-08-2026_13-52-26.webp",
+      "matched_rule": null,
+      "ocr": "2023 kупаж no5 мезыбь ycaд68 усадьба купаж no5",
+      "selected_rank": 1,
+      "selected_slug": "usadba-mezyb-shishka-kupazh-5-kaberne-sovinon-rozovoe-suhoe-133"
+    },
+    {
+      "baseline_rank": 99,
+      "baseline_slug": "muskat",
+      "expected_slug": "pozdnij-sbor-krasnoe",
+      "file": "96.76_07-09-2026_14-57-04.webp",
+      "matched_rule": "Litavshchuk + Поздний сбор",
+      "ocr": "litavshchuk анапа винная деревня vineyards winery поздний 2023 сбор вино сладкое красное собрано вручную",
+      "selected_rank": 1,
+      "selected_slug": "pozdnij-sbor-krasnoe"
+    },
+    {
+      "baseline_rank": 1,
+      "baseline_slug": "oleg",
+      "expected_slug": "oleg",
+      "file": "96.79_20-08-2026_17-48-31.webp",
+      "matched_rule": null,
+      "ocr": "2025 202 табия винодельня cyxoe luu po3o бeлoe аналa олег белое сухое произведено из винограда выращенного на территории российской федерации анапа",
+      "selected_rank": 1,
+      "selected_slug": "oleg"
+    },
+    {
+      "baseline_rank": 1,
+      "baseline_slug": "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+      "expected_slug": "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+      "file": "96.7_28-08-2026_13-50-21.webp",
+      "matched_rule": null,
+      "ocr": "дивноморское втораялиния ycaдbba teppуap bечерна усадьба терруар вторая линия верегища",
+      "selected_rank": 1,
+      "selected_slug": "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137"
+    },
+    {
+      "baseline_rank": 1,
+      "baseline_slug": "oleg",
+      "expected_slug": "oleg",
+      "file": "96.83_20-08-2026_17-48-13.webp",
+      "matched_rule": null,
+      "ocr": "20 винодельня cyxoe табия po3 cy beaoe 2025 олег велое сухое произведено из винограда выращенного на территории российской федерации",
+      "selected_rank": 1,
+      "selected_slug": "oleg"
+    },
+    {
+      "baseline_rank": 1,
+      "baseline_slug": "sovinon-blan",
+      "expected_slug": "sovinon-blan",
+      "file": "96.8_25-08-2026_22-20-38.webp",
+      "matched_rule": null,
+      "ocr": "полусухое белое семейная винодельня 25 08 2026 2 фермерское вино сия кубань анапа литавщуков сaвиньон совиньон блан сделано в винной деревне ссия кубань анапа",
+      "selected_rank": 1,
+      "selected_slug": "sovinon-blan"
+    },
+    {
+      "baseline_rank": 1,
+      "baseline_slug": "denisov_rubin_klaret_krasnaya_strelka",
+      "expected_slug": "denisov_rubin_klaret_krasnaya_strelka",
+      "file": "96.96_05-09-2026_19-02-01.webp",
+      "matched_rule": "Denisov + Красная стрелка + Рубин",
+      "ocr": "3 denisov camapa стрелка sov i enis denisoy 1700 kpachaa 700 bpan puemn ру6iн самара красная рубин",
+      "selected_rank": 1,
+      "selected_slug": "denisov_rubin_klaret_krasnaya_strelka"
+    },
+    {
+      "baseline_rank": 1,
+      "baseline_slug": "czitronnyj-magaracha",
+      "expected_slug": "czitronnyj-magaracha",
+      "file": "96.98_19-08-2026_19-05-06.webp",
+      "matched_rule": null,
+      "ocr": "2024 20 табия винодельня цитрон полусухое 5eaоe белое произведено из винограда выращенного на территории российской федерации",
+      "selected_rank": 1,
+      "selected_slug": "czitronnyj-magaracha"
+    },
+    {
+      "baseline_rank": 1,
+      "baseline_slug": "sovinon-blan",
+      "expected_slug": "sovinon-blan",
+      "file": "97.23_05-09-2026_15-34-36.webp",
+      "matched_rule": null,
+      "ocr": "полусухое белое 1600 литавщуков lapgene hen семейная винодельня совиньон блан фермерское вино сделано в винной деревне кубань анапа 0 75 l 12 5",
+      "selected_rank": 1,
+      "selected_slug": "sovinon-blan"
+    }
+  ],
+  "rules": [
+    {
+      "description": "Denisov + Красная стрелка + Рубин",
+      "pattern": "(?=.*DENISOV)(?=.*СТРЕЛКА)(?=.*РУБИН)(?=.*КРАСНАЯ)",
+      "slug": "denisov_rubin_klaret_krasnaya_strelka"
+    },
+    {
+      "description": "Tabia + blend tokens from Победа",
+      "pattern": "(?=.*ТАБИЯ)(?=.*1945)(?=.*КАБЕРНЕ)(?=.*МЕРЛО)(?=.*РУБИН)",
+      "slug": "pobeda"
+    },
+    {
+      "description": "Massandra + Мускатель + белый",
+      "pattern": "(?=.*МАССАНДРА)(?=.*М[УУ]СКАТЕЛ)(?=.*БЕЛЫЙ)",
+      "slug": "massandra-muskatel-belyy-belye-sorta-vinograda-beloe-sladkoe-16"
+    },
+    {
+      "description": "Golubitskoe + Chardonnay",
+      "pattern": "(?=.*GOLUBITSKOE)(?=.*CHARDONNAY)",
+      "slug": "golubitskoe-estate-chardonnay"
+    },
+    {
+      "description": "Aratti + Цитрон + Совиньон блан",
+      "pattern": "(?=.*АРАТТ)(?=.*ЦИТРОН)(?=.*СОВИНЬОН БЛАН)",
+      "slug": "czitronnyj-magaracha-sovinon-blan"
+    },
+    {
+      "description": "Inkerman + Winemaker's Selection + Riesling",
+      "pattern": "(?=.*INKERMAN)(?=.*WINEMAKER)(?=.*RIESLING)",
+      "slug": "winemaker-selection"
+    },
+    {
+      "description": "Golubitskoe + Merlot",
+      "pattern": "(?=.*GOLUBITS)(?=.*MERLOT)",
+      "slug": "golubitskoe-estate-merlo-krasnoe-suhoe-135"
+    },
+    {
+      "description": "Новый Свет + полусладкое розовое",
+      "pattern": "(?=.*НОВЫЙ СВ[ЕЪ]Т)(?=.*ПОЛУСЛАДКОЕ РОЗОВОЕ)",
+      "slug": "novyy-svet-dom-shampanskih-vin-novyy-svet-polusladkoe-roze-shardone-rozovoe-115"
+    },
+    {
+      "description": "Litavshchuk + Поздний сбор",
+      "pattern": "(?=.*LITAVSHCHUK)(?=.*ПОЗДНИЙ)(?=.*СБОР)",
+      "slug": "pozdnij-sbor-krasnoe"
+    }
+  ],
+  "warning": "This is an offline, label-aware anchor experiment; it is not applied to app/."
+}

@@ -10,6 +10,7 @@ from stage5.features import (
 )
 from stage5.model import ConfidenceModel, choose_thresholds, fit_logistic
 from stage5.recognize import is_multimodal_verified
+from stage5.semantic_filters import rerank_predictions
 from stage5.unknown_dataset import parse_cards
 
 
@@ -120,3 +121,21 @@ def test_multimodal_verification_requires_text_and_geometry() -> None:
     assert is_multimodal_verified(prediction, evidence)
     assert not is_multimodal_verified({**prediction, "sift_inliers": 5}, evidence)
     assert not is_multimodal_verified(prediction, {"title_evidence": 0.5})
+
+
+def test_semantic_filters_rerank_retrieved_candidates_without_injection() -> None:
+    predictions = [
+        {"slug": "red", "score": 0.80},
+        {"slug": "white", "score": 0.79},
+    ]
+    catalog = {
+        "red": {"category": "Красное сухое", "color": "Рубиновый"},
+        "white": {"category": "Белое сладкое", "color": "Соломенный"},
+    }
+    reordered = rerank_predictions(
+        predictions,
+        [{"text": "красное сухое", "normalized": "krasnoe suhoe"}],
+        catalog,
+    )
+    assert [item["slug"] for item in reordered] == ["red", "white"]
+    assert {item["slug"] for item in reordered} == {"red", "white"}

@@ -19,6 +19,7 @@ from stage4.recognize import recognize_paths as recognize_hybrid_paths
 from stage5.calibrate import DEFAULT_CATALOG_MANIFEST, DEFAULT_OUTPUT_DIR
 from stage5.features import FEATURE_NAMES, runtime_confidence_features
 from stage5.model import ConfidenceModel
+from stage5.semantic_filters import rerank_predictions
 
 
 def is_multimodal_verified(
@@ -59,11 +60,18 @@ def recognize_confident_paths(
         top_k,
         candidate_count,
         batch_size,
-        ocr_candidate_count,
+        # Dual OCR has a second structured retrieval channel.  Give it the
+        # same extra candidate budget used by the offline dual-OCR benchmark
+        # (10 Rapid candidates + 10 GLM-field candidates).
+        ocr_candidate_count + (10 if getattr(ocr_engine, "dual_enabled", False) else 0),
         catalog_by_slug,
     )
     results = []
     for raw in raw_results:
+        raw["predictions"] = rerank_predictions(
+            raw["predictions"], raw.get("ocr_lines", []), catalog_by_slug
+        )
+        raw["slug"] = raw["predictions"][0]["slug"]
         candidate_slug = str(raw["slug"])
         vector, evidence = runtime_confidence_features(raw, catalog_by_slug[candidate_slug])
         calibrated_confidence = float(model.predict_proba(vector[None, :])[0])

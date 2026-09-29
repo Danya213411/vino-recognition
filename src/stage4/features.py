@@ -166,7 +166,10 @@ def initialize_ocr_worker() -> None:
 
 def run_ocr(path: Path, reference: bool, engine: Any) -> dict[str, Any]:
     started = time.perf_counter()
-    result = engine(prepare_ocr_image(path, reference), use_cls=False)
+    image = prepare_ocr_image(path, reference)
+    if hasattr(engine, "run"):
+        return engine.run(image, reference)
+    result = engine(image, use_cls=False)
     lines = []
     if result.txts and result.scores:
         for text, score in zip(result.txts, result.scores, strict=True):

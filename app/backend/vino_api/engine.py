@@ -15,6 +15,7 @@ from stage3.embeddings import Dinov2Embedder
 from stage3.index import VisualIndex
 from stage4.features import create_ocr_engine
 from stage4.index import HybridIndex
+from stage5.dual_ocr import DualOCREngine
 from stage5.recognize import recognize_confident_paths
 from vino_api.config import Settings
 
@@ -47,7 +48,12 @@ class RecognitionEngine:
         )
         if self.embedder.embedding_size != self.visual_index.full.shape[1]:
             raise ValueError("DINOv2 model and visual index embedding sizes differ")
-        self.ocr_engine = create_ocr_engine()
+        rapid_ocr = create_ocr_engine()
+        self.ocr_engine = DualOCREngine(
+            rapid_ocr,
+            device=str(self.embedder.device.type),
+            local_files_only=settings.local_files_only,
+        )
         self.semaphore = threading.BoundedSemaphore(max(settings.max_parallel, 1))
         self.embedder.warmup()
         self.pipeline = self._pipeline_manifest()
@@ -60,11 +66,16 @@ class RecognitionEngine:
             "signals": {
                 "visual": "DINOv2 CLS, three image scales",
                 "local_features": "OpenCV SIFT + geometric inliers",
-                "ocr": "RapidOCR PP-OCRv6 detector + PP-OCRv5 Cyrillic recognizer",
+                "ocr": "RapidOCR PP-OCRv6 detector + PP-OCRv5 Cyrillic recognizer + GLM-OCR Text Recognition",
                 "confidence": "calibrated logistic model, 16 evidence features",
             },
             "candidate_retrieval": {
                 "strategy": "visual+ocr union with fuzzy manufacturer gate",
+                "semantic_rerank": {
+                    "enabled": True,
+                    "attributes": ["colour", "sweetness", "sparkling"],
+                    "policy": "small compatibility bonus on retrieved candidates; no catalog items removed",
+                },
                 "visual_top_k": self.settings.candidate_count,
                 "global_ocr_top_k": self.settings.ocr_candidate_count,
                 "manufacturer_source": "https://vino-svoe.ru/wines filters / local catalog intersection",
@@ -89,6 +100,7 @@ class RecognitionEngine:
                 "top_k": self.settings.top_k,
                 "candidate_count": self.settings.candidate_count,
                 "ocr_candidate_count": self.settings.ocr_candidate_count,
+                "dual_ocr_extra_candidate_count": 10,
                 "hybrid_weights": self.model_payload["hybrid_weights"],
                 "thresholds": {
                     "accept": self.model_payload["accept_threshold"],

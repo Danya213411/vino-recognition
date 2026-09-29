@@ -1,0 +1,2436 @@
+{
+  "photos": 65,
+  "policies": {
+    "balanced": {
+      "top1": 50,
+      "top1_rate": 0.7692307692307693,
+      "top5": 60,
+      "top5_rate": 0.9230769230769231
+    },
+    "current": {
+      "top1": 49,
+      "top1_rate": 0.7538461538461538,
+      "top5": 60,
+      "top5_rate": 0.9230769230769231
+    },
+    "field_only": {
+      "top1": 21,
+      "top1_rate": 0.3230769230769231,
+      "top5": 42,
+      "top5_rate": 0.6461538461538462
+    },
+    "field_priority": {
+      "top1": 50,
+      "top1_rate": 0.7692307692307693,
+      "top5": 60,
+      "top5_rate": 0.9230769230769231
+    }
+  },
+  "rows": [
+    {
+      "current_candidate": "denisov_pino_noir_klaret",
+      "expected_slug": "denisov_rubin_klaret_krasnaya_strelka",
+      "file": "48.98_02-09-2026_18-34-15.webp",
+      "structured_top5": [
+        {
+          "current_score": 0.723950982093811,
+          "slug": "denisov_rubin_klaret_krasnaya_strelka",
+          "structured_score": 0.9221,
+          "title": "Рубин кларет . Красная стрелка"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "denisov_pet_nat_rubin",
+          "structured_score": 0.92,
+          "title": "Пет-Нат Рубин"
+        },
+        {
+          "current_score": 0.6009227633476257,
+          "slug": "znoj-denisov-vajneri",
+          "structured_score": 0.832,
+          "title": "Зной. Денисов Вайнери"
+        },
+        {
+          "current_score": 0.7525681257247925,
+          "slug": "denisov_pino_noir_klaret",
+          "structured_score": 0.8083,
+          "title": "Пино Нуар кларет. Красная стрелка"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "zakat-denisov-vajneri",
+          "structured_score": 0.803,
+          "title": "Закат. Денисов Вайнери"
+        }
+      ]
+    },
+    {
+      "current_candidate": "fanagoriya-formula-q-kaberne-sovinon-krasnoe-suhoe-135",
+      "expected_slug": "fanagoriya-formula-q-kaberne-sovinon-krasnoe-suhoe-135",
+      "file": "70.45_04-09-2026_13-35-37.webp",
+      "structured_top5": [
+        {
+          "current_score": 0.0,
+          "slug": "esse-saperavi-krasnoe-suhoe-13",
+          "structured_score": 0.8385,
+          "title": "Саперави"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "esse-kaberne-sovinon-krasnoe-suhoe-14",
+          "structured_score": 0.8374,
+          "title": "Каберне Совиньон"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "esse-merlo-krasnoe-suhoe-135",
+          "structured_score": 0.8365,
+          "title": "Мерло"
+        },
+        {
+          "current_score": 0.8028602600097656,
+          "slug": "fanagoriya-formula-q-kaberne-sovinon-krasnoe-suhoe-135",
+          "structured_score": 0.8292,
+          "title": "Формула Q"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "fanagoriya-formula-q-saperavi-krasnoe-suhoe-135",
+          "structured_score": 0.798,
+          "title": "Formula Q"
+        }
+      ]
+    },
+    {
+      "current_candidate": "leto-risling-2024-polusuhoe-vino",
+      "expected_slug": "skalistyj-bereg-shepot-czvetov",
+      "file": "82.33_27-08-2026_10-03-52.webp",
+      "structured_top5": [
+        {
+          "current_score": 0.0,
+          "slug": "vibes-vermentino-viognier-barrel-fermented-2022",
+          "structured_score": 0.6795,
+          "title": "Vibes, Vermentino-Viognier Barrel Fermented 2022"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "skalistyy-bereg-skalistyy-bereg-krasnaya-kniga-glava-1-kaberne-sovinon-krasnoe-suhoe-147",
+          "structured_score": 0.6581,
+          "title": "Скалистый берег. Красная книга. Глава 1"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "skalistyy-bereg-skalistyy-bereg-kaberne-sovinon-krasnoe-suhoe-15",
+          "structured_score": 0.6581,
+          "title": "Скалистый берег. Каберне Совиньон"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "skalistyy-bereg-skalistyy-bereg-kaberne-fran-krasnoe-suhoe-15",
+          "structured_score": 0.6581,
+          "title": "Скалистый берег. Каберне Фран"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "skalistyy-bereg-skalistyy-bereg-krasnaya-kniga-glava-2-merlo-krasnoe-suhoe-15",
+          "structured_score": 0.6581,
+          "title": "Скалистый берег. Красная книга. Глава 2"
+        }
+      ]
+    },
+    {
+      "current_candidate": "zhemchuzhnaya-9-aligote-czitron",
+      "expected_slug": "zhemchuzhnaya-9-aligote-czitron",
+      "file": "84.73_07-09-2026_11-07-51.webp",
+      "structured_top5": [
+        {
+          "current_score": 0.0,
+          "slug": "belbek-aligote-beloe-suhoe-125",
+          "structured_score": 0.8344,
+          "title": "Алиготе"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "avtohtonnoe-vino-kryma-beloe-suhoe",
+          "structured_score": 0.8014,
+          "title": "Автохтонное Вино Крыма белое сухое"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "cantiani-aligote-riesling",
+          "structured_score": 0.7951,
+          "title": "Cantiani Aligote Riesling"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "aligote-shato-pino",
+          "structured_score": 0.7948,
+          "title": "Aligote. Шато Пино"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "shato-pino-aligote-rkatsiteli-beloe-suhoe-12",
+          "structured_score": 0.7948,
+          "title": "Алиготе - Ркацители белое сухое"
+        }
+      ]
+    },
+    {
+      "current_candidate": "rubin-golodrigi",
+      "expected_slug": "pobeda",
+      "file": "87.09_22-08-2026_20-57-16.webp",
+      "structured_top5": [
+        {
+          "current_score": 0.8264094591140747,
+          "slug": "rubin-golodrigi",
+          "structured_score": 0.9017,
+          "title": "Рубин Голодриги"
+        },
+        {
+          "current_score": 0.8035773038864136,
+          "slug": "kaberne-sovinon-2",
+          "structured_score": 0.9012,
+          "title": "Каберне Совиньон"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "vinodelnya-marchenko-merlo-krasnoe-suhoe-14",
+          "structured_score": 0.9012,
+          "title": "Мерло"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "vinodelnya-begildeeva-kaberne-sovinon-merlo-krasnoe-suhoe-14",
+          "structured_score": 0.9012,
+          "title": "Каберне Совиньон – Мерло"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "vinodelnya-begildeeva-kaberne-sovinon-krasnoe-suhoe-14",
+          "structured_score": 0.8997,
+          "title": "Каберне Совиньон"
+        }
+      ]
+    },
+    {
+      "current_candidate": "relikta-relikta-sira-kaberne-fran-krasnoe-suhoe-13",
+      "expected_slug": "relikta-relikta-sira-kaberne-fran-krasnoe-suhoe-13",
+      "file": "87.54_03-09-2026_13-27-53.webp",
+      "structured_top5": [
+        {
+          "current_score": 0.0,
+          "slug": "relikta-relikta-kaberne-sovinon-krasnoe-suhoe-135",
+          "structured_score": 0.9543,
+          "title": "Реликта Каберне Совиньон"
+        },
+        {
+          "current_score": 0.77192223072052,
+          "slug": "relikta-relikta-sira-krasnoe-suhoe-13",
+          "structured_score": 0.9543,
+          "title": "Реликта Сира"
+        },
+        {
+          "current_score": 0.8785414099693298,
+          "slug": "relikta-relikta-merlo-kaberne-sovinon-krasnoe-suhoe-135",
+          "structured_score": 0.9543,
+          "title": "Реликта Мерло, Каберне Совиньон"
+        },
+        {
+          "current_score": 0.8918697834014893,
+          "slug": "relikta-relikta-sira-kaberne-fran-krasnoe-suhoe-13",
+          "structured_score": 0.9543,
+          "title": "Реликта Сира, Каберне Фран"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "kuban-vino-kaberne-de-tamane-kaberne-sovinon-krasnoe-suhoe-125",
+          "structured_score": 0.8776,
+          "title": "Каберне де Тамань"
+        }
+      ]
+    },
+    {
+      "current_candidate": "aya-organic-wine-vineyards-purity-in-syrah-sira-rozovoe-suhoe-132",
+      "expected_slug": "aya-organic-wine-vineyards-purity-in-chenin-blanc-shenen-blan-beloe-suhoe-11",
+      "file": "87.81_09-09-2026_17-16-36.webp",
+      "structured_top5": [
+        {
+          "current_score": 0.6006333827972412,
+          "slug": "aya-organic-wine-vineyards-purity-in-trinity-pino-nuar-rozovoe-suhoe-13",
+          "structured_score": 0.625,
+          "title": "Purity in Trinity"
+        },
+        {
+          "current_score": 0.6271445751190186,
+          "slug": "aya-organic-wine-vineyards-purity-in-chenin-blanc-shenen-blan-beloe-suhoe-11",
+          "structured_score": 0.6221,
+          "title": "Purity in Chenin Blanc"
+        },
+        {
+          "current_score": 0.6570825576782227,
+          "slug": "aya-organic-wine-vineyards-purity-in-syrah-sira-rozovoe-suhoe-132",
+          "structured_score": 0.6038,
+          "title": "Purity in Syrah"
+        },
+        {
+          "current_score": 0.6280048489570618,
+          "slug": "aya-organic-wine-vineyards-purity-in-syrah-sira-krasnoe-suhoe-146",
+          "structured_score": 0.6013,
+          "title": "Purity in Syrah"
+        },
+        {
+          "current_score": 0.6564960479736328,
+          "slug": "aya-organic-wine-vineyards-purity-in-merlot-merlo-rozovoe-suhoe-134",
+          "structured_score": 0.5977,
+          "title": "Purity in Merlot"
+        }
+      ]
+    },
+    {
+      "current_candidate": "massandra-portveyn-belyy-gurzuf-kokur-belyy-beloe-sladkoe-135",
+      "expected_slug": "massandra-muskatel-belyy-belye-sorta-vinograda-beloe-sladkoe-16",
+      "file": "87.88_28-08-2026_16-56-20.webp",
+      "structured_top5": [
+        {
+          "current_score": 0.8923285007476807,
+          "slug": "massandra-portveyn-belyy-gurzuf-kokur-belyy-beloe-sladkoe-135",
+          "structured_score": 0.9493,
+          "title": "Портвейн Белый Гурзуф"
+        },
+        {
+          "current_score": 0.7939432263374329,
+          "slug": "massandra-muskat-belyy-yuzhnoberezhnyy-beloe-sladkoe-16",
+          "structured_score": 0.9468,
+          "title": "Мускат Белый Южнобережный"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "massandra-kokur",
+          "structured_score": 0.9443,
+          "title": "Массандра Кокур"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "massandra-muskat",
+          "structured_score": 0.9443,
+          "title": "Массандра Мускат"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "massandra-heres",
+          "structured_score": 0.9443,
+          "title": "Массандра Херес"
+        }
+      ]
+    },
+    {
+      "current_candidate": "zhemchuzhnaya-9-czitron-shardone-1",
+      "expected_slug": "czitronnyj-magaracha-sovinon-blan",
+      "file": "88.38_20-08-2026_18-32-58.webp",
+      "structured_top5": [
+        {
+          "current_score": 0.9257546663284302,
+          "slug": "czitronnyj-magaracha-sovinon-blan",
+          "structured_score": 0.8946,
+          "title": "Жемчужная 9 Цитрон, Совиньон блан"
+        },
+        {
+          "current_score": 0.9043645858764648,
+          "slug": "zhemchuzhnaya-9-risling-sovinon-blan",
+          "structured_score": 0.8946,
+          "title": "Жемчужная 9 Рислинг,Совиньон блан"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "aratti-sovinon-blan-beloe-polusuhoe",
+          "structured_score": 0.8946,
+          "title": "АРАТТИ Совиньон блан белое полусухое"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "zhemchuzhnaya-9-sovinon-blan-aligote",
+          "structured_score": 0.8706,
+          "title": "Жемчужная 9 Совиньон блан, Алиготе"
+        },
+        {
+          "current_score": 0.928836464881897,
+          "slug": "zhemchuzhnaya-9-czitron-shardone-1",
+          "structured_score": 0.8281,
+          "title": "Жемчужная 9 Цитрон, Шардоне"
+        }
+      ]
+    },
+    {
+      "current_candidate": "rozovoe-zoloto",
+      "expected_slug": "rozovoe-zoloto",
+      "file": "89.65_19-08-2026_19-48-39.webp",
+      "structured_top5": [
+        {
+          "current_score": 0.8602616786956787,
+          "slug": "rozovoe-zoloto",
+          "structured_score": 0.8698,
+          "title": "Розовое золото"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "vinodelnya-pokrovskaya-rozovoe-marinovskiy-suhoe-135",
+          "structured_score": 0.8605,
+          "title": "Розовое"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "lorio-rozovoe",
+          "structured_score": 0.8556,
+          "title": "ЛОРИО. Розовое"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "priboj-marchenko-rozovoe-polusuhoe",
+          "structured_score": 0.8521,
+          "title": "Прибой Марченко розовое полусухое"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "b-yu-rne-l-yu-bl-yu-suhoe-rozovoe",
+          "structured_score": 0.8448,
+          "title": "БЮРНЬЕ.ЛЮБЛЮ сухое розовое"
+        }
+      ]
+    },
+    {
+      "current_candidate": "aratti-kaberne-sovinon-2021-krasnoe-suhoe",
+      "expected_slug": "aratti-kaberne-sovinon-2021-krasnoe-suhoe",
+      "file": "91.07_20-08-2026_18-37-46.webp",
+      "structured_top5": [
+        {
+          "current_score": 0.9024706482887268,
+          "slug": "aratti-kaberne-sovinon-2021-krasnoe-suhoe",
+          "structured_score": 0.8995,
+          "title": "АРАТТИ Каберне Совиньон 2021 красное сухое"
+        },
+        {
+          "current_score": 0.8162755370140076,
+          "slug": "aratti-kaberne-sovinon-2020-krasnoe-suhoe",
+          "structured_score": 0.8978,
+          "title": "АРАТТИ Каберне Совиньон 2020 красное сухое"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "zhemchuzhnaya-9-kaberne-sovinon-pino-nuar",
+          "structured_score": 0.8955,
+          "title": "Жемчужная 9 Каберне Совиньон, Пино Нуар"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "aratti-kaberne-po-belomu",
+          "structured_score": 0.8952,
+          "title": "АРАТТИ Каберне по-белому"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "zhemchuzhnaya-9-kaberne-sovinon-pino-nuar-1",
+          "structured_score": 0.8801,
+          "title": "Жемчужная 9 Каберне Совиньон, Пино Нуар"
+        }
+      ]
+    },
+    {
+      "current_candidate": "merlo-2",
+      "expected_slug": "merlo-2",
+      "file": "91.43_02-09-2026_12-08-50.webp",
+      "structured_top5": [
+        {
+          "current_score": 0.0,
+          "slug": "vinodelnya-byurne-merlo-krasnoe-suhoe-14",
+          "structured_score": 0.8271,
+          "title": "БЮРНЬЕ.МЕРЛО сухое красное"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "b-yu-rne-vinisa-zh-suhoe-krasnoe",
+          "structured_score": 0.8261,
+          "title": "БЮРНЬЕ.ВИНИСАЖ сухое красное"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "vinodelnya-byurne-lyublyu-krasnoe-kaberne-fran-suhoe-135",
+          "structured_score": 0.8256,
+          "title": "БЮРНЬЕ.ЛЮБЛЮ сухое красное"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "b-yu-rne-krasnostop-suhoe-krasnoe-classic",
+          "structured_score": 0.8144,
+          "title": "БЮРНЬЕ.КРАСНОСТОП сухое красное Classic"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "vinodelnya-byurne-krasnostop-krasnoe-suhoe-145",
+          "structured_score": 0.8144,
+          "title": "БЮРНЬЕ.КРАСНОСТОП сухое красное"
+        }
+      ]
+    },
+    {
+      "current_candidate": "belaya-lvicza",
+      "expected_slug": "belaya-lvicza",
+      "file": "92.21_19-08-2026_18-57-31.webp",
+      "structured_top5": [
+        {
+          "current_score": 0.9858712553977966,
+          "slug": "belaya-lvicza",
+          "structured_score": 0.857,
+          "title": "Белая Львица белое полусладкое"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "aratti-muskat-belyj-polusuhoe",
+          "structured_score": 0.8466,
+          "title": "АРАТТИ Мускат белый полусухое"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "aratti-sovinon-blan-beloe-polusuhoe",
+          "structured_score": 0.8389,
+          "title": "АРАТТИ Совиньон блан белое полусухое"
+        },
+        {
+          "current_score": 0.7611271142959595,
+          "slug": "chernaya-lvicza-polusladkoe-krasnoe",
+          "structured_score": 0.8379,
+          "title": "Черная Львица полусладкое красное"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "aratti-muskat-belyj-suhoe",
+          "structured_score": 0.8339,
+          "title": "АРАТТИ Мускат белый сухое"
+        }
+      ]
+    },
+    {
+      "current_candidate": "aratti-kaberne-sovinon-2020-krasnoe-suhoe",
+      "expected_slug": "aratti-kaberne-sovinon-2020-krasnoe-suhoe",
+      "file": "92.6_07-09-2026_11-04-40.webp",
+      "structured_top5": [
+        {
+          "current_score": 0.0,
+          "slug": "lorio-kaberne-sovinon",
+          "structured_score": 0.9192,
+          "title": "ЛОРИО. Каберне Совиньон"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "lorio-kaberne-sovinon-i-pino-nuar",
+          "structured_score": 0.9192,
+          "title": "ЛОРИО. Каберне Совиньон и Пино Нуар"
+        },
+        {
+          "current_score": 0.773054301738739,
+          "slug": "vinodelnya-uzunov-mono-kaberne-sovinon-krasnoe-suhoe-139",
+          "structured_score": 0.8388,
+          "title": "Моно. Каберне Совиньон"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "vinodelnya-begildeeva-kaberne-sovinon-krasnoe-suhoe-14",
+          "structured_score": 0.8375,
+          "title": "Каберне Совиньон"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "vinodelnya-marchenko-kaberne-sovinon-krasnoe-suhoe-14",
+          "structured_score": 0.8326,
+          "title": "Каберне Совиньон"
+        }
+      ]
+    },
+    {
+      "current_candidate": "aratti-kaberne-sovinon-2020-krasnoe-suhoe",
+      "expected_slug": "aratti-kaberne-sovinon-2020-krasnoe-suhoe",
+      "file": "92.96_19-08-2026_21-07-12.webp",
+      "structured_top5": [
+        {
+          "current_score": 0.0,
+          "slug": "lorio-kaberne-sovinon",
+          "structured_score": 0.8822,
+          "title": "ЛОРИО. Каберне Совиньон"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "lorio-kaberne-sovinon-i-pino-nuar",
+          "structured_score": 0.8822,
+          "title": "ЛОРИО. Каберне Совиньон и Пино Нуар"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "soyuz-vino-zelyonaya-dolina-kaberne-sovinon-krasnoe-suhoe-12",
+          "structured_score": 0.8013,
+          "title": "Зелёная Долина Каберне Совиньон"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "kaberne-sovinon-2",
+          "structured_score": 0.7951,
+          "title": "Каберне Совиньон"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "millstream-cellar-select-kaberne-sovinon",
+          "structured_score": 0.7947,
+          "title": "MILLSTREAM Cellar Select Каберне Совиньон"
+        }
+      ]
+    },
+    {
+      "current_candidate": "golubitskoe-estate-noble-selection-red-blend-kaberne-sovinon-krasnoe-suhoe-136",
+      "expected_slug": "golubitskoe-estate-noble-selection-red-blend-kaberne-sovinon-krasnoe-suhoe-136",
+      "file": "93.31_05-09-2026_13-39-37.webp",
+      "structured_top5": [
+        {
+          "current_score": 0.0,
+          "slug": "golubitskoe-estate-shardone-noble-selection-barrel-touch-beloe-suhoe-135",
+          "structured_score": 0.883,
+          "title": "Шардоне Noble Selection Barrel Touch"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "golubitskoe-estate-chardonnay",
+          "structured_score": 0.8795,
+          "title": "Golubitskoe Estate Chardonnay"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "golubitskoe-estate-noble-selection-white-blend-shardone-beloe-suhoe-135",
+          "structured_score": 0.8795,
+          "title": "Noble Selection White Blend"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "golubitskoe-rose",
+          "structured_score": 0.879,
+          "title": "Golubitskoe Rose"
+        },
+        {
+          "current_score": 0.8484835624694824,
+          "slug": "golubitskoe-estate-kaberne-sovinon-noble-selection-krasnoe-suhoe-133",
+          "structured_score": 0.8384,
+          "title": "Каберне Совиньон Noble Selection"
+        }
+      ]
+    },
+    {
+      "current_candidate": "denisov_pet_nat_rubin",
+      "expected_slug": "denisov_pet_nat_rubin",
+      "file": "93.43_05-09-2026_13-34-45.webp",
+      "structured_top5": [
+        {
+          "current_score": 0.0,
+          "slug": "denisov_rubin_klaret_krasnaya_strelka",
+          "structured_score": 0.9221,
+          "title": "Рубин кларет . Красная стрелка"
+        },
+        {
+          "current_score": 0.8577845096588135,
+          "slug": "denisov_pet_nat_rubin",
+          "structured_score": 0.9146,
+          "title": "Пет-Нат Рубин"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "denisov_pet_nat_citron_rkaciteli",
+          "structured_score": 0.8255,
+          "title": "Пет-Нат Цитрон-Ркацители"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "znoj-denisov-vajneri",
+          "structured_score": 0.8221,
+          "title": "Зной. Денисов Вайнери"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "zakat-denisov-vajneri",
+          "structured_score": 0.7992,
+          "title": "Закат. Денисов Вайнери"
+        }
+      ]
+    },
+    {
+      "current_candidate": "zakat-denisov-vajneri",
+      "expected_slug": "zakat-denisov-vajneri",
+      "file": "93.68_19-08-2026_20-44-28.webp",
+      "structured_top5": [
+        {
+          "current_score": 0.4916207194328308,
+          "slug": "znoj-denisov-vajneri",
+          "structured_score": 0.8221,
+          "title": "Зной. Денисов Вайнери"
+        },
+        {
+          "current_score": 0.6209626197814941,
+          "slug": "zakat-denisov-vajneri",
+          "structured_score": 0.7992,
+          "title": "Закат. Денисов Вайнери"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "denisov-winery-petnat-saperavi-severnyy-rozovoe-ekstra-bryut-105",
+          "structured_score": 0.6258,
+          "title": "Петнат Саперави Северный"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "denisov-winery-rkatsiteli-beloe-suhoe-112",
+          "structured_score": 0.6221,
+          "title": "Ркацители"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "denisov-winery-petnat-rkatsiteli-beloe-ekstra-bryut-107",
+          "structured_score": 0.6058,
+          "title": "Петнат Ркацители"
+        }
+      ]
+    },
+    {
+      "current_candidate": "zakat-denisov-vajneri",
+      "expected_slug": "zakat-denisov-vajneri",
+      "file": "93.84_02-09-2026_17-13-04.webp",
+      "structured_top5": [
+        {
+          "current_score": 0.680962860584259,
+          "slug": "znoj-denisov-vajneri",
+          "structured_score": 0.8221,
+          "title": "Зной. Денисов Вайнери"
+        },
+        {
+          "current_score": 0.7292340993881226,
+          "slug": "zakat-denisov-vajneri",
+          "structured_score": 0.7992,
+          "title": "Закат. Денисов Вайнери"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "denisov-winery-petnat-saperavi-severnyy-rozovoe-ekstra-bryut-105",
+          "structured_score": 0.6258,
+          "title": "Петнат Саперави Северный"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "denisov-winery-rkatsiteli-beloe-suhoe-112",
+          "structured_score": 0.6221,
+          "title": "Ркацители"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "denisov-winery-petnat-rkatsiteli-beloe-ekstra-bryut-107",
+          "structured_score": 0.6058,
+          "title": "Петнат Ркацители"
+        }
+      ]
+    },
+    {
+      "current_candidate": "golubitskoe-estate-red-blend-kaberne-sovinon-krasnoe-suhoe-136",
+      "expected_slug": "golubitskoe-estate-chardonnay",
+      "file": "93.97_28-08-2026_16-02-48.webp",
+      "structured_top5": [
+        {
+          "current_score": 0.0,
+          "slug": "golubitskoe-estate-chardonnay",
+          "structured_score": 0.8166,
+          "title": "Golubitskoe Estate Chardonnay"
+        },
+        {
+          "current_score": 0.8106954097747803,
+          "slug": "golubitskoe-rose",
+          "structured_score": 0.7667,
+          "title": "Golubitskoe Rose"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "golubitskoe-estate-risling",
+          "structured_score": 0.7593,
+          "title": "Golubitskoe Estate Рислинг"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "cantiani-chardonnay",
+          "structured_score": 0.6786,
+          "title": "Cantiani Chardonnay"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "agrolayn-mountain-eagle-chardonnay-shardone-beloe-suhoe-12",
+          "structured_score": 0.6776,
+          "title": "Mountain Eagle Chardonnay"
+        }
+      ]
+    },
+    {
+      "current_candidate": "rubin-golodrigi",
+      "expected_slug": "rubin-golodrigi",
+      "file": "94.02_24-08-2026_17-46-57.webp",
+      "structured_top5": [
+        {
+          "current_score": 0.8407269716262817,
+          "slug": "rubin-golodrigi",
+          "structured_score": 0.9551,
+          "title": "Рубин Голодриги"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "b-yu-rne-krasnostop-suhoe-krasnoe-classic",
+          "structured_score": 0.8238,
+          "title": "БЮРНЬЕ.КРАСНОСТОП сухое красное Classic"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "vinodelnya-byurne-krasnostop-krasnoe-suhoe-145",
+          "structured_score": 0.8238,
+          "title": "БЮРНЬЕ.КРАСНОСТОП сухое красное"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "vinodelnya-marchenko-rubin-rubin-azos-krasnoe-suhoe-14",
+          "structured_score": 0.8181,
+          "title": "Рубин"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "pozdnij-sbor-krasnoe",
+          "structured_score": 0.8059,
+          "title": "Поздний сбор, Красное"
+        }
+      ]
+    },
+    {
+      "current_candidate": "denisov_pazori_risling",
+      "expected_slug": "denisov_pazori_risling",
+      "file": "94.55_02-09-2026_16-53-08.webp",
+      "structured_top5": [
+        {
+          "current_score": 0.0,
+          "slug": "znoj-denisov-vajneri",
+          "structured_score": 0.8554,
+          "title": "Зной. Денисов Вайнери"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "zakat-denisov-vajneri",
+          "structured_score": 0.84,
+          "title": "Закат. Денисов Вайнери"
+        },
+        {
+          "current_score": 0.7284121513366699,
+          "slug": "denisov_pazori_risling",
+          "structured_score": 0.7261,
+          "title": "Пазори Рислинг"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "vibes-glera-col-fondo-2022",
+          "structured_score": 0.6939,
+          "title": "VIBES, Glera Col-Fondo 2022"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "vibes-riesling-silvaner-2022",
+          "structured_score": 0.6876,
+          "title": "VIBES, Riesling-Silvaner 2022"
+        }
+      ]
+    },
+    {
+      "current_candidate": "zhemchuzhnaya-9-czitron-shardone-1",
+      "expected_slug": "czitronnyj-magaracha-sovinon-blan",
+      "file": "94.7_25-08-2026_15-52-07.webp",
+      "structured_top5": [
+        {
+          "current_score": 0.9405792951583862,
+          "slug": "czitronnyj-magaracha-sovinon-blan",
+          "structured_score": 0.9571,
+          "title": "Жемчужная 9 Цитрон, Совиньон блан"
+        },
+        {
+          "current_score": 0.9397981762886047,
+          "slug": "zhemchuzhnaya-9-risling-sovinon-blan",
+          "structured_score": 0.9571,
+          "title": "Жемчужная 9 Рислинг,Совиньон блан"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "aratti-sovinon-blan-beloe-polusuhoe",
+          "structured_score": 0.9571,
+          "title": "АРАТТИ Совиньон блан белое полусухое"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "zhemchuzhnaya-9-sovinon-blan-aligote",
+          "structured_score": 0.9331,
+          "title": "Жемчужная 9 Совиньон блан, Алиготе"
+        },
+        {
+          "current_score": 0.9889326095581055,
+          "slug": "zhemchuzhnaya-9-czitron-shardone-1",
+          "structured_score": 0.8906,
+          "title": "Жемчужная 9 Цитрон, Шардоне"
+        }
+      ]
+    },
+    {
+      "current_candidate": "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-1",
+      "expected_slug": "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-2",
+      "file": "94.97_02-09-2026_19-01-48.webp",
+      "structured_top5": [
+        {
+          "current_score": 0.0,
+          "slug": "zhemchuzhnaya-9-kaberne-sovinon-pino-nuar-1",
+          "structured_score": 0.9667,
+          "title": "Жемчужная 9 Каберне Совиньон, Пино Нуар"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "zhemchuzhnaya-9-muskat-rozovyj-kaberne-sovinon",
+          "structured_score": 0.9656,
+          "title": "Жемчужная 9 Мускат Розовый, Каберне Совиньон"
+        },
+        {
+          "current_score": 0.92341148853302,
+          "slug": "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-2",
+          "structured_score": 0.964,
+          "title": "Жемчужная 9 Пино нуар, Мускат Розовый"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "zhemchuzhnaya-9-kaberne-sovinon-pino-nuar",
+          "structured_score": 0.9546,
+          "title": "Жемчужная 9 Каберне Совиньон, Пино Нуар"
+        },
+        {
+          "current_score": 0.9463032484054565,
+          "slug": "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-1",
+          "structured_score": 0.9431,
+          "title": "Жемчужная 9 Пино Нуар, Мускат розовый"
+        }
+      ]
+    },
+    {
+      "current_candidate": "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11",
+      "expected_slug": "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11",
+      "file": "95.03_04-09-2026_11-39-35.webp",
+      "structured_top5": [
+        {
+          "current_score": 0.0,
+          "slug": "fanagoriya-beloe-polusladkoe",
+          "structured_score": 0.8905,
+          "title": "Фанагория белое полусладкое"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "fanagoriya-ona-skazala-da-beloe-polusladkoe",
+          "structured_score": 0.8905,
+          "title": "Фанагория Она сказала Да! белое полусладкое"
+        },
+        {
+          "current_score": 0.9316645860671997,
+          "slug": "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11",
+          "structured_score": 0.8905,
+          "title": "Зелёное вино. Рислинг - Цитронный Магарача"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "vinodelnya-pokrovskaya-risling-pokrovskoe-risling-reynskiy-beloe-suhoe-13",
+          "structured_score": 0.8893,
+          "title": "Рислинг. Покровское"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "risling-2024",
+          "structured_score": 0.8861,
+          "title": "Рислинг, 2024"
+        }
+      ]
+    },
+    {
+      "current_candidate": "zhemchuzhnaya-9-czitron-shardone-1",
+      "expected_slug": "zhemchuzhnaya-9-czitron-shardone-1",
+      "file": "95.24_19-08-2026_20-00-22.webp",
+      "structured_top5": [
+        {
+          "current_score": 0.9936830401420593,
+          "slug": "zhemchuzhnaya-9-czitron-shardone-1",
+          "structured_score": 0.962,
+          "title": "Жемчужная 9 Цитрон, Шардоне"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "aratti-shardone-beloe-suhoe",
+          "structured_score": 0.937,
+          "title": "АРАТТИ Шардоне белое сухое"
+        },
+        {
+          "current_score": 0.9652431011199951,
+          "slug": "zhemchuzhnaya-9-czitron-shardone",
+          "structured_score": 0.937,
+          "title": "Жемчужная 9 Цитрон, Шардоне"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "belaya-lvicza",
+          "structured_score": 0.9195,
+          "title": "Белая Львица белое полусладкое"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "derbent-vino-graf-vorontsov-beloe-polusladkoe-sovinon-blan-105-125",
+          "structured_score": 0.9039,
+          "title": "Граф Воронцов. Белое полусладкое"
+        }
+      ]
+    },
+    {
+      "current_candidate": "aratti-kaberne-po-belomu-1",
+      "expected_slug": "aratti-kaberne-po-belomu-1",
+      "file": "95.2_05-09-2026_13-54-13.webp",
+      "structured_top5": [
+        {
+          "current_score": 0.9342190027236938,
+          "slug": "aratti-kaberne-po-belomu-1",
+          "structured_score": 0.8929,
+          "title": "АРАТТИ Каберне по-белому"
+        },
+        {
+          "current_score": 0.766964316368103,
+          "slug": "aratti-sovinon-blan-beloe-polusuhoe",
+          "structured_score": 0.8513,
+          "title": "АРАТТИ Совиньон блан белое полусухое"
+        },
+        {
+          "current_score": 0.912076473236084,
+          "slug": "aratti-kaberne-po-belomu",
+          "structured_score": 0.8504,
+          "title": "АРАТТИ Каберне по-белому"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "aratti-kaberne-sovinon-2020-krasnoe-suhoe",
+          "structured_score": 0.8488,
+          "title": "АРАТТИ Каберне Совиньон 2020 красное сухое"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "aratti-kaberne-sovinon-2021-krasnoe-suhoe",
+          "structured_score": 0.8471,
+          "title": "АРАТТИ Каберне Совиньон 2021 красное сухое"
+        }
+      ]
+    },
+    {
+      "current_candidate": "sovinon-blan",
+      "expected_slug": "sovinon-blan",
+      "file": "95.32_02-09-2026_12-09-23.webp",
+      "structured_top5": [
+        {
+          "current_score": 0.0,
+          "slug": "lorio-sovinon-blan-2025",
+          "structured_score": 0.978,
+          "title": "ЛОРИО. Совиньон Блан 2025"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "lorio-sovinon-blan-2024",
+          "structured_score": 0.978,
+          "title": "ЛОРИО. Совиньон Блан 2024"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "lorio-sovinon-blan-i-shardone-1",
+          "structured_score": 0.978,
+          "title": "ЛОРИО. Совиньон Блан и Шардоне"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "pozdnij-sbor-beloe",
+          "structured_score": 0.9011,
+          "title": "Поздний сбор, Белое"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "sovinon-blan-2",
+          "structured_score": 0.9011,
+          "title": "Совиньон Блан"
+        }
+      ]
+    },
+    {
+      "current_candidate": "inkermanskiy-zmv-winemakers-selection-saperavi-krasnoe-polusladkoe-12",
+      "expected_slug": "winemaker-selection",
+      "file": "95.36_28-08-2026_17-09-04.webp",
+      "structured_top5": [
+        {
+          "current_score": 0.7715093493461609,
+          "slug": "winemaker-selection",
+          "structured_score": 0.849,
+          "title": "Winemaker selection"
+        },
+        {
+          "current_score": 0.7024526596069336,
+          "slug": "inkerman-shato-ruzh",
+          "structured_score": 0.835,
+          "title": "Inkerman Шато Руж"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "inkerman-muskatnoe-beloe",
+          "structured_score": 0.8325,
+          "title": "Inkerman Мускатное белое"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "inkermanskiy-zmv-inkerman-rozovoe-polusladkoe-rkatsiteli-12",
+          "structured_score": 0.8325,
+          "title": "Инкерман Розовое полусладкое"
+        },
+        {
+          "current_score": 0.7951951026916504,
+          "slug": "inkermanskiy-zmv-winemakers-selection-saperavi-krasnoe-polusladkoe-12",
+          "structured_score": 0.8325,
+          "title": "Winemaker's Selection Саперави"
+        }
+      ]
+    },
+    {
+      "current_candidate": "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj",
+      "expected_slug": "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-1",
+      "file": "95.49_05-09-2026_15-34-51.webp",
+      "structured_top5": [
+        {
+          "current_score": 0.0,
+          "slug": "zhemchuzhnaya-9-kaberne-sovinon-pino-nuar-1",
+          "structured_score": 0.9695,
+          "title": "Жемчужная 9 Каберне Совиньон, Пино Нуар"
+        },
+        {
+          "current_score": 0.8894394636154175,
+          "slug": "zhemchuzhnaya-9-muskat-rozovyj-kaberne-sovinon",
+          "structured_score": 0.9685,
+          "title": "Жемчужная 9 Мускат Розовый, Каберне Совиньон"
+        },
+        {
+          "current_score": 0.927142858505249,
+          "slug": "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-2",
+          "structured_score": 0.9668,
+          "title": "Жемчужная 9 Пино нуар, Мускат Розовый"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "zhemchuzhnaya-9-kaberne-sovinon-pino-nuar",
+          "structured_score": 0.9575,
+          "title": "Жемчужная 9 Каберне Совиньон, Пино Нуар"
+        },
+        {
+          "current_score": 0.9528419375419617,
+          "slug": "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-1",
+          "structured_score": 0.946,
+          "title": "Жемчужная 9 Пино Нуар, Мускат розовый"
+        }
+      ]
+    },
+    {
+      "current_candidate": "rubin-golodrigi",
+      "expected_slug": "rubin-golodrigi",
+      "file": "95.63_24-08-2026_17-47-43.webp",
+      "structured_top5": [
+        {
+          "current_score": 0.8622956275939941,
+          "slug": "rubin-golodrigi",
+          "structured_score": 0.9551,
+          "title": "Рубин Голодриги"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "b-yu-rne-krasnostop-suhoe-krasnoe-classic",
+          "structured_score": 0.8246,
+          "title": "БЮРНЬЕ.КРАСНОСТОП сухое красное Classic"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "vinodelnya-marchenko-rubin-rubin-azos-krasnoe-suhoe-14",
+          "structured_score": 0.8181,
+          "title": "Рубин"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "pozdnij-sbor-krasnoe",
+          "structured_score": 0.8059,
+          "title": "Поздний сбор, Красное"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "b-yu-rne-sira-krasnoe-suhoe-classic",
+          "structured_score": 0.8025,
+          "title": "БЮРНЬЕ.СИРА красное сухое Classic"
+        }
+      ]
+    },
+    {
+      "current_candidate": "uva-vallis-risling",
+      "expected_slug": "uva-vallis-risling",
+      "file": "95.75_02-09-2026_14-47-49.webp",
+      "structured_top5": [
+        {
+          "current_score": 0.9384275674819946,
+          "slug": "uva-vallis-risling",
+          "structured_score": 0.8315,
+          "title": "Uva Vallis Рислинг"
+        },
+        {
+          "current_score": 0.8503981828689575,
+          "slug": "uva-vallis-sira",
+          "structured_score": 0.7754,
+          "title": "Uva Vallis Сира"
+        },
+        {
+          "current_score": 0.87983238697052,
+          "slug": "uva-vallis-sovinon-blan",
+          "structured_score": 0.7731,
+          "title": "Uva Vallis Совиньон Блан"
+        },
+        {
+          "current_score": 0.9175999164581299,
+          "slug": "uva-vallis-shardone",
+          "structured_score": 0.7555,
+          "title": "Uva Vallis Шардоне"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "cantiani-riesling-rkatsiteli",
+          "structured_score": 0.705,
+          "title": "Cantiani Riesling Rkatsiteli"
+        }
+      ]
+    },
+    {
+      "current_candidate": "denisov_barynya_kurmyshi",
+      "expected_slug": "denisov_barynya_kurmyshi",
+      "file": "95.76_23-08-2026_18-19-43.webp",
+      "structured_top5": [
+        {
+          "current_score": 0.6098054051399231,
+          "slug": "znoj-denisov-vajneri",
+          "structured_score": 0.8221,
+          "title": "Зной. Денисов Вайнери"
+        },
+        {
+          "current_score": 0.7313255667686462,
+          "slug": "denisov_barynya_kurmyshi",
+          "structured_score": 0.8205,
+          "title": "Барыня. Курмыши"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "zakat-denisov-vajneri",
+          "structured_score": 0.8157,
+          "title": "Закат. Денисов Вайнери"
+        },
+        {
+          "current_score": 0.6871472597122192,
+          "slug": "denisov_pereplyas_kurmyshi",
+          "structured_score": 0.803,
+          "title": "Перепляс. Курмыши"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "aya-organic-wine-vineyards-blush-4-pino-nuar-krasnoe-ekstra-bryut-129",
+          "structured_score": 0.6304,
+          "title": "Blush #4"
+        }
+      ]
+    },
+    {
+      "current_candidate": "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11",
+      "expected_slug": "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11",
+      "file": "95.88_02-09-2026_14-41-59.webp",
+      "structured_top5": [
+        {
+          "current_score": 0.0,
+          "slug": "fanagoriya-beloe-polusladkoe",
+          "structured_score": 0.8958,
+          "title": "Фанагория белое полусладкое"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "fanagoriya-ona-skazala-da-beloe-polusladkoe",
+          "structured_score": 0.8958,
+          "title": "Фанагория Она сказала Да! белое полусладкое"
+        },
+        {
+          "current_score": 0.9402785301208496,
+          "slug": "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11",
+          "structured_score": 0.8958,
+          "title": "Зелёное вино. Рислинг - Цитронный Магарача"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "cru-lermont-risling",
+          "structured_score": 0.8881,
+          "title": "Cru Lermont Рислинг"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "fanagoriya-brule-frizzante-polusladkoe-beloe-pino-nuar-11",
+          "structured_score": 0.8881,
+          "title": "Brule Frizzante Полусладкое Белое"
+        }
+      ]
+    },
+    {
+      "current_candidate": "roze-2",
+      "expected_slug": "roze-2",
+      "file": "95.8_19-08-2026_19-33-23.webp",
+      "structured_top5": [
+        {
+          "current_score": 0.0,
+          "slug": "vinodelnya-byurne-vione-beloe-suhoe-135",
+          "structured_score": 0.874,
+          "title": "БЮРНЬЕ.ВИОНЬЕ сухое белое"
+        },
+        {
+          "current_score": 0.7969176769256592,
+          "slug": "rozovoe-zoloto",
+          "structured_score": 0.8708,
+          "title": "Розовое золото"
+        },
+        {
+          "current_score": 0.871666669845581,
+          "slug": "roze-2",
+          "structured_score": 0.8708,
+          "title": "Розе"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "priboj-marchenko-rozovoe-polusuhoe",
+          "structured_score": 0.8619,
+          "title": "Прибой Марченко розовое полусухое"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "vinodelnya-pokrovskaya-rozovoe-marinovskiy-suhoe-135",
+          "structured_score": 0.8613,
+          "title": "Розовое"
+        }
+      ]
+    },
+    {
+      "current_candidate": "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+      "expected_slug": "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+      "file": "96.05_28-08-2026_09-14-57.webp",
+      "structured_top5": [
+        {
+          "current_score": 0.0,
+          "slug": "usadba-mezyb-usadba-mezyb-kaberne-fran-krasnoe-suhoe-145",
+          "structured_score": 0.8012,
+          "title": "Усадьба Мезыбь. Каберне Фран"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "usadba-mezyb-usadba-mezyb-kaberne-sovinon-kaberne-fran-merlo-krasnoe-suhoe-148",
+          "structured_score": 0.8012,
+          "title": "Усадьба Мезыбь. Каберне Совиньон, Каберне Фран, Мерло"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "usadba-mezyb-usadba-mezyb-roze-kaberne-fran-rozovoe-suhoe-143",
+          "structured_score": 0.8004,
+          "title": "Усадьба Мезыбь. Розе Каберне Фран"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "usadba-mezyb-usadba-mezyb-vione-beloe-suhoe-118",
+          "structured_score": 0.791,
+          "title": "Усадьба Мезыбь. Вионье"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "usadba-mezyb-usadba-mezyb-krasnostop-saperavi-krasnoe-suhoe-127",
+          "structured_score": 0.789,
+          "title": "Усадьба Мезыбь. Красностоп, Саперави"
+        }
+      ]
+    },
+    {
+      "current_candidate": "golubitskoe-estate-kaberne-sovinon-krasnoe-suhoe-137",
+      "expected_slug": "golubitskoe-estate-kaberne-sovinon-krasnoe-suhoe-137",
+      "file": "96.07_28-08-2026_16-10-06.webp",
+      "structured_top5": [
+        {
+          "current_score": 0.0,
+          "slug": "golubitskoe-rose",
+          "structured_score": 0.8216,
+          "title": "Golubitskoe Rose"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "golubitskoe-estate-chardonnay",
+          "structured_score": 0.82,
+          "title": "Golubitskoe Estate Chardonnay"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "golubitskoe-estate-risling",
+          "structured_score": 0.8109,
+          "title": "Golubitskoe Estate Рислинг"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "olymp-winery-adagum-sauvignon-sovinon-blan-beloe-suhoe-11",
+          "structured_score": 0.7803,
+          "title": "Adagum Sauvignon"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "olymp-winery-adagum-estate-sauvignon-blanc-sovinon-blan-beloe-suhoe-11",
+          "structured_score": 0.7803,
+          "title": "Adagum Estate Sauvignon Blanc"
+        }
+      ]
+    },
+    {
+      "current_candidate": "zhemchuzhnaya-9-czitron-shardone-1",
+      "expected_slug": "zhemchuzhnaya-9-czitron-shardone-1",
+      "file": "96.08_22-08-2026_15-12-27.webp",
+      "structured_top5": [
+        {
+          "current_score": 0.9758421182632446,
+          "slug": "zhemchuzhnaya-9-czitron-shardone-1",
+          "structured_score": 0.948,
+          "title": "Жемчужная 9 Цитрон, Шардоне"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "aratti-shardone-beloe-suhoe",
+          "structured_score": 0.9169,
+          "title": "АРАТТИ Шардоне белое сухое"
+        },
+        {
+          "current_score": 0.9409157633781433,
+          "slug": "zhemchuzhnaya-9-czitron-shardone",
+          "structured_score": 0.9158,
+          "title": "Жемчужная 9 Цитрон, Шардоне"
+        },
+        {
+          "current_score": 0.9526568055152893,
+          "slug": "czitronnyj-magaracha-sovinon-blan",
+          "structured_score": 0.8815,
+          "title": "Жемчужная 9 Цитрон, Совиньон блан"
+        },
+        {
+          "current_score": 0.9430125951766968,
+          "slug": "zhemchuzhnaya-9-aligote-czitron",
+          "structured_score": 0.8733,
+          "title": "Жемчужная 9 Алиготе, Цитрон"
+        }
+      ]
+    },
+    {
+      "current_candidate": "golubitskoe-rose",
+      "expected_slug": "golubitskoe-estate-merlo-krasnoe-suhoe-135",
+      "file": "96.08_28-08-2026_16-29-50.webp",
+      "structured_top5": [
+        {
+          "current_score": 0.8155308365821838,
+          "slug": "golubitskoe-rose",
+          "structured_score": 0.8996,
+          "title": "Golubitskoe Rose"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "golubitskoe-estate-risling",
+          "structured_score": 0.856,
+          "title": "Golubitskoe Estate Рислинг"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "golubitskoe-estate-chardonnay",
+          "structured_score": 0.8546,
+          "title": "Golubitskoe Estate Chardonnay"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "aya-khrustaleva-76-merlot-organik",
+          "structured_score": 0.85,
+          "title": "Aya Khrustaleva 76 merlot Органик"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "marquetry-syrah-merlot-cabernet-franc",
+          "structured_score": 0.85,
+          "title": "Marquetry syrah, merlot, cabernet franc"
+        }
+      ]
+    },
+    {
+      "current_candidate": "roze-2",
+      "expected_slug": "roze-2",
+      "file": "96.13_19-08-2026_19-33-10.webp",
+      "structured_top5": [
+        {
+          "current_score": 0.0,
+          "slug": "priboj-marchenko-rozovoe-polusuhoe",
+          "structured_score": 0.891,
+          "title": "Прибой Марченко розовое полусухое"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "vinodelnya-byurne-vione-beloe-suhoe-135",
+          "structured_score": 0.874,
+          "title": "БЮРНЬЕ.ВИОНЬЕ сухое белое"
+        },
+        {
+          "current_score": 0.8214859962463379,
+          "slug": "rozovoe-zoloto",
+          "structured_score": 0.8708,
+          "title": "Розовое золото"
+        },
+        {
+          "current_score": 0.8899102210998535,
+          "slug": "roze-2",
+          "structured_score": 0.8708,
+          "title": "Розе"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "b-yu-rne-sira-krasnoe-suhoe-classic",
+          "structured_score": 0.8663,
+          "title": "БЮРНЬЕ.СИРА красное сухое Classic"
+        }
+      ]
+    },
+    {
+      "current_candidate": "roze-2",
+      "expected_slug": "roze-2",
+      "file": "96.15_22-08-2026_20-56-09.webp",
+      "structured_top5": [
+        {
+          "current_score": 0.0,
+          "slug": "vinodelnya-byurne-vione-beloe-suhoe-135",
+          "structured_score": 0.874,
+          "title": "БЮРНЬЕ.ВИОНЬЕ сухое белое"
+        },
+        {
+          "current_score": 0.850371778011322,
+          "slug": "rozovoe-zoloto",
+          "structured_score": 0.8708,
+          "title": "Розовое золото"
+        },
+        {
+          "current_score": 0.8673943281173706,
+          "slug": "roze-2",
+          "structured_score": 0.8708,
+          "title": "Розе"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "priboj-marchenko-beloe-polusuhoe",
+          "structured_score": 0.8655,
+          "title": "Прибой Марченко белое полусухое"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "priboj-marchenko-rozovoe-polusuhoe",
+          "structured_score": 0.8619,
+          "title": "Прибой Марченко розовое полусухое"
+        }
+      ]
+    },
+    {
+      "current_candidate": "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-1",
+      "expected_slug": "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-1",
+      "file": "96.27_20-08-2026_16-26-30.webp",
+      "structured_top5": [
+        {
+          "current_score": 0.0,
+          "slug": "zhemchuzhnaya-9-kaberne-sovinon-pino-nuar",
+          "structured_score": 0.975,
+          "title": "Жемчужная 9 Каберне Совиньон, Пино Нуар"
+        },
+        {
+          "current_score": 0.9955635070800781,
+          "slug": "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-1",
+          "structured_score": 0.9635,
+          "title": "Жемчужная 9 Пино Нуар, Мускат розовый"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "zhemchuzhnaya-9-kaberne-sovinon-pino-nuar-1",
+          "structured_score": 0.942,
+          "title": "Жемчужная 9 Каберне Совиньон, Пино Нуар"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "zhemchuzhnaya-9-muskat-rozovyj-pino-gri",
+          "structured_score": 0.941,
+          "title": "Жемчужная 9 Мускат Розовый, Пино гри"
+        },
+        {
+          "current_score": 0.9608492851257324,
+          "slug": "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj",
+          "structured_score": 0.941,
+          "title": "Жемчужная 9 Пино Нуар, Мускат Розовый"
+        }
+      ]
+    },
+    {
+      "current_candidate": "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+      "expected_slug": "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+      "file": "96.2_28-08-2026_09-13-27.webp",
+      "structured_top5": [
+        {
+          "current_score": 0.0,
+          "slug": "usadba-mezyb-usadba-mezyb-kaberne-fran-krasnoe-suhoe-145",
+          "structured_score": 0.7959,
+          "title": "Усадьба Мезыбь. Каберне Фран"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "usadba-mezyb-usadba-mezyb-kaberne-sovinon-kaberne-fran-merlo-krasnoe-suhoe-148",
+          "structured_score": 0.7959,
+          "title": "Усадьба Мезыбь. Каберне Совиньон, Каберне Фран, Мерло"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "usadba-mezyb-usadba-mezyb-roze-kaberne-fran-rozovoe-suhoe-143",
+          "structured_score": 0.795,
+          "title": "Усадьба Мезыбь. Розе Каберне Фран"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "usadba-mezyb-usadba-mezyb-vione-beloe-suhoe-118",
+          "structured_score": 0.791,
+          "title": "Усадьба Мезыбь. Вионье"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "usadba-mezyb-usadba-mezyb-krasnostop-saperavi-krasnoe-suhoe-127",
+          "structured_score": 0.789,
+          "title": "Усадьба Мезыбь. Красностоп, Саперави"
+        }
+      ]
+    },
+    {
+      "current_candidate": "aratti-kaberne-po-belomu-1",
+      "expected_slug": "aratti-kaberne-po-belomu",
+      "file": "96.31_09-09-2026_19-29-01.webp",
+      "structured_top5": [
+        {
+          "current_score": 0.0,
+          "slug": "aratti-kaberne-sovinon-2020-krasnoe-suhoe",
+          "structured_score": 0.8356,
+          "title": "АРАТТИ Каберне Совиньон 2020 красное сухое"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "aratti-kaberne-sovinon-2021-krasnoe-suhoe",
+          "structured_score": 0.8339,
+          "title": "АРАТТИ Каберне Совиньон 2021 красное сухое"
+        },
+        {
+          "current_score": 0.8987324237823486,
+          "slug": "aratti-kaberne-po-belomu",
+          "structured_score": 0.8322,
+          "title": "АРАТТИ Каберне по-белому"
+        },
+        {
+          "current_score": 0.9287834167480469,
+          "slug": "aratti-kaberne-po-belomu-1",
+          "structured_score": 0.8278,
+          "title": "АРАТТИ Каберне по-белому"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "aratti-vremena-goda-saperavi-vyderzhannyj-zima",
+          "structured_score": 0.7985,
+          "title": "АРАТТИ Времена Года Саперави выдержанный Зима"
+        }
+      ]
+    },
+    {
+      "current_candidate": "bukovinka",
+      "expected_slug": "bukovinka",
+      "file": "96.31_21-08-2026_17-24-55.webp",
+      "structured_top5": [
+        {
+          "current_score": 0.7458125352859497,
+          "slug": "bukovinka",
+          "structured_score": 0.9271,
+          "title": "Буковинка"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "vinodelnya-byurne-vione-beloe-suhoe-135",
+          "structured_score": 0.8791,
+          "title": "БЮРНЬЕ.ВИОНЬЕ сухое белое"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "b-yu-rne-vinisa-zh-suhoe-krasnoe",
+          "structured_score": 0.8733,
+          "title": "БЮРНЬЕ.ВИНИСАЖ сухое красное"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "b-yu-rne-sira-krasnoe-suhoe-classic",
+          "structured_score": 0.8701,
+          "title": "БЮРНЬЕ.СИРА красное сухое Classic"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "b-yu-rne-pino-gri-beloe-suhoe",
+          "structured_score": 0.8637,
+          "title": "БЮРНЬЕ.ПИНО ГРИ белое сухое"
+        }
+      ]
+    },
+    {
+      "current_candidate": "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+      "expected_slug": "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+      "file": "96.3_28-08-2026_09-12-56.webp",
+      "structured_top5": [
+        {
+          "current_score": 0.0,
+          "slug": "usadba-mezyb-usadba-mezyb-kaberne-fran-krasnoe-suhoe-145",
+          "structured_score": 0.7947,
+          "title": "Усадьба Мезыбь. Каберне Фран"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "usadba-mezyb-usadba-mezyb-kaberne-sovinon-kaberne-fran-merlo-krasnoe-suhoe-148",
+          "structured_score": 0.7947,
+          "title": "Усадьба Мезыбь. Каберне Совиньон, Каберне Фран, Мерло"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "usadba-mezyb-usadba-mezyb-kaberne-sovinon-krasnoe-suhoe-143",
+          "structured_score": 0.7947,
+          "title": "Усадьба Мезыбь. Каберне Совиньон"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "usadba-mezyb-usadba-mezyb-roze-kaberne-sovinon-rozovoe-suhoe-135",
+          "structured_score": 0.7938,
+          "title": "Усадьба Мезыбь. Розе Каберне Совиньон"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "usadba-mezyb-usadba-mezyb-roze-kaberne-fran-rozovoe-suhoe-143",
+          "structured_score": 0.7938,
+          "title": "Усадьба Мезыбь. Розе Каберне Фран"
+        }
+      ]
+    },
+    {
+      "current_candidate": "sovinon-blan",
+      "expected_slug": "sovinon-blan",
+      "file": "96.44_05-09-2026_15-33-59.webp",
+      "structured_top5": [
+        {
+          "current_score": 0.0,
+          "slug": "lorio-sovinon-blan-2025",
+          "structured_score": 0.8179,
+          "title": "ЛОРИО. Совиньон Блан 2025"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "lorio-sovinon-blan-2024",
+          "structured_score": 0.8179,
+          "title": "ЛОРИО. Совиньон Блан 2024"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "lorio-sovinon-blan-i-shardone-1",
+          "structured_score": 0.8179,
+          "title": "ЛОРИО. Совиньон Блан и Шардоне"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "aratti-sovinon-blan-beloe-polusuhoe",
+          "structured_score": 0.813,
+          "title": "АРАТТИ Совиньон блан белое полусухое"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "priboj-marchenko-beloe-polusuhoe",
+          "structured_score": 0.8025,
+          "title": "Прибой Марченко белое полусухое"
+        }
+      ]
+    },
+    {
+      "current_candidate": "czitronnyj-magaracha",
+      "expected_slug": "czitronnyj-magaracha",
+      "file": "96.45_19-08-2026_19-35-28.webp",
+      "structured_top5": [
+        {
+          "current_score": 0.8194866180419922,
+          "slug": "czitronnyj-magaracha",
+          "structured_score": 0.9088,
+          "title": "Цитрон"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "vinodelnya-byurne-vione-beloe-suhoe-135",
+          "structured_score": 0.877,
+          "title": "БЮРНЬЕ.ВИОНЬЕ сухое белое"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "priboj-marchenko-rozovoe-polusuhoe",
+          "structured_score": 0.8668,
+          "title": "Прибой Марченко розовое полусухое"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "b-yu-rne-pino-gri-beloe-suhoe",
+          "structured_score": 0.8602,
+          "title": "БЮРНЬЕ.ПИНО ГРИ белое сухое"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "b-yu-rne-pino-gri-pozdnij-sbor-sladkoe-beloe",
+          "structured_score": 0.8602,
+          "title": "БЮРНЬЕ.ПИНО ГРИ Поздний сбор сладкое белое"
+        }
+      ]
+    },
+    {
+      "current_candidate": "denisov-winery-risling-beloe-suhoe-115",
+      "expected_slug": "denisov-winery-risling-beloe-suhoe-115",
+      "file": "96.54_04-09-2026_19-30-52.webp",
+      "structured_top5": [
+        {
+          "current_score": 0.0,
+          "slug": "znoj-denisov-vajneri",
+          "structured_score": 0.8233,
+          "title": "Зной. Денисов Вайнери"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "zakat-denisov-vajneri",
+          "structured_score": 0.7992,
+          "title": "Закат. Денисов Вайнери"
+        },
+        {
+          "current_score": 0.865281343460083,
+          "slug": "denisov-winery-risling-beloe-suhoe-115",
+          "structured_score": 0.7283,
+          "title": "Рислинг"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "denisov-winery-petnat-risling-beloe-ekstra-bryut-10",
+          "structured_score": 0.7134,
+          "title": "Петнат Рислинг"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "denisov_pazori_risling",
+          "structured_score": 0.7092,
+          "title": "Пазори Рислинг"
+        }
+      ]
+    },
+    {
+      "current_candidate": "sary-pandas-vyderzhannoe",
+      "expected_slug": "novyy-svet-dom-shampanskih-vin-novyy-svet-polusladkoe-roze-shardone-rozovoe-115",
+      "file": "96.55_30-08-2026_19-34-31.webp",
+      "structured_top5": [
+        {
+          "current_score": 0.0,
+          "slug": "novyy-svet-dom-shampanskih-vin-rossiyskoe-shampanskoe-vyderzhannoe-polusladkoe-rozovoe-novyy-svet-shardone-125",
+          "structured_score": 0.842,
+          "title": "Российское шампанское выдержанное полусладкое розовое «Новый Свет»"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "novyy-svet-dom-shampanskih-vin-igristoe-vino-vyderzhannoe-polusladkoe-rozovoe-novyy-svet-pino-fran-135",
+          "structured_score": 0.8412,
+          "title": "Игристое вино выдержанное полусладкое розовое «Новый Свет. Пино Фран»"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "novyy-svet-dom-shampanskih-vin-rossiyskoe-shampanskoe-kollektsionnoe-polusuhoe-rozovoe-novyy-svet-pino-nuar-125",
+          "structured_score": 0.8208,
+          "title": "Российское шампанское коллекционное полусухое розовое «Новый Свет. Пино Нуар»"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "novyy-svet-dom-shampanskih-vin-igristoe-vino-vyderzhannoe-polusladkoe-krasnoe-novyy-svet-kaberne-sovinon-12",
+          "structured_score": 0.8182,
+          "title": "Игристое вино выдержанное полусладкое красное «Новый Свет. Каберне Совиньон»"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "novyy-svet-dom-shampanskih-vin-rossiyskoe-shampanskoe-kollektsionnoe-bryut-rozovoe-novyy-svet-pino-nuar-135",
+          "structured_score": 0.8107,
+          "title": "Российское шампанское коллекционное брют розовое «Новый Свет. Пино Нуар»"
+        }
+      ]
+    },
+    {
+      "current_candidate": "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11",
+      "expected_slug": "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11",
+      "file": "96.58_05-09-2026_16-05-04.webp",
+      "structured_top5": [
+        {
+          "current_score": 0.0,
+          "slug": "vinodelnya-pokrovskaya-risling-pokrovskoe-risling-reynskiy-beloe-suhoe-13",
+          "structured_score": 0.9617,
+          "title": "Рислинг. Покровское"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "vinodelnya-marko-risling-beloe-suhoe-12",
+          "structured_score": 0.9585,
+          "title": "Рислинг"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "risling-2024",
+          "structured_score": 0.9575,
+          "title": "Рислинг, 2024"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "priboj-marchenko-beloe-polusuhoe",
+          "structured_score": 0.8943,
+          "title": "Прибой Марченко белое полусухое"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "fanagoriya-beloe-polusladkoe",
+          "structured_score": 0.8905,
+          "title": "Фанагория белое полусладкое"
+        }
+      ]
+    },
+    {
+      "current_candidate": "balaklava-muskat",
+      "expected_slug": "balaklava-muskat",
+      "file": "96.61_28-08-2026_09-16-27.webp",
+      "structured_top5": [
+        {
+          "current_score": 0.9494832754135132,
+          "slug": "balaklava-muskat",
+          "structured_score": 0.9381,
+          "title": "Балаклава Мускат"
+        },
+        {
+          "current_score": 0.8806889653205872,
+          "slug": "balaklava-muskat-beloe-polusladkoe",
+          "structured_score": 0.9193,
+          "title": "Балаклава Мускат белое полусладкое"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "zb-wine-moscato-beloe-polusladkoe",
+          "structured_score": 0.915,
+          "title": "ZB Wine Moscato белое полусладкое"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "polusladkoe-beloe-zolotaya-balka",
+          "structured_score": 0.89,
+          "title": "Полусладкое Белое Золотая Балка"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "zolotaya-balka-igristoe-krasnoe-polusladkoe",
+          "structured_score": 0.8795,
+          "title": "Золотая Балка игристое красное полусладкое"
+        }
+      ]
+    },
+    {
+      "current_candidate": "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11",
+      "expected_slug": "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11",
+      "file": "96.62_07-09-2026_18-12-27.webp",
+      "structured_top5": [
+        {
+          "current_score": 0.0,
+          "slug": "risling-2024",
+          "structured_score": 0.9625,
+          "title": "Рислинг, 2024"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "vinodelnya-pokrovskaya-risling-pokrovskoe-risling-reynskiy-beloe-suhoe-13",
+          "structured_score": 0.9617,
+          "title": "Рислинг. Покровское"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "vinodelnya-marko-risling-beloe-suhoe-12",
+          "structured_score": 0.9585,
+          "title": "Рислинг"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "priboj-marchenko-beloe-polusuhoe",
+          "structured_score": 0.8992,
+          "title": "Прибой Марченко белое полусухое"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "fanagoriya-beloe-polusladkoe",
+          "structured_score": 0.8933,
+          "title": "Фанагория белое полусладкое"
+        }
+      ]
+    },
+    {
+      "current_candidate": "valeriy-zaharin-avtorskoe-vino-ot-valeriya-zaharina-aleatiko-rozovoe-suhoe-115",
+      "expected_slug": "valeriy-zaharin-bastardo-kefesiya-avtohtonnoe-vino-kryma-bastardo-magarachskiy-krasnoe-suhoe-115",
+      "file": "96.64_26-08-2026_16-52-37.webp",
+      "structured_top5": [
+        {
+          "current_score": 0.0,
+          "slug": "valeriy-zaharin-sovinon-blan-valeriy-zaharin-beloe-polusladkoe-105",
+          "structured_score": 0.8555,
+          "title": "Совиньон Блан. Валерий Захарьин"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "valeriy-zaharin-sovinon-valeriy-zaharin-beloe-polusladkoe-125",
+          "structured_score": 0.8555,
+          "title": "Совиньон. Валерий Захарьин"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "valeriy-zaharin-bakkal-su-kaberne-kaberne-sovinon-krasnoe-suhoe-125",
+          "structured_score": 0.8513,
+          "title": "Баккал Су Каберне"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "soyuz-vino-soyuz-vino-kaberne-sovinon-krasnoe-suhoe-12",
+          "structured_score": 0.8233,
+          "title": "Союз-Вино Каберне Совиньон"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "soyuz-vino-sheremetevskie-pogreba-kaberne-sovinon-krasnoe-suhoe-11",
+          "structured_score": 0.8233,
+          "title": "Шереметьевские Погреба Каберне Совиньон"
+        }
+      ]
+    },
+    {
+      "current_candidate": "kaberne-sovinon-3",
+      "expected_slug": "kaberne-sovinon-3",
+      "file": "96.65_02-09-2026_12-08-51.webp",
+      "structured_top5": [
+        {
+          "current_score": 0.0,
+          "slug": "priboj-marchenko-krasnoe-polusuhoe",
+          "structured_score": 0.8115,
+          "title": "Прибой Марченко красное полусухое"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "fiori-di-mare-krasnoe-polusuhoe",
+          "structured_score": 0.8092,
+          "title": "Fiori di Mare красное полусухое"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "leto-kaberne-sovinon-2023-polusuhoe-krasnoe",
+          "structured_score": 0.7845,
+          "title": "LETO Каберне Совиньон 2023 полусухое красное"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "lorio-kaberne-sovinon",
+          "structured_score": 0.7715,
+          "title": "ЛОРИО. Каберне Совиньон"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "perovskih_polusuhoe_krasnoe",
+          "structured_score": 0.7508,
+          "title": "Полусухое Красное"
+        }
+      ]
+    },
+    {
+      "current_candidate": "perovskih_polusuhoe_krasnoe",
+      "expected_slug": "perovskih_polusuhoe_krasnoe",
+      "file": "96.66_22-08-2026_20-44-40.webp",
+      "structured_top5": [
+        {
+          "current_score": 0.0,
+          "slug": "usadba-mezyb-usadba-mezyb-krasnostop-saperavi-krasnoe-suhoe-127",
+          "structured_score": 0.901,
+          "title": "Усадьба Мезыбь. Красностоп, Саперави"
+        },
+        {
+          "current_score": 0.9454807043075562,
+          "slug": "perovskih_polusuhoe_krasnoe",
+          "structured_score": 0.8867,
+          "title": "Полусухое Красное"
+        },
+        {
+          "current_score": 0.8722262978553772,
+          "slug": "perovskih_polusladkoe_krasnoe",
+          "structured_score": 0.8809,
+          "title": "Полусладкое Красное"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "usadba-perovskih-kaberne-fran-1890-krasnoe-suhoe-13",
+          "structured_score": 0.8794,
+          "title": "Каберне Фран 1890"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "usadba-perovskih-kaberne-sovinon-merlo-1890-krasnoe-suhoe-13",
+          "structured_score": 0.8709,
+          "title": "Каберне Совиньон & Мерло 1890"
+        }
+      ]
+    },
+    {
+      "current_candidate": "usadba-mezyb-shishka-kupazh-5-kaberne-sovinon-rozovoe-suhoe-133",
+      "expected_slug": "usadba-mezyb-shishka-kupazh-5-kaberne-sovinon-rozovoe-suhoe-133",
+      "file": "96.74_28-08-2026_13-52-26.webp",
+      "structured_top5": [
+        {
+          "current_score": 0.0,
+          "slug": "usadba-mezyb-usadba-mezyb-merlo-krasnoe-suhoe-15",
+          "structured_score": 0.7904,
+          "title": "Усадьба Мезыбь. Мерло"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "usadba-mezyb-mezyb-merlo-krasnoe-suhoe-145",
+          "structured_score": 0.7904,
+          "title": "Мезыбь Мерло"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "usadba-mezyb-usadba-mezyb-shardone-beloe-suhoe-125",
+          "structured_score": 0.7897,
+          "title": "Усадьба Мезыбь. Шардоне"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "usadba-mezyb-usadba-mezyb-krasnostop-saperavi-krasnoe-suhoe-127",
+          "structured_score": 0.7812,
+          "title": "Усадьба Мезыбь. Красностоп, Саперави"
+        },
+        {
+          "current_score": 0.9175723791122437,
+          "slug": "usadba-mezyb-shishka-kupazh-5-kaberne-sovinon-rozovoe-suhoe-133",
+          "structured_score": 0.7779,
+          "title": "Шишка. Купаж №5"
+        }
+      ]
+    },
+    {
+      "current_candidate": "muskat",
+      "expected_slug": "pozdnij-sbor-krasnoe",
+      "file": "96.76_07-09-2026_14-57-04.webp",
+      "structured_top5": [
+        {
+          "current_score": 0.0,
+          "slug": "pozdnij-sbor-krasnoe",
+          "structured_score": 0.8625,
+          "title": "Поздний сбор, Красное"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "pozdnij-sbor-beloe",
+          "structured_score": 0.8154,
+          "title": "Поздний сбор, Белое"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "b-yu-rne-pino-gri-pozdnij-sbor-sladkoe-beloe",
+          "structured_score": 0.6822,
+          "title": "БЮРНЬЕ.ПИНО ГРИ Поздний сбор сладкое белое"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "imenie-sikory-risling-pozdniy-sbor-beloe-sladkoe-13",
+          "structured_score": 0.6754,
+          "title": "Рислинг. Поздний сбор"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "soyuz-vino-kanonicheskie-traditsii-krasnoe-sladkoe-kaberne-sovinon-115",
+          "structured_score": 0.6743,
+          "title": "Канонические Традиции Красное Сладкое"
+        }
+      ]
+    },
+    {
+      "current_candidate": "oleg",
+      "expected_slug": "oleg",
+      "file": "96.79_20-08-2026_17-48-31.webp",
+      "structured_top5": [
+        {
+          "current_score": 0.7573444843292236,
+          "slug": "oleg",
+          "structured_score": 0.9551,
+          "title": "Олег"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "vinodelnya-byurne-vione-beloe-suhoe-135",
+          "structured_score": 0.8808,
+          "title": "БЮРНЬЕ.ВИОНЬЕ сухое белое"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "chenin-blanc-shenen-blan-oleg-repin",
+          "structured_score": 0.8781,
+          "title": "Chenin Blanc (Шенен Блан. Олег Репин)"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "b-yu-rne-vinisa-zh-suhoe-krasnoe",
+          "structured_score": 0.8671,
+          "title": "БЮРНЬЕ.ВИНИСАЖ сухое красное"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "b-yu-rne-pino-gri-pozdnij-sbor-sladkoe-beloe",
+          "structured_score": 0.8648,
+          "title": "БЮРНЬЕ.ПИНО ГРИ Поздний сбор сладкое белое"
+        }
+      ]
+    },
+    {
+      "current_candidate": "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+      "expected_slug": "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+      "file": "96.7_28-08-2026_13-50-21.webp",
+      "structured_top5": [
+        {
+          "current_score": 0.0,
+          "slug": "usadba-mezyb-usadba-mezyb-krasnostop-saperavi-krasnoe-suhoe-127",
+          "structured_score": 0.789,
+          "title": "Усадьба Мезыбь. Красностоп, Саперави"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "usadba-mezyb-usadba-mezyb-kaberne-fran-krasnoe-suhoe-145",
+          "structured_score": 0.789,
+          "title": "Усадьба Мезыбь. Каберне Фран"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "usadba-mezyb-usadba-mezyb-kaberne-sovinon-kaberne-fran-merlo-krasnoe-suhoe-148",
+          "structured_score": 0.789,
+          "title": "Усадьба Мезыбь. Каберне Совиньон, Каберне Фран, Мерло"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "usadba-mezyb-usadba-mezyb-kaberne-sovinon-krasnoe-suhoe-143",
+          "structured_score": 0.789,
+          "title": "Усадьба Мезыбь. Каберне Совиньон"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "usadba-mezyb-usadba-mezyb-vione-beloe-suhoe-118",
+          "structured_score": 0.7888,
+          "title": "Усадьба Мезыбь. Вионье"
+        }
+      ]
+    },
+    {
+      "current_candidate": "oleg",
+      "expected_slug": "oleg",
+      "file": "96.83_20-08-2026_17-48-13.webp",
+      "structured_top5": [
+        {
+          "current_score": 0.8154218792915344,
+          "slug": "oleg",
+          "structured_score": 0.959,
+          "title": "Олег"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "vinodelnya-byurne-vione-beloe-suhoe-135",
+          "structured_score": 0.8846,
+          "title": "БЮРНЬЕ.ВИОНЬЕ сухое белое"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "chenin-blanc-shenen-blan-oleg-repin",
+          "structured_score": 0.8786,
+          "title": "Chenin Blanc (Шенен Блан. Олег Репин)"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "lorio-sovinon-blan-2025",
+          "structured_score": 0.8655,
+          "title": "ЛОРИО. Совиньон Блан 2025"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "b-yu-rne-vinisa-zh-suhoe-rozovoe",
+          "structured_score": 0.8655,
+          "title": "БЮРНЬЕ.ВИНИСАЖ сухое розовое"
+        }
+      ]
+    },
+    {
+      "current_candidate": "sovinon-blan",
+      "expected_slug": "sovinon-blan",
+      "file": "96.8_25-08-2026_22-20-38.webp",
+      "structured_top5": [
+        {
+          "current_score": 0.0,
+          "slug": "lorio-sovinon-blan-2025",
+          "structured_score": 0.9506,
+          "title": "ЛОРИО. Совиньон Блан 2025"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "lorio-sovinon-blan-2024",
+          "structured_score": 0.9506,
+          "title": "ЛОРИО. Совиньон Блан 2024"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "lorio-sovinon-blan-i-shardone-1",
+          "structured_score": 0.9506,
+          "title": "ЛОРИО. Совиньон Блан и Шардоне"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "sovinon-blan-2",
+          "structured_score": 0.8736,
+          "title": "Совиньон Блан"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "vinodelnya-uzunov-sovinon-blan-beloe-suhoe-125",
+          "structured_score": 0.8707,
+          "title": "Совиньон Блан"
+        }
+      ]
+    },
+    {
+      "current_candidate": "denisov_rubin_klaret_krasnaya_strelka",
+      "expected_slug": "denisov_rubin_klaret_krasnaya_strelka",
+      "file": "96.96_05-09-2026_19-02-01.webp",
+      "structured_top5": [
+        {
+          "current_score": 0.0,
+          "slug": "denisov_pet_nat_rubin",
+          "structured_score": 0.9242,
+          "title": "Пет-Нат Рубин"
+        },
+        {
+          "current_score": 0.7820813655853271,
+          "slug": "denisov_rubin_klaret_krasnaya_strelka",
+          "structured_score": 0.9233,
+          "title": "Рубин кларет . Красная стрелка"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "znoj-denisov-vajneri",
+          "structured_score": 0.8319,
+          "title": "Зной. Денисов Вайнери"
+        },
+        {
+          "current_score": 0.7671167254447937,
+          "slug": "denisov_pino_noir_klaret",
+          "structured_score": 0.8112,
+          "title": "Пино Нуар кларет. Красная стрелка"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "zakat-denisov-vajneri",
+          "structured_score": 0.8021,
+          "title": "Закат. Денисов Вайнери"
+        }
+      ]
+    },
+    {
+      "current_candidate": "czitronnyj-magaracha",
+      "expected_slug": "czitronnyj-magaracha",
+      "file": "96.98_19-08-2026_19-05-06.webp",
+      "structured_top5": [
+        {
+          "current_score": 0.8244343996047974,
+          "slug": "czitronnyj-magaracha",
+          "structured_score": 0.9088,
+          "title": "Цитрон"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "vinodelnya-byurne-vione-beloe-suhoe-135",
+          "structured_score": 0.877,
+          "title": "БЮРНЬЕ.ВИОНЬЕ сухое белое"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "priboj-marchenko-rozovoe-polusuhoe",
+          "structured_score": 0.8668,
+          "title": "Прибой Марченко розовое полусухое"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "b-yu-rne-pino-gri-beloe-suhoe",
+          "structured_score": 0.8602,
+          "title": "БЮРНЬЕ.ПИНО ГРИ белое сухое"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "b-yu-rne-pino-gri-pozdnij-sbor-sladkoe-beloe",
+          "structured_score": 0.8602,
+          "title": "БЮРНЬЕ.ПИНО ГРИ Поздний сбор сладкое белое"
+        }
+      ]
+    },
+    {
+      "current_candidate": "sovinon-blan",
+      "expected_slug": "sovinon-blan",
+      "file": "97.23_05-09-2026_15-34-36.webp",
+      "structured_top5": [
+        {
+          "current_score": 0.0,
+          "slug": "lorio-sovinon-blan-2025",
+          "structured_score": 0.956,
+          "title": "ЛОРИО. Совиньон Блан 2025"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "lorio-sovinon-blan-2024",
+          "structured_score": 0.956,
+          "title": "ЛОРИО. Совиньон Блан 2024"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "lorio-sovinon-blan-i-shardone-1",
+          "structured_score": 0.956,
+          "title": "ЛОРИО. Совиньон Блан и Шардоне"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "soyuz-vino-zelyonaya-dolina-sovinon-blan-polusladkoe-beloe-12",
+          "structured_score": 0.8828,
+          "title": "Зелёная Долина Совиньон Блан Полусладкое"
+        },
+        {
+          "current_score": 0.0,
+          "slug": "sovinon-blan-2",
+          "structured_score": 0.879,
+          "title": "Совиньон Блан"
+        }
+      ]
+    }
+  ]
+}

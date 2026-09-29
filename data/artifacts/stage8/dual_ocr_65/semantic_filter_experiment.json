@@ -1,0 +1,1419 @@
+{
+  "baseline": {
+    "count": 65,
+    "top1": 49,
+    "top1_rate": 0.7538461538461538,
+    "top5": 60,
+    "top5_rate": 0.9230769230769231
+  },
+  "method": "generic OCR attributes: colour, sweetness, sparkling; fuzzy catalog retrieval; soft compatibility bonuses",
+  "photos": 65,
+  "rows": [
+    {
+      "baseline_rank": 2,
+      "cues": {
+        "colour": [
+          "red"
+        ],
+        "sparkling": [],
+        "sweetness": []
+      },
+      "expected_slug": "denisov_rubin_klaret_krasnaya_strelka",
+      "file": "48.98_02-09-2026_18-34-15.webp",
+      "ocr": "camapa denisov strelka kpachaa py6ih samara krasnaya rubin",
+      "semantic_rank": 1,
+      "semantic_top5": [
+        "denisov_rubin_klaret_krasnaya_strelka",
+        "denisov_pino_noir_klaret",
+        "znoj-denisov-vajneri",
+        "denisov_pazori_risling",
+        "denisov-winery-risling-beloe-suhoe-115"
+      ]
+    },
+    {
+      "baseline_rank": 1,
+      "cues": {
+        "colour": [],
+        "sparkling": [],
+        "sweetness": []
+      },
+      "expected_slug": "fanagoriya-formula-q-kaberne-sovinon-krasnoe-suhoe-135",
+      "file": "70.45_04-09-2026_13-35-37.webp",
+      "ocr": "2998 noblesse oblige formula fanagoria merlo 2022 sanerabm 2024 panckar na vinograda temirah podelennyh urna sbor s nashih dushih vinogradnyh assotsima frantsuzskogo merurnogo kaberne sovinon 2021 frasnostol zolotovskii 2023 saperavi 2024",
+      "semantic_rank": 1,
+      "semantic_top5": [
+        "fanagoriya-formula-q-kaberne-sovinon-krasnoe-suhoe-135",
+        "fanagoriya-101-ottenok-krasnogo-saperavi-krasnoe-suhoe-14",
+        "fanagoriya-q-blanc-sovinon-blan-beloe-suhoe-14",
+        "fanagoriya-100-ottenkov-krasnogo-saperavi-krasnoe-suhoe-14",
+        "fanagoriya-100-ottenkov-shardone-beloe-suhoe-14"
+      ]
+    },
+    {
+      "baseline_rank": 999,
+      "cues": {
+        "colour": [],
+        "sparkling": [],
+        "sweetness": []
+      },
+      "expected_slug": "skalistyj-bereg-shepot-czvetov",
+      "file": "82.33_27-08-2026_10-03-52.webp",
+      "ocr": "ibe skalis bere osn 2010 peps pve",
+      "semantic_rank": 130,
+      "semantic_top5": [
+        "leto-risling-2024-polusuhoe-vino",
+        "aratti-kaberne-po-belomu-1",
+        "leto-muskat-oranzh-2024-suhoe-vino",
+        "aratti-kaberne-po-belomu",
+        "aratti-risling-beloe-polusuhoe"
+      ]
+    },
+    {
+      "baseline_rank": 1,
+      "cues": {
+        "colour": [
+          "white"
+        ],
+        "sparkling": [],
+        "sweetness": [
+          "dry"
+        ]
+      },
+      "expected_slug": "zhemchuzhnaya-9-aligote-czitron",
+      "file": "84.73_07-09-2026_11-07-51.webp",
+      "ocr": "9 2024 aligote beloe suhoe zhemchuzhnaya tsitron",
+      "semantic_rank": 1,
+      "semantic_top5": [
+        "zhemchuzhnaya-9-aligote-czitron",
+        "zhemchuzhnaya-9-czitron-shardone",
+        "zhemchuzhnaya-9-sovinon-blan-aligote",
+        "zhemchuzhnaya-9-risling-sovinon-blan",
+        "zhemchuzhnaya-9-czitron-shardone-1"
+      ]
+    },
+    {
+      "baseline_rank": 3,
+      "cues": {
+        "colour": [
+          "red"
+        ],
+        "sparkling": [],
+        "sweetness": []
+      },
+      "expected_slug": "pobeda",
+      "file": "87.09_22-08-2026_20-57-16.webp",
+      "ocr": "1945 vinodelnya tabiya rubin golodrigi tirazh ledegd odega kaberne sovinon merlo",
+      "semantic_rank": 3,
+      "semantic_top5": [
+        "rubin-golodrigi",
+        "kaberne-sovinon-2",
+        "pobeda",
+        "czitronnyj-magaracha",
+        "roze-2"
+      ]
+    },
+    {
+      "baseline_rank": 1,
+      "cues": {
+        "colour": [
+          "red"
+        ],
+        "sparkling": [],
+        "sweetness": [
+          "dry"
+        ]
+      },
+      "expected_slug": "relikta-relikta-sira-kaberne-fran-krasnoe-suhoe-13",
+      "file": "87.54_03-09-2026_13-27-53.webp",
+      "ocr": "2024 kaberne relikta god urozhaya vino krasnoe fpan cyxoe cnpa elikta sira kaberne fran suhoe",
+      "semantic_rank": 1,
+      "semantic_top5": [
+        "relikta-relikta-sira-kaberne-fran-krasnoe-suhoe-13",
+        "relikta-relikta-merlo-kaberne-sovinon-krasnoe-suhoe-135",
+        "relikta-relikta-sira-krasnoe-suhoe-13",
+        "relikta-relikta-shardone-beloe-suhoe-12",
+        "relikta-relikta-muskat-beloe-polusuhoe-12"
+      ]
+    },
+    {
+      "baseline_rank": 4,
+      "cues": {
+        "colour": [],
+        "sparkling": [],
+        "sweetness": []
+      },
+      "expected_slug": "aya-organic-wine-vineyards-purity-in-chenin-blanc-shenen-blan-beloe-suhoe-11",
+      "file": "87.81_09-09-2026_17-16-36.webp",
+      "ocr": "purity vf urity balance 2025",
+      "semantic_rank": 4,
+      "semantic_top5": [
+        "aya-organic-wine-vineyards-purity-in-syrah-sira-rozovoe-suhoe-132",
+        "aya-organic-wine-vineyards-purity-in-merlot-merlo-rozovoe-suhoe-134",
+        "aya-organic-wine-vineyards-purity-in-syrah-sira-krasnoe-suhoe-146",
+        "aya-organic-wine-vineyards-purity-in-chenin-blanc-shenen-blan-beloe-suhoe-11",
+        "aya-organic-wine-vineyards-purity-in-trinity-pino-nuar-rozovoe-suhoe-13"
+      ]
+    },
+    {
+      "baseline_rank": 999,
+      "cues": {
+        "colour": [
+          "white"
+        ],
+        "sparkling": [],
+        "sweetness": []
+      },
+      "expected_slug": "massandra-muskatel-belyy-belye-sorta-vinograda-beloe-sladkoe-16",
+      "file": "87.88_28-08-2026_16-56-20.webp",
+      "ocr": "2023 proizvodst 1894 mac myck belyi god urozhaya kpacho 0 751 0 75l vino rossii godosnovaniya pa sydernka v dube codemben bi obedi 0 706 god muatel iroksvo letveniko agrarkoe obelniki massandra krym 25 09 25 god osnovaniya muskatel beli sobstvennoe vinogradki 0 75 l",
+      "semantic_rank": 465,
+      "semantic_top5": [
+        "massandra-portveyn-belyy-gurzuf-kokur-belyy-beloe-sladkoe-135",
+        "massandra-muskat-belyy-yuzhnoberezhnyy-beloe-sladkoe-16",
+        "massandra-kagor-gurzuf-saperavi-krasnoe-sladkoe-16",
+        "massandra-portveyn-krasnyy-livadiya-kaberne-sovinon-krasnoe-sladkoe-185",
+        "massandra-muskatel-rozovyy-belye-sorta-vinograda-rozovoe-sladkoe-16"
+      ]
+    },
+    {
+      "baseline_rank": 2,
+      "cues": {
+        "colour": [
+          "white"
+        ],
+        "sparkling": [],
+        "sweetness": [
+          "semi_dry"
+        ]
+      },
+      "expected_slug": "czitronnyj-magaracha-sovinon-blan",
+      "file": "88.38_20-08-2026_18-32-58.webp",
+      "ocr": "2024 zhemzhnaya beloe polusuhoe tsitron aratt sovinon blan",
+      "semantic_rank": 1,
+      "semantic_top5": [
+        "czitronnyj-magaracha-sovinon-blan",
+        "zhemchuzhnaya-9-aligote-czitron",
+        "zhemchuzhnaya-9-czitron-shardone",
+        "zhemchuzhnaya-9-risling-sovinon-blan",
+        "zhemchuzhnaya-9-czitron-shardone-1"
+      ]
+    },
+    {
+      "baseline_rank": 1,
+      "cues": {
+        "colour": [
+          "rose"
+        ],
+        "sparkling": [],
+        "sweetness": [
+          "semi_dry"
+        ]
+      },
+      "expected_slug": "rozovoe-zoloto",
+      "file": "89.65_19-08-2026_19-48-39.webp",
+      "ocr": "2024 tabiya rozovoe zoloto vinoaelnya polusuhoe po3oboe vinodelnya rozovoe proizvedeno iz vinograda vyrashennogo na territorii rossiiskoi federatsii",
+      "semantic_rank": 1,
+      "semantic_top5": [
+        "rozovoe-zoloto",
+        "roze-2",
+        "bukovinka",
+        "czitronnyj-magaracha",
+        "risling-1"
+      ]
+    },
+    {
+      "baseline_rank": 1,
+      "cues": {
+        "colour": [],
+        "sparkling": [],
+        "sweetness": []
+      },
+      "expected_slug": "aratti-kaberne-sovinon-2021-krasnoe-suhoe",
+      "file": "91.07_20-08-2026_18-37-46.webp",
+      "ocr": "2021 aratti semeinaya vinodelna aratgti kaberne sovinon",
+      "semantic_rank": 1,
+      "semantic_top5": [
+        "aratti-kaberne-sovinon-2021-krasnoe-suhoe",
+        "aratti-sovinon-blan-beloe-polusuhoe",
+        "aratti-kaberne-sovinon-2020-krasnoe-suhoe",
+        "aratti-risling-suhoe",
+        "aratti-risling-beloe-polusuhoe"
+      ]
+    },
+    {
+      "baseline_rank": 1,
+      "cues": {
+        "colour": [
+          "red"
+        ],
+        "sparkling": [],
+        "sweetness": [
+          "dry"
+        ]
+      },
+      "expected_slug": "merlo-2",
+      "file": "91.43_02-09-2026_12-08-50.webp",
+      "ocr": "semeinaya vinodelnya suhoe krasnoe litavshchukov leplo medlo fermerskoe vino sdelano v vinnoi derevne kuban anapa",
+      "semantic_rank": 1,
+      "semantic_top5": [
+        "merlo-2",
+        "saperavi",
+        "kaberne-sovinon-3",
+        "risling-2",
+        "sovinon-blan"
+      ]
+    },
+    {
+      "baseline_rank": 1,
+      "cues": {
+        "colour": [
+          "white"
+        ],
+        "sparkling": [],
+        "sweetness": [
+          "semi_sweet"
+        ]
+      },
+      "expected_slug": "belaya-lvicza",
+      "file": "92.21_19-08-2026_18-57-31.webp",
+      "ocr": "hyap aratti belaya cwauoe vitsa 3ovyi lvitsa rossiiskoe vino s zgu polusladkoe beloe",
+      "semantic_rank": 1,
+      "semantic_top5": [
+        "belaya-lvicza",
+        "chernaya-lvicza-polusladkoe-krasnoe",
+        "rozovaya-pantera",
+        "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-2",
+        "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj"
+      ]
+    },
+    {
+      "baseline_rank": 1,
+      "cues": {
+        "colour": [],
+        "sparkling": [],
+        "sweetness": []
+      },
+      "expected_slug": "aratti-kaberne-sovinon-2020-krasnoe-suhoe",
+      "file": "92.6_07-09-2026_11-04-40.webp",
+      "ocr": "2020 semeinaya vinodelnya tpammu trami kaberne sovinon egu kuban anapa",
+      "semantic_rank": 1,
+      "semantic_top5": [
+        "aratti-kaberne-sovinon-2020-krasnoe-suhoe",
+        "semeynaya-vinodelnya-mihaila-kolesnikova-kaberne-fran-merlo-krasnostop-krasnoe-suhoe-148",
+        "imenie-sikory-kaberne-sovinon-semeynyy-rezerv-krasnoe-suhoe-14",
+        "imenie-sikory-merlo-semeynyy-rezerv-krasnoe-suhoe-14",
+        "vinodelnya-uzunov-mono-kaberne-sovinon-krasnoe-suhoe-139"
+      ]
+    },
+    {
+      "baseline_rank": 1,
+      "cues": {
+        "colour": [],
+        "sparkling": [],
+        "sweetness": []
+      },
+      "expected_slug": "aratti-kaberne-sovinon-2020-krasnoe-suhoe",
+      "file": "92.96_19-08-2026_21-07-12.webp",
+      "ocr": "2020 zgu kuban anapa semeinaya vinodeliya kaberne sovinon rammu",
+      "semantic_rank": 1,
+      "semantic_top5": [
+        "aratti-kaberne-sovinon-2020-krasnoe-suhoe",
+        "vinodelnya-batrak-perfekt-klassik-kaberne-sovinon-krasnoe-suhoe-135",
+        "aratti-kaberne-sovinon-2021-krasnoe-suhoe",
+        "chateau-de-talu-kaberne-fran-rezerv-krasnoe-suhoe-13",
+        "massandra-kagor-gurzuf-saperavi-krasnoe-sladkoe-16"
+      ]
+    },
+    {
+      "baseline_rank": 1,
+      "cues": {
+        "colour": [
+          "red"
+        ],
+        "sparkling": [],
+        "sweetness": []
+      },
+      "expected_slug": "golubitskoe-estate-noble-selection-red-blend-kaberne-sovinon-krasnoe-suhoe-136",
+      "file": "93.31_05-09-2026_13-39-37.webp",
+      "ocr": "red blend estate golubitskoe 2019 h golubitskoe estate noble selection red blend 2019",
+      "semantic_rank": 1,
+      "semantic_top5": [
+        "golubitskoe-estate-noble-selection-red-blend-kaberne-sovinon-krasnoe-suhoe-136",
+        "golubitskoe-estate-kaberne-sovinon-noble-selection-krasnoe-suhoe-133",
+        "golubitskoe-estate-red-blend-kaberne-sovinon-krasnoe-suhoe-136",
+        "pomeste-golubitskoe-kaberne-sovinon-rezerv-krasnoe-suhoe-143",
+        "golubitskoe-estate-kaberne-sovinon-rezerv-krasnoe-suhoe-125"
+      ]
+    },
+    {
+      "baseline_rank": 1,
+      "cues": {
+        "colour": [
+          "red"
+        ],
+        "sparkling": [],
+        "sweetness": []
+      },
+      "expected_slug": "denisov_pet_nat_rubin",
+      "file": "93.43_05-09-2026_13-34-45.webp",
+      "ocr": "170 camapa denisov 1700 pet nat rubin samara",
+      "semantic_rank": 1,
+      "semantic_top5": [
+        "denisov_pet_nat_rubin",
+        "denisov-winery-petnat-risling-beloe-ekstra-bryut-10",
+        "denisov-winery-petnat-rkatsiteli-beloe-ekstra-bryut-107",
+        "denisov-winery-petnat-tsitron-risling-tsitronnyy-magaracha-beloe-ekstra-bryut-102",
+        "denisov-winery-petnat-saperavi-severnyy-rozovoe-ekstra-bryut-105"
+      ]
+    },
+    {
+      "baseline_rank": 1,
+      "cues": {
+        "colour": [],
+        "sparkling": [],
+        "sweetness": []
+      },
+      "expected_slug": "zakat-denisov-vajneri",
+      "file": "93.68_19-08-2026_20-44-28.webp",
+      "ocr": "camapa 3akat dehicov denisov samara zakat",
+      "semantic_rank": 1,
+      "semantic_top5": [
+        "zakat-denisov-vajneri",
+        "znoj-denisov-vajneri",
+        "denisov-winery-tsitron-oranzh-tsitronnyy-magaracha-oranzhevoe-suhoe-105",
+        "denisov_pino_noir_klaret",
+        "denisov_pet_nat_citron_rkaciteli"
+      ]
+    },
+    {
+      "baseline_rank": 1,
+      "cues": {
+        "colour": [],
+        "sparkling": [],
+        "sweetness": []
+      },
+      "expected_slug": "zakat-denisov-vajneri",
+      "file": "93.84_02-09-2026_17-13-04.webp",
+      "ocr": "camapa 20 3akat denisov denisov samara zakat",
+      "semantic_rank": 1,
+      "semantic_top5": [
+        "zakat-denisov-vajneri",
+        "znoj-denisov-vajneri",
+        "denisov-winery-tsitron-oranzh-tsitronnyy-magaracha-oranzhevoe-suhoe-105",
+        "denisov_pet_nat_citron_rkaciteli",
+        "denisov_pino_noir_klaret"
+      ]
+    },
+    {
+      "baseline_rank": 999,
+      "cues": {
+        "colour": [],
+        "sparkling": [],
+        "sweetness": []
+      },
+      "expected_slug": "golubitskoe-estate-chardonnay",
+      "file": "93.97_28-08-2026_16-02-48.webp",
+      "ocr": "2024 chardonnay tamagne estate golubitskoe golubitskaya strelka tamagne 2024",
+      "semantic_rank": 287,
+      "semantic_top5": [
+        "golubitskoe-estate-red-blend-kaberne-sovinon-krasnoe-suhoe-136",
+        "golubitskoe-estate-merlo-krasnoe-suhoe-135",
+        "golubitskoe-rose",
+        "pomeste-golubitskoe-kaberne-sovinon-rezerv-krasnoe-suhoe-143",
+        "golubitskoe-estate-kaberne-sovinon-krasnoe-suhoe-137"
+      ]
+    },
+    {
+      "baseline_rank": 1,
+      "cues": {
+        "colour": [
+          "red"
+        ],
+        "sparkling": [],
+        "sweetness": [
+          "dry"
+        ]
+      },
+      "expected_slug": "rubin-golodrigi",
+      "file": "94.02_24-08-2026_17-46-57.webp",
+      "ocr": "2023 semeinaya vinodelnya federatsii tabiya proizvedeno izvi vyrashennogo machoe na territorii gtyoe semeinaya vinodelnaya rubin golodrigi krasnoe suhoe proizvedeno iz vinograda vyrashennogo na territorii rossiiskoi federatsii",
+      "semantic_rank": 1,
+      "semantic_top5": [
+        "rubin-golodrigi",
+        "kaberne-sovinon-2",
+        "czitronnyj-magaracha",
+        "roze-2",
+        "rozovoe-zoloto"
+      ]
+    },
+    {
+      "baseline_rank": 1,
+      "cues": {
+        "colour": [
+          "white"
+        ],
+        "sparkling": [],
+        "sweetness": []
+      },
+      "expected_slug": "denisov_pazori_risling",
+      "file": "94.55_02-09-2026_16-53-08.webp",
+      "ocr": "minpromtorg camapa denisov tajopu iirshb roscii samara padori beloe bryugg 2022 promtorg sii rsh",
+      "semantic_rank": 1,
+      "semantic_top5": [
+        "denisov_pazori_risling",
+        "denisov-winery-pino-nuar-shardone-ekstra-bryut-beloe-125",
+        "denisov-winery-sovinon-blan-beloe-suhoe-115",
+        "denisov-winery-tsitron-oranzh-tsitronnyy-magaracha-oranzhevoe-suhoe-105",
+        "denisov-winery-risling-beloe-suhoe-115"
+      ]
+    },
+    {
+      "baseline_rank": 4,
+      "cues": {
+        "colour": [
+          "white"
+        ],
+        "sparkling": [],
+        "sweetness": [
+          "semi_dry"
+        ]
+      },
+      "expected_slug": "czitronnyj-magaracha-sovinon-blan",
+      "file": "94.7_25-08-2026_15-52-07.webp",
+      "ocr": "9 2024 zhemchuzhnaya tsitron 2 aratti apat sovinon blan beloe polusuhoe",
+      "semantic_rank": 3,
+      "semantic_top5": [
+        "zhemchuzhnaya-9-aligote-czitron",
+        "zhemchuzhnaya-9-czitron-shardone",
+        "czitronnyj-magaracha-sovinon-blan",
+        "zhemchuzhnaya-9-risling-sovinon-blan",
+        "zhemchuzhnaya-9-czitron-shardone-1"
+      ]
+    },
+    {
+      "baseline_rank": 4,
+      "cues": {
+        "colour": [
+          "rose"
+        ],
+        "sparkling": [],
+        "sweetness": [
+          "semi_sweet"
+        ]
+      },
+      "expected_slug": "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-2",
+      "file": "94.97_02-09-2026_19-01-48.webp",
+      "ocr": "2024 zhemchuzhnaya apatt pinonuar ozovoe polusladkoe he sovin kabi 1600 aratti pino nuar muskat rozovyi rozovoe polusladkoe",
+      "semantic_rank": 1,
+      "semantic_top5": [
+        "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-2",
+        "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-1",
+        "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj",
+        "zhemchuzhnaya-9-pino-gri-pino-nuar",
+        "zhemchuzhnaya-9-muskat-rozovyj-pino-gri"
+      ]
+    },
+    {
+      "baseline_rank": 1,
+      "cues": {
+        "colour": [
+          "white"
+        ],
+        "sparkling": [],
+        "sweetness": [
+          "semi_dry"
+        ]
+      },
+      "expected_slug": "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11",
+      "file": "95.03_04-09-2026_11-39-35.webp",
+      "ocr": "koblesse oblige fanagoria beloe rannii sbor 1198 zelenoe 10 polusuhoe alkogolya hizkiitpad ricling 6nho 100 winnes vinodelniya zhozetioda nizkii gradis bino risling tsitronnyi magaracha",
+      "semantic_rank": 1,
+      "semantic_top5": [
+        "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11",
+        "fanagoriya-q-blanc-sovinon-blan-beloe-suhoe-14",
+        "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-merlo-rozovoe-polusuhoe-11",
+        "fanagoriya-velvet-season-muskat-ottonel-beloe-sladkoe-13",
+        "fanagoriya-velvet-season-risling-beloe-sladkoe-12"
+      ]
+    },
+    {
+      "baseline_rank": 1,
+      "cues": {
+        "colour": [
+          "white"
+        ],
+        "sparkling": [],
+        "sweetness": [
+          "semi_sweet"
+        ]
+      },
+      "expected_slug": "zhemchuzhnaya-9-czitron-shardone-1",
+      "file": "95.24_19-08-2026_20-00-22.webp",
+      "ocr": "2024 zhemchuzhnaya shardone tsitron aratti o beloe polusladkoe",
+      "semantic_rank": 1,
+      "semantic_top5": [
+        "zhemchuzhnaya-9-czitron-shardone-1",
+        "zhemchuzhnaya-9-aligote-czitron",
+        "zhemchuzhnaya-9-czitron-shardone",
+        "czitronnyj-magaracha-sovinon-blan",
+        "zhemchuzhnaya-9-risling-sovinon-blan"
+      ]
+    },
+    {
+      "baseline_rank": 1,
+      "cues": {
+        "colour": [
+          "white"
+        ],
+        "sparkling": [],
+        "sweetness": [
+          "semi_dry"
+        ]
+      },
+      "expected_slug": "aratti-kaberne-po-belomu-1",
+      "file": "95.2_05-09-2026_13-54-13.webp",
+      "ocr": "2024 1600 semeinaya vinodelnya polusuhoe kem4y semeinaya vinodelnaya aratti kaberne po belomu 70mm",
+      "semantic_rank": 1,
+      "semantic_top5": [
+        "aratti-kaberne-po-belomu-1",
+        "aratti-kaberne-po-belomu",
+        "aratti-risling-beloe-polusuhoe",
+        "aratti-sovinon-blan-beloe-polusuhoe",
+        "aratti-muskat-belyj-polusuhoe"
+      ]
+    },
+    {
+      "baseline_rank": 1,
+      "cues": {
+        "colour": [
+          "white"
+        ],
+        "sparkling": [],
+        "sweetness": [
+          "semi_sweet"
+        ]
+      },
+      "expected_slug": "sovinon-blan",
+      "file": "95.32_02-09-2026_12-09-23.webp",
+      "ocr": "semeinaya vinodelnya polusladkoe beloe 12 litavshchukov sobinon sovinon blan polusladkoe beloe fermerskoe vino sdelano v vinnoi derevne rossiya kuban anapa 0 75 l 12 5",
+      "semantic_rank": 1,
+      "semantic_top5": [
+        "sovinon-blan",
+        "risling-2",
+        "kaberne-sovinon-3",
+        "merlo-2",
+        "saperavi"
+      ]
+    },
+    {
+      "baseline_rank": 2,
+      "cues": {
+        "colour": [
+          "white"
+        ],
+        "sparkling": [],
+        "sweetness": [
+          "dry",
+          "semi_dry"
+        ]
+      },
+      "expected_slug": "winemaker-selection",
+      "file": "95.36_28-08-2026_17-09-04.webp",
+      "ocr": "19 2025 61 23 election riesling rman man ir an skidka po karte vino inkerman 777 kpachoe tsena bez karty ian 6el l suh 0 75 vino polusuhoe belov puaun p buaun vinlab 19 61 inkerman viino polusuhoe beloe winemaker s selection 1028623 vinlab tsena bez karty",
+      "semantic_rank": 1,
+      "semantic_top5": [
+        "winemaker-selection",
+        "inkermanskiy-zmv-kokur-belyy-ekstra-bryut-beloe-135",
+        "inkerman-shato-ruzh",
+        "inkermanskiy-zmv-winemakers-selection-saperavi-krasnoe-polusladkoe-12",
+        "inkermanskiy-zmv-inkerman-polusladkoe-roze-aligote-rozovoe-135"
+      ]
+    },
+    {
+      "baseline_rank": 2,
+      "cues": {
+        "colour": [
+          "rose"
+        ],
+        "sparkling": [],
+        "sweetness": [
+          "semi_sweet"
+        ]
+      },
+      "expected_slug": "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-1",
+      "file": "95.49_05-09-2026_15-34-51.webp",
+      "ocr": "2024 9 zhemchuzhnaya apat pinonuar kab 1600 aratti pino nuar muskat rozovyi rozovoe polusladkoe",
+      "semantic_rank": 4,
+      "semantic_top5": [
+        "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-2",
+        "zhemchuzhnaya-9-muskat-rozovyj-kaberne-sovinon",
+        "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj",
+        "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-1",
+        "zhemchuzhnaya-9-pino-gri-pino-nuar"
+      ]
+    },
+    {
+      "baseline_rank": 1,
+      "cues": {
+        "colour": [
+          "red"
+        ],
+        "sparkling": [],
+        "sweetness": [
+          "dry"
+        ]
+      },
+      "expected_slug": "rubin-golodrigi",
+      "file": "95.63_24-08-2026_17-47-43.webp",
+      "ocr": "semeinaya vinodelnya proizvedenoiz tabiya shennogo 2023 hateppitop krasnoe suhoe rubin golodrigi proizvedeno iz vinograda virashchennogo na territorii rossiiskoi federatsii",
+      "semantic_rank": 1,
+      "semantic_top5": [
+        "rubin-golodrigi",
+        "kaberne-sovinon-2",
+        "roze-2",
+        "czitronnyj-magaracha",
+        "rozovoe-zoloto"
+      ]
+    },
+    {
+      "baseline_rank": 1,
+      "cues": {
+        "colour": [],
+        "sparkling": [],
+        "sweetness": []
+      },
+      "expected_slug": "uva-vallis-risling",
+      "file": "95.75_02-09-2026_14-47-49.webp",
+      "ocr": "2023 riesling crimea uua uallis uva vallis levitas",
+      "semantic_rank": 1,
+      "semantic_top5": [
+        "uva-vallis-risling",
+        "uva-vallis-shardone",
+        "uva-vallis-sovinon-blan",
+        "uva-vallis-sira",
+        "risling-2"
+      ]
+    },
+    {
+      "baseline_rank": 1,
+      "cues": {
+        "colour": [],
+        "sparkling": [],
+        "sweetness": []
+      },
+      "expected_slug": "denisov_barynya_kurmyshi",
+      "file": "95.76_23-08-2026_18-19-43.webp",
+      "ocr": "camapa denisov 4 1700 samara kurmyshi",
+      "semantic_rank": 1,
+      "semantic_top5": [
+        "denisov_barynya_kurmyshi",
+        "denisov_pereplyas_kurmyshi",
+        "denisov_pet_nat_citron_rkaciteli",
+        "denisov-winery-risling-beloe-suhoe-115",
+        "znoj-denisov-vajneri"
+      ]
+    },
+    {
+      "baseline_rank": 1,
+      "cues": {
+        "colour": [
+          "white"
+        ],
+        "sparkling": [],
+        "sweetness": [
+          "semi_dry"
+        ]
+      },
+      "expected_slug": "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11",
+      "file": "95.88_02-09-2026_14-41-59.webp",
+      "ocr": "polusuhoe fanagoria beloe bnodelnya o alk 10 rannii sbor alkogolya zelenoe 3epo 2023goda doblesse celige nizkiigradus 6nho picling top 100 wines bannodelnya 2023 goda nizkii gradus noblesse oblige bino risling tsitronnyi magaracha",
+      "semantic_rank": 1,
+      "semantic_top5": [
+        "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11",
+        "fanagoriya-ledyanoe-vino-muskat-muskat-ottonel-beloe-sladkoe-11",
+        "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-merlo-rozovoe-polusuhoe-11",
+        "fanagoriya-velvet-season-muskat-ottonel-beloe-sladkoe-13",
+        "fanagoriya-velvet-season-risling-beloe-sladkoe-12"
+      ]
+    },
+    {
+      "baseline_rank": 1,
+      "cues": {
+        "colour": [
+          "rose"
+        ],
+        "sparkling": [],
+        "sweetness": [
+          "dry"
+        ]
+      },
+      "expected_slug": "roze-2",
+      "file": "95.8_19-08-2026_19-33-23.webp",
+      "ocr": "2024 vinodelnya tabiya cyxoe po3e po3oboe roze rozovoe suhoe proizvedeno iz vinograda vyrashennogo na territorii rossiiskoi federatsii",
+      "semantic_rank": 1,
+      "semantic_top5": [
+        "roze-2",
+        "rozovoe-zoloto",
+        "czitronnyj-magaracha",
+        "rubin-golodrigi",
+        "bukovinka"
+      ]
+    },
+    {
+      "baseline_rank": 1,
+      "cues": {
+        "colour": [],
+        "sparkling": [],
+        "sweetness": []
+      },
+      "expected_slug": "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+      "file": "96.05_28-08-2026_09-14-57.webp",
+      "ocr": "divnomorskoe vtorayaliniya ycadba teppuap bererntsa usadba terruar vtoraya liniya vereppiya",
+      "semantic_rank": 1,
+      "semantic_top5": [
+        "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+        "usadba-divnomorskoe-marselan-marselan-krasnoe-suhoe-149",
+        "usadba-divnomorskoe-merlot-merlo-krasnoe-suhoe-149",
+        "usadba-divnomorskoe-west-hill-blend-kaberne-sovinon-krasnoe-suhoe-145",
+        "usadba-divnomorskoe-holodnyy-tuman-risling-beloe-suhoe-115"
+      ]
+    },
+    {
+      "baseline_rank": 1,
+      "cues": {
+        "colour": [],
+        "sparkling": [],
+        "sweetness": []
+      },
+      "expected_slug": "golubitskoe-estate-kaberne-sovinon-krasnoe-suhoe-137",
+      "file": "96.07_28-08-2026_16-10-06.webp",
+      "ocr": "2023 lubits cabernet sauvignon tamagne estate ol golubitskaya strelka bi golubitskoe golubitskaya strelka tamagne 2023",
+      "semantic_rank": 1,
+      "semantic_top5": [
+        "golubitskoe-estate-kaberne-sovinon-krasnoe-suhoe-137",
+        "golubitskoe-estate-red-blend-kaberne-sovinon-krasnoe-suhoe-136",
+        "golubitskoe-estate-kaberne-sovinon-rezerv-krasnoe-suhoe-125",
+        "golubitskoe-estate-merlo-krasnoe-suhoe-135",
+        "pomeste-golubitskoe-kaberne-sovinon-rezerv-krasnoe-suhoe-143"
+      ]
+    },
+    {
+      "baseline_rank": 1,
+      "cues": {
+        "colour": [
+          "white"
+        ],
+        "sparkling": [],
+        "sweetness": [
+          "semi_sweet"
+        ]
+      },
+      "expected_slug": "zhemchuzhnaya-9-czitron-shardone-1",
+      "file": "96.08_22-08-2026_15-12-27.webp",
+      "ocr": "2024 zhemchuzhnaya tsitron shardone hoh 0 aratti beloe polusladkoe",
+      "semantic_rank": 1,
+      "semantic_top5": [
+        "zhemchuzhnaya-9-czitron-shardone-1",
+        "czitronnyj-magaracha-sovinon-blan",
+        "zhemchuzhnaya-9-aligote-czitron",
+        "zhemchuzhnaya-9-czitron-shardone",
+        "zhemchuzhnaya-9-sovinon-blan-aligote"
+      ]
+    },
+    {
+      "baseline_rank": 3,
+      "cues": {
+        "colour": [],
+        "sparkling": [],
+        "sweetness": []
+      },
+      "expected_slug": "golubitskoe-estate-merlo-krasnoe-suhoe-135",
+      "file": "96.08_28-08-2026_16-29-50.webp",
+      "ocr": "2022 golubits merlot tamagn r estate go golubitskoe golubitskaya strelka tamagne 2022",
+      "semantic_rank": 3,
+      "semantic_top5": [
+        "golubitskoe-rose",
+        "golubitskoe-estate-winery-series-pino-nuar-rozovoe-suhoe-115",
+        "golubitskoe-estate-merlo-krasnoe-suhoe-135",
+        "golubitskoe-estate-kaberne-sovinon-krasnoe-suhoe-137",
+        "golubitskoe-estate-winery-series-roze-blend-kaberne-sovinon-rozovoe-suhoe-117"
+      ]
+    },
+    {
+      "baseline_rank": 1,
+      "cues": {
+        "colour": [
+          "rose"
+        ],
+        "sparkling": [],
+        "sweetness": [
+          "dry"
+        ]
+      },
+      "expected_slug": "roze-2",
+      "file": "96.13_19-08-2026_19-33-10.webp",
+      "ocr": "2024 na territorii rossiiskoi federatsii proizvedeno iz vinograda vyrashchennogo cyxoe tabiya po3e vinodeanya 200 po3oboe ahara 000 vinodelnya roze rozovoe suhoe",
+      "semantic_rank": 1,
+      "semantic_top5": [
+        "roze-2",
+        "rozovoe-zoloto",
+        "czitronnyj-magaracha",
+        "bukovinka",
+        "oleg"
+      ]
+    },
+    {
+      "baseline_rank": 1,
+      "cues": {
+        "colour": [
+          "rose"
+        ],
+        "sparkling": [],
+        "sweetness": [
+          "dry",
+          "semi_dry"
+        ]
+      },
+      "expected_slug": "roze-2",
+      "file": "96.15_22-08-2026_20-56-09.webp",
+      "ocr": "2024 cyxoe vinodelnya tabiya po3e polusuhoe po3oboe roze rozovoe suhoe proizvedeno iz vinograda vyrashennogo na territorii rossiiskoi federatsii",
+      "semantic_rank": 1,
+      "semantic_top5": [
+        "roze-2",
+        "rozovoe-zoloto",
+        "bukovinka",
+        "risling-1",
+        "czitronnyj-magaracha"
+      ]
+    },
+    {
+      "baseline_rank": 1,
+      "cues": {
+        "colour": [
+          "rose"
+        ],
+        "sparkling": [],
+        "sweetness": [
+          "semi_dry"
+        ]
+      },
+      "expected_slug": "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-1",
+      "file": "96.27_20-08-2026_16-26-30.webp",
+      "ocr": "2024 zhemchuzhnaya muskat rozovyi rozovoe polusuhoe pino nuar eephec 1600 aratti",
+      "semantic_rank": 1,
+      "semantic_top5": [
+        "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-1",
+        "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj",
+        "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-2",
+        "zhemchuzhnaya-9-muskat-rozovyj-kaberne-sovinon",
+        "czitronnyj-magaracha-sovinon-blan"
+      ]
+    },
+    {
+      "baseline_rank": 1,
+      "cues": {
+        "colour": [],
+        "sparkling": [],
+        "sweetness": []
+      },
+      "expected_slug": "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+      "file": "96.2_28-08-2026_09-13-27.webp",
+      "ocr": "divnomorskoe vtoraya liniya ycaabba teppyap bereruua usadba terrvar vegerpitsa",
+      "semantic_rank": 1,
+      "semantic_top5": [
+        "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+        "usadba-divnomorskoe-solist-marselan-rozovoe-suhoe-115",
+        "usadba-divnomorskoe-west-hill-blend-kaberne-sovinon-krasnoe-suhoe-145",
+        "usadba-divnomorskoe-solnechnyy-veter-shardone-beloe-suhoe-125",
+        "usadba-divnomorskoe-marselan-marselan-krasnoe-suhoe-149"
+      ]
+    },
+    {
+      "baseline_rank": 2,
+      "cues": {
+        "colour": [
+          "white"
+        ],
+        "sparkling": [],
+        "sweetness": []
+      },
+      "expected_slug": "aratti-kaberne-po-belomu",
+      "file": "96.31_09-09-2026_19-29-01.webp",
+      "ocr": "2024 kaberne po belomu semeinaya vinodelnya 2500 apatti aratti",
+      "semantic_rank": 5,
+      "semantic_top5": [
+        "aratti-muskat-belyj-suhoe",
+        "aratti-muskat-belyj-polusuhoe",
+        "aratti-kaberne-po-belomu-1",
+        "aratti-risling-beloe-polusuhoe",
+        "aratti-kaberne-po-belomu"
+      ]
+    },
+    {
+      "baseline_rank": 1,
+      "cues": {
+        "colour": [],
+        "sparkling": [],
+        "sweetness": [
+          "dry"
+        ]
+      },
+      "expected_slug": "bukovinka",
+      "file": "96.31_21-08-2026_17-24-55.webp",
+      "ocr": "vinodelnya tabiya bukovinka ahapa anara vinodelnka sostav vino iz vinograda sorta bukovinka izoptivitel ii gana koh pisol aa 2025 sovstvennye vino anava suhoe proizvedeno iz vinograda vyrashchennogo na territorii rossiiskoi federatsii",
+      "semantic_rank": 1,
+      "semantic_top5": [
+        "bukovinka",
+        "czitronnyj-magaracha",
+        "rubin-golodrigi",
+        "rozovoe-zoloto",
+        "roze-2"
+      ]
+    },
+    {
+      "baseline_rank": 1,
+      "cues": {
+        "colour": [],
+        "sparkling": [],
+        "sweetness": []
+      },
+      "expected_slug": "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+      "file": "96.3_28-08-2026_09-12-56.webp",
+      "ocr": "divnomorskoe vtoraya liniya ycadba teppuap bererna usadba terruar veregishcha",
+      "semantic_rank": 1,
+      "semantic_top5": [
+        "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+        "usadba-divnomorskoe-west-hill-blend-kaberne-sovinon-krasnoe-suhoe-145",
+        "usadba-divnomorskoe-solist-marselan-rozovoe-suhoe-115",
+        "usadba-divnomorskoe-merlot-merlo-krasnoe-suhoe-149",
+        "usadba-divnomorskoe-marselan-marselan-krasnoe-suhoe-149"
+      ]
+    },
+    {
+      "baseline_rank": 1,
+      "cues": {
+        "colour": [
+          "white"
+        ],
+        "sparkling": [],
+        "sweetness": [
+          "semi_dry"
+        ]
+      },
+      "expected_slug": "sovinon-blan",
+      "file": "96.44_05-09-2026_15-33-59.webp",
+      "ocr": "75 semeinaya vinodelnya polusuhoe beloe fermerskoe vino litavshchukov ah sevindon blan sdelano v vinnoi derevne rossiya kuban anapa 0 75 l 12 5",
+      "semantic_rank": 1,
+      "semantic_top5": [
+        "sovinon-blan",
+        "risling-2",
+        "muskat",
+        "kaberne-sovinon-3",
+        "saperavi"
+      ]
+    },
+    {
+      "baseline_rank": 1,
+      "cues": {
+        "colour": [
+          "white"
+        ],
+        "sparkling": [],
+        "sweetness": [
+          "semi_dry"
+        ]
+      },
+      "expected_slug": "czitronnyj-magaracha",
+      "file": "96.45_19-08-2026_19-35-28.webp",
+      "ocr": "2024 tabiya vinodelnya tsitron polusyhoe beloe beloe polusuhoe proizvedeno iz vinograda vyrashchennogo na territorii rossiiskoi federatsii",
+      "semantic_rank": 1,
+      "semantic_top5": [
+        "czitronnyj-magaracha",
+        "risling-1",
+        "bukovinka",
+        "rozovoe-zoloto",
+        "roze-2"
+      ]
+    },
+    {
+      "baseline_rank": 1,
+      "cues": {
+        "colour": [],
+        "sparkling": [],
+        "sweetness": []
+      },
+      "expected_slug": "denisov-winery-risling-beloe-suhoe-115",
+      "file": "96.54_04-09-2026_19-30-52.webp",
+      "ocr": "denisov camapa pucun wm samara riseli",
+      "semantic_rank": 1,
+      "semantic_top5": [
+        "denisov-winery-risling-beloe-suhoe-115",
+        "denisov-winery-tsitron-tsitronnyy-magaracha-beloe-suhoe-112",
+        "denisov-winery-sovinon-blan-beloe-suhoe-115",
+        "denisov-winery-rkatsiteli-beloe-suhoe-112",
+        "denisov-winery-tsitron-oranzh-tsitronnyy-magaracha-oranzhevoe-suhoe-105"
+      ]
+    },
+    {
+      "baseline_rank": 999,
+      "cues": {
+        "colour": [
+          "rose"
+        ],
+        "sparkling": [
+          "sparkling"
+        ],
+        "sweetness": [
+          "semi_sweet"
+        ]
+      },
+      "expected_slug": "novyy-svet-dom-shampanskih-vin-novyy-svet-polusladkoe-roze-shardone-rozovoe-115",
+      "file": "96.55_30-08-2026_19-34-31.webp",
+      "ocr": "78 18 2023 vyderzhannoe dom shampanskih vin novyi svt 18 78 polusladkoe rozovoe rossiiskoe shampanskoe",
+      "semantic_rank": 999,
+      "semantic_top5": [
+        "sary-pandas-vyderzhannoe",
+        "aratti-sovinon-blan-beloe-polusuhoe",
+        "aratti-risling-suhoe",
+        "zmv-koktebel-bastardo-krasnoe-suhoe-14",
+        "zmv-koktebel-grand-kupazh-kaberne-sovinon-krasnoe-suhoe-13"
+      ]
+    },
+    {
+      "baseline_rank": 1,
+      "cues": {
+        "colour": [
+          "white"
+        ],
+        "sparkling": [],
+        "sweetness": [
+          "semi_dry"
+        ]
+      },
+      "expected_slug": "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11",
+      "file": "96.58_05-09-2026_16-05-04.webp",
+      "ocr": "vinodelnya polusuhoe noblesse oblige beloe rannii sbor fanagoria alkogolya zelenoe 2023 goda 10 hizkiigradus 6uho pucling tor 100 wines nizkii gradis bino risling tsitronnyi magaracha",
+      "semantic_rank": 1,
+      "semantic_top5": [
+        "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11",
+        "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-merlo-rozovoe-polusuhoe-11",
+        "fanagoriya-velvet-season-muskat-ottonel-beloe-sladkoe-13",
+        "fanagoriya-ledyanoe-vino-muskat-muskat-ottonel-beloe-sladkoe-11",
+        "fanagoriya-velvet-season-risling-beloe-sladkoe-12"
+      ]
+    },
+    {
+      "baseline_rank": 1,
+      "cues": {
+        "colour": [
+          "white"
+        ],
+        "sparkling": [
+          "sparkling"
+        ],
+        "sweetness": [
+          "semi_sweet"
+        ]
+      },
+      "expected_slug": "balaklava-muskat",
+      "file": "96.61_28-08-2026_09-16-27.webp",
+      "ocr": "polusladkoe balaklava muscat zolotaya rosiiskoe iristoe vino 5al krym 1889 balka muskat polusladkoe beloe rossiiskoe igristoe vino s zashchishchennym geograficheskim ukazaniem krym",
+      "semantic_rank": 1,
+      "semantic_top5": [
+        "balaklava-muskat",
+        "balaklava-muskat-beloe-polusladkoe",
+        "wine",
+        "shardone-balaklava",
+        "balaklava-pino-nuar"
+      ]
+    },
+    {
+      "baseline_rank": 1,
+      "cues": {
+        "colour": [
+          "white"
+        ],
+        "sparkling": [],
+        "sweetness": [
+          "semi_dry"
+        ]
+      },
+      "expected_slug": "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11",
+      "file": "96.62_07-09-2026_18-12-27.webp",
+      "ocr": "10 noblesse oblige polusuhoe rannii sbor ck alkogolya fanagoria beloe zelenoe vinodelnya bof nizkiigrads 62 2023goda rusling 6uho ir 100 indoedelniya 2013 goda nizkii gradis bino risling tsitronnyi magaracha",
+      "semantic_rank": 1,
+      "semantic_top5": [
+        "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11",
+        "fanagoriya-dekanter-riesling-2020-risling-reynskiy-beloe-suhoe-13",
+        "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-merlo-rozovoe-polusuhoe-11",
+        "fanagoriya-velvet-season-risling-beloe-sladkoe-12",
+        "fanagoriya-velvet-season-muskat-ottonel-beloe-sladkoe-13"
+      ]
+    },
+    {
+      "baseline_rank": 2,
+      "cues": {
+        "colour": [],
+        "sparkling": [],
+        "sweetness": []
+      },
+      "expected_slug": "valeriy-zaharin-bastardo-kefesiya-avtohtonnoe-vino-kryma-bastardo-magarachskiy-krasnoe-suhoe-115",
+      "file": "96.64_26-08-2026_16-52-37.webp",
+      "ocr": "kaberne avtorskoe vino lyublo sovinon valerii zaharyn s sobstvennyh vinogradnikov 2024 rossiiskoe vino s zashchishchennym geograficheskim ukazaniem",
+      "semantic_rank": 2,
+      "semantic_top5": [
+        "valeriy-zaharin-avtorskoe-vino-ot-valeriya-zaharina-aleatiko-rozovoe-suhoe-115",
+        "valeriy-zaharin-bastardo-kefesiya-avtohtonnoe-vino-kryma-bastardo-magarachskiy-krasnoe-suhoe-115",
+        "valeriy-zaharin-avtorskoe-vino-ot-valeriya-zaharina-bastardo-bastardo-magarachskiy-krasnoe-suhoe-12",
+        "valeriy-zaharin-avtorskoe-vino-ot-valeriya-zaharina-krasnoe-pino-nuar-suhoe-125",
+        "valeriy-zaharin-avtohtonnoe-vino-kryma-ot-valeriya-zaharina-bastardo-kefesiya-bastardo-magarachskiy-krasnoe-suhoe-115"
+      ]
+    },
+    {
+      "baseline_rank": 1,
+      "cues": {
+        "colour": [
+          "red"
+        ],
+        "sparkling": [],
+        "sweetness": [
+          "semi_dry"
+        ]
+      },
+      "expected_slug": "kaberne-sovinon-3",
+      "file": "96.65_02-09-2026_12-08-51.webp",
+      "ocr": "semeinaya vinodelnya 12 4 skoe vino 0 751 litavshchukov binon 02 5 5 kadene sobian kabedie savibal polusuhoe krasnoe fermerskoe vino sdelano v vinnoi derevne rossiya kuban anapa 0 75 l",
+      "semantic_rank": 1,
+      "semantic_top5": [
+        "kaberne-sovinon-3",
+        "saperavi",
+        "merlo-2",
+        "sovinon-blan",
+        "muskat"
+      ]
+    },
+    {
+      "baseline_rank": 1,
+      "cues": {
+        "colour": [
+          "red"
+        ],
+        "sparkling": [],
+        "sweetness": []
+      },
+      "expected_slug": "perovskih_polusuhoe_krasnoe",
+      "file": "96.66_22-08-2026_20-44-40.webp",
+      "ocr": "2024 90 dba kpachoe krym bckix 1890 usadba perivskih foodusunoe krasnoe",
+      "semantic_rank": 1,
+      "semantic_top5": [
+        "perovskih_polusuhoe_krasnoe",
+        "perovskih_polusladkoe_krasnoe",
+        "perovskih_aligote",
+        "perovskih_polusladkoe_beloe",
+        "perovskih_muskat"
+      ]
+    },
+    {
+      "baseline_rank": 1,
+      "cues": {
+        "colour": [],
+        "sparkling": [],
+        "sweetness": []
+      },
+      "expected_slug": "usadba-mezyb-shishka-kupazh-5-kaberne-sovinon-rozovoe-suhoe-133",
+      "file": "96.74_28-08-2026_13-52-26.webp",
+      "ocr": "2023 kupazh no5 mezyb ycad68 usadba kupazh no5",
+      "semantic_rank": 1,
+      "semantic_top5": [
+        "usadba-mezyb-shishka-kupazh-5-kaberne-sovinon-rozovoe-suhoe-133",
+        "usadba-mezyb-shishka-pino-nuar-rozovoe-suhoe-115",
+        "usadba-mezyb-shishka-sovinon-blan-beloe-suhoe-12",
+        "usadba-mezyb-shishka-oranzh-shardone-beloe-suhoe-127",
+        "usadba-mezyb-shishka-shenen-blan-sovinon-blan-beloe-suhoe-126"
+      ]
+    },
+    {
+      "baseline_rank": 999,
+      "cues": {
+        "colour": [
+          "red"
+        ],
+        "sparkling": [],
+        "sweetness": [
+          "sweet"
+        ]
+      },
+      "expected_slug": "pozdnij-sbor-krasnoe",
+      "file": "96.76_07-09-2026_14-57-04.webp",
+      "ocr": "litavshchuk anapa vinnaya derevnya vineyards winery pozdnii 2023 sbor vino sladkoe krasnoe sobrano vruchnuyu",
+      "semantic_rank": 460,
+      "semantic_top5": [
+        "saperavi-premium",
+        "pinoy-noir",
+        "merlo-2",
+        "muskat",
+        "sovinon-blan-2"
+      ]
+    },
+    {
+      "baseline_rank": 1,
+      "cues": {
+        "colour": [
+          "white"
+        ],
+        "sparkling": [],
+        "sweetness": [
+          "dry"
+        ]
+      },
+      "expected_slug": "oleg",
+      "file": "96.79_20-08-2026_17-48-31.webp",
+      "ocr": "2025 202 tabiya vinodelnya cyxoe luu po3o beloe anala oleg beloe suhoe proizvedeno iz vinograda vyrashchennogo na territorii rossiiskoi federatsii anapa",
+      "semantic_rank": 1,
+      "semantic_top5": [
+        "oleg",
+        "czitronnyj-magaracha",
+        "roze-2",
+        "rubin-golodrigi",
+        "kaberne-sovinon-2"
+      ]
+    },
+    {
+      "baseline_rank": 1,
+      "cues": {
+        "colour": [],
+        "sparkling": [],
+        "sweetness": []
+      },
+      "expected_slug": "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+      "file": "96.7_28-08-2026_13-50-21.webp",
+      "ocr": "divnomorskoe vtorayaliniya ycadbba teppuap becherna usadba terruar vtoraya liniya veregishcha",
+      "semantic_rank": 1,
+      "semantic_top5": [
+        "usadba-divnomorskoe-yuzhnyy-les-merlo-krasnoe-suhoe-137",
+        "usadba-divnomorskoe-west-hill-blend-kaberne-sovinon-krasnoe-suhoe-145",
+        "usadba-divnomorskoe-marselan-marselan-krasnoe-suhoe-149",
+        "usadba-divnomorskoe-merlot-merlo-krasnoe-suhoe-149",
+        "usadba-divnomorskoe-solist-marselan-rozovoe-suhoe-115"
+      ]
+    },
+    {
+      "baseline_rank": 1,
+      "cues": {
+        "colour": [],
+        "sparkling": [],
+        "sweetness": [
+          "dry"
+        ]
+      },
+      "expected_slug": "oleg",
+      "file": "96.83_20-08-2026_17-48-13.webp",
+      "ocr": "20 vinodelnya cyxoe tabiya po3 cy beaoe 2025 oleg veloe suhoe proizvedeno iz vinograda vyrashchennogo na territorii rossiiskoi federatsii",
+      "semantic_rank": 1,
+      "semantic_top5": [
+        "oleg",
+        "czitronnyj-magaracha",
+        "roze-2",
+        "rubin-golodrigi",
+        "rozovoe-zoloto"
+      ]
+    },
+    {
+      "baseline_rank": 1,
+      "cues": {
+        "colour": [
+          "white"
+        ],
+        "sparkling": [],
+        "sweetness": [
+          "semi_dry"
+        ]
+      },
+      "expected_slug": "sovinon-blan",
+      "file": "96.8_25-08-2026_22-20-38.webp",
+      "ocr": "polusuhoe beloe semeinaya vinodelnya 25 08 2026 2 fermerskoe vino siya kuban anapa litavshchukov savinon sovinon blan sdelano v vinnoi derevne ssiya kuban anapa",
+      "semantic_rank": 1,
+      "semantic_top5": [
+        "sovinon-blan",
+        "risling-2",
+        "kaberne-sovinon-3",
+        "saperavi",
+        "merlo-2"
+      ]
+    },
+    {
+      "baseline_rank": 1,
+      "cues": {
+        "colour": [
+          "red"
+        ],
+        "sparkling": [],
+        "sweetness": []
+      },
+      "expected_slug": "denisov_rubin_klaret_krasnaya_strelka",
+      "file": "96.96_05-09-2026_19-02-01.webp",
+      "ocr": "3 denisov camapa strelka sov i enis denisoy 1700 kpachaa 700 bpan puemn ru6in samara krasnaya rubin",
+      "semantic_rank": 1,
+      "semantic_top5": [
+        "denisov_rubin_klaret_krasnaya_strelka",
+        "denisov_pino_noir_klaret",
+        "denisov_pazori_risling",
+        "denisov-winery-risling-beloe-suhoe-115",
+        "denisov-winery-sovinon-blan-beloe-suhoe-115"
+      ]
+    },
+    {
+      "baseline_rank": 1,
+      "cues": {
+        "colour": [
+          "white"
+        ],
+        "sparkling": [],
+        "sweetness": [
+          "semi_dry"
+        ]
+      },
+      "expected_slug": "czitronnyj-magaracha",
+      "file": "96.98_19-08-2026_19-05-06.webp",
+      "ocr": "2024 20 tabiya vinodelnya tsitron polusuhoe 5eaoe beloe proizvedeno iz vinograda vyrashchennogo na territorii rossiiskoi federatsii",
+      "semantic_rank": 1,
+      "semantic_top5": [
+        "czitronnyj-magaracha",
+        "risling-1",
+        "bukovinka",
+        "pobeda",
+        "rozovoe-zoloto"
+      ]
+    },
+    {
+      "baseline_rank": 1,
+      "cues": {
+        "colour": [
+          "white"
+        ],
+        "sparkling": [],
+        "sweetness": [
+          "semi_dry"
+        ]
+      },
+      "expected_slug": "sovinon-blan",
+      "file": "97.23_05-09-2026_15-34-36.webp",
+      "ocr": "polusuhoe beloe 1600 litavshchukov lapgene hen semeinaya vinodelnya sovinon blan fermerskoe vino sdelano v vinnoi derevne kuban anapa 0 75 l 12 5",
+      "semantic_rank": 3,
+      "semantic_top5": [
+        "risling-2",
+        "muskat",
+        "sovinon-blan",
+        "kaberne-sovinon-3",
+        "saperavi"
+      ]
+    }
+  ],
+  "semantic_filter": {
+    "count": 65,
+    "top1": 52,
+    "top1_rate": 0.8,
+    "top5": 60,
+    "top5_rate": 0.9230769230769231
+  }
+}

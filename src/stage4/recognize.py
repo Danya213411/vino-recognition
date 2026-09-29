@@ -120,8 +120,24 @@ def recognize_paths(
         (len(paths), len(hybrid_index.text_records)), dtype=np.float32
     )
     for row, result in enumerate(query_ocr):
+        # Preserve RapidOCR's standalone score.  GLM text is used through the
+        # structured field channel below; mixing its generic prose into the
+        # legacy token score can incorrectly boost unrelated catalog items.
+        rapid_lines = result.get("rapid_lines", result["lines"])
         for column, reference in enumerate(hybrid_index.text_records):
-            global_ocr_scores[row, column] = ocr_similarity(result["lines"], reference)
+            global_ocr_scores[row, column] = ocr_similarity(rapid_lines, reference)
+        # Dual OCR engines may expose a structured GLM field score.  Merge it
+        # into the OCR retrieval matrix before candidate selection so text
+        # that is clearly a catalog title/manufacturer can inject its item.
+        if (
+            catalog_by_slug
+            and hasattr(ocr_engine, "structured_scores")
+            and getattr(ocr_engine, "model_ready", True)
+        ):
+            structured = ocr_engine.structured_scores(
+                result["lines"], catalog_by_slug, visual_index.slugs
+            )
+            global_ocr_scores[row] = np.maximum(global_ocr_scores[row], structured)
     ocr_ms = (time.perf_counter() - ocr_started) * 1000
 
     candidates, visual_candidate_sets, ocr_candidate_sets = select_candidate_union(
